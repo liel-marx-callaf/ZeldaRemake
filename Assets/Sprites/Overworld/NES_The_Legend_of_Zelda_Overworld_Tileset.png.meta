@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: 55f2f5e4c0295c64dbfc635c230408b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2160599027865275096
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_0
+  - first:
+      213: -5944312740619937959
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_1
+  - first:
+      213: 714742852133632759
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_2
+  - first:
+      213: 5352588724605729859
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_3
+  - first:
+      213: 6266307234167661938
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_4
+  - first:
+      213: 5999138083033792902
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_5
+  - first:
+      213: -7633847866066233833
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_6
+  - first:
+      213: 5218448286911815989
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_7
+  - first:
+      213: -8454549089759940081
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_8
+  - first:
+      213: -2691225469548146467
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_9
+  - first:
+      213: -280737008637297339
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_10
+  - first:
+      213: -3581375666692682160
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_11
+  - first:
+      213: 1488723162381849558
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_12
+  - first:
+      213: 8159828963087397306
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_13
+  - first:
+      213: -5462723468261931393
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_14
+  - first:
+      213: 4558301041971695937
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_15
+  - first:
+      213: 7492130103211428748
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_16
+  - first:
+      213: 2445186103685827238
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_17
+  - first:
+      213: -7774207861122549725
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_18
+  - first:
+      213: 5985664694809753898
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_19
+  - first:
+      213: 4720048816091766251
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_20
+  - first:
+      213: 7660216316539730026
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_21
+  - first:
+      213: -1694035157652546409
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_22
+  - first:
+      213: 390018650991853639
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_23
+  - first:
+      213: 5862846162568264379
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_24
+  - first:
+      213: -4060901912390994309
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_25
+  - first:
+      213: -700927911447304982
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_26
+  - first:
+      213: -8039782819874969782
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_27
+  - first:
+      213: -6905213887211310824
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_28
+  - first:
+      213: 4801262324927496402
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_29
+  - first:
+      213: 3808832409470971423
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_30
+  - first:
+      213: -2164817312138007235
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_31
+  - first:
+      213: 7129967064668683019
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_32
+  - first:
+      213: 4263677649857434714
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_33
+  - first:
+      213: 5371076737123887032
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_34
+  - first:
+      213: -3007909476531432610
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_35
+  - first:
+      213: -5369008157020905630
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_36
+  - first:
+      213: 1295568717272342119
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_37
+  - first:
+      213: -7333177832956587004
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_38
+  - first:
+      213: -762376538555288321
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_39
+  - first:
+      213: -2701315903437407897
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_40
+  - first:
+      213: -3460401712800289803
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_41
+  - first:
+      213: 5237478507251619085
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_42
+  - first:
+      213: -969726493442610853
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_43
+  - first:
+      213: -9011599128736462760
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_44
+  - first:
+      213: -4875203319097652763
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_45
+  - first:
+      213: -5619860507096564548
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_46
+  - first:
+      213: 4823681160337249305
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_47
+  - first:
+      213: -7464752644098147245
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_48
+  - first:
+      213: 3432419817171545618
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_49
+  - first:
+      213: -2953592016080789376
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_50
+  - first:
+      213: 8140970751380259781
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_51
+  - first:
+      213: -447262170140036612
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_52
+  - first:
+      213: 2400404243452870564
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_53
+  - first:
+      213: -1002753409591230186
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_54
+  - first:
+      213: 6051338779315137176
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_55
+  - first:
+      213: -2283693937314588290
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_56
+  - first:
+      213: -1769682121269565219
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_57
+  - first:
+      213: -8596291988270577003
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_58
+  - first:
+      213: -498496012485321956
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_59
+  - first:
+      213: -3538835480219236220
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_60
+  - first:
+      213: 3734262515708500937
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_61
+  - first:
+      213: 2527790247732008186
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_62
+  - first:
+      213: -999123552701628288
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_63
+  - first:
+      213: 5206603002149788002
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_64
+  - first:
+      213: 4289609269301463012
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_65
+  - first:
+      213: 2325259602851046831
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_66
+  - first:
+      213: 564741736848989716
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_67
+  - first:
+      213: -7408249186894528222
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_68
+  - first:
+      213: -4688319361259414103
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_69
+  - first:
+      213: -4259238446660425153
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_70
+  - first:
+      213: 7906411842017337540
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_71
+  - first:
+      213: 5787599607359380109
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_72
+  - first:
+      213: -4792021070840938956
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_73
+  - first:
+      213: 3331590013578247622
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_74
+  - first:
+      213: 2164097347818862541
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_75
+  - first:
+      213: 101647318315560758
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_76
+  - first:
+      213: -9034879805878840953
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_77
+  - first:
+      213: 472894028221138597
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_78
+  - first:
+      213: 4210517446713994707
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_79
+  - first:
+      213: -4633416346637415146
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_80
+  - first:
+      213: 6089944986687023655
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_81
+  - first:
+      213: -3784956273897769252
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_82
+  - first:
+      213: -1066377177435273894
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_83
+  - first:
+      213: 5786172091096480850
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_84
+  - first:
+      213: -1248873349862044777
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_85
+  - first:
+      213: 6386947089581863777
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_86
+  - first:
+      213: -4473942571542378487
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_87
+  - first:
+      213: -4828881726071221655
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_88
+  - first:
+      213: -8978960768285179645
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_89
+  - first:
+      213: -7433935981505055060
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_90
+  - first:
+      213: -4147832500953621048
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_91
+  - first:
+      213: -487353531814888381
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_92
+  - first:
+      213: -2902093212594378202
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_93
+  - first:
+      213: 3586881366522710951
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_94
+  - first:
+      213: 7508356076901208958
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_95
+  - first:
+      213: -2638123215182237616
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_96
+  - first:
+      213: -7915520857379977700
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_97
+  - first:
+      213: -1160525944779848630
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_98
+  - first:
+      213: -6356156818273598939
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_99
+  - first:
+      213: 6229485011403930548
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_100
+  - first:
+      213: 395212720497628407
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_101
+  - first:
+      213: 5436402122537145766
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_102
+  - first:
+      213: -3707938641071339108
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_103
+  - first:
+      213: -3874894425547043820
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_104
+  - first:
+      213: -693804709074469382
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_105
+  - first:
+      213: 1774866026551665147
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_106
+  - first:
+      213: 5295590369968276385
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_107
+  - first:
+      213: 289047986419143597
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_108
+  - first:
+      213: -3016070483180759834
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_109
+  - first:
+      213: 681407894131589417
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_110
+  - first:
+      213: -113631615524683155
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_111
+  - first:
+      213: 4253710719079088970
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_112
+  - first:
+      213: -8345095257820803338
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_113
+  - first:
+      213: -7047288935112886397
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_114
+  - first:
+      213: 8880867245551796355
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_115
+  - first:
+      213: 291100281748996854
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_116
+  - first:
+      213: -1899623462707782565
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_117
+  - first:
+      213: -8725342228195114722
+    second: NES_The_Legend_of_Zelda_Overworld_Tileset_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e90165496cc75cb0800000000000000
+      internalID: -4875203319097652763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc3343e4ae3202b0800000000000000
+      internalID: -5619860507096564548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91455a7557821f240800000000000000
+      internalID: 4823681160337249305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c3f58250fd76890800000000000000
+      internalID: -7464752644098147245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e658253a762af20800000000000000
+      internalID: 3432419817171545618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080231ec5bbb207d0800000000000000
+      internalID: -2953592016080789376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c38dd204c98af070800000000000000
+      internalID: 8140970751380259781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1355b0d610bc9f0800000000000000
+      internalID: -447262170140036612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af395801f2ff4120800000000000000
+      internalID: 2400404243452870564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488cbfa51e783eec0800000000000000
+      internalID: -3538835480219236220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb9cda19f3c2d330800000000000000
+      internalID: 3734262515708500937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af453c666d3841320800000000000000
+      internalID: 2527790247732008186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0804e722c666222f0800000000000000
+      internalID: -999123552701628288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269de9d38d1914840800000000000000
+      internalID: 5206603002149788002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7cfe137e0c78b30800000000000000
+      internalID: 4289609269301463012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5a08ef94bf44020800000000000000
+      internalID: 2325259602851046831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e98b61e9d56d700800000000000000
+      internalID: 564741736848989716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 86
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22143977d9c903990800000000000000
+      internalID: -7408249186894528222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fe19c82bf196100800000000000000
+      internalID: 101647318315560758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781dd367fa8ad9280800000000000000
+      internalID: -9034879805878840953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a64688fc9e009600800000000000000
+      internalID: 472894028221138597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dde8fb3f43ce6a30800000000000000
+      internalID: 4210517446713994707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d4032b16cc2bfb0800000000000000
+      internalID: -4633416346637415146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa62113b4d38450800000000000000
+      internalID: 6089944986687023655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6ffeb8252297bc0800000000000000
+      internalID: -3784956273897769252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5503666b977331f0800000000000000
+      internalID: -1066377177435273894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cb5134cdc9c4050800000000000000
+      internalID: 5786172091096480850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6756b8c9a55d890800000000000000
+      internalID: -7433935981505055060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd6d80150ff66c0800000000000000
+      internalID: -4147832500953621048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c34208b829c39f0800000000000000
+      internalID: -487353531814888381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a6d3e5991b9b7d0800000000000000
+      internalID: -2902093212594378202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abcd07499927c130800000000000000
+      internalID: 3586881366522710951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7397da221a033860800000000000000
+      internalID: 7508356076901208958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f955c9e0836bd0800000000000000
+      internalID: -2638123215182237616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16cbabe7bb662290800000000000000
+      internalID: -7915520857379977700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44c5cc4dcbf4efe0800000000000000
+      internalID: -1160525944779848630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf956dc93937650800000000000000
+      internalID: 6229485011403930548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_101
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f41af710e31c7500800000000000000
+      internalID: 395212720497628407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_102
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5910a5deaf17b40800000000000000
+      internalID: 5436402122537145766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_103
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c998ff19371ca8cc0800000000000000
+      internalID: -3707938641071339108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_104
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c802fcc0c993ac0800000000000000
+      internalID: -3874894425547043820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Tileset_105
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd7f140b4c1f56f0800000000000000
+      internalID: -693804709074469382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 062bcc02f03eb5e4b8094bd551653f56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES_The_Legend_of_Zelda_Overworld_Tileset_0: 2160599027865275096
+      NES_The_Legend_of_Zelda_Overworld_Tileset_1: -5944312740619937959
+      NES_The_Legend_of_Zelda_Overworld_Tileset_10: -280737008637297339
+      NES_The_Legend_of_Zelda_Overworld_Tileset_100: 6229485011403930548
+      NES_The_Legend_of_Zelda_Overworld_Tileset_101: 395212720497628407
+      NES_The_Legend_of_Zelda_Overworld_Tileset_102: 5436402122537145766
+      NES_The_Legend_of_Zelda_Overworld_Tileset_103: -3707938641071339108
+      NES_The_Legend_of_Zelda_Overworld_Tileset_104: -3874894425547043820
+      NES_The_Legend_of_Zelda_Overworld_Tileset_105: -693804709074469382
+      NES_The_Legend_of_Zelda_Overworld_Tileset_106: 1774866026551665147
+      NES_The_Legend_of_Zelda_Overworld_Tileset_107: 5295590369968276385
+      NES_The_Legend_of_Zelda_Overworld_Tileset_108: 289047986419143597
+      NES_The_Legend_of_Zelda_Overworld_Tileset_109: -3016070483180759834
+      NES_The_Legend_of_Zelda_Overworld_Tileset_11: -3581375666692682160
+      NES_The_Legend_of_Zelda_Overworld_Tileset_110: 681407894131589417
+      NES_The_Legend_of_Zelda_Overworld_Tileset_111: -113631615524683155
+      NES_The_Legend_of_Zelda_Overworld_Tileset_112: 4253710719079088970
+      NES_The_Legend_of_Zelda_Overworld_Tileset_113: -8345095257820803338
+      NES_The_Legend_of_Zelda_Overworld_Tileset_114: -7047288935112886397
+      NES_The_Legend_of_Zelda_Overworld_Tileset_115: 8880867245551796355
+      NES_The_Legend_of_Zelda_Overworld_Tileset_116: 291100281748996854
+      NES_The_Legend_of_Zelda_Overworld_Tileset_117: -1899623462707782565
+      NES_The_Legend_of_Zelda_Overworld_Tileset_118: -8725342228195114722
+      NES_The_Legend_of_Zelda_Overworld_Tileset_12: 1488723162381849558
+      NES_The_Legend_of_Zelda_Overworld_Tileset_13: 8159828963087397306
+      NES_The_Legend_of_Zelda_Overworld_Tileset_14: -5462723468261931393
+      NES_The_Legend_of_Zelda_Overworld_Tileset_15: 4558301041971695937
+      NES_The_Legend_of_Zelda_Overworld_Tileset_16: 7492130103211428748
+      NES_The_Legend_of_Zelda_Overworld_Tileset_17: 2445186103685827238
+      NES_The_Legend_of_Zelda_Overworld_Tileset_18: -7774207861122549725
+      NES_The_Legend_of_Zelda_Overworld_Tileset_19: 5985664694809753898
+      NES_The_Legend_of_Zelda_Overworld_Tileset_2: 714742852133632759
+      NES_The_Legend_of_Zelda_Overworld_Tileset_20: 4720048816091766251
+      NES_The_Legend_of_Zelda_Overworld_Tileset_21: 7660216316539730026
+      NES_The_Legend_of_Zelda_Overworld_Tileset_22: -1694035157652546409
+      NES_The_Legend_of_Zelda_Overworld_Tileset_23: 390018650991853639
+      NES_The_Legend_of_Zelda_Overworld_Tileset_24: 5862846162568264379
+      NES_The_Legend_of_Zelda_Overworld_Tileset_25: -4060901912390994309
+      NES_The_Legend_of_Zelda_Overworld_Tileset_26: -700927911447304982
+      NES_The_Legend_of_Zelda_Overworld_Tileset_27: -8039782819874969782
+      NES_The_Legend_of_Zelda_Overworld_Tileset_28: -6905213887211310824
+      NES_The_Legend_of_Zelda_Overworld_Tileset_29: 4801262324927496402
+      NES_The_Legend_of_Zelda_Overworld_Tileset_3: 5352588724605729859
+      NES_The_Legend_of_Zelda_Overworld_Tileset_30: 3808832409470971423
+      NES_The_Legend_of_Zelda_Overworld_Tileset_31: -2164817312138007235
+      NES_The_Legend_of_Zelda_Overworld_Tileset_32: 7129967064668683019
+      NES_The_Legend_of_Zelda_Overworld_Tileset_33: 4263677649857434714
+      NES_The_Legend_of_Zelda_Overworld_Tileset_34: 5371076737123887032
+      NES_The_Legend_of_Zelda_Overworld_Tileset_35: -3007909476531432610
+      NES_The_Legend_of_Zelda_Overworld_Tileset_36: -5369008157020905630
+      NES_The_Legend_of_Zelda_Overworld_Tileset_37: 1295568717272342119
+      NES_The_Legend_of_Zelda_Overworld_Tileset_38: -7333177832956587004
+      NES_The_Legend_of_Zelda_Overworld_Tileset_39: -762376538555288321
+      NES_The_Legend_of_Zelda_Overworld_Tileset_4: 6266307234167661938
+      NES_The_Legend_of_Zelda_Overworld_Tileset_40: -2701315903437407897
+      NES_The_Legend_of_Zelda_Overworld_Tileset_41: -3460401712800289803
+      NES_The_Legend_of_Zelda_Overworld_Tileset_42: 5237478507251619085
+      NES_The_Legend_of_Zelda_Overworld_Tileset_43: -969726493442610853
+      NES_The_Legend_of_Zelda_Overworld_Tileset_44: -9011599128736462760
+      NES_The_Legend_of_Zelda_Overworld_Tileset_45: -4875203319097652763
+      NES_The_Legend_of_Zelda_Overworld_Tileset_46: -5619860507096564548
+      NES_The_Legend_of_Zelda_Overworld_Tileset_47: 4823681160337249305
+      NES_The_Legend_of_Zelda_Overworld_Tileset_48: -7464752644098147245
+      NES_The_Legend_of_Zelda_Overworld_Tileset_49: 3432419817171545618
+      NES_The_Legend_of_Zelda_Overworld_Tileset_5: 5999138083033792902
+      NES_The_Legend_of_Zelda_Overworld_Tileset_50: -2953592016080789376
+      NES_The_Legend_of_Zelda_Overworld_Tileset_51: 8140970751380259781
+      NES_The_Legend_of_Zelda_Overworld_Tileset_52: -447262170140036612
+      NES_The_Legend_of_Zelda_Overworld_Tileset_53: 2400404243452870564
+      NES_The_Legend_of_Zelda_Overworld_Tileset_54: -1002753409591230186
+      NES_The_Legend_of_Zelda_Overworld_Tileset_55: 6051338779315137176
+      NES_The_Legend_of_Zelda_Overworld_Tileset_56: -2283693937314588290
+      NES_The_Legend_of_Zelda_Overworld_Tileset_57: -1769682121269565219
+      NES_The_Legend_of_Zelda_Overworld_Tileset_58: -8596291988270577003
+      NES_The_Legend_of_Zelda_Overworld_Tileset_59: -498496012485321956
+      NES_The_Legend_of_Zelda_Overworld_Tileset_6: -7633847866066233833
+      NES_The_Legend_of_Zelda_Overworld_Tileset_60: -3538835480219236220
+      NES_The_Legend_of_Zelda_Overworld_Tileset_61: 3734262515708500937
+      NES_The_Legend_of_Zelda_Overworld_Tileset_62: 2527790247732008186
+      NES_The_Legend_of_Zelda_Overworld_Tileset_63: -999123552701628288
+      NES_The_Legend_of_Zelda_Overworld_Tileset_64: 5206603002149788002
+      NES_The_Legend_of_Zelda_Overworld_Tileset_65: 4289609269301463012
+      NES_The_Legend_of_Zelda_Overworld_Tileset_66: 2325259602851046831
+      NES_The_Legend_of_Zelda_Overworld_Tileset_67: 564741736848989716
+      NES_The_Legend_of_Zelda_Overworld_Tileset_68: -7408249186894528222
+      NES_The_Legend_of_Zelda_Overworld_Tileset_69: -4688319361259414103
+      NES_The_Legend_of_Zelda_Overworld_Tileset_7: 5218448286911815989
+      NES_The_Legend_of_Zelda_Overworld_Tileset_70: -4259238446660425153
+      NES_The_Legend_of_Zelda_Overworld_Tileset_71: 7906411842017337540
+      NES_The_Legend_of_Zelda_Overworld_Tileset_72: 5787599607359380109
+      NES_The_Legend_of_Zelda_Overworld_Tileset_73: -4792021070840938956
+      NES_The_Legend_of_Zelda_Overworld_Tileset_74: 3331590013578247622
+      NES_The_Legend_of_Zelda_Overworld_Tileset_75: 2164097347818862541
+      NES_The_Legend_of_Zelda_Overworld_Tileset_76: 101647318315560758
+      NES_The_Legend_of_Zelda_Overworld_Tileset_77: -9034879805878840953
+      NES_The_Legend_of_Zelda_Overworld_Tileset_78: 472894028221138597
+      NES_The_Legend_of_Zelda_Overworld_Tileset_79: 4210517446713994707
+      NES_The_Legend_of_Zelda_Overworld_Tileset_8: -8454549089759940081
+      NES_The_Legend_of_Zelda_Overworld_Tileset_80: -4633416346637415146
+      NES_The_Legend_of_Zelda_Overworld_Tileset_81: 6089944986687023655
+      NES_The_Legend_of_Zelda_Overworld_Tileset_82: -3784956273897769252
+      NES_The_Legend_of_Zelda_Overworld_Tileset_83: -1066377177435273894
+      NES_The_Legend_of_Zelda_Overworld_Tileset_84: 5786172091096480850
+      NES_The_Legend_of_Zelda_Overworld_Tileset_85: -1248873349862044777
+      NES_The_Legend_of_Zelda_Overworld_Tileset_86: 6386947089581863777
+      NES_The_Legend_of_Zelda_Overworld_Tileset_87: -4473942571542378487
+      NES_The_Legend_of_Zelda_Overworld_Tileset_88: -4828881726071221655
+      NES_The_Legend_of_Zelda_Overworld_Tileset_89: -8978960768285179645
+      NES_The_Legend_of_Zelda_Overworld_Tileset_9: -2691225469548146467
+      NES_The_Legend_of_Zelda_Overworld_Tileset_90: -7433935981505055060
+      NES_The_Legend_of_Zelda_Overworld_Tileset_91: -4147832500953621048
+      NES_The_Legend_of_Zelda_Overworld_Tileset_92: -487353531814888381
+      NES_The_Legend_of_Zelda_Overworld_Tileset_93: -2902093212594378202
+      NES_The_Legend_of_Zelda_Overworld_Tileset_94: 3586881366522710951
+      NES_The_Legend_of_Zelda_Overworld_Tileset_95: 7508356076901208958
+      NES_The_Legend_of_Zelda_Overworld_Tileset_96: -2638123215182237616
+      NES_The_Legend_of_Zelda_Overworld_Tileset_97: -7915520857379977700
+      NES_The_Legend_of_Zelda_Overworld_Tileset_98: -1160525944779848630
+      NES_The_Legend_of_Zelda_Overworld_Tileset_99: -6356156818273598939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

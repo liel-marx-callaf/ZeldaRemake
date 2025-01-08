@@ -1,0 +1,3458 @@
+fileFormatVersion: 2
+guid: 29b464a07c7a470409420a42e898e917
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3518537227167342858
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_0
+  - first:
+      213: -3724361137462206962
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_1
+  - first:
+      213: -3920764615582354305
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_2
+  - first:
+      213: 8463399206370877706
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_3
+  - first:
+      213: -8036664614955767171
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_4
+  - first:
+      213: 4850750635832292436
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_5
+  - first:
+      213: 7033377949418023331
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_6
+  - first:
+      213: 6173974692297726015
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_7
+  - first:
+      213: 7211671378416377310
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_8
+  - first:
+      213: 3534617367055958093
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_9
+  - first:
+      213: -8416694093975865430
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_10
+  - first:
+      213: -47953269142393116
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_11
+  - first:
+      213: 6769467419690480187
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_12
+  - first:
+      213: -8344090373288008896
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_13
+  - first:
+      213: 3390155220998304765
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_14
+  - first:
+      213: 5919458230116924652
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_15
+  - first:
+      213: 7722663600296596796
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_16
+  - first:
+      213: 7364971992782484612
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_17
+  - first:
+      213: 6156762450649833686
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_18
+  - first:
+      213: -709649715546590285
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_19
+  - first:
+      213: 1819027432683404185
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_20
+  - first:
+      213: 1778199320279103079
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_21
+  - first:
+      213: -7361030246971436610
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_22
+  - first:
+      213: 6585846870494310290
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_23
+  - first:
+      213: -8999886277689942776
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_24
+  - first:
+      213: -149833084847431440
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_25
+  - first:
+      213: -28284659695971543
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_26
+  - first:
+      213: -3169826716936004748
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_27
+  - first:
+      213: 711683184786018382
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_28
+  - first:
+      213: -2277502893699987207
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_29
+  - first:
+      213: -5337983198569743854
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_30
+  - first:
+      213: -1056577900776205803
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_31
+  - first:
+      213: 6180194024908877990
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_32
+  - first:
+      213: 6694143214130810235
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_33
+  - first:
+      213: 5067194459668616419
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_34
+  - first:
+      213: -8189637335682475873
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_35
+  - first:
+      213: 1922655339443655031
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_36
+  - first:
+      213: 5270369581431419278
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_37
+  - first:
+      213: -7327948636964271827
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_38
+  - first:
+      213: 284371854439667682
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_39
+  - first:
+      213: -4995785190022303215
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_40
+  - first:
+      213: 3969987794863517988
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_41
+  - first:
+      213: -3402950201778899010
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_42
+  - first:
+      213: -3319080593085161762
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_43
+  - first:
+      213: -7449628964569926157
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_44
+  - first:
+      213: 7103154690630352725
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_45
+  - first:
+      213: -6447135493597721522
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_46
+  - first:
+      213: -1739623171611640449
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_47
+  - first:
+      213: 5975669180714594188
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_48
+  - first:
+      213: -2968007160980606975
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_49
+  - first:
+      213: 3889837619390580370
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_50
+  - first:
+      213: 7850079173513363804
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_51
+  - first:
+      213: -7102816469771175258
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_52
+  - first:
+      213: -11664144871954739
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_53
+  - first:
+      213: -3004881736890591684
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_54
+  - first:
+      213: 7097146659157458682
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_55
+  - first:
+      213: 2784017933264415351
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_56
+  - first:
+      213: 5297163207759716907
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_57
+  - first:
+      213: -2862298225475728259
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_58
+  - first:
+      213: -5703168388171188832
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_59
+  - first:
+      213: -2907076291743879608
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_60
+  - first:
+      213: 8954243046498828306
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_61
+  - first:
+      213: -489162888669021436
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_62
+  - first:
+      213: 4173542631750698548
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_63
+  - first:
+      213: 7791644253208331098
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_64
+  - first:
+      213: -1169338838811525415
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_65
+  - first:
+      213: -6603946030980776762
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_66
+  - first:
+      213: -6160970480034371663
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_67
+  - first:
+      213: 2361232590268227367
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_68
+  - first:
+      213: 3145667250805854133
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_69
+  - first:
+      213: 8424999617943530761
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_70
+  - first:
+      213: -1624136745570798020
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_71
+  - first:
+      213: -1745937022207807865
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_72
+  - first:
+      213: 4879263042799635048
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_73
+  - first:
+      213: -28073680082236716
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_74
+  - first:
+      213: 2063792444730964587
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_75
+  - first:
+      213: 7377653912647968745
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_76
+  - first:
+      213: -8465249438484295703
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_77
+  - first:
+      213: -4716064181478170785
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_78
+  - first:
+      213: 2911095933165432644
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_79
+  - first:
+      213: 2607452250162591942
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_80
+  - first:
+      213: -6678067953711487907
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_81
+  - first:
+      213: 6749878542561168561
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_82
+  - first:
+      213: -6455930055480211367
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_83
+  - first:
+      213: 5912645787327287621
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_84
+  - first:
+      213: -4066631174511736196
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_85
+  - first:
+      213: -1667006895005841659
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_86
+  - first:
+      213: -8660461177998456663
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_87
+  - first:
+      213: -6678045439425220677
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_88
+  - first:
+      213: 3127044355428889249
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_89
+  - first:
+      213: -6954160055910751622
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_90
+  - first:
+      213: 1939614216944747829
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_91
+  - first:
+      213: 149361824910458927
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_92
+  - first:
+      213: 1595942272564965745
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_93
+  - first:
+      213: -6679302125308630182
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_94
+  - first:
+      213: 4810966684670243160
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_95
+  - first:
+      213: 3043695517279653996
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_96
+  - first:
+      213: -2381252113391958042
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_97
+  - first:
+      213: -3871017443331133739
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_98
+  - first:
+      213: 6795376562398162393
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_99
+  - first:
+      213: -4573495854200112599
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_100
+  - first:
+      213: 4613196106572658988
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_101
+  - first:
+      213: 3621473349649706414
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_102
+  - first:
+      213: 4791142095332546109
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_103
+  - first:
+      213: -5268686964843040127
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_104
+  - first:
+      213: 2211681839022519641
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_105
+  - first:
+      213: -5661748011282898123
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_106
+  - first:
+      213: 1980900138416072879
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_107
+  - first:
+      213: -3554220468190064542
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_108
+  - first:
+      213: -5773029571840254650
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_109
+  - first:
+      213: 6787439762397876660
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_110
+  - first:
+      213: 3995341390956816851
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_111
+  - first:
+      213: 1073608521190976290
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_112
+  - first:
+      213: 6138154795557773713
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_113
+  - first:
+      213: 7437528421990505808
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_114
+  - first:
+      213: -4234569982265969821
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_115
+  - first:
+      213: 3405299026530616022
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_116
+  - first:
+      213: -2596861345304897391
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_117
+  - first:
+      213: -1789637346852397667
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_118
+  - first:
+      213: -7980541317457929062
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_119
+  - first:
+      213: 8913773624785382299
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_120
+  - first:
+      213: -7785683401481871684
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_121
+  - first:
+      213: -5264293154640578612
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_122
+  - first:
+      213: 4440981251521961361
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_123
+  - first:
+      213: 8388991168418422741
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_124
+  - first:
+      213: -2272017921010308277
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_125
+  - first:
+      213: -4703944897708262175
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_126
+  - first:
+      213: -2134277697612487933
+    second: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a012c4257fa54d030800000000000000
+      internalID: 3518537227167342858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e9b4a2749605cc0800000000000000
+      internalID: -3724361137462206962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74fa40fa55a699c0800000000000000
+      internalID: -3920764615582354305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a012f08bcb8047570800000000000000
+      internalID: 8463399206370877706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a2c9edc18087090800000000000000
+      internalID: -8036664614955767171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454b8ceb004515340800000000000000
+      internalID: 4850750635832292436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a960260bf39b9160800000000000000
+      internalID: 7033377949418023331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3858a2854d5ea550800000000000000
+      internalID: 6173974692297726015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_8
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd1c5bd8e0051460800000000000000
+      internalID: 7211671378416377310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_9
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d400c44a4cb7d0130800000000000000
+      internalID: 3534617367055958093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_10
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7b079a055e13b80800000000000000
+      internalID: -8416694093975865430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_11
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eee2fa71c2a55ff0800000000000000
+      internalID: -47953269142393116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_12
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323b3580caf1fd50800000000000000
+      internalID: 6769467419690480187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_13
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043696ea306d33c80800000000000000
+      internalID: -8344090373288008896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_14
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df33a0136304c0f20800000000000000
+      internalID: 3390155220998304765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_15
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecb1ecc5e3262250800000000000000
+      internalID: 5919458230116924652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_16
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c359487c0a96c2b60800000000000000
+      internalID: 7722663600296596796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_17
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48430829103a53660800000000000000
+      internalID: 7364971992782484612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_18
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0627534d6317550800000000000000
+      internalID: 6156762450649833686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_19
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b373e5f751d626f0800000000000000
+      internalID: -709649715546590285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_20
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bf8c9ffcb7e3910800000000000000
+      internalID: 1819027432683404185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_21
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766b3194cde6da810800000000000000
+      internalID: 1778199320279103079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_22
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb19c54adfd58d990800000000000000
+      internalID: -7361030246971436610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_23
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f6eecd5d0a56b50800000000000000
+      internalID: 6585846870494310290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_24
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dd0672d1bf91380800000000000000
+      internalID: -8999886277689942776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_25
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0611a6a9fabedf0800000000000000
+      internalID: -149833084847431440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_26
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9239a3a70438b9ff0800000000000000
+      internalID: -28284659695971543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_27
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b9c7935638204d0800000000000000
+      internalID: -3169826716936004748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_28
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e401acdf51860e900800000000000000
+      internalID: 711683184786018382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_29
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f886165f2fa460e0800000000000000
+      internalID: -2277502893699987207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_30
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 1235
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a3f30109cabe5b0800000000000000
+      internalID: -5337983198569743854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_31
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 1058
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512d4ba4ff74651f0800000000000000
+      internalID: -1056577900776205803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a07fa9b8b574c550800000000000000
+      internalID: 6180194024908877990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dcbd149cf56ec50800000000000000
+      internalID: 6694143214130810235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e41060938a425640800000000000000
+      internalID: 5067194459668616419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f989e57db30985e80800000000000000
+      internalID: -8189637335682475873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_36
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7711c0538d4aeaa10800000000000000
+      internalID: 1922655339443655031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_37
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e817e30f53d142940800000000000000
+      internalID: 5270369581431419278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_38
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29cf613a85ed4a90800000000000000
+      internalID: -7327948636964271827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_39
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7def7e1ba42f300800000000000000
+      internalID: 284371854439667682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_40
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1123096a6d76baab0800000000000000
+      internalID: -4995785190022303215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_41
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421f9739dda381730800000000000000
+      internalID: 3969987794863517988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_42
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7ff9232da46c0d0800000000000000
+      internalID: -3402950201778899010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_43
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede144c29c140f1d0800000000000000
+      internalID: -3319080593085161762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_44
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f539523de99d9890800000000000000
+      internalID: -7449628964569926157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_45
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ffba79e89739260800000000000000
+      internalID: 7103154690630352725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_46
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c8b4d4d6c2786a0800000000000000
+      internalID: -6447135493597721522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_47
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dbc0d31fd9bd7e0800000000000000
+      internalID: -1739623171611640449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_48
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f2ebb9577dde250800000000000000
+      internalID: 5975669180714594188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_49
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1007fe656358fc6d0800000000000000
+      internalID: -2968007160980606975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_50
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2960ab1a4ba7bf530800000000000000
+      internalID: 3889837619390580370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_51
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51c4f3ba6511fc60800000000000000
+      internalID: 7850079173513363804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_52
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aabe769d0abd6d90800000000000000
+      internalID: -7102816469771175258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_53
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc66c44a58f86dff0800000000000000
+      internalID: -11664144871954739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_54
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d3981bf38c46d0800000000000000
+      internalID: -3004881736890591684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_55
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3ee1c8412e7260800000000000000
+      internalID: 7097146659157458682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_56
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aea885f81d2a620800000000000000
+      internalID: 2784017933264415351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_57
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2269c33fdd438940800000000000000
+      internalID: 5297163207759716907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_58
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cc945dde21748d0800000000000000
+      internalID: -2862298225475728259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_59
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5b1d051964ad0b0800000000000000
+      internalID: -5703168388171188832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_60
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e65a7d38df7a7d0800000000000000
+      internalID: -2907076291743879608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_61
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100313fb9cd34c70800000000000000
+      internalID: 8954243046498828306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_62
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 881
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b3497c1f42639f0800000000000000
+      internalID: -489162888669021436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_63
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 704
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436037449e66be930800000000000000
+      internalID: 4173542631750698548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5342b89a2b712c60800000000000000
+      internalID: 7791644253208331098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de3292858ca5cfe0800000000000000
+      internalID: -1169338838811525415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_66
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3a83f2121a54a0800000000000000
+      internalID: -6603946030980776762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b722e99df5df7aa0800000000000000
+      internalID: -6160970480034371663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_68
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f530fc788c4c020800000000000000
+      internalID: 2361232590268227367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_69
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfccd9b2b7a7ab20800000000000000
+      internalID: 3145667250805854133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_70
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d6354d38c9be470800000000000000
+      internalID: 8424999617943530761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_71
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36f7952c38e579e0800000000000000
+      internalID: -1624136745570798020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_72
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea917578f25c7e0800000000000000
+      internalID: -1745937022207807865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_73
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a83cfc2ef96b340800000000000000
+      internalID: 4879263042799635048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_74
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da092ff2234c9ff0800000000000000
+      internalID: -28073680082236716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_75
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6af2564b4014ac10800000000000000
+      internalID: 2063792444730964587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_76
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e727232521b26660800000000000000
+      internalID: 7377653912647968745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_77
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef811c8c74658a80800000000000000
+      internalID: -8465249438484295703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_78
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fdc0d1d9c2d8eb0800000000000000
+      internalID: -4716064181478170785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_79
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fe86bd35a466820800000000000000
+      internalID: 2911095933165432644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_80
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8fbb3b1088f2420800000000000000
+      internalID: 2607452250162591942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_81
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d546b19f39cb253a0800000000000000
+      internalID: -6678067953711487907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_82
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcc366a5c26cad50800000000000000
+      internalID: 6749878542561168561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_83
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958855cc1dde766a0800000000000000
+      internalID: -6455930055480211367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_84
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5415a5c5400fd0250800000000000000
+      internalID: 5912645787327287621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_85
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ac2b22e7c6097c0800000000000000
+      internalID: -4066631174511736196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_86
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507cc09af0a9dd8e0800000000000000
+      internalID: -1667006895005841659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_87
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a84756917cdfc780800000000000000
+      internalID: -8660461177998456663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_88
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf642dfd01d253a0800000000000000
+      internalID: -6678045439425220677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_89
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2ba32064e756b20800000000000000
+      internalID: 3127044355428889249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_90
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72aa3c164cdd7f90800000000000000
+      internalID: -6954160055910751622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_91
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5350a429ad4eaea10800000000000000
+      internalID: 1939614216944747829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_92
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20cac4d9c3a21200800000000000000
+      internalID: 149361824910458927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_93
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b34e8a0de52610800000000000000
+      internalID: 1595942272564965745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_94
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 527
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ba7710b1a5e43a0800000000000000
+      internalID: -6679302125308630182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_95
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 350
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851320ac5bcf3c240800000000000000
+      internalID: 4810966684670243160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6017ef52f06d3a20800000000000000
+      internalID: 3043695517279653996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7cf9cb1d714fed0800000000000000
+      internalID: -2381252113391958042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_98
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de28e21522674ac0800000000000000
+      internalID: -3871017443331133739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_99
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dde1c4eaf60e4e50800000000000000
+      internalID: 6795376562398162393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_100
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a3ea480cda780c0800000000000000
+      internalID: -4573495854200112599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_101
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c297a7bca6d550040800000000000000
+      internalID: 4613196106572658988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_102
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2a69f2de024230800000000000000
+      internalID: 3621473349649706414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_103
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3697b4e95e8d7240800000000000000
+      internalID: 4791142095332546109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_104
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182bcc3ce1dd1e6b0800000000000000
+      internalID: -5268686964843040127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_105
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955be132ae871be10800000000000000
+      internalID: 2211681839022519641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_106
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53365b35e2e6d61b0800000000000000
+      internalID: -5661748011282898123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_107
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8efcd3e229d7b10800000000000000
+      internalID: 1980900138416072879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_108
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260db14b05fdcaec0800000000000000
+      internalID: -3554220468190064542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_109
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd2a4f03412efa0800000000000000
+      internalID: -5773029571840254650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_110
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b15614a084d13e50800000000000000
+      internalID: 6787439762397876660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_111
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9656ca3dd427730800000000000000
+      internalID: 3995341390956816851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_112
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bab65034936ee00800000000000000
+      internalID: 1073608521190976290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_113
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191e495e34b1f2550800000000000000
+      internalID: 6138154795557773713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_114
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d9d9fa1b8673760800000000000000
+      internalID: 7437528421990505808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_115
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363318e6909cb35c0800000000000000
+      internalID: -4234569982265969821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_116
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2475e2c6d024f20800000000000000
+      internalID: 3405299026530616022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_117
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198982e7d5816fbd0800000000000000
+      internalID: -2596861345304897391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_118
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1710a05ee927e0800000000000000
+      internalID: -1789637346852397667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_119
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c979954fb6f3190800000000000000
+      internalID: -7980541317457929062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_120
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b249172e514bb70800000000000000
+      internalID: 8913773624785382299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_121
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe94095232b3f390800000000000000
+      internalID: -7785683401481871684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_122
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7b02c644971f6b0800000000000000
+      internalID: -5264293154640578612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_123
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dd22f3be881ad30800000000000000
+      internalID: 4440981251521961361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_124
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df1879550fab6470800000000000000
+      internalID: 8388991168418422741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_125
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bebde0dbb2870e0800000000000000
+      internalID: -2272017921010308277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_126
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 173
+        width: 258
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec7611c90b38beb0800000000000000
+      internalID: -4703944897708262175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Map_No_Background_127
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 0
+        width: 258
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303e4cdedb58162e0800000000000000
+      internalID: -2134277697612487933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_0: 3518537227167342858
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_1: -3724361137462206962
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_10: -8416694093975865430
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_100: -4573495854200112599
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_101: 4613196106572658988
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_102: 3621473349649706414
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_103: 4791142095332546109
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_104: -5268686964843040127
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_105: 2211681839022519641
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_106: -5661748011282898123
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_107: 1980900138416072879
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_108: -3554220468190064542
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_109: -5773029571840254650
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_11: -47953269142393116
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_110: 6787439762397876660
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_111: 3995341390956816851
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_112: 1073608521190976290
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_113: 6138154795557773713
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_114: 7437528421990505808
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_115: -4234569982265969821
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_116: 3405299026530616022
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_117: -2596861345304897391
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_118: -1789637346852397667
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_119: -7980541317457929062
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_12: 6769467419690480187
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_120: 8913773624785382299
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_121: -7785683401481871684
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_122: -5264293154640578612
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_123: 4440981251521961361
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_124: 8388991168418422741
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_125: -2272017921010308277
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_126: -4703944897708262175
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_127: -2134277697612487933
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_13: -8344090373288008896
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_14: 3390155220998304765
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_15: 5919458230116924652
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_16: 7722663600296596796
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_17: 7364971992782484612
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_18: 6156762450649833686
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_19: -709649715546590285
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_2: -3920764615582354305
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_20: 1819027432683404185
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_21: 1778199320279103079
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_22: -7361030246971436610
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_23: 6585846870494310290
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_24: -8999886277689942776
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_25: -149833084847431440
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_26: -28284659695971543
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_27: -3169826716936004748
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_28: 711683184786018382
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_29: -2277502893699987207
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_3: 8463399206370877706
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_30: -5337983198569743854
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_31: -1056577900776205803
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_32: 6180194024908877990
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_33: 6694143214130810235
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_34: 5067194459668616419
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_35: -8189637335682475873
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_36: 1922655339443655031
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_37: 5270369581431419278
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_38: -7327948636964271827
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_39: 284371854439667682
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_4: -8036664614955767171
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_40: -4995785190022303215
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_41: 3969987794863517988
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_42: -3402950201778899010
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_43: -3319080593085161762
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_44: -7449628964569926157
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_45: 7103154690630352725
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_46: -6447135493597721522
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_47: -1739623171611640449
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_48: 5975669180714594188
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_49: -2968007160980606975
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_5: 4850750635832292436
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_50: 3889837619390580370
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_51: 7850079173513363804
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_52: -7102816469771175258
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_53: -11664144871954739
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_54: -3004881736890591684
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_55: 7097146659157458682
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_56: 2784017933264415351
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_57: 5297163207759716907
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_58: -2862298225475728259
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_59: -5703168388171188832
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_6: 7033377949418023331
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_60: -2907076291743879608
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_61: 8954243046498828306
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_62: -489162888669021436
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_63: 4173542631750698548
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_64: 7791644253208331098
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_65: -1169338838811525415
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_66: -6603946030980776762
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_67: -6160970480034371663
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_68: 2361232590268227367
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_69: 3145667250805854133
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_7: 6173974692297726015
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_70: 8424999617943530761
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_71: -1624136745570798020
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_72: -1745937022207807865
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_73: 4879263042799635048
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_74: -28073680082236716
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_75: 2063792444730964587
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_76: 7377653912647968745
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_77: -8465249438484295703
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_78: -4716064181478170785
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_79: 2911095933165432644
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_8: 7211671378416377310
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_80: 2607452250162591942
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_81: -6678067953711487907
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_82: 6749878542561168561
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_83: -6455930055480211367
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_84: 5912645787327287621
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_85: -4066631174511736196
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_86: -1667006895005841659
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_87: -8660461177998456663
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_88: -6678045439425220677
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_89: 3127044355428889249
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_9: 3534617367055958093
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_90: -6954160055910751622
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_91: 1939614216944747829
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_92: 149361824910458927
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_93: 1595942272564965745
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_94: -6679302125308630182
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_95: 4810966684670243160
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_96: 3043695517279653996
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_97: -2381252113391958042
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_98: -3871017443331133739
+      NES_The_Legend_of_Zelda_Overworld_Map_No_Background_99: 6795376562398162393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
