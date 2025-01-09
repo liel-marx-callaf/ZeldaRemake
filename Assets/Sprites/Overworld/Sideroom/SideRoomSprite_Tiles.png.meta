@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 8a04eaf1367fe70429df9412ddaaa4f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1217315678064203211
+    second: NES - The Legend of Zelda - First Room No Background_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SideRoomSprite_TilesWall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f03c333232b024ead721899253490a
+      internalID: 1198165273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideRoomSprite_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328d1017c7d86cd4ea3eaf17da614f10
+      internalID: -1305901136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideRoomSprite_TilesInvisibileWall
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1801ded914199447a6b240d91aa6e6d
+      internalID: -1584412719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideRoomSprite_TilesWall_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc2e8131bdd1b94e83518938dfa47df
+      internalID: 342816949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d6ca9eaf3489b454cbe36ff36ebdab1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SideRoomSprite_TilesInvisibileWall: -1584412719
+      SideRoomSprite_TilesWall_0: 1198165273
+      SideRoomSprite_TilesWall_1: 342816949
+      SideRoomSprite_Tiles_10: 1705851009
+      SideRoomSprite_Tiles_100: 879867769
+      SideRoomSprite_Tiles_101: 712762556
+      SideRoomSprite_Tiles_102: -424569906
+      SideRoomSprite_Tiles_103: 2022627666
+      SideRoomSprite_Tiles_104: 702114055
+      SideRoomSprite_Tiles_105: -1280931484
+      SideRoomSprite_Tiles_106: 2079622494
+      SideRoomSprite_Tiles_107: 1855543280
+      SideRoomSprite_Tiles_108: -204322231
+      SideRoomSprite_Tiles_109: -615229016
+      SideRoomSprite_Tiles_11: -707548874
+      SideRoomSprite_Tiles_110: 1950344969
+      SideRoomSprite_Tiles_111: 1601244862
+      SideRoomSprite_Tiles_112: 932832454
+      SideRoomSprite_Tiles_113: 900824787
+      SideRoomSprite_Tiles_114: 935568052
+      SideRoomSprite_Tiles_115: 81034041
+      SideRoomSprite_Tiles_116: -1082025512
+      SideRoomSprite_Tiles_117: 2083415696
+      SideRoomSprite_Tiles_118: -524139932
+      SideRoomSprite_Tiles_119: 634987972
+      SideRoomSprite_Tiles_12: -901625816
+      SideRoomSprite_Tiles_120: -722085762
+      SideRoomSprite_Tiles_121: -592895237
+      SideRoomSprite_Tiles_122: -203417078
+      SideRoomSprite_Tiles_123: -1302997535
+      SideRoomSprite_Tiles_124: 1973158631
+      SideRoomSprite_Tiles_125: -305138442
+      SideRoomSprite_Tiles_126: 1641376595
+      SideRoomSprite_Tiles_127: -2039882834
+      SideRoomSprite_Tiles_128: 732120390
+      SideRoomSprite_Tiles_129: 1216855183
+      SideRoomSprite_Tiles_13: -1152520173
+      SideRoomSprite_Tiles_130: -1469266524
+      SideRoomSprite_Tiles_131: -266500090
+      SideRoomSprite_Tiles_132: -1586350525
+      SideRoomSprite_Tiles_133: -300880566
+      SideRoomSprite_Tiles_134: -2001190845
+      SideRoomSprite_Tiles_135: -937143289
+      SideRoomSprite_Tiles_136: -2123355093
+      SideRoomSprite_Tiles_137: 453273581
+      SideRoomSprite_Tiles_138: 1274123630
+      SideRoomSprite_Tiles_139: -19998472
+      SideRoomSprite_Tiles_140: -1794657507
+      SideRoomSprite_Tiles_141: -938205136
+      SideRoomSprite_Tiles_142: 1168140132
+      SideRoomSprite_Tiles_143: -803084578
+      SideRoomSprite_Tiles_144: -398755688
+      SideRoomSprite_Tiles_145: 89305888
+      SideRoomSprite_Tiles_147: 940521364
+      SideRoomSprite_Tiles_148: -527516588
+      SideRoomSprite_Tiles_149: 1128530177
+      SideRoomSprite_Tiles_15: 1464462916
+      SideRoomSprite_Tiles_150: -1718372533
+      SideRoomSprite_Tiles_151: -871471691
+      SideRoomSprite_Tiles_152: 1979933444
+      SideRoomSprite_Tiles_153: 697293899
+      SideRoomSprite_Tiles_154: -1443953230
+      SideRoomSprite_Tiles_155: -1491228055
+      SideRoomSprite_Tiles_156: -1793915044
+      SideRoomSprite_Tiles_157: -825234703
+      SideRoomSprite_Tiles_158: 113580175
+      SideRoomSprite_Tiles_159: 561045227
+      SideRoomSprite_Tiles_16: 92689929
+      SideRoomSprite_Tiles_160: -1099322143
+      SideRoomSprite_Tiles_161: -24892393
+      SideRoomSprite_Tiles_162: 141935471
+      SideRoomSprite_Tiles_163: 89771141
+      SideRoomSprite_Tiles_164: -1282370075
+      SideRoomSprite_Tiles_165: 1657493081
+      SideRoomSprite_Tiles_166: -1965784626
+      SideRoomSprite_Tiles_167: -1784161580
+      SideRoomSprite_Tiles_168: -1578599658
+      SideRoomSprite_Tiles_169: 219163769
+      SideRoomSprite_Tiles_17: 1503450875
+      SideRoomSprite_Tiles_170: -879628696
+      SideRoomSprite_Tiles_171: -1509600613
+      SideRoomSprite_Tiles_172: -2093722411
+      SideRoomSprite_Tiles_173: -1884020744
+      SideRoomSprite_Tiles_174: -243158538
+      SideRoomSprite_Tiles_175: 1614495791
+      SideRoomSprite_Tiles_18: -1342578905
+      SideRoomSprite_Tiles_19: 775697081
+      SideRoomSprite_Tiles_2: 2043658532
+      SideRoomSprite_Tiles_20: -501361169
+      SideRoomSprite_Tiles_21: -1283511977
+      SideRoomSprite_Tiles_22: 1828009139
+      SideRoomSprite_Tiles_23: 1583571566
+      SideRoomSprite_Tiles_24: -687156276
+      SideRoomSprite_Tiles_25: -1689679162
+      SideRoomSprite_Tiles_26: -1446365302
+      SideRoomSprite_Tiles_27: -102140345
+      SideRoomSprite_Tiles_28: 1711467270
+      SideRoomSprite_Tiles_29: -2130011337
+      SideRoomSprite_Tiles_3: -419327037
+      SideRoomSprite_Tiles_30: -200664058
+      SideRoomSprite_Tiles_31: -1898271756
+      SideRoomSprite_Tiles_32: -1135747533
+      SideRoomSprite_Tiles_33: -1834895347
+      SideRoomSprite_Tiles_34: -1305901136
+      SideRoomSprite_Tiles_35: -1424849861
+      SideRoomSprite_Tiles_36: 1977244376
+      SideRoomSprite_Tiles_37: 1383985378
+      SideRoomSprite_Tiles_38: -1152132012
+      SideRoomSprite_Tiles_39: -1432057675
+      SideRoomSprite_Tiles_4: 1094146525
+      SideRoomSprite_Tiles_40: 296707524
+      SideRoomSprite_Tiles_41: 1757204204
+      SideRoomSprite_Tiles_42: 1239142363
+      SideRoomSprite_Tiles_43: -1546296763
+      SideRoomSprite_Tiles_44: -366866375
+      SideRoomSprite_Tiles_45: 1331492564
+      SideRoomSprite_Tiles_46: -1311525406
+      SideRoomSprite_Tiles_47: 1519343146
+      SideRoomSprite_Tiles_48: 2096622451
+      SideRoomSprite_Tiles_49: -1240410936
+      SideRoomSprite_Tiles_5: 1622910070
+      SideRoomSprite_Tiles_50: -1684507278
+      SideRoomSprite_Tiles_51: -1165034806
+      SideRoomSprite_Tiles_52: -1260422639
+      SideRoomSprite_Tiles_53: 34008547
+      SideRoomSprite_Tiles_54: -1903589597
+      SideRoomSprite_Tiles_55: -1683885867
+      SideRoomSprite_Tiles_56: 224041980
+      SideRoomSprite_Tiles_57: -94729013
+      SideRoomSprite_Tiles_58: -1685928540
+      SideRoomSprite_Tiles_59: 245112757
+      SideRoomSprite_Tiles_6: 789792681
+      SideRoomSprite_Tiles_60: 803831493
+      SideRoomSprite_Tiles_61: -1777512443
+      SideRoomSprite_Tiles_62: -413436505
+      SideRoomSprite_Tiles_63: 1680007488
+      SideRoomSprite_Tiles_64: -378035681
+      SideRoomSprite_Tiles_65: -1566629035
+      SideRoomSprite_Tiles_66: 1240893411
+      SideRoomSprite_Tiles_67: 1368322572
+      SideRoomSprite_Tiles_68: -385920179
+      SideRoomSprite_Tiles_69: -1854393750
+      SideRoomSprite_Tiles_70: 381858407
+      SideRoomSprite_Tiles_71: 783572487
+      SideRoomSprite_Tiles_72: -756386024
+      SideRoomSprite_Tiles_74: -450613657
+      SideRoomSprite_Tiles_75: 38083528
+      SideRoomSprite_Tiles_76: -2149304
+      SideRoomSprite_Tiles_77: 131325184
+      SideRoomSprite_Tiles_78: -1866529641
+      SideRoomSprite_Tiles_79: 1556837586
+      SideRoomSprite_Tiles_8: 1402669714
+      SideRoomSprite_Tiles_80: -160181721
+      SideRoomSprite_Tiles_81: -1523391803
+      SideRoomSprite_Tiles_82: 724355707
+      SideRoomSprite_Tiles_83: -259789980
+      SideRoomSprite_Tiles_84: 645044784
+      SideRoomSprite_Tiles_85: 1146468890
+      SideRoomSprite_Tiles_86: 723095028
+      SideRoomSprite_Tiles_87: 1876722436
+      SideRoomSprite_Tiles_88: 1409093436
+      SideRoomSprite_Tiles_89: -658876185
+      SideRoomSprite_Tiles_9: 166926156
+      SideRoomSprite_Tiles_90: -987597979
+      SideRoomSprite_Tiles_91: -2138103695
+      SideRoomSprite_Tiles_92: 834355962
+      SideRoomSprite_Tiles_93: -1964343376
+      SideRoomSprite_Tiles_94: -1128415189
+      SideRoomSprite_Tiles_95: -60726566
+      SideRoomSprite_Tiles_96: -1606810929
+      SideRoomSprite_Tiles_97: -749115573
+      SideRoomSprite_Tiles_98: -298690177
+      SideRoomSprite_Tiles_99: -1770401296
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
