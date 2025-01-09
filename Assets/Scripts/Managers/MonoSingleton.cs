@@ -9,11 +9,13 @@ using UnityEngine;
 public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T _instance;
+    private static bool _isQuitting = false;
 
     public static T Instance
     {
         get
         {
+            if (_isQuitting) return null;
             if (_instance != null)
                 return _instance;
 
@@ -27,6 +29,11 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
             return _instance;
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        _isQuitting = true;
     }
 
     // Ensure no other instances can be created by having the constructor as protected
