@@ -4,8 +4,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float speed = 5f;
+
+    private Rigidbody2D _rb;
     private InputPlayerActions _inputPlayerActions;
-    
     private InputAction _moveAction;
     
     private void Awake()
@@ -15,6 +17,8 @@ public class PlayerController : MonoBehaviour
     
     private void OnEnable()
     {
+        _rb = GetComponent<Rigidbody2D>();
+        
         _moveAction = _inputPlayerActions.Player.Move;
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
@@ -49,10 +53,19 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 moveInput = _moveAction.ReadValue<Vector2>();
-        Debug.Log(moveInput);
+        PlayerMovement(moveInput);
     }
     
-    
+    private void PlayerMovement(Vector2 moveInput)
+    {
+        // todo: 1) no diagonal movement
+        // todo: 2) movement priority, first vertical then horizontal
+        // todo: 3) collide on world edges
+        // todo: 4) public pushback function
+        // todo: 5) add animation
+        // todo: 6) can change collider size depending on direction
+        _rb.linearVelocity = moveInput * speed;
+    }
     private void OnActionA(InputAction.CallbackContext context)
     {
         Debug.Log("Action A");
