@@ -19,6 +19,8 @@ public class PlayerMovementController : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
     
+    internal bool IsAttacking { get; set; }
+    
     private void Awake()
     {
         _inputPlayerActions = new InputPlayerActions();
@@ -46,13 +48,23 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 moveInput = _moveAction.ReadValue<Vector2>();
-        PlayerMovement(moveInput);
+        if (!IsAttacking)
+        {
+            Vector2 moveInput = _moveAction.ReadValue<Vector2>();
+            PlayerMovement(moveInput);
+        }
+        else
+        {
+            _rb.linearVelocity = Vector2.zero;
+        }
     }
     
     private void PlayerMovement(Vector2 moveInput)
     {
-  
+        if(moveInput != Vector2.zero)
+        {
+            _animator.speed = 1;
+        }
         _rb.linearVelocity = _moveDirection * speed;
 
     }
@@ -94,6 +106,7 @@ public class PlayerMovementController : MonoBehaviour
         else
         {
             _moveDirection = Vector2.zero;
+            _animator.speed = 0;
         }
     }
     private void OnMoveCanceled(InputAction.CallbackContext context)
