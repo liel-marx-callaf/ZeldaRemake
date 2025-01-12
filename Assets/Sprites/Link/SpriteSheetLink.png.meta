@@ -244,6 +244,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLink_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ca4e27c5b04f4398ac6e4745100ea
+      internalID: 431161302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLink_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232245edfe601f47956aba76e48ac3b
+      internalID: 847920217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLink_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4908850208abb8f449ff3da97521c8ca
+      internalID: -1768033161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLink_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf4ba4da319df84da87e16187521e32
+      internalID: 1760995580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -264,6 +352,10 @@ TextureImporter:
       LinkMovementHorizontalR1: -310652898
       LinkMovmentForward0: -6160091232409139698
       LinkMovmentForward1: 1720449039
+      SpriteSheetLink_0: 431161302
+      SpriteSheetLink_1: 847920217
+      SpriteSheetLink_2: -1768033161
+      SpriteSheetLink_3: 1760995580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

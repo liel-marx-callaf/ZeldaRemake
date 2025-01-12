@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: 1dde99b57acf9cd449dc4ec607734c16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3327426599697765913
+    second: SpriteSheetLinkNo BackgroundNoGreen_0
+  - first:
+      213: 2378063098000718523
+    second: SpriteSheetLinkNo BackgroundNoGreen_1
+  - first:
+      213: 2535320124228855022
+    second: SpriteSheetLinkNo BackgroundNoGreen_2
+  - first:
+      213: 5926693021259645579
+    second: SpriteSheetLinkNo BackgroundNoGreen_3
+  - first:
+      213: -7407211323168044555
+    second: SpriteSheetLinkNo BackgroundNoGreen_4
+  - first:
+      213: -3393133438543430655
+    second: SpriteSheetLinkNo BackgroundNoGreen_5
+  - first:
+      213: -5003240649784651077
+    second: SpriteSheetLinkNo BackgroundNoGreen_6
+  - first:
+      213: 6476169010569280117
+    second: SpriteSheetLinkNo BackgroundNoGreen_7
+  - first:
+      213: 6155923371905828197
+    second: SpriteSheetLinkNo BackgroundNoGreen_8
+  - first:
+      213: 2932361652529127409
+    second: SpriteSheetLinkNo BackgroundNoGreen_9
+  - first:
+      213: -5419514498777161801
+    second: SpriteSheetLinkNo BackgroundNoGreen_10
+  - first:
+      213: 6586328465977186201
+    second: SpriteSheetLinkNo BackgroundNoGreen_11
+  - first:
+      213: -9127329337588023408
+    second: SpriteSheetLinkNo BackgroundNoGreen_12
+  - first:
+      213: 4990409239195194060
+    second: SpriteSheetLinkNo BackgroundNoGreen_13
+  - first:
+      213: 2392018376608527792
+    second: SpriteSheetLinkNo BackgroundNoGreen_14
+  - first:
+      213: 2161364945414706518
+    second: SpriteSheetLinkNo BackgroundNoGreen_15
+  - first:
+      213: 1273669171505516786
+    second: SpriteSheetLinkNo BackgroundNoGreen_16
+  - first:
+      213: 3793185419133299287
+    second: SpriteSheetLinkNo BackgroundNoGreen_17
+  - first:
+      213: -2820229587676931432
+    second: SpriteSheetLinkNo BackgroundNoGreen_18
+  - first:
+      213: -8932564628811507026
+    second: SpriteSheetLinkNo BackgroundNoGreen_19
+  - first:
+      213: -9052474593370498422
+    second: SpriteSheetLinkNo BackgroundNoGreen_20
+  - first:
+      213: -2205712166090686367
+    second: SpriteSheetLinkNo BackgroundNoGreen_21
+  - first:
+      213: 6053001196970897842
+    second: SpriteSheetLinkNo BackgroundNoGreen_22
+  - first:
+      213: -3354835346880368744
+    second: SpriteSheetLinkNo BackgroundNoGreen_23
+  - first:
+      213: -843600532965753484
+    second: SpriteSheetLinkNo BackgroundNoGreen_24
+  - first:
+      213: 2573161331192189988
+    second: SpriteSheetLinkNo BackgroundNoGreen_25
+  - first:
+      213: -5723759570322634642
+    second: SpriteSheetLinkNo BackgroundNoGreen_26
+  - first:
+      213: -4113720992927122811
+    second: SpriteSheetLinkNo BackgroundNoGreen_27
+  - first:
+      213: 5573940435188503083
+    second: SpriteSheetLinkNo BackgroundNoGreen_28
+  - first:
+      213: -6144703176499656883
+    second: SpriteSheetLinkNo BackgroundNoGreen_29
+  - first:
+      213: 4980915892824845817
+    second: SpriteSheetLinkNo BackgroundNoGreen_30
+  - first:
+      213: 1906482050541205080
+    second: SpriteSheetLinkNo BackgroundNoGreen_31
+  - first:
+      213: 641143666990353933
+    second: SpriteSheetLinkNo BackgroundNoGreen_32
+  - first:
+      213: 5164867897491864519
+    second: SpriteSheetLinkNo BackgroundNoGreen_33
+  - first:
+      213: 7748262867221939815
+    second: SpriteSheetLinkNo BackgroundNoGreen_34
+  - first:
+      213: 8990131231362046081
+    second: SpriteSheetLinkNo BackgroundNoGreen_35
+  - first:
+      213: 882974127931745967
+    second: SpriteSheetLinkNo BackgroundNoGreen_36
+  - first:
+      213: -4496933615189695069
+    second: SpriteSheetLinkNo BackgroundNoGreen_37
+  - first:
+      213: -3892339099015152951
+    second: SpriteSheetLinkNo BackgroundNoGreen_38
+  - first:
+      213: 5989263530131660762
+    second: SpriteSheetLinkNo BackgroundNoGreen_39
+  - first:
+      213: -8327569496527343363
+    second: SpriteSheetLinkNo BackgroundNoGreen_40
+  - first:
+      213: 980398564198055078
+    second: SpriteSheetLinkNo BackgroundNoGreen_41
+  - first:
+      213: -6109787579682667413
+    second: SpriteSheetLinkNo BackgroundNoGreen_42
+  - first:
+      213: -1873352803857835138
+    second: SpriteSheetLinkNo BackgroundNoGreen_43
+  - first:
+      213: -7403272439955511887
+    second: SpriteSheetLinkNo BackgroundNoGreen_44
+  - first:
+      213: 1090367362906851320
+    second: SpriteSheetLinkNo BackgroundNoGreen_45
+  - first:
+      213: 4843735941350354131
+    second: SpriteSheetLinkNo BackgroundNoGreen_46
+  - first:
+      213: 4057763399346562408
+    second: SpriteSheetLinkNo BackgroundNoGreen_47
+  - first:
+      213: 6128751101723675007
+    second: SpriteSheetLinkNo BackgroundNoGreen_48
+  - first:
+      213: 6103029699292384374
+    second: SpriteSheetLinkNo BackgroundNoGreen_49
+  - first:
+      213: -3553016001441858050
+    second: SpriteSheetLinkNo BackgroundNoGreen_50
+  - first:
+      213: 2707612155032786938
+    second: SpriteSheetLinkNo BackgroundNoGreen_51
+  - first:
+      213: -8038775254912811811
+    second: SpriteSheetLinkNo BackgroundNoGreen_52
+  - first:
+      213: 8906322326821557067
+    second: SpriteSheetLinkNo BackgroundNoGreen_53
+  - first:
+      213: -6135103384206957328
+    second: SpriteSheetLinkNo BackgroundNoGreen_54
+  - first:
+      213: -8590341344785849343
+    second: SpriteSheetLinkNo BackgroundNoGreen_55
+  - first:
+      213: -1765093725162271624
+    second: SpriteSheetLinkNo BackgroundNoGreen_56
+  - first:
+      213: -6697742824335979257
+    second: SpriteSheetLinkNo BackgroundNoGreen_57
+  - first:
+      213: 2183026926907616720
+    second: SpriteSheetLinkNo BackgroundNoGreen_58
+  - first:
+      213: 9063322717292406845
+    second: SpriteSheetLinkNo BackgroundNoGreen_59
+  - first:
+      213: 2258873277850536589
+    second: SpriteSheetLinkNo BackgroundNoGreen_60
+  - first:
+      213: -6847540071047783798
+    second: SpriteSheetLinkNo BackgroundNoGreen_61
+  - first:
+      213: 2076351957787017332
+    second: SpriteSheetLinkNo BackgroundNoGreen_62
+  - first:
+      213: -2877007334829538987
+    second: SpriteSheetLinkNo BackgroundNoGreen_63
+  - first:
+      213: 8811560872105806564
+    second: SpriteSheetLinkNo BackgroundNoGreen_64
+  - first:
+      213: 8164358770190947233
+    second: SpriteSheetLinkNo BackgroundNoGreen_65
+  - first:
+      213: -8933097521531179474
+    second: SpriteSheetLinkNo BackgroundNoGreen_66
+  - first:
+      213: 2082631187158894749
+    second: SpriteSheetLinkNo BackgroundNoGreen_67
+  - first:
+      213: 8483496976814887483
+    second: SpriteSheetLinkNo BackgroundNoGreen_68
+  - first:
+      213: 4400313334859076402
+    second: SpriteSheetLinkNo BackgroundNoGreen_69
+  - first:
+      213: -8958709383009347507
+    second: SpriteSheetLinkNo BackgroundNoGreen_70
+  - first:
+      213: 5410896741748602868
+    second: SpriteSheetLinkNo BackgroundNoGreen_71
+  - first:
+      213: -5099968084173046182
+    second: SpriteSheetLinkNo BackgroundNoGreen_72
+  - first:
+      213: 261922566399934044
+    second: SpriteSheetLinkNo BackgroundNoGreen_73
+  - first:
+      213: -6202798026781889978
+    second: SpriteSheetLinkNo BackgroundNoGreen_74
+  - first:
+      213: -8585466535859789657
+    second: SpriteSheetLinkNo BackgroundNoGreen_75
+  - first:
+      213: 7267406505901334461
+    second: SpriteSheetLinkNo BackgroundNoGreen_76
+  - first:
+      213: -749773179567164548
+    second: SpriteSheetLinkNo BackgroundNoGreen_77
+  - first:
+      213: -1118399918484463946
+    second: SpriteSheetLinkNo BackgroundNoGreen_78
+  - first:
+      213: 7633095609170208039
+    second: SpriteSheetLinkNo BackgroundNoGreen_79
+  - first:
+      213: -4636240155180403087
+    second: SpriteSheetLinkNo BackgroundNoGreen_80
+  - first:
+      213: 6978205191568900342
+    second: SpriteSheetLinkNo BackgroundNoGreen_81
+  - first:
+      213: 3733072027040920967
+    second: SpriteSheetLinkNo BackgroundNoGreen_82
+  - first:
+      213: 2846683264938493853
+    second: SpriteSheetLinkNo BackgroundNoGreen_83
+  - first:
+      213: -6137842757165425739
+    second: SpriteSheetLinkNo BackgroundNoGreen_84
+  - first:
+      213: -8706643473602685880
+    second: SpriteSheetLinkNo BackgroundNoGreen_85
+  - first:
+      213: -7045063577444407412
+    second: SpriteSheetLinkNo BackgroundNoGreen_86
+  - first:
+      213: -5180143741257970954
+    second: SpriteSheetLinkNo BackgroundNoGreen_87
+  - first:
+      213: -3385087916701308116
+    second: SpriteSheetLinkNo BackgroundNoGreen_88
+  - first:
+      213: 334632206942094132
+    second: SpriteSheetLinkNo BackgroundNoGreen_89
+  - first:
+      213: 3395866423984647834
+    second: SpriteSheetLinkNo BackgroundNoGreen_90
+  - first:
+      213: -1691974570127747118
+    second: SpriteSheetLinkNo BackgroundNoGreen_91
+  - first:
+      213: -3383095650636269543
+    second: SpriteSheetLinkNo BackgroundNoGreen_92
+  - first:
+      213: 7994354628033135130
+    second: SpriteSheetLinkNo BackgroundNoGreen_93
+  - first:
+      213: 6177004853234778021
+    second: SpriteSheetLinkNo BackgroundNoGreen_94
+  - first:
+      213: 8720810828607643721
+    second: SpriteSheetLinkNo BackgroundNoGreen_95
+  - first:
+      213: -959521307848457563
+    second: SpriteSheetLinkNo BackgroundNoGreen_96
+  - first:
+      213: 4819350840515899868
+    second: SpriteSheetLinkNo BackgroundNoGreen_97
+  - first:
+      213: 8109329981751883565
+    second: SpriteSheetLinkNo BackgroundNoGreen_98
+  - first:
+      213: 5393715697293811510
+    second: SpriteSheetLinkNo BackgroundNoGreen_99
+  - first:
+      213: -9216219404772805644
+    second: SpriteSheetLinkNo BackgroundNoGreen_100
+  - first:
+      213: -6155717402529538514
+    second: SpriteSheetLinkNo BackgroundNoGreen_101
+  - first:
+      213: -8762723296895202601
+    second: SpriteSheetLinkNo BackgroundNoGreen_102
+  - first:
+      213: -2911522645507624961
+    second: SpriteSheetLinkNo BackgroundNoGreen_103
+  - first:
+      213: -3456461430898586627
+    second: SpriteSheetLinkNo BackgroundNoGreen_104
+  - first:
+      213: -7131632939567559063
+    second: SpriteSheetLinkNo BackgroundNoGreen_105
+  - first:
+      213: -1779518712870155511
+    second: SpriteSheetLinkNo BackgroundNoGreen_106
+  - first:
+      213: 3616372394301127576
+    second: SpriteSheetLinkNo BackgroundNoGreen_107
+  - first:
+      213: -7025576544443358472
+    second: SpriteSheetLinkNo BackgroundNoGreen_108
+  - first:
+      213: -2849396636867257340
+    second: SpriteSheetLinkNo BackgroundNoGreen_109
+  - first:
+      213: -5803150891418391179
+    second: SpriteSheetLinkNo BackgroundNoGreen_110
+  - first:
+      213: 6518726511252429389
+    second: SpriteSheetLinkNo BackgroundNoGreen_111
+  - first:
+      213: -1807934453849467846
+    second: SpriteSheetLinkNo BackgroundNoGreen_112
+  - first:
+      213: 8552185028465675494
+    second: SpriteSheetLinkNo BackgroundNoGreen_113
+  - first:
+      213: 3736087149667640867
+    second: SpriteSheetLinkNo BackgroundNoGreen_114
+  - first:
+      213: 508945916430976320
+    second: SpriteSheetLinkNo BackgroundNoGreen_115
+  - first:
+      213: 4973083820047979244
+    second: SpriteSheetLinkNo BackgroundNoGreen_116
+  - first:
+      213: -5257355836944045316
+    second: SpriteSheetLinkNo BackgroundNoGreen_117
+  - first:
+      213: 1530339971562368094
+    second: SpriteSheetLinkNo BackgroundNoGreen_118
+  - first:
+      213: -9040960727060440632
+    second: SpriteSheetLinkNo BackgroundNoGreen_119
+  - first:
+      213: -4711241103046022958
+    second: SpriteSheetLinkNo BackgroundNoGreen_120
+  - first:
+      213: 4120023892609295491
+    second: SpriteSheetLinkNo BackgroundNoGreen_121
+  - first:
+      213: -6283209168449683386
+    second: SpriteSheetLinkNo BackgroundNoGreen_122
+  - first:
+      213: -1198381566484740508
+    second: SpriteSheetLinkNo BackgroundNoGreen_123
+  - first:
+      213: 4289874996231058283
+    second: SpriteSheetLinkNo BackgroundNoGreen_124
+  - first:
+      213: -3261100029139951619
+    second: SpriteSheetLinkNo BackgroundNoGreen_125
+  - first:
+      213: 161746606178027769
+    second: SpriteSheetLinkNo BackgroundNoGreen_126
+  - first:
+      213: -491626996638571333
+    second: SpriteSheetLinkNo BackgroundNoGreen_127
+  - first:
+      213: 5805485906210634806
+    second: SpriteSheetLinkNo BackgroundNoGreen_128
+  - first:
+      213: 3018082114410243958
+    second: SpriteSheetLinkNo BackgroundNoGreen_129
+  - first:
+      213: -7593799455398621494
+    second: SpriteSheetLinkNo BackgroundNoGreen_130
+  - first:
+      213: 2899659729565508318
+    second: SpriteSheetLinkNo BackgroundNoGreen_131
+  - first:
+      213: 6654173358447927456
+    second: SpriteSheetLinkNo BackgroundNoGreen_132
+  - first:
+      213: -4162251738567158086
+    second: SpriteSheetLinkNo BackgroundNoGreen_133
+  - first:
+      213: 4127646890247860683
+    second: SpriteSheetLinkNo BackgroundNoGreen_134
+  - first:
+      213: 5338204528380188084
+    second: SpriteSheetLinkNo BackgroundNoGreen_135
+  - first:
+      213: 432587234841045938
+    second: SpriteSheetLinkNo BackgroundNoGreen_136
+  - first:
+      213: 2976209067121534290
+    second: SpriteSheetLinkNo BackgroundNoGreen_137
+  - first:
+      213: -4613305332127759250
+    second: SpriteSheetLinkNo BackgroundNoGreen_138
+  - first:
+      213: -767268730594258420
+    second: SpriteSheetLinkNo BackgroundNoGreen_139
+  - first:
+      213: 2909642819723035190
+    second: SpriteSheetLinkNo BackgroundNoGreen_140
+  - first:
+      213: 7332082924192426029
+    second: SpriteSheetLinkNo BackgroundNoGreen_141
+  - first:
+      213: 8896330637101746594
+    second: SpriteSheetLinkNo BackgroundNoGreen_142
+  - first:
+      213: 6846302067843606997
+    second: SpriteSheetLinkNo BackgroundNoGreen_143
+  - first:
+      213: 8602803403272103845
+    second: SpriteSheetLinkNo BackgroundNoGreen_144
+  - first:
+      213: -2618067702772618546
+    second: SpriteSheetLinkNo BackgroundNoGreen_145
+  - first:
+      213: 8185218205724172036
+    second: SpriteSheetLinkNo BackgroundNoGreen_146
+  - first:
+      213: -9133490344478880674
+    second: SpriteSheetLinkNo BackgroundNoGreen_147
+  - first:
+      213: -261476068329068083
+    second: SpriteSheetLinkNo BackgroundNoGreen_148
+  - first:
+      213: 8999711039976546020
+    second: SpriteSheetLinkNo BackgroundNoGreen_149
+  - first:
+      213: -8985035128802739417
+    second: SpriteSheetLinkNo BackgroundNoGreen_150
+  - first:
+      213: 7026008909506058056
+    second: SpriteSheetLinkNo BackgroundNoGreen_151
+  - first:
+      213: 2216072696692136962
+    second: SpriteSheetLinkNo BackgroundNoGreen_152
+  - first:
+      213: 1666837375603356322
+    second: SpriteSheetLinkNo BackgroundNoGreen_153
+  - first:
+      213: -552959616304807288
+    second: SpriteSheetLinkNo BackgroundNoGreen_154
+  - first:
+      213: 8439245769188684308
+    second: SpriteSheetLinkNo BackgroundNoGreen_155
+  - first:
+      213: -1424747598016633917
+    second: SpriteSheetLinkNo BackgroundNoGreen_156
+  - first:
+      213: -2493639816772916183
+    second: SpriteSheetLinkNo BackgroundNoGreen_157
+  - first:
+      213: -6807929797553888515
+    second: SpriteSheetLinkNo BackgroundNoGreen_158
+  - first:
+      213: -2738462998251453971
+    second: SpriteSheetLinkNo BackgroundNoGreen_159
+  - first:
+      213: -2846164982376116027
+    second: SpriteSheetLinkNo BackgroundNoGreen_160
+  - first:
+      213: 6882276019069349060
+    second: SpriteSheetLinkNo BackgroundNoGreen_161
+  - first:
+      213: -4550485643704606659
+    second: SpriteSheetLinkNo BackgroundNoGreen_162
+  - first:
+      213: 7959549409405030343
+    second: SpriteSheetLinkNo BackgroundNoGreen_163
+  - first:
+      213: 6482898530996866687
+    second: SpriteSheetLinkNo BackgroundNoGreen_164
+  - first:
+      213: 3562466094638747416
+    second: SpriteSheetLinkNo BackgroundNoGreen_165
+  - first:
+      213: 1737683368230138801
+    second: SpriteSheetLinkNo BackgroundNoGreen_166
+  - first:
+      213: -3746138248725049680
+    second: SpriteSheetLinkNo BackgroundNoGreen_167
+  - first:
+      213: 4685803220917662219
+    second: SpriteSheetLinkNo BackgroundNoGreen_168
+  - first:
+      213: 2724641762941470827
+    second: SpriteSheetLinkNo BackgroundNoGreen_169
+  - first:
+      213: -4990306738374478530
+    second: SpriteSheetLinkNo BackgroundNoGreen_170
+  - first:
+      213: -7497463972379906359
+    second: SpriteSheetLinkNo BackgroundNoGreen_171
+  - first:
+      213: -5789026792315160603
+    second: SpriteSheetLinkNo BackgroundNoGreen_172
+  - first:
+      213: -4607551813228771405
+    second: SpriteSheetLinkNo BackgroundNoGreen_173
+  - first:
+      213: 8824559033950243385
+    second: SpriteSheetLinkNo BackgroundNoGreen_174
+  - first:
+      213: 3852926943975965657
+    second: SpriteSheetLinkNo BackgroundNoGreen_175
+  - first:
+      213: -7916680611020425056
+    second: SpriteSheetLinkNo BackgroundNoGreen_176
+  - first:
+      213: 7589873132417522786
+    second: SpriteSheetLinkNo BackgroundNoGreen_177
+  - first:
+      213: 6843561564601696208
+    second: SpriteSheetLinkNo BackgroundNoGreen_178
+  - first:
+      213: -2918520080308351838
+    second: SpriteSheetLinkNo BackgroundNoGreen_179
+  - first:
+      213: -8483773488265009582
+    second: SpriteSheetLinkNo BackgroundNoGreen_180
+  - first:
+      213: 8272675465310752944
+    second: SpriteSheetLinkNo BackgroundNoGreen_181
+  - first:
+      213: -3084221374052840918
+    second: SpriteSheetLinkNo BackgroundNoGreen_182
+  - first:
+      213: 8386143086764080235
+    second: SpriteSheetLinkNo BackgroundNoGreen_183
+  - first:
+      213: 6973238805805186615
+    second: SpriteSheetLinkNo BackgroundNoGreen_184
+  - first:
+      213: -6446388982655927972
+    second: SpriteSheetLinkNo BackgroundNoGreen_185
+  - first:
+      213: -3783742132131284265
+    second: SpriteSheetLinkNo BackgroundNoGreen_186
+  - first:
+      213: -2275250274871839616
+    second: SpriteSheetLinkNo BackgroundNoGreen_187
+  - first:
+      213: -3587819646534059615
+    second: SpriteSheetLinkNo BackgroundNoGreen_188
+  - first:
+      213: -6919773893772949252
+    second: SpriteSheetLinkNo BackgroundNoGreen_189
+  - first:
+      213: 1051000025069103464
+    second: SpriteSheetLinkNo BackgroundNoGreen_190
+  - first:
+      213: -2881900040577859857
+    second: SpriteSheetLinkNo BackgroundNoGreen_191
+  - first:
+      213: 895895254225265146
+    second: SpriteSheetLinkNo BackgroundNoGreen_192
+  - first:
+      213: -1893257166924750268
+    second: SpriteSheetLinkNo BackgroundNoGreen_193
+  - first:
+      213: 4374425311903801235
+    second: SpriteSheetLinkNo BackgroundNoGreen_194
+  - first:
+      213: 1814528435733773697
+    second: SpriteSheetLinkNo BackgroundNoGreen_195
+  - first:
+      213: 2528051522546409269
+    second: SpriteSheetLinkNo BackgroundNoGreen_196
+  - first:
+      213: -103596288266709349
+    second: SpriteSheetLinkNo BackgroundNoGreen_197
+  - first:
+      213: -7433713770112610228
+    second: SpriteSheetLinkNo BackgroundNoGreen_198
+  - first:
+      213: -8480461512929235739
+    second: SpriteSheetLinkNo BackgroundNoGreen_199
+  - first:
+      213: 1573813751402352297
+    second: SpriteSheetLinkNo BackgroundNoGreen_200
+  - first:
+      213: -4118491456531204465
+    second: SpriteSheetLinkNo BackgroundNoGreen_201
+  - first:
+      213: -77046587040392264
+    second: SpriteSheetLinkNo BackgroundNoGreen_202
+  - first:
+      213: -4062205835101169593
+    second: SpriteSheetLinkNo BackgroundNoGreen_203
+  - first:
+      213: 7358484277350887651
+    second: SpriteSheetLinkNo BackgroundNoGreen_204
+  - first:
+      213: -7834666899314100349
+    second: SpriteSheetLinkNo BackgroundNoGreen_205
+  - first:
+      213: 2032806271992242400
+    second: SpriteSheetLinkNo BackgroundNoGreen_206
+  - first:
+      213: 1360068574665540429
+    second: SpriteSheetLinkNo BackgroundNoGreen_207
+  - first:
+      213: -1414811460386742279
+    second: SpriteSheetLinkNo BackgroundNoGreen_208
+  - first:
+      213: -6578397333463300099
+    second: SpriteSheetLinkNo BackgroundNoGreen_209
+  - first:
+      213: -3414534474340084014
+    second: SpriteSheetLinkNo BackgroundNoGreen_210
+  - first:
+      213: -7802430763282044262
+    second: SpriteSheetLinkNo BackgroundNoGreen_211
+  - first:
+      213: 8197852961070122899
+    second: SpriteSheetLinkNo BackgroundNoGreen_212
+  - first:
+      213: -5812400523924823416
+    second: SpriteSheetLinkNo BackgroundNoGreen_213
+  - first:
+      213: 3786232540777022563
+    second: SpriteSheetLinkNo BackgroundNoGreen_214
+  - first:
+      213: -6833198088367592797
+    second: SpriteSheetLinkNo BackgroundNoGreen_215
+  - first:
+      213: 4894596504249627980
+    second: SpriteSheetLinkNo BackgroundNoGreen_216
+  - first:
+      213: 6464516785488735565
+    second: SpriteSheetLinkNo BackgroundNoGreen_217
+  - first:
+      213: 4164040493740200118
+    second: SpriteSheetLinkNo BackgroundNoGreen_218
+  - first:
+      213: 5359287340827005987
+    second: SpriteSheetLinkNo BackgroundNoGreen_219
+  - first:
+      213: 2313955472099371895
+    second: SpriteSheetLinkNo BackgroundNoGreen_220
+  - first:
+      213: -589249430270037610
+    second: SpriteSheetLinkNo BackgroundNoGreen_221
+  - first:
+      213: 2529781057306475597
+    second: SpriteSheetLinkNo BackgroundNoGreen_222
+  - first:
+      213: -9124957880449811204
+    second: SpriteSheetLinkNo BackgroundNoGreen_223
+  - first:
+      213: 6152742659036352936
+    second: SpriteSheetLinkNo BackgroundNoGreen_224
+  - first:
+      213: -8703096667056380202
+    second: SpriteSheetLinkNo BackgroundNoGreen_225
+  - first:
+      213: 86601282963328388
+    second: SpriteSheetLinkNo BackgroundNoGreen_226
+  - first:
+      213: -5207704760692555670
+    second: SpriteSheetLinkNo BackgroundNoGreen_227
+  - first:
+      213: -4028026263728593030
+    second: SpriteSheetLinkNo BackgroundNoGreen_228
+  - first:
+      213: -5203496792474410537
+    second: SpriteSheetLinkNo BackgroundNoGreen_229
+  - first:
+      213: 4664436509576077501
+    second: SpriteSheetLinkNo BackgroundNoGreen_230
+  - first:
+      213: -7757327683340827938
+    second: SpriteSheetLinkNo BackgroundNoGreen_231
+  - first:
+      213: -4077255678148912270
+    second: SpriteSheetLinkNo BackgroundNoGreen_232
+  - first:
+      213: -2354541259222738772
+    second: SpriteSheetLinkNo BackgroundNoGreen_233
+  - first:
+      213: -4233127061907399633
+    second: SpriteSheetLinkNo BackgroundNoGreen_234
+  - first:
+      213: 4623186536824200083
+    second: SpriteSheetLinkNo BackgroundNoGreen_235
+  - first:
+      213: -4856250806418658019
+    second: SpriteSheetLinkNo BackgroundNoGreen_236
+  - first:
+      213: -3906410375409192735
+    second: SpriteSheetLinkNo BackgroundNoGreen_237
+  - first:
+      213: -510321868218370614
+    second: SpriteSheetLinkNo BackgroundNoGreen_238
+  - first:
+      213: 6067991905890132109
+    second: SpriteSheetLinkNo BackgroundNoGreen_239
+  - first:
+      213: -5868799841502762909
+    second: SpriteSheetLinkNo BackgroundNoGreen_240
+  - first:
+      213: 334048399943267686
+    second: SpriteSheetLinkNo BackgroundNoGreen_241
+  - first:
+      213: 7643512208956264664
+    second: SpriteSheetLinkNo BackgroundNoGreen_242
+  - first:
+      213: -1133357770148913230
+    second: SpriteSheetLinkNo BackgroundNoGreen_243
+  - first:
+      213: -1318069010586142372
+    second: SpriteSheetLinkNo BackgroundNoGreen_244
+  - first:
+      213: -3190689966966954639
+    second: SpriteSheetLinkNo BackgroundNoGreen_245
+  - first:
+      213: 2805519481754343617
+    second: SpriteSheetLinkNo BackgroundNoGreen_246
+  - first:
+      213: 1727045516665257605
+    second: SpriteSheetLinkNo BackgroundNoGreen_247
+  - first:
+      213: 6453639646371085361
+    second: SpriteSheetLinkNo BackgroundNoGreen_248
+  - first:
+      213: -2973980466987030759
+    second: SpriteSheetLinkNo BackgroundNoGreen_249
+  - first:
+      213: 2181056783385368503
+    second: SpriteSheetLinkNo BackgroundNoGreen_250
+  - first:
+      213: 2194992569971075156
+    second: SpriteSheetLinkNo BackgroundNoGreen_251
+  - first:
+      213: 674304721608044394
+    second: SpriteSheetLinkNo BackgroundNoGreen_252
+  - first:
+      213: -1699297905408734417
+    second: SpriteSheetLinkNo BackgroundNoGreen_253
+  - first:
+      213: -1285401792724182016
+    second: SpriteSheetLinkNo BackgroundNoGreen_254
+  - first:
+      213: 5137498321173685010
+    second: SpriteSheetLinkNo BackgroundNoGreen_255
+  - first:
+      213: 1621979470187128112
+    second: SpriteSheetLinkNo BackgroundNoGreen_256
+  - first:
+      213: 5030829774650468601
+    second: SpriteSheetLinkNo BackgroundNoGreen_257
+  - first:
+      213: 2723033902925838540
+    second: SpriteSheetLinkNo BackgroundNoGreen_258
+  - first:
+      213: 3130367694421789479
+    second: SpriteSheetLinkNo BackgroundNoGreen_259
+  - first:
+      213: 3728964290173032927
+    second: SpriteSheetLinkNo BackgroundNoGreen_260
+  - first:
+      213: -6027345351244246411
+    second: SpriteSheetLinkNo BackgroundNoGreen_261
+  - first:
+      213: -8903264663020233533
+    second: SpriteSheetLinkNo BackgroundNoGreen_262
+  - first:
+      213: -7048331456603666384
+    second: SpriteSheetLinkNo BackgroundNoGreen_263
+  - first:
+      213: 6051821480943397077
+    second: SpriteSheetLinkNo BackgroundNoGreen_264
+  - first:
+      213: 4720757574881821883
+    second: SpriteSheetLinkNo BackgroundNoGreen_265
+  - first:
+      213: 7928913156532172557
+    second: SpriteSheetLinkNo BackgroundNoGreen_266
+  - first:
+      213: 8824911363021619322
+    second: SpriteSheetLinkNo BackgroundNoGreen_267
+  - first:
+      213: 2187070792706980952
+    second: SpriteSheetLinkNo BackgroundNoGreen_268
+  - first:
+      213: -8943696100300806764
+    second: SpriteSheetLinkNo BackgroundNoGreen_269
+  - first:
+      213: -7278394388470541375
+    second: SpriteSheetLinkNo BackgroundNoGreen_270
+  - first:
+      213: 1891407511152596536
+    second: SpriteSheetLinkNo BackgroundNoGreen_271
+  - first:
+      213: 5711302767521794255
+    second: SpriteSheetLinkNo BackgroundNoGreen_272
+  - first:
+      213: -6665063814957983846
+    second: SpriteSheetLinkNo BackgroundNoGreen_273
+  - first:
+      213: 2976001510469368145
+    second: SpriteSheetLinkNo BackgroundNoGreen_274
+  - first:
+      213: -7617401384334084376
+    second: SpriteSheetLinkNo BackgroundNoGreen_275
+  - first:
+      213: 5882446379358660522
+    second: SpriteSheetLinkNo BackgroundNoGreen_276
+  - first:
+      213: -753042487357440124
+    second: SpriteSheetLinkNo BackgroundNoGreen_277
+  - first:
+      213: -5273563904856857322
+    second: SpriteSheetLinkNo BackgroundNoGreen_278
+  - first:
+      213: 1861946779097270433
+    second: SpriteSheetLinkNo BackgroundNoGreen_279
+  - first:
+      213: -1419001994227884456
+    second: SpriteSheetLinkNo BackgroundNoGreen_280
+  - first:
+      213: 1836198128804455823
+    second: SpriteSheetLinkNo BackgroundNoGreen_281
+  - first:
+      213: 4215242352651172760
+    second: SpriteSheetLinkNo BackgroundNoGreen_282
+  - first:
+      213: 4105850054135282279
+    second: SpriteSheetLinkNo BackgroundNoGreen_283
+  - first:
+      213: -1359262941256488484
+    second: SpriteSheetLinkNo BackgroundNoGreen_284
+  - first:
+      213: -2045249883839835555
+    second: SpriteSheetLinkNo BackgroundNoGreen_285
+  - first:
+      213: 5591506233950429900
+    second: SpriteSheetLinkNo BackgroundNoGreen_286
+  - first:
+      213: -2708734929398035856
+    second: SpriteSheetLinkNo BackgroundNoGreen_287
+  - first:
+      213: -4983218874118373518
+    second: SpriteSheetLinkNo BackgroundNoGreen_288
+  - first:
+      213: -6010266319181138314
+    second: SpriteSheetLinkNo BackgroundNoGreen_289
+  - first:
+      213: 4062360494917852129
+    second: SpriteSheetLinkNo BackgroundNoGreen_290
+  - first:
+      213: -1278080847777316443
+    second: SpriteSheetLinkNo BackgroundNoGreen_291
+  - first:
+      213: -6553802367256105501
+    second: SpriteSheetLinkNo BackgroundNoGreen_292
+  - first:
+      213: 5674546195852792440
+    second: SpriteSheetLinkNo BackgroundNoGreen_293
+  - first:
+      213: 2387506653791593030
+    second: SpriteSheetLinkNo BackgroundNoGreen_294
+  - first:
+      213: 8429345222285228676
+    second: SpriteSheetLinkNo BackgroundNoGreen_295
+  - first:
+      213: 7859950921946765616
+    second: SpriteSheetLinkNo BackgroundNoGreen_296
+  - first:
+      213: -2595028831357018188
+    second: SpriteSheetLinkNo BackgroundNoGreen_297
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d79a8ac716e488e0800000000000000
+      internalID: -1691974570127747118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_92
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 236
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918f7ae1e64dc01d0800000000000000
+      internalID: -3383095650636269543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_93
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 239
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a124a64ad27a1fe60800000000000000
+      internalID: 7994354628033135130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_94
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 244
+        width: 16
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15789473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af3ce4df2129b550800000000000000
+      internalID: 6177004853234778021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_107
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf8d1488fef2230800000000000000
+      internalID: 3616372394301127576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 217
+        width: 28
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2232e1b53208e90800000000000000
+      internalID: -7025576544443358472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_109
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 217
+        width: 25
+        height: 16
+      alignment: 9
+      pivot: {x: 0.32, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c95530bd8e478d0800000000000000
+      internalID: -2849396636867257340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_110
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 217
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57de30bb201177fa0800000000000000
+      internalID: -5803150891418391179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_123
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 185
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4660d48805e7e5fe0800000000000000
+      internalID: -1198381566484740508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_124
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 185
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63be219492b88b30800000000000000
+      internalID: 4289874996231058283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_125
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 185
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffd8123dce3eb2d0800000000000000
+      internalID: -3261100029139951619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkNo BackgroundNoGreen_126
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 185
+        width: 16
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8cddc6ea3ae3200800000000000000
+      internalID: 161746606178027769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24a680969e314be4b9ab819a7e3e792c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpriteSheetLinkNo BackgroundNoGreen_0: 3327426599697765913
+      SpriteSheetLinkNo BackgroundNoGreen_1: 2378063098000718523
+      SpriteSheetLinkNo BackgroundNoGreen_10: -5419514498777161801
+      SpriteSheetLinkNo BackgroundNoGreen_100: -9216219404772805644
+      SpriteSheetLinkNo BackgroundNoGreen_101: -6155717402529538514
+      SpriteSheetLinkNo BackgroundNoGreen_102: -8762723296895202601
+      SpriteSheetLinkNo BackgroundNoGreen_103: -2911522645507624961
+      SpriteSheetLinkNo BackgroundNoGreen_104: -3456461430898586627
+      SpriteSheetLinkNo BackgroundNoGreen_105: -7131632939567559063
+      SpriteSheetLinkNo BackgroundNoGreen_106: -1779518712870155511
+      SpriteSheetLinkNo BackgroundNoGreen_107: 3616372394301127576
+      SpriteSheetLinkNo BackgroundNoGreen_108: -7025576544443358472
+      SpriteSheetLinkNo BackgroundNoGreen_109: -2849396636867257340
+      SpriteSheetLinkNo BackgroundNoGreen_11: 6586328465977186201
+      SpriteSheetLinkNo BackgroundNoGreen_110: -5803150891418391179
+      SpriteSheetLinkNo BackgroundNoGreen_111: 6518726511252429389
+      SpriteSheetLinkNo BackgroundNoGreen_112: -1807934453849467846
+      SpriteSheetLinkNo BackgroundNoGreen_113: 8552185028465675494
+      SpriteSheetLinkNo BackgroundNoGreen_114: 3736087149667640867
+      SpriteSheetLinkNo BackgroundNoGreen_115: 508945916430976320
+      SpriteSheetLinkNo BackgroundNoGreen_116: 4973083820047979244
+      SpriteSheetLinkNo BackgroundNoGreen_117: -5257355836944045316
+      SpriteSheetLinkNo BackgroundNoGreen_118: 1530339971562368094
+      SpriteSheetLinkNo BackgroundNoGreen_119: -9040960727060440632
+      SpriteSheetLinkNo BackgroundNoGreen_12: -9127329337588023408
+      SpriteSheetLinkNo BackgroundNoGreen_120: -4711241103046022958
+      SpriteSheetLinkNo BackgroundNoGreen_121: 4120023892609295491
+      SpriteSheetLinkNo BackgroundNoGreen_122: -6283209168449683386
+      SpriteSheetLinkNo BackgroundNoGreen_123: -1198381566484740508
+      SpriteSheetLinkNo BackgroundNoGreen_124: 4289874996231058283
+      SpriteSheetLinkNo BackgroundNoGreen_125: -3261100029139951619
+      SpriteSheetLinkNo BackgroundNoGreen_126: 161746606178027769
+      SpriteSheetLinkNo BackgroundNoGreen_127: -491626996638571333
+      SpriteSheetLinkNo BackgroundNoGreen_128: 5805485906210634806
+      SpriteSheetLinkNo BackgroundNoGreen_129: 3018082114410243958
+      SpriteSheetLinkNo BackgroundNoGreen_13: 4990409239195194060
+      SpriteSheetLinkNo BackgroundNoGreen_130: -7593799455398621494
+      SpriteSheetLinkNo BackgroundNoGreen_131: 2899659729565508318
+      SpriteSheetLinkNo BackgroundNoGreen_132: 6654173358447927456
+      SpriteSheetLinkNo BackgroundNoGreen_133: -4162251738567158086
+      SpriteSheetLinkNo BackgroundNoGreen_134: 4127646890247860683
+      SpriteSheetLinkNo BackgroundNoGreen_135: 5338204528380188084
+      SpriteSheetLinkNo BackgroundNoGreen_136: 432587234841045938
+      SpriteSheetLinkNo BackgroundNoGreen_137: 2976209067121534290
+      SpriteSheetLinkNo BackgroundNoGreen_138: -4613305332127759250
+      SpriteSheetLinkNo BackgroundNoGreen_139: -767268730594258420
+      SpriteSheetLinkNo BackgroundNoGreen_14: 2392018376608527792
+      SpriteSheetLinkNo BackgroundNoGreen_140: 2909642819723035190
+      SpriteSheetLinkNo BackgroundNoGreen_141: 7332082924192426029
+      SpriteSheetLinkNo BackgroundNoGreen_142: 8896330637101746594
+      SpriteSheetLinkNo BackgroundNoGreen_143: 6846302067843606997
+      SpriteSheetLinkNo BackgroundNoGreen_144: 8602803403272103845
+      SpriteSheetLinkNo BackgroundNoGreen_145: -2618067702772618546
+      SpriteSheetLinkNo BackgroundNoGreen_146: 8185218205724172036
+      SpriteSheetLinkNo BackgroundNoGreen_147: -9133490344478880674
+      SpriteSheetLinkNo BackgroundNoGreen_148: -261476068329068083
+      SpriteSheetLinkNo BackgroundNoGreen_149: 8999711039976546020
+      SpriteSheetLinkNo BackgroundNoGreen_15: 2161364945414706518
+      SpriteSheetLinkNo BackgroundNoGreen_150: -8985035128802739417
+      SpriteSheetLinkNo BackgroundNoGreen_151: 7026008909506058056
+      SpriteSheetLinkNo BackgroundNoGreen_152: 2216072696692136962
+      SpriteSheetLinkNo BackgroundNoGreen_153: 1666837375603356322
+      SpriteSheetLinkNo BackgroundNoGreen_154: -552959616304807288
+      SpriteSheetLinkNo BackgroundNoGreen_155: 8439245769188684308
+      SpriteSheetLinkNo BackgroundNoGreen_156: -1424747598016633917
+      SpriteSheetLinkNo BackgroundNoGreen_157: -2493639816772916183
+      SpriteSheetLinkNo BackgroundNoGreen_158: -6807929797553888515
+      SpriteSheetLinkNo BackgroundNoGreen_159: -2738462998251453971
+      SpriteSheetLinkNo BackgroundNoGreen_16: 1273669171505516786
+      SpriteSheetLinkNo BackgroundNoGreen_160: -2846164982376116027
+      SpriteSheetLinkNo BackgroundNoGreen_161: 6882276019069349060
+      SpriteSheetLinkNo BackgroundNoGreen_162: -4550485643704606659
+      SpriteSheetLinkNo BackgroundNoGreen_163: 7959549409405030343
+      SpriteSheetLinkNo BackgroundNoGreen_164: 6482898530996866687
+      SpriteSheetLinkNo BackgroundNoGreen_165: 3562466094638747416
+      SpriteSheetLinkNo BackgroundNoGreen_166: 1737683368230138801
+      SpriteSheetLinkNo BackgroundNoGreen_167: -3746138248725049680
+      SpriteSheetLinkNo BackgroundNoGreen_168: 4685803220917662219
+      SpriteSheetLinkNo BackgroundNoGreen_169: 2724641762941470827
+      SpriteSheetLinkNo BackgroundNoGreen_17: 3793185419133299287
+      SpriteSheetLinkNo BackgroundNoGreen_170: -4990306738374478530
+      SpriteSheetLinkNo BackgroundNoGreen_171: -7497463972379906359
+      SpriteSheetLinkNo BackgroundNoGreen_172: -5789026792315160603
+      SpriteSheetLinkNo BackgroundNoGreen_173: -4607551813228771405
+      SpriteSheetLinkNo BackgroundNoGreen_174: 8824559033950243385
+      SpriteSheetLinkNo BackgroundNoGreen_175: 3852926943975965657
+      SpriteSheetLinkNo BackgroundNoGreen_176: -7916680611020425056
+      SpriteSheetLinkNo BackgroundNoGreen_177: 7589873132417522786
+      SpriteSheetLinkNo BackgroundNoGreen_178: 6843561564601696208
+      SpriteSheetLinkNo BackgroundNoGreen_179: -2918520080308351838
+      SpriteSheetLinkNo BackgroundNoGreen_18: -2820229587676931432
+      SpriteSheetLinkNo BackgroundNoGreen_180: -8483773488265009582
+      SpriteSheetLinkNo BackgroundNoGreen_181: 8272675465310752944
+      SpriteSheetLinkNo BackgroundNoGreen_182: -3084221374052840918
+      SpriteSheetLinkNo BackgroundNoGreen_183: 8386143086764080235
+      SpriteSheetLinkNo BackgroundNoGreen_184: 6973238805805186615
+      SpriteSheetLinkNo BackgroundNoGreen_185: -6446388982655927972
+      SpriteSheetLinkNo BackgroundNoGreen_186: -3783742132131284265
+      SpriteSheetLinkNo BackgroundNoGreen_187: -2275250274871839616
+      SpriteSheetLinkNo BackgroundNoGreen_188: -3587819646534059615
+      SpriteSheetLinkNo BackgroundNoGreen_189: -6919773893772949252
+      SpriteSheetLinkNo BackgroundNoGreen_19: -8932564628811507026
+      SpriteSheetLinkNo BackgroundNoGreen_190: 1051000025069103464
+      SpriteSheetLinkNo BackgroundNoGreen_191: -2881900040577859857
+      SpriteSheetLinkNo BackgroundNoGreen_192: 895895254225265146
+      SpriteSheetLinkNo BackgroundNoGreen_193: -1893257166924750268
+      SpriteSheetLinkNo BackgroundNoGreen_194: 4374425311903801235
+      SpriteSheetLinkNo BackgroundNoGreen_195: 1814528435733773697
+      SpriteSheetLinkNo BackgroundNoGreen_196: 2528051522546409269
+      SpriteSheetLinkNo BackgroundNoGreen_197: -103596288266709349
+      SpriteSheetLinkNo BackgroundNoGreen_198: -7433713770112610228
+      SpriteSheetLinkNo BackgroundNoGreen_199: -8480461512929235739
+      SpriteSheetLinkNo BackgroundNoGreen_2: 2535320124228855022
+      SpriteSheetLinkNo BackgroundNoGreen_20: -9052474593370498422
+      SpriteSheetLinkNo BackgroundNoGreen_200: 1573813751402352297
+      SpriteSheetLinkNo BackgroundNoGreen_201: -4118491456531204465
+      SpriteSheetLinkNo BackgroundNoGreen_202: -77046587040392264
+      SpriteSheetLinkNo BackgroundNoGreen_203: -4062205835101169593
+      SpriteSheetLinkNo BackgroundNoGreen_204: 7358484277350887651
+      SpriteSheetLinkNo BackgroundNoGreen_205: -7834666899314100349
+      SpriteSheetLinkNo BackgroundNoGreen_206: 2032806271992242400
+      SpriteSheetLinkNo BackgroundNoGreen_207: 1360068574665540429
+      SpriteSheetLinkNo BackgroundNoGreen_208: -1414811460386742279
+      SpriteSheetLinkNo BackgroundNoGreen_209: -6578397333463300099
+      SpriteSheetLinkNo BackgroundNoGreen_21: -2205712166090686367
+      SpriteSheetLinkNo BackgroundNoGreen_210: -3414534474340084014
+      SpriteSheetLinkNo BackgroundNoGreen_211: -7802430763282044262
+      SpriteSheetLinkNo BackgroundNoGreen_212: 8197852961070122899
+      SpriteSheetLinkNo BackgroundNoGreen_213: -5812400523924823416
+      SpriteSheetLinkNo BackgroundNoGreen_214: 3786232540777022563
+      SpriteSheetLinkNo BackgroundNoGreen_215: -6833198088367592797
+      SpriteSheetLinkNo BackgroundNoGreen_216: 4894596504249627980
+      SpriteSheetLinkNo BackgroundNoGreen_217: 6464516785488735565
+      SpriteSheetLinkNo BackgroundNoGreen_218: 4164040493740200118
+      SpriteSheetLinkNo BackgroundNoGreen_219: 5359287340827005987
+      SpriteSheetLinkNo BackgroundNoGreen_22: 6053001196970897842
+      SpriteSheetLinkNo BackgroundNoGreen_220: 2313955472099371895
+      SpriteSheetLinkNo BackgroundNoGreen_221: -589249430270037610
+      SpriteSheetLinkNo BackgroundNoGreen_222: 2529781057306475597
+      SpriteSheetLinkNo BackgroundNoGreen_223: -9124957880449811204
+      SpriteSheetLinkNo BackgroundNoGreen_224: 6152742659036352936
+      SpriteSheetLinkNo BackgroundNoGreen_225: -8703096667056380202
+      SpriteSheetLinkNo BackgroundNoGreen_226: 86601282963328388
+      SpriteSheetLinkNo BackgroundNoGreen_227: -5207704760692555670
+      SpriteSheetLinkNo BackgroundNoGreen_228: -4028026263728593030
+      SpriteSheetLinkNo BackgroundNoGreen_229: -5203496792474410537
+      SpriteSheetLinkNo BackgroundNoGreen_23: -3354835346880368744
+      SpriteSheetLinkNo BackgroundNoGreen_230: 4664436509576077501
+      SpriteSheetLinkNo BackgroundNoGreen_231: -7757327683340827938
+      SpriteSheetLinkNo BackgroundNoGreen_232: -4077255678148912270
+      SpriteSheetLinkNo BackgroundNoGreen_233: -2354541259222738772
+      SpriteSheetLinkNo BackgroundNoGreen_234: -4233127061907399633
+      SpriteSheetLinkNo BackgroundNoGreen_235: 4623186536824200083
+      SpriteSheetLinkNo BackgroundNoGreen_236: -4856250806418658019
+      SpriteSheetLinkNo BackgroundNoGreen_237: -3906410375409192735
+      SpriteSheetLinkNo BackgroundNoGreen_238: -510321868218370614
+      SpriteSheetLinkNo BackgroundNoGreen_239: 6067991905890132109
+      SpriteSheetLinkNo BackgroundNoGreen_24: -843600532965753484
+      SpriteSheetLinkNo BackgroundNoGreen_240: -5868799841502762909
+      SpriteSheetLinkNo BackgroundNoGreen_241: 334048399943267686
+      SpriteSheetLinkNo BackgroundNoGreen_242: 7643512208956264664
+      SpriteSheetLinkNo BackgroundNoGreen_243: -1133357770148913230
+      SpriteSheetLinkNo BackgroundNoGreen_244: -1318069010586142372
+      SpriteSheetLinkNo BackgroundNoGreen_245: -3190689966966954639
+      SpriteSheetLinkNo BackgroundNoGreen_246: 2805519481754343617
+      SpriteSheetLinkNo BackgroundNoGreen_247: 1727045516665257605
+      SpriteSheetLinkNo BackgroundNoGreen_248: 6453639646371085361
+      SpriteSheetLinkNo BackgroundNoGreen_249: -2973980466987030759
+      SpriteSheetLinkNo BackgroundNoGreen_25: 2573161331192189988
+      SpriteSheetLinkNo BackgroundNoGreen_250: 2181056783385368503
+      SpriteSheetLinkNo BackgroundNoGreen_251: 2194992569971075156
+      SpriteSheetLinkNo BackgroundNoGreen_252: 674304721608044394
+      SpriteSheetLinkNo BackgroundNoGreen_253: -1699297905408734417
+      SpriteSheetLinkNo BackgroundNoGreen_254: -1285401792724182016
+      SpriteSheetLinkNo BackgroundNoGreen_255: 5137498321173685010
+      SpriteSheetLinkNo BackgroundNoGreen_256: 1621979470187128112
+      SpriteSheetLinkNo BackgroundNoGreen_257: 5030829774650468601
+      SpriteSheetLinkNo BackgroundNoGreen_258: 2723033902925838540
+      SpriteSheetLinkNo BackgroundNoGreen_259: 3130367694421789479
+      SpriteSheetLinkNo BackgroundNoGreen_26: -5723759570322634642
+      SpriteSheetLinkNo BackgroundNoGreen_260: 3728964290173032927
+      SpriteSheetLinkNo BackgroundNoGreen_261: -6027345351244246411
+      SpriteSheetLinkNo BackgroundNoGreen_262: -8903264663020233533
+      SpriteSheetLinkNo BackgroundNoGreen_263: -7048331456603666384
+      SpriteSheetLinkNo BackgroundNoGreen_264: 6051821480943397077
+      SpriteSheetLinkNo BackgroundNoGreen_265: 4720757574881821883
+      SpriteSheetLinkNo BackgroundNoGreen_266: 7928913156532172557
+      SpriteSheetLinkNo BackgroundNoGreen_267: 8824911363021619322
+      SpriteSheetLinkNo BackgroundNoGreen_268: 2187070792706980952
+      SpriteSheetLinkNo BackgroundNoGreen_269: -8943696100300806764
+      SpriteSheetLinkNo BackgroundNoGreen_27: -4113720992927122811
+      SpriteSheetLinkNo BackgroundNoGreen_270: -7278394388470541375
+      SpriteSheetLinkNo BackgroundNoGreen_271: 1891407511152596536
+      SpriteSheetLinkNo BackgroundNoGreen_272: 5711302767521794255
+      SpriteSheetLinkNo BackgroundNoGreen_273: -6665063814957983846
+      SpriteSheetLinkNo BackgroundNoGreen_274: 2976001510469368145
+      SpriteSheetLinkNo BackgroundNoGreen_275: -7617401384334084376
+      SpriteSheetLinkNo BackgroundNoGreen_276: 5882446379358660522
+      SpriteSheetLinkNo BackgroundNoGreen_277: -753042487357440124
+      SpriteSheetLinkNo BackgroundNoGreen_278: -5273563904856857322
+      SpriteSheetLinkNo BackgroundNoGreen_279: 1861946779097270433
+      SpriteSheetLinkNo BackgroundNoGreen_28: 5573940435188503083
+      SpriteSheetLinkNo BackgroundNoGreen_280: -1419001994227884456
+      SpriteSheetLinkNo BackgroundNoGreen_281: 1836198128804455823
+      SpriteSheetLinkNo BackgroundNoGreen_282: 4215242352651172760
+      SpriteSheetLinkNo BackgroundNoGreen_283: 4105850054135282279
+      SpriteSheetLinkNo BackgroundNoGreen_284: -1359262941256488484
+      SpriteSheetLinkNo BackgroundNoGreen_285: -2045249883839835555
+      SpriteSheetLinkNo BackgroundNoGreen_286: 5591506233950429900
+      SpriteSheetLinkNo BackgroundNoGreen_287: -2708734929398035856
+      SpriteSheetLinkNo BackgroundNoGreen_288: -4983218874118373518
+      SpriteSheetLinkNo BackgroundNoGreen_289: -6010266319181138314
+      SpriteSheetLinkNo BackgroundNoGreen_29: -6144703176499656883
+      SpriteSheetLinkNo BackgroundNoGreen_290: 4062360494917852129
+      SpriteSheetLinkNo BackgroundNoGreen_291: -1278080847777316443
+      SpriteSheetLinkNo BackgroundNoGreen_292: -6553802367256105501
+      SpriteSheetLinkNo BackgroundNoGreen_293: 5674546195852792440
+      SpriteSheetLinkNo BackgroundNoGreen_294: 2387506653791593030
+      SpriteSheetLinkNo BackgroundNoGreen_295: 8429345222285228676
+      SpriteSheetLinkNo BackgroundNoGreen_296: 7859950921946765616
+      SpriteSheetLinkNo BackgroundNoGreen_297: -2595028831357018188
+      SpriteSheetLinkNo BackgroundNoGreen_3: 5926693021259645579
+      SpriteSheetLinkNo BackgroundNoGreen_30: 4980915892824845817
+      SpriteSheetLinkNo BackgroundNoGreen_31: 1906482050541205080
+      SpriteSheetLinkNo BackgroundNoGreen_32: 641143666990353933
+      SpriteSheetLinkNo BackgroundNoGreen_33: 5164867897491864519
+      SpriteSheetLinkNo BackgroundNoGreen_34: 7748262867221939815
+      SpriteSheetLinkNo BackgroundNoGreen_35: 8990131231362046081
+      SpriteSheetLinkNo BackgroundNoGreen_36: 882974127931745967
+      SpriteSheetLinkNo BackgroundNoGreen_37: -4496933615189695069
+      SpriteSheetLinkNo BackgroundNoGreen_38: -3892339099015152951
+      SpriteSheetLinkNo BackgroundNoGreen_39: 5989263530131660762
+      SpriteSheetLinkNo BackgroundNoGreen_4: -7407211323168044555
+      SpriteSheetLinkNo BackgroundNoGreen_40: -8327569496527343363
+      SpriteSheetLinkNo BackgroundNoGreen_41: 980398564198055078
+      SpriteSheetLinkNo BackgroundNoGreen_42: -6109787579682667413
+      SpriteSheetLinkNo BackgroundNoGreen_43: -1873352803857835138
+      SpriteSheetLinkNo BackgroundNoGreen_44: -7403272439955511887
+      SpriteSheetLinkNo BackgroundNoGreen_45: 1090367362906851320
+      SpriteSheetLinkNo BackgroundNoGreen_46: 4843735941350354131
+      SpriteSheetLinkNo BackgroundNoGreen_47: 4057763399346562408
+      SpriteSheetLinkNo BackgroundNoGreen_48: 6128751101723675007
+      SpriteSheetLinkNo BackgroundNoGreen_49: 6103029699292384374
+      SpriteSheetLinkNo BackgroundNoGreen_5: -3393133438543430655
+      SpriteSheetLinkNo BackgroundNoGreen_50: -3553016001441858050
+      SpriteSheetLinkNo BackgroundNoGreen_51: 2707612155032786938
+      SpriteSheetLinkNo BackgroundNoGreen_52: -8038775254912811811
+      SpriteSheetLinkNo BackgroundNoGreen_53: 8906322326821557067
+      SpriteSheetLinkNo BackgroundNoGreen_54: -6135103384206957328
+      SpriteSheetLinkNo BackgroundNoGreen_55: -8590341344785849343
+      SpriteSheetLinkNo BackgroundNoGreen_56: -1765093725162271624
+      SpriteSheetLinkNo BackgroundNoGreen_57: -6697742824335979257
+      SpriteSheetLinkNo BackgroundNoGreen_58: 2183026926907616720
+      SpriteSheetLinkNo BackgroundNoGreen_59: 9063322717292406845
+      SpriteSheetLinkNo BackgroundNoGreen_6: -5003240649784651077
+      SpriteSheetLinkNo BackgroundNoGreen_60: 2258873277850536589
+      SpriteSheetLinkNo BackgroundNoGreen_61: -6847540071047783798
+      SpriteSheetLinkNo BackgroundNoGreen_62: 2076351957787017332
+      SpriteSheetLinkNo BackgroundNoGreen_63: -2877007334829538987
+      SpriteSheetLinkNo BackgroundNoGreen_64: 8811560872105806564
+      SpriteSheetLinkNo BackgroundNoGreen_65: 8164358770190947233
+      SpriteSheetLinkNo BackgroundNoGreen_66: -8933097521531179474
+      SpriteSheetLinkNo BackgroundNoGreen_67: 2082631187158894749
+      SpriteSheetLinkNo BackgroundNoGreen_68: 8483496976814887483
+      SpriteSheetLinkNo BackgroundNoGreen_69: 4400313334859076402
+      SpriteSheetLinkNo BackgroundNoGreen_7: 6476169010569280117
+      SpriteSheetLinkNo BackgroundNoGreen_70: -8958709383009347507
+      SpriteSheetLinkNo BackgroundNoGreen_71: 5410896741748602868
+      SpriteSheetLinkNo BackgroundNoGreen_72: -5099968084173046182
+      SpriteSheetLinkNo BackgroundNoGreen_73: 261922566399934044
+      SpriteSheetLinkNo BackgroundNoGreen_74: -6202798026781889978
+      SpriteSheetLinkNo BackgroundNoGreen_75: -8585466535859789657
+      SpriteSheetLinkNo BackgroundNoGreen_76: 7267406505901334461
+      SpriteSheetLinkNo BackgroundNoGreen_77: -749773179567164548
+      SpriteSheetLinkNo BackgroundNoGreen_78: -1118399918484463946
+      SpriteSheetLinkNo BackgroundNoGreen_79: 7633095609170208039
+      SpriteSheetLinkNo BackgroundNoGreen_8: 6155923371905828197
+      SpriteSheetLinkNo BackgroundNoGreen_80: -4636240155180403087
+      SpriteSheetLinkNo BackgroundNoGreen_81: 6978205191568900342
+      SpriteSheetLinkNo BackgroundNoGreen_82: 3733072027040920967
+      SpriteSheetLinkNo BackgroundNoGreen_83: 2846683264938493853
+      SpriteSheetLinkNo BackgroundNoGreen_84: -6137842757165425739
+      SpriteSheetLinkNo BackgroundNoGreen_85: -8706643473602685880
+      SpriteSheetLinkNo BackgroundNoGreen_86: -7045063577444407412
+      SpriteSheetLinkNo BackgroundNoGreen_87: -5180143741257970954
+      SpriteSheetLinkNo BackgroundNoGreen_88: -3385087916701308116
+      SpriteSheetLinkNo BackgroundNoGreen_89: 334632206942094132
+      SpriteSheetLinkNo BackgroundNoGreen_9: 2932361652529127409
+      SpriteSheetLinkNo BackgroundNoGreen_90: 3395866423984647834
+      SpriteSheetLinkNo BackgroundNoGreen_91: -1691974570127747118
+      SpriteSheetLinkNo BackgroundNoGreen_92: -3383095650636269543
+      SpriteSheetLinkNo BackgroundNoGreen_93: 7994354628033135130
+      SpriteSheetLinkNo BackgroundNoGreen_94: 6177004853234778021
+      SpriteSheetLinkNo BackgroundNoGreen_95: 8720810828607643721
+      SpriteSheetLinkNo BackgroundNoGreen_96: -959521307848457563
+      SpriteSheetLinkNo BackgroundNoGreen_97: 4819350840515899868
+      SpriteSheetLinkNo BackgroundNoGreen_98: 8109329981751883565
+      SpriteSheetLinkNo BackgroundNoGreen_99: 5393715697293811510
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
