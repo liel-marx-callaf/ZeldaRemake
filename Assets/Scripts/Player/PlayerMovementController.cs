@@ -111,8 +111,15 @@ public class PlayerMovementController : MonoBehaviour
     }
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
-        // Vector2 moveInput = context.ReadValue<Vector2>();
-        _moveDirection = Vector2.zero;
-        _animator.speed = 0;
+        if (!IsAttacking)
+        {
+            // Vector2 moveInput = context.ReadValue<Vector2>();
+            _moveDirection = Vector2.zero;
+            _animator.speed = 0;
+        }
+        else
+        {
+            _moveDirection = Vector2.zero;
+        }
     }
 }
