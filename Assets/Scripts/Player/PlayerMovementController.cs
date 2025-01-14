@@ -19,7 +19,7 @@ public class PlayerMovementController : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
     
-    internal bool IsAttacking { get; set; }
+    internal bool IsAttacking {get; set;}
     
     private void Awake()
     {

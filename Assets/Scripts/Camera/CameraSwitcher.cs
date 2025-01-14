@@ -4,8 +4,8 @@ using Unity.Cinemachine;
 public class CameraSwitcher : MonoBehaviour
 {
     [SerializeField] private CinemachineCamera targetCamera;
-    [SerializeField] private SpriteRenderer targetSprite; // The sprite to match the camera size to
-    [SerializeField] private float cameraAspect = 1.77f; // Example aspect ratio (16:9)
+    // [SerializeField] private SpriteRenderer targetSprite; // The sprite to match the camera size to
+    // [SerializeField] private float cameraAspect = 1.77f; // Example aspect ratio (16:9)
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,23 +32,23 @@ public class CameraSwitcher : MonoBehaviour
         if (targetCamera != null)
         {
             targetCamera.Priority = 10; // Higher priority for the target camera
-            SetCameraSizeToSprite(targetCamera, targetSprite); // Set the camera size to match the sprite
+            // SetCameraSizeToSprite(targetCamera, targetSprite); // Set the camera size to match the sprite
         }
 
         if (Camera.main != null)
         {
-            Camera.main.aspect = cameraAspect; // Set the camera aspect ratio
+            // Camera.main.aspect = cameraAspect; // Set the camera aspect ratio
         }
     }
 
-    private void SetCameraSizeToSprite(CinemachineCamera targetCam, SpriteRenderer sprite)
-    {
-        if (sprite != null)
-        {
-            float spriteHeight = sprite.bounds.size.y;
-            float orthographicSize = spriteHeight / 2f;
-
-            targetCam.Lens.OrthographicSize = orthographicSize;
-        }
-    }
+    // private void SetCameraSizeToSprite(CinemachineCamera targetCam, SpriteRenderer sprite)
+    // {
+    //     if (sprite != null)
+    //     {
+    //         float spriteHeight = sprite.bounds.size.y;
+    //         float orthographicSize = spriteHeight / 2f;
+    //
+    //         targetCam.Lens.OrthographicSize = orthographicSize;
+    //     }
+    // }
 }
