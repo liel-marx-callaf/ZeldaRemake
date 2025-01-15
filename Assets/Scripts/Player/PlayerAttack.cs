@@ -68,26 +68,33 @@ public class PlayerAttack : MonoBehaviour
         Vector2 playerPos = transform.position;
         if (lastDir == Vector2.down)
         {
-            _hit = Physics2D.Raycast(_downRayOrigin + playerPos, Vector2.down, attackRange, enemyLayer);
-            Debug.DrawRay(_downRayOrigin+playerPos, Vector2.down*attackRange, Color.red, 2f);
+            _hit = Physics2D.BoxCast(_downRayOrigin + playerPos, Vector2.one*0.3f,  0, Vector2.down, attackRange, enemyLayer);
+            Debug.DrawLine(_downRayOrigin + playerPos, _downRayOrigin + playerPos + Vector2.down * attackRange, Color.red, 2f);
+            // Debug.DrawRay(_downRayOrigin+playerPos, Vector2.down*attackRange, Color.red, 2f);
             Debug.Log("Down");
         }
         else if (lastDir == Vector2.up)
         {
-            _hit = Physics2D.Raycast(_upRayOrigin + playerPos, Vector2.up, attackRange, enemyLayer);
-            Debug.DrawRay(_upRayOrigin+playerPos, Vector2.up*attackRange, Color.red, 2f);
+            _hit = Physics2D.BoxCast(_upRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.up, attackRange, enemyLayer);
+            // _hit = Physics2D.Raycast(_upRayOrigin + playerPos, Vector2.up, attackRange, enemyLayer);
+            Debug.DrawLine(_upRayOrigin + playerPos, _upRayOrigin + playerPos + Vector2.up * attackRange, Color.red, 2f);
+            // Debug.DrawRay(_upRayOrigin+playerPos, Vector2.up*attackRange, Color.red, 2f);
             Debug.Log("Up");
         }
         else if (lastDir == Vector2.left)
         {
-            _hit = Physics2D.Raycast(_leftRayOrigin+playerPos, Vector2.left, attackRange, enemyLayer);
-            Debug.DrawRay(_leftRayOrigin+playerPos, Vector2.left*attackRange, Color.red, 2f);
+            _hit = Physics2D.BoxCast(_leftRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.left, attackRange, enemyLayer);
+            // _hit = Physics2D.Raycast(_leftRayOrigin+playerPos, Vector2.left, attackRange, enemyLayer);
+            Debug.DrawLine(_leftRayOrigin + playerPos, _leftRayOrigin + playerPos + Vector2.left * attackRange, Color.red, 2f);
+            // Debug.DrawRay(_leftRayOrigin+playerPos, Vector2.left*attackRange, Color.red, 2f);
             Debug.Log("Left");
         }
         else if (lastDir == Vector2.right)
         {
-            _hit = Physics2D.Raycast(_rightRayOrigin+playerPos, Vector2.right, attackRange, enemyLayer);
-            Debug.DrawRay(_rightRayOrigin+playerPos, Vector2.right*attackRange, Color.red, 2f);
+            _hit = Physics2D.BoxCast(_rightRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.right, attackRange, enemyLayer);
+            // _hit = Physics2D.Raycast(_rightRayOrigin+playerPos, Vector2.right, attackRange, enemyLayer);
+            Debug.DrawLine(_rightRayOrigin + playerPos, _rightRayOrigin + playerPos + Vector2.right * attackRange, Color.red, 2f);
+            // Debug.DrawRay(_rightRayOrigin+playerPos, Vector2.right*attackRange, Color.red, 2f);
             Debug.Log("Right");
         }
 
