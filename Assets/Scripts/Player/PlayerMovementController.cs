@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,12 +19,15 @@ public class PlayerMovementController : MonoBehaviour
     private Animator _animator;
     
     internal bool IsAttacking {get; set;}
+    public Vector2 LastFacingDirection {get; private set;}
+    
     
     private void Awake()
     {
         _inputPlayerActions = new InputPlayerActions();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+        LastFacingDirection = Vector2.down;
     }
     
     private void OnEnable()
@@ -81,6 +83,7 @@ public class PlayerMovementController : MonoBehaviour
             _spriteRenderer.flipX = false;
             _animator.SetTrigger(MoveUp);
             _animator.speed = 1;
+            LastFacingDirection = _moveDirection;
         }
         else if (moveInput.y < 0)
         {
@@ -88,6 +91,7 @@ public class PlayerMovementController : MonoBehaviour
             _spriteRenderer.flipX = false;
             _animator.SetTrigger(MoveDown);
             _animator.speed = 1;
+            LastFacingDirection = _moveDirection;
         }
         else if (moveInput.x > 0)
         {
@@ -95,6 +99,7 @@ public class PlayerMovementController : MonoBehaviour
             _spriteRenderer.flipX = false;
             _animator.SetTrigger(MoveHorizontal);
             _animator.speed = 1;
+            LastFacingDirection = _moveDirection;
         }
         else if (moveInput.x < 0)
         {
@@ -102,6 +107,7 @@ public class PlayerMovementController : MonoBehaviour
             _spriteRenderer.flipX = true;
             _animator.SetTrigger(MoveHorizontal);
             _animator.speed = 1;
+            LastFacingDirection = _moveDirection;
         }
         else
         {
@@ -122,4 +128,5 @@ public class PlayerMovementController : MonoBehaviour
             _moveDirection = Vector2.zero;
         }
     }
+    // public
 }

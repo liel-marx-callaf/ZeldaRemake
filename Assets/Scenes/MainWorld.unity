@@ -17899,10 +17899,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.055555556
-    y: 0.3439716
-    width: 0.8888889
-    height: 0.31205672
+    x: 0.12987013
+    y: 0.18794325
+    width: 0.73881674
+    height: 0.62411344
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
@@ -19122,6 +19122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 002660477f500cf4496961656b787d2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackRange: 0.75
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1868268281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19220,6 +19224,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2671042887763762403, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
+      propertyPath: m_LinearDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6378767122176547392, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_Name
       value: Link
