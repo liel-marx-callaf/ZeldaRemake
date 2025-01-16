@@ -4,6 +4,7 @@ using Unity.Cinemachine;
 public class CameraSwitcher : MonoBehaviour
 {
     [SerializeField] private CinemachineCamera targetCamera;
+    
     // [SerializeField] private SpriteRenderer targetSprite; // The sprite to match the camera size to
     // [SerializeField] private float cameraAspect = 1.77f; // Example aspect ratio (16:9)
 

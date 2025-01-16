@@ -332,6 +332,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SpriteSmoke1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e6f5af89812a4697b623ae3f642f2
+      internalID: 685804593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSmoke2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d7f16966179d847b3aead733eeac2b
+      internalID: -1743104804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSmoke3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caed152f7d8fe19438802e88532d587c
+      internalID: 1704516169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteBomb
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 109
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371963f4df8e6924aaec93af4be2b06f
+      internalID: -574257444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -352,10 +440,14 @@ TextureImporter:
       LinkMovementHorizontalR1: -310652898
       LinkMovmentForward0: -6160091232409139698
       LinkMovmentForward1: 1720449039
+      SpriteBomb: -574257444
       SpriteSheetLink_0: 431161302
       SpriteSheetLink_1: 847920217
       SpriteSheetLink_2: -1768033161
       SpriteSheetLink_3: 1760995580
+      SpriteSmoke1: 685804593
+      SpriteSmoke2: -1743104804
+      SpriteSmoke3: 1704516169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
