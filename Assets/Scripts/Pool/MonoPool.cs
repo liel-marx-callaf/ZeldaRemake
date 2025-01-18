@@ -1,5 +1,3 @@
-// Purpose: Generic pool for MonoBehaviours.
-
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +9,7 @@ namespace Pool
         [SerializeField] private T prefab;
         [SerializeField] private Transform parent;
         private Stack<T> _available;
+        private string _poolName;
 
         private void Awake()
         {
@@ -18,17 +17,29 @@ namespace Pool
             AddItemsToPool();
         }
 
+        public void Initialize(GameObject prefabObject, int size, Transform parentTransform)
+        {
+            this.prefab = prefabObject.GetComponent<T>();
+            _poolName = prefabObject.name;
+            this.initialSize = size;
+            this.parent = parentTransform;
+
+            _available = new Stack<T>();
+            AddItemsToPool();
+        }
+        public string GetPoolName()
+        {
+            return _poolName;
+        }
 
         public T Get()
         {
             if (_available.Count == 0)
                 AddItemsToPool();
-        
+
             var obj = _available.Pop();
             obj.gameObject.SetActive(true);
-        
             obj.Reset();
-        
             return obj;
         }
 

@@ -61,7 +61,7 @@ public class CheatManager : MonoSingleton<CheatManager>
     {
         if (_isAltPressed && _is1Pressed)
         {
-            Debug.Log("Cheat activated: Reset Camera position");
+            MyEvents.ClearAllEnemies?.Invoke();
         }
 
         if (_isEscapePressed)

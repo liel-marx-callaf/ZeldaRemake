@@ -199,44 +199,70 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
   m_PrefabInstance: {fileID: 5844559342623888363}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &40045991
-Animator:
-  serializedVersion: 7
+--- !u!60 &40045995
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40045990}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d0114e98361049944b4b8e3b871c81b3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!111 &40045992
-Animation:
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.5, y: -0.5}
+      - {x: 0.5, y: -0.5}
+      - {x: 0.5, y: 0.5}
+      - {x: -0.5, y: 0.5}
+  m_UseDelaunayMesh: 0
+--- !u!114 &40045996
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40045990}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fa32d9ff30dc6489f8d52b3c01755e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialHealth: 2
 --- !u!1 &150243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -26424,12 +26450,12 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.20099875
+    y: 0.111310594
     width: 1
-    height: 0.5986657
+    height: 0.77760327
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 39
+  field of view: 60
   orthographic: 1
   orthographic size: 8.25
   m_Depth: 20
@@ -26456,7 +26482,7 @@ Transform:
   m_GameObject: {fileID: 1465800116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: -10}
+  m_LocalPosition: {x: -16, y: 2.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26762,7 +26788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 0
+    m_Value: 5
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -27495,17 +27521,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 436764461594802259, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 6378767122176547392, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_Name
       value: Link
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.35
+      value: -13.06
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.37
+      value: -1.24
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27552,6 +27582,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3945410844880562056, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       propertyPath: m_Name
       value: Tektite
@@ -27602,10 +27636,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 40045992}
+      addedObject: {fileID: 40045995}
     - targetCorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 40045991}
+      addedObject: {fileID: 40045996}
   m_SourcePrefab: {fileID: 100100000, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

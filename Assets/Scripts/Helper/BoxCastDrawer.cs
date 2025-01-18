@@ -112,10 +112,10 @@ namespace Helper
 
         private static void DrawBox(Vector2[] box, Color color)
         {
-            Debug.DrawLine(box[0], box[1], color);
-            Debug.DrawLine(box[1], box[2], color);
-            Debug.DrawLine(box[2], box[3], color);
-            Debug.DrawLine(box[3], box[0], color);
+            Debug.DrawLine(box[0], box[1], color, 2f);
+            Debug.DrawLine(box[1], box[2], color, 2f);
+            Debug.DrawLine(box[2], box[3], color, 2f);
+            Debug.DrawLine(box[3], box[0], color, 2f);
         }
 
         private static void ConnectBoxes(Vector2[] firstBox, Vector2[] secondBox, Color color)

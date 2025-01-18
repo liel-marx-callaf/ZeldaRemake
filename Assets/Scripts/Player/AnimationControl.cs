@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationControl : MonoBehaviour
+public class AnimationControl : MonoBehaviour
 {
     private Animator _animator;
     private Dictionary<string, int> _animatorParameters;
