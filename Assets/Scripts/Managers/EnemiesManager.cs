@@ -27,15 +27,15 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     }
 
     [SerializeField] private Area[] areas;
-    private EnemyPool _enemyPool;
+    // private EnemyPool _enemyPool;
 
-    private void Awake()
+    private void Start()
     {
         foreach (var area in areas)
         {
             foreach (var enemyType in area.enemyTypes)
             {
-                _enemyPool.Initialize(enemyType.prefab, enemyType.spawnAmount, transform);
+                EnemyPool.Instance.Initialize(enemyType.prefab, enemyType.spawnAmount, EnemyPool.Instance.transform);
             }
         }
     }

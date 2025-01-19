@@ -225,6 +225,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1465800119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &40045990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
+  m_PrefabInstance: {fileID: 5844559342623888363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40046002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40045990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef153731b74468c40b1d910432ed5e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topLeftBorder: {x: -23, y: 5}
+  bottomRightBorder: {x: -9, y: -5}
+  maxJumpInterval: 0.5
+  jumpRange: 2
+--- !u!50 &40046003
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40045990}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &150243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -26473,10 +26521,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.13644524
-    width: 1
-    height: 0.72761446
+    x: 0.07716049
+    y: 0
+    width: 0.84549195
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -27197,6 +27245,37 @@ MonoBehaviour:
     - enemyName: Tektite
       prefab: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       spawnAmount: 5
+  - areaName: Area 3
+    areaIndex: 3
+    areaCameraPosition: {x: -16, y: -8.5}
+    enemyTypes: []
+  - areaName: Area 4
+    areaIndex: 4
+    areaCameraPosition: {x: -16, y: 2.5}
+    enemyTypes:
+    - enemyName: Tektite
+      prefab: {fileID: 40045990}
+      spawnAmount: 5
+  - areaName: Area 5
+    areaIndex: 5
+    areaCameraPosition: {x: -32, y: 2.5}
+    enemyTypes: []
+  - areaName: Area 6
+    areaIndex: 6
+    areaCameraPosition: {x: -32, y: -8.5}
+    enemyTypes: []
+  - areaName: Area 7
+    areaIndex: 7
+    areaCameraPosition: {x: -48, y: -8.5}
+    enemyTypes: []
+  - areaName: Area 8
+    areaIndex: 8
+    areaCameraPosition: {x: -63, y: -8.5}
+    enemyTypes: []
+  - areaName: Area 9
+    areaIndex: 9
+    areaCameraPosition: {x: -63, y: 2.51}
+    enemyTypes: []
 --- !u!4 &1665044757
 Transform:
   m_ObjectHideFlags: 0
@@ -27665,7 +27744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fbc682943c75049b23a3158344b818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSize: 10
+  initialSize: 1
   prefab: {fileID: 429306794505344112, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
   parent: {fileID: 2120321850}
 --- !u!4 &2120321850
@@ -27766,7 +27845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.6603317
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27799,7 +27878,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 40046003}
+    - targetCorrespondingSourceObject: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 40046002}
   m_SourcePrefab: {fileID: 100100000, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
