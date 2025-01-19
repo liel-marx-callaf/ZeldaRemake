@@ -244,8 +244,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topLeftBorder: {x: -23, y: 5}
   bottomRightBorder: {x: -9, y: -5}
+  maxWaitBeforeSpawn: 2.5
   maxJumpInterval: 0.5
-  jumpRange: 2
+  maxLoadDuration: 3
+  jumpRange: 5
 --- !u!50 &40046003
 Rigidbody2D:
   serializedVersion: 5
@@ -258,7 +260,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -26521,10 +26523,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.07716049
-    y: 0
-    width: 0.84549195
-    height: 1
+    x: 0
+    y: 0.111310594
+    width: 1
+    height: 0.77760327
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -27015,7 +27017,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 64}
+  m_AnchoredPosition: {x: 0, y: 63.999985}
   m_SizeDelta: {x: 248, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1606766627
@@ -27726,7 +27728,7 @@ GameObject:
   - component: {fileID: 2120321850}
   - component: {fileID: 2120321849}
   m_Layer: 0
-  m_Name: EnemyPool
+  m_Name: TektitePool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27744,7 +27746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fbc682943c75049b23a3158344b818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSize: 1
+  initialSize: 5
   prefab: {fileID: 429306794505344112, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
   parent: {fileID: 2120321850}
 --- !u!4 &2120321850

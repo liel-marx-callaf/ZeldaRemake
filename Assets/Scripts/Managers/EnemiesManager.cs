@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Pool;
+using Random = UnityEngine.Random;
 
 public class EnemiesManager : MonoSingleton<EnemiesManager>
 {
@@ -27,16 +28,5 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     }
 
     [SerializeField] private Area[] areas;
-    // private EnemyPool _enemyPool;
-
-    private void Start()
-    {
-        foreach (var area in areas)
-        {
-            foreach (var enemyType in area.enemyTypes)
-            {
-                EnemyPool.Instance.Initialize(enemyType.prefab, enemyType.spawnAmount, EnemyPool.Instance.transform);
-            }
-        }
-    }
+    
 }
