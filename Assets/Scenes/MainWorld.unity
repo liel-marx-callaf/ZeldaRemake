@@ -248,7 +248,7 @@ MonoBehaviour:
   maxJumpInterval: 0.5
   maxLoadDuration: 3
   jumpRange: 5
-  jumpDuration: 1
+  jumpDuration: 0.51
 --- !u!50 &40046003
 Rigidbody2D:
   serializedVersion: 5
@@ -261,11 +261,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 426f5b4c27ac7a94bbcc2dd25b8e6629, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -26524,9 +26524,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.021238938
+    x: 0.034423407
     y: 0
-    width: 0.9559668
+    width: 0.92964065
     height: 1
   near clip plane: 0.3
   far clip plane: 1000

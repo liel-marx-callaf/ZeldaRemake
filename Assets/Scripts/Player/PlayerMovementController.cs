@@ -33,7 +33,7 @@ public class PlayerMovementController : MonoBehaviour
     private void OnEnable()
     {
         _rb = GetComponent<Rigidbody2D>();
-        
+        _animator.speed = 0;
         _moveAction = _inputPlayerActions.Player.Move;
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
