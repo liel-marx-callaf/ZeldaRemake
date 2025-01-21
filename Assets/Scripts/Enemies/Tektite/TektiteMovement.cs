@@ -15,6 +15,7 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     [SerializeField, Range(0f, 30f)] private float maxWaitBeforeSpawn = 9f;
     [SerializeField, Range(0f, 30f)] private float maxJumpInterval = 10f;
     [SerializeField, Range(0f, 5f)] private float maxLoadDuration = 3f;
+    [SerializeField, Range(0f, 5f)] private float maxIdleDuration = 3f;
     [SerializeField, Range(1f, 12f)] private float jumpRange = 5f;
     [SerializeField, Range(0.01f, 5f)] private float jumpDuration = 1f;
     private Vector3 _initialPosition;
@@ -30,6 +31,7 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     private float _jumpRangeX;
     private float _jumpRangeY;
     private float _elapsedTimeFromLastJump;
+    private float _jumpDuration;
 
 
     private void OnEnable()
@@ -54,31 +56,76 @@ public class TektiteMovement : MonoBehaviour, IPoolable
             float waitTime = Random.Range(0f, maxJumpInterval);
             while (waitTime > 0)
             {
-                Debug.Log(_elapsedTimeFromLastJump);
-                // waitTime -= Time.deltaTime;
-                // elapsedTimeFromLastJump += Time.deltaTime;
-                _animator.SetTrigger(Load);
+                // if (_elapsedTimeFromLastJump >= maxJumpInterval)
+                // {
+                //     _elapsedTimeFromLastJump = 0;
+                //     Jump();
+                //     yield return null;
+                // }
+                // Debug.Log(_elapsedTimeFromLastJump);
+                waitTime -= Time.deltaTime;
+                _elapsedTimeFromLastJump += Time.deltaTime;
+                if (!IsInAnimationState("TektiteLoad"))
+                {
+                    _animator.SetTrigger(Load);
+                    // float loadTime = Random.Range(0, maxLoadDuration);
+                    // waitTime -= loadTime;
+                    // _elapsedTimeFromLastJump += loadTime;
+                    // yield return new WaitForSeconds(loadTime);
+                }
                 float loadTime = Random.Range(0, maxLoadDuration);
                 waitTime -= loadTime;
                 _elapsedTimeFromLastJump += loadTime;
                 yield return new WaitForSeconds(loadTime);
-            }
+                
+                if (Random.value < 0.2f)
+                {
+                    if (!IsInAnimationState("TektiteIdle"))
+                    {
+                        _animator.SetTrigger(Idle);
+                    }
+                    float idleTime = Random.Range(0, maxIdleDuration);
+                    waitTime -= idleTime;
+                    _elapsedTimeFromLastJump += idleTime;
+                    yield return new WaitForSeconds(idleTime);
+                }
 
-            // elapsedTimeFromLastJump += ;
-            if (_elapsedTimeFromLastJump >= maxJumpInterval)
-            {
-                _elapsedTimeFromLastJump = 0;
-                Jump();
+                // if (Random.value < 0.5f)
+                // {
+                //     _elapsedTimeFromLastJump = 0;
+                //     waitTime = 0;
+                //     Jump();
+                // }
+                
+                if (_elapsedTimeFromLastJump >= maxJumpInterval)
+                {
+                    _elapsedTimeFromLastJump = 0;
+                    waitTime = 0;
+                    Jump();
+                    // yield return null;
+                }
+                if (_elapsedTimeFromLastJump >= maxJumpInterval)
+                {
+                    _elapsedTimeFromLastJump = 0;
+                    // waitTime = 0;
+                    Jump();
+                    // yield return null;
+                }   
             }
-
             yield return null;
         }
     }
 
     private void Jump()
     {
+        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        string currentStateName = _animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        Debug.Log("Jumping and the state is: " + currentStateName);
+        // _animator.ResetTrigger(Load);
+        _animator.SetTrigger(Jump1);
         if(_isJumping) return;
-        _animator.ResetTrigger(Load);
+        // _animator.ResetTrigger(Load);
+        _animator.SetTrigger(Jump1);
         _isJumping = true;
         while (Mathf.Abs(_jumpRangeX) < 1) _jumpRangeX = Random.Range(-jumpRange, jumpRange);
         while (Mathf.Abs(_jumpRangeY) < 1) _jumpRangeY = Random.Range(-jumpRange, jumpRange);
@@ -95,18 +142,18 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     private IEnumerator JumpCoroutine()
 {
     float distance = Vector3.Distance(_currentPosition, new Vector3(_xDestination, _yDestination, 0));
-    float adjustedJumpDuration = distance / Mathf.Sqrt(_jumpRangeX * _jumpRangeX + _jumpRangeY * _jumpRangeY) * jumpDuration;
+    _jumpDuration = distance / Mathf.Sqrt(_jumpRangeX * _jumpRangeX + _jumpRangeY * _jumpRangeY) * jumpDuration;
     Vector2 jumpDirection = new Vector2(_xDestination - _currentPosition.x, _yDestination - _currentPosition.y).normalized;
-    float jumpForce = distance / adjustedJumpDuration * _rb.mass;
+    float jumpForce = distance / _jumpDuration * _rb.mass;
 
-    yield return new WaitForSeconds(Random.Range(0f, maxJumpInterval));
-    _animator.SetTrigger(Jump1);
+    // yield return new WaitForSeconds(Random.Range(0f, maxJumpInterval));
+    // _animator.SetTrigger(Jump1);
 
-    _rb.gravityScale = 1;
+    _rb.gravityScale = 2;
     _rb.AddForce(jumpDirection * jumpForce, ForceMode2D.Impulse);
 
     float elapsedTime = 0;
-    while (elapsedTime < adjustedJumpDuration)
+    while (elapsedTime < _jumpDuration)
     {
         elapsedTime += Time.deltaTime;
         yield return null;
@@ -168,7 +215,12 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     //     _animator.SetTrigger(Load);
     //     yield return new WaitForSeconds(Random.Range(0, maxLoadDuration));
     // }
-
+    
+    private bool IsInAnimationState(string stateName)
+    {
+        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsName(stateName);
+    }
     public void SetTopLeftBorder(Vector2 newTopLeftBorder)
     {
         _topLeftBorder = newTopLeftBorder;

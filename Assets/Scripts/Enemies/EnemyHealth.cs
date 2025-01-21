@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
         MyEvents.ClearAllEnemies -= Die;
     }
 
-    public void Die()
+    private void Die()
     {
         _animator.SetTrigger(Death);
     }

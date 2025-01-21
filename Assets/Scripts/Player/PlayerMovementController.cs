@@ -38,6 +38,7 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
         _moveAction.canceled += OnMoveCanceled;
+        MyEvents.PlayerPushback += Pushback;
     }
 
 
@@ -46,6 +47,7 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.performed -= OnMovePerformed;
         _moveAction.canceled -= OnMoveCanceled;
         _moveAction.Disable();
+        MyEvents.PlayerPushback -= Pushback;
     }
 
     private void FixedUpdate()
@@ -128,5 +130,8 @@ public class PlayerMovementController : MonoBehaviour
             _moveDirection = Vector2.zero;
         }
     }
-    // public
+    private void Pushback(Vector2 direction, float force)
+    {
+        _rb.AddForce(direction * force, ForceMode2D.Impulse);
+    }
 }

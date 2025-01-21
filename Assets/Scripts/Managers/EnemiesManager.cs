@@ -71,8 +71,9 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     {
         var spawnPosition = new Vector3(UnityEngine.Random.Range(topLeftOffset.x, bottomRightOffset.x),
             UnityEngine.Random.Range(topLeftOffset.y, bottomRightOffset.y), 0);
-        yield return new WaitForSeconds(spawnDelay);
+        // yield return new WaitForSeconds(spawnDelay);
         var enemyObj = tektitePool.Get();
         enemyObj.transform.position = spawnPosition;
+        yield return null;
     }
 }
