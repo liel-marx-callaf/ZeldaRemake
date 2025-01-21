@@ -19,6 +19,7 @@ public class TektiteMovement : MonoBehaviour , IPoolable
     [SerializeField, Range(0f, 30f)] private float maxJumpInterval = 10f;
     [SerializeField, Range(0f, 5f)] private float maxLoadDuration = 3f;
     [SerializeField, Range(1f, 12f)] private float jumpRange = 5f;
+    [SerializeField, Range(1f, 5f)] private float jumpDuration = 2f;
     private Vector3 _initialPosition;
     private Vector2 _topLeftBorder;
     private Vector2 _bottomRightBorder;
@@ -28,6 +29,8 @@ public class TektiteMovement : MonoBehaviour , IPoolable
     private Animator _animator;
     private bool _isDead = false;
     private float _jumpRange;
+    private float elapsedTimeFromLastJump = 0;
+
     
     private void OnEnable()
     {
@@ -35,6 +38,8 @@ public class TektiteMovement : MonoBehaviour , IPoolable
         _rb = GetComponent<Rigidbody2D>();
         _initialPosition = transform.position;
         _animator.speed = 0;
+        _topLeftBorder = topLeftBorder;
+        _bottomRightBorder = bottomRightBorder;
         StartCoroutine(MovementCoroutine());
     }
 
@@ -42,12 +47,31 @@ public class TektiteMovement : MonoBehaviour , IPoolable
     {
         yield return new WaitForSeconds(Random.Range(0f, maxWaitBeforeSpawn));
         _animator.speed = 1;
-        float elapsedTimeFromLastJump = 0;
+        // float elapsedTimeFromLastJump = 0;
         while (!_isDead)
         {
             
-            Jump();
-            _isDead = true;
+            float waitTime = Random.Range(jumpDuration, maxJumpInterval);
+            while (waitTime > 0)
+            {
+                Debug.Log(elapsedTimeFromLastJump);
+                // waitTime -= Time.deltaTime;
+                // elapsedTimeFromLastJump += Time.deltaTime;
+                _animator.SetTrigger(Load);
+                float loadTime = Random.Range(0, maxLoadDuration);
+                waitTime -= loadTime;
+                elapsedTimeFromLastJump += loadTime;
+                yield return new WaitForSeconds(loadTime);
+            }
+
+            // elapsedTimeFromLastJump += ;
+                if (elapsedTimeFromLastJump >= maxJumpInterval)
+                {
+                    elapsedTimeFromLastJump = 0;
+                    Jump();
+                }
+                yield return null;
+            
         }
     }
 
@@ -61,26 +85,48 @@ public class TektiteMovement : MonoBehaviour , IPoolable
         _xDestination = Mathf.Clamp(_xDestination, _topLeftBorder.x, _bottomRightBorder.x);
         _yDestination = Mathf.Clamp(_yDestination, _bottomRightBorder.y, _topLeftBorder.y);
         StartCoroutine(JumpCoroutine());
+        _jumpRange = 0;
     }
 
+    
     private IEnumerator JumpCoroutine()
-    {
-        float waitTime = Random.Range(0f, maxJumpInterval);
-        yield return new WaitForSeconds(waitTime);
-        _animator.SetTrigger(Jump1);
+{
+    float distance = Vector3.Distance(_initialPosition, new Vector3(_xDestination, _yDestination, 0));
+    float adjustedJumpDuration = distance / jumpRange * jumpDuration; // Adjust jump duration based on distance
 
-        float elapsedTime = 0;
-        while (elapsedTime < maxJumpInterval)
-        {
-            elapsedTime += Time.deltaTime;
-            transform.position = Vector3.Slerp(_initialPosition, new Vector3(_xDestination, _yDestination, 0), elapsedTime / _jumpRange);
-            yield return null;
-        }
-        _animator.SetTrigger(Idle);
-        _animator.SetTrigger(Load);
-        
-        _initialPosition = transform.position;
+    yield return new WaitForSeconds(Random.Range(0f, maxJumpInterval));
+    _animator.SetTrigger(Jump1);
+
+    float elapsedTime = 0;
+    while (elapsedTime < adjustedJumpDuration)
+    {
+        elapsedTime += Time.deltaTime;
+        transform.position = Vector3.Slerp(_initialPosition, new Vector3(_xDestination, _yDestination, 0), elapsedTime / adjustedJumpDuration);
+        yield return null;
     }
+    _animator.SetTrigger(Idle);
+    _animator.SetTrigger(Load);
+
+    _initialPosition = transform.position;
+}
+    // private IEnumerator JumpCoroutine()
+    // {
+    //     float waitTime = Random.Range(0f, maxJumpInterval);
+    //     yield return new WaitForSeconds(waitTime);
+    //     _animator.SetTrigger(Jump1);
+    //
+    //     float elapsedTime = 0;
+    //     while (elapsedTime < jumpDuration)
+    //     {
+    //         elapsedTime += Time.deltaTime;
+    //         transform.position = Vector3.Slerp(_initialPosition, new Vector3(_xDestination, _yDestination, 0), elapsedTime / jumpDuration);
+    //         yield return null;
+    //     }
+    //     _animator.SetTrigger(Idle);
+    //     _animator.SetTrigger(Load);
+    //     
+    //     _initialPosition = transform.position;
+    // }
 
     private IEnumerator FakeLoadCoroutine()
     {

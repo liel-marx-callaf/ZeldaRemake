@@ -248,6 +248,7 @@ MonoBehaviour:
   maxJumpInterval: 0.5
   maxLoadDuration: 3
   jumpRange: 5
+  jumpDuration: 1
 --- !u!50 &40046003
 Rigidbody2D:
   serializedVersion: 5
@@ -26523,10 +26524,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.111310594
-    width: 1
-    height: 0.77760327
+    x: 0.021238938
+    y: 0
+    width: 0.9559668
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -27017,7 +27018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 63.999985}
+  m_AnchoredPosition: {x: 0, y: 64}
   m_SizeDelta: {x: 248, y: 64}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1606766627
@@ -27227,6 +27228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed6543942864c46b4881b327131450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tektitePool: {fileID: 0}
   topLeftOffset:
     x: -7
     y: 2.5
@@ -27244,8 +27246,7 @@ MonoBehaviour:
     areaIndex: 2
     areaCameraPosition: {x: 0, y: -8.5}
     enemyTypes:
-    - enemyName: Tektite
-      prefab: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
+    - enemyType: 0
       spawnAmount: 5
   - areaName: Area 3
     areaIndex: 3
@@ -27255,8 +27256,7 @@ MonoBehaviour:
     areaIndex: 4
     areaCameraPosition: {x: -16, y: 2.5}
     enemyTypes:
-    - enemyName: Tektite
-      prefab: {fileID: 40045990}
+    - enemyType: 0
       spawnAmount: 5
   - areaName: Area 5
     areaIndex: 5

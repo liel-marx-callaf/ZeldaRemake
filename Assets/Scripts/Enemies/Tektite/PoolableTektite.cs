@@ -16,4 +16,9 @@ public class PoolableTektite: MonoBehaviour , IPoolable
         _tektiteHealth.Reset();
         _tektiteMovement.Reset();
     }
+    
+    private void ReturnToPool()
+    {
+        TektitePool.Instance.Return(this);
+    }
 }
