@@ -116,12 +116,12 @@ TextureImporter:
       name: SpriteSheetLinkRedNoBackground_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 371
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkRedNoBackground_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d9a664c38b0442b8e556696bf45c2
+      internalID: -1816816855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkRedNoBackground_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4960b55b240ce944b59976c1a8d066b
+      internalID: 66732680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkRedNoBackground_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e78e5333ee99a4f9d6c1ab87a30917
+      internalID: -8523649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkRedNoBackground_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e06f806b1af84b823505182d96535
+      internalID: -433681352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkRedNoBackground_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d727927471d01b42a4df7bc6512f612
+      internalID: -208300579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e77e3df79ade88479e91b18a3ea45ca
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +259,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       SpriteSheetLinkRedNoBackground_0: -1835787157397328134
+      SpriteSheetLinkRedNoBackground_1: -1816816855
+      SpriteSheetLinkRedNoBackground_2: 66732680
+      SpriteSheetLinkRedNoBackground_3: -8523649
+      SpriteSheetLinkRedNoBackground_4: -433681352
+      SpriteSheetLinkRedNoBackground_5: -208300579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

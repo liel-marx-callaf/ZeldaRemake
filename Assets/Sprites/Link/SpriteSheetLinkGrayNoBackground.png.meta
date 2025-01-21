@@ -116,12 +116,12 @@ TextureImporter:
       name: SpriteSheetLinkGrayNoBackground_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 371
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkGrayNoBackground_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a747660fa846cb4aaaf84c4af767164
+      internalID: -1650101376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkGrayNoBackground_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4024dd061c0849499eaa3db9bd2363b
+      internalID: -379888256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkGrayNoBackground_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b136496225410a941aa338732315697f
+      internalID: -1880604326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkGrayNoBackground_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb11a5ad006d6e44afed2a4d85f7af7
+      internalID: -1155368857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLinkGrayNoBackground_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db02ebde3abefdb4a83a71b1f00b4e29
+      internalID: -1760861801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a7693211919f87c49b3c9c475a7ff1a0
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +259,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       SpriteSheetLinkGrayNoBackground_0: 6092421392165110527
+      SpriteSheetLinkGrayNoBackground_1: -1650101376
+      SpriteSheetLinkGrayNoBackground_2: -379888256
+      SpriteSheetLinkGrayNoBackground_3: -1880604326
+      SpriteSheetLinkGrayNoBackground_4: -1155368857
+      SpriteSheetLinkGrayNoBackground_5: -1760861801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
