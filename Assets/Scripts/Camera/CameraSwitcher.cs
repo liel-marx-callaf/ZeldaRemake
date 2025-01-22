@@ -7,19 +7,14 @@ public class CameraSwitcher : MonoBehaviour
 {
     [SerializeField] private CinemachineCamera currentCamera;
     [SerializeField] private CinemachineCamera targetCamera;
-    // [SerializeField] private CinemachineCamera currentCamera;
     [SerializeField] private int currentIndex;
     [SerializeField] private int targetIndex;
-    // [SerializeField] private int currentIndex;
-    // [SerializeField] private CinemachineCamera[] cameras;
     
-    // private Collider2D _collider;
     private float _transitionDuration;
     private bool _areaSwitching = false;
 
     private void Start()
     {
-        // _collider = GetComponent<Collider2D>();
         _transitionDuration = Camera.main.GetComponent<CinemachineBrain>().DefaultBlend.Time;
     }
 
@@ -57,7 +52,7 @@ public class CameraSwitcher : MonoBehaviour
         currentCamera.Priority = 0; // Lower priority for the current camera
         if (targetCamera != null)
         {
-            targetCamera.Priority = 10; // Higher priority for the target camera}
+            targetCamera.Priority = 10; // Higher priority for the target camera
         }
         
         MyEvents.AreaSwitch?.Invoke(targetIndex, currentIndex);
