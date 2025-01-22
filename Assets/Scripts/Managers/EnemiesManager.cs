@@ -29,9 +29,10 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         [SerializeField] public Vector2 areaCameraPosition;
         [SerializeField] public EnemyType[] enemyTypes;
     }
-
-    [SerializeField] private Area[] areas;
+    
     [SerializeField] private int startingAreaIndex;
+    [SerializeField] private Area[] areas;
+    
     
     private CinemachineBrain _cinemachineBrain;
     private int _currentAreaIndex;
