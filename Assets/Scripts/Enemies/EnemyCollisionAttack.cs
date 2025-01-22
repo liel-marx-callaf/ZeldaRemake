@@ -4,24 +4,34 @@ using UnityEngine;
 public class EnemyCollisionAttack : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
-    // [SerializeField] private float pushBackForce = 5f;
+    [SerializeField] private float pushbackForce = 10f;
 
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.collider.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             // MyEvents.PlayerHit?.Invoke(damage);
             // Apply pushback force to the player's Rigidbody2D
-            Rigidbody2D playerRb = other.collider.GetComponent<Rigidbody2D>();
+            Rigidbody2D playerRb = other.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
-                // Debug.Log("found player rb");
-                // Vector2 pushDirection = (other.transform.position - transform.position).normalized;
+                Debug.Log("found player rb");
+                Vector2 direction = (other.transform.position - transform.position).normalized;
                 MyEvents.PlayerHit?.Invoke(damage);
-                // MyEvents.PlayerPushback?.Invoke(pushDirection ,pushBackForce);
-                // playerRb.AddForce(pushDirection * pushBackForce, ForceMode2D.Impulse);
+                Vector2 pushDirection = GetCardinalDirection(direction);
+                // MyEvents.PlayerPushback?.Invoke(pushbackForce);
+                playerRb.AddForce(pushDirection * pushbackForce, ForceMode2D.Impulse);
             }
         }
+    }
+    private Vector2 GetCardinalDirection(Vector2 direction)
+    {
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            return direction.x > 0 ? Vector2.right : Vector2.left;
+        }
+        return direction.y > 0 ? Vector2.up : Vector2.down;
+        
     }
 }

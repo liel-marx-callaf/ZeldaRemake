@@ -1,16 +1,17 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// todo: 4) public pushback function
-// todo: 6) can change collider size depending on direction
 
 public class PlayerMovementController : MonoBehaviour
 {
     private static readonly int MoveHorizontal = Animator.StringToHash("MoveHorizontal");
     private static readonly int MoveUp = Animator.StringToHash("MoveUp");
     private static readonly int MoveDown = Animator.StringToHash("MoveDown");
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed = 4f;
+    [SerializeField] private float stunDuration = 0.2f;
 
+    private bool _playerHit;
     private Rigidbody2D _rb;
     private InputPlayerActions _inputPlayerActions;
     private InputAction _moveAction;
@@ -38,7 +39,7 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
         _moveAction.canceled += OnMoveCanceled;
-        MyEvents.PlayerPushback += Pushback;
+        MyEvents.PlayerHit += OnPlayerHit;
     }
 
 
@@ -47,11 +48,24 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.performed -= OnMovePerformed;
         _moveAction.canceled -= OnMoveCanceled;
         _moveAction.Disable();
-        MyEvents.PlayerPushback -= Pushback;
+        MyEvents.PlayerHit -= OnPlayerHit;
+    }
+
+    private void OnPlayerHit(int obj)
+    {
+        StartCoroutine(PlayerHitCoroutine());
+    }
+    
+    private IEnumerator PlayerHitCoroutine()
+    {
+        _playerHit = true;
+        yield return new WaitForSeconds(stunDuration);
+        _playerHit = false;
     }
 
     private void FixedUpdate()
     {
+        if(_playerHit) return;
         if (!IsAttacking)
         {
             Vector2 moveInput = _moveAction.ReadValue<Vector2>();
@@ -74,6 +88,7 @@ public class PlayerMovementController : MonoBehaviour
     }
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
+        // if(_playerHit) return;
         Vector2 moveInput = context.ReadValue<Vector2>();
         
         _animator.ResetTrigger(MoveHorizontal);
@@ -113,12 +128,13 @@ public class PlayerMovementController : MonoBehaviour
         }
         else
         {
-            _moveDirection = Vector2.zero;
+            // _moveDirection = Vector2.zero;
             _animator.speed = 0;
         }
     }
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
+        // if(_playerHit) return;
         if (!IsAttacking)
         {
             // Vector2 moveInput = context.ReadValue<Vector2>();

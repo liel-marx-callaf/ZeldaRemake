@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     private Animator _animator;
     private int _currentHealth;
     private EnemyTypeEnum _enemyType;
+    private bool _isInvincible = false;
 
     private void OnEnable()
     {
@@ -30,6 +31,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     
     public void TakeDamage(int damage)
     {
+        if (_isInvincible) return;
         _currentHealth -= damage;
         if (_currentHealth <= 0)
         {
@@ -45,5 +47,10 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     public void SetEnemyType(EnemyTypeEnum enemyType)
     {
         _enemyType = enemyType;
+    }
+    
+    public void SetInvincibility(bool isInvincible)
+    {
+        _isInvincible = isInvincible;
     }
 }
