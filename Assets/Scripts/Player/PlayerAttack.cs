@@ -72,54 +72,6 @@ public class PlayerAttack : MonoBehaviour
     {
         _playerMovementController.IsAttacking = false;
     }
-
-    // private void SwordAttack()
-    // {
-    //     
-    //     Vector2 lastDir = _playerMovementController.LastFacingDirection;
-    //     Vector2 playerPos = transform.position;
-    //     if (lastDir == Vector2.down)
-    //     {
-    //         _hit = Physics2D.BoxCast(_downRayOrigin + playerPos, Vector2.one*0.3f,  0, Vector2.down, attackRange, enemyLayer);
-    //         Helper.BoxCastDrawer.Draw(_hit, _downRayOrigin + playerPos, Vector2.one*0.3f, 0f,Vector2.down, attackRange);
-    //
-    //         Debug.Log("Down");
-    //     }
-    //     else if (lastDir == Vector2.up)
-    //     {
-    //         _hit = Physics2D.BoxCast(_upRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.up, attackRange, enemyLayer);
-    //         // _hit = Physics2D.Raycast(_upRayOrigin + playerPos, Vector2.up, attackRange, enemyLayer);
-    //         // Debug.DrawLine(_upRayOrigin + playerPos, _upRayOrigin + playerPos + Vector2.up * attackRange, Color.red, 2f);
-    //         // Debug.DrawRay(_upRayOrigin+playerPos, Vector2.up*attackRange, Color.red, 2f);
-    //         Helper.BoxCastDrawer.Draw(_hit, _upRayOrigin + playerPos, Vector2.one*0.3f, 0f,Vector2.up, attackRange);
-    //
-    //         Debug.Log("Up");
-    //     }
-    //     else if (lastDir == Vector2.left)
-    //     {
-    //         _hit = Physics2D.BoxCast(_leftRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.left, attackRange, enemyLayer);
-    //         // _hit = Physics2D.Raycast(_leftRayOrigin+playerPos, Vector2.left, attackRange, enemyLayer);
-    //         // Debug.DrawLine(_leftRayOrigin + playerPos, _leftRayOrigin + playerPos + Vector2.left * attackRange, Color.red, 2f);
-    //         // Debug.DrawRay(_leftRayOrigin+playerPos, Vector2.left*attackRange, Color.red, 2f);
-    //         Helper.BoxCastDrawer.Draw(_hit, _leftRayOrigin + playerPos, Vector2.one*0.3f, 0f,Vector2.left, attackRange);
-    //         Debug.Log("Left");
-    //     }
-    //     else if (lastDir == Vector2.right)
-    //     {
-    //         _hit = Physics2D.BoxCast(_rightRayOrigin + playerPos, Vector2.one*0.3f, 0, Vector2.right, attackRange, enemyLayer);
-    //         _hit = Physics2D.Raycast(_rightRayOrigin+playerPos, Vector2.right, attackRange, enemyLayer);
-    //         Helper.BoxCastDrawer.Draw(_hit, _rightRayOrigin + playerPos, Vector2.one*0.3f, 0f,Vector2.right, attackRange);
-    //         // Debug.DrawRay(_rightRayOrigin+playerPos, Vector2.right*attackRange, Color.red, 2f);
-    //         Debug.Log("Right");
-    //     }
-    //
-    //     if (_hit.collider != null)
-    //     {
-    //         Debug.Log("Hit: " + _hit.collider.name);
-    //         // Debug.DrawRay();
-    //         // _hit.collider.GetComponent<EnemyHealth>().TakeDamage(1);
-    //     }
-    // }
     
     private void SwordAttack()
 {
@@ -131,6 +83,7 @@ public class PlayerAttack : MonoBehaviour
     Vector2 playerPos = transform.position;
     Vector2 boxSize = Vector2.one * 0.3f;
     RaycastHit2D[] hits = null;
+    // int hitCount = 0;
 
     if (lastDir == Vector2.down)
     {
@@ -161,7 +114,7 @@ public class PlayerAttack : MonoBehaviour
     {
         foreach (var hit in hits)
         {
-            if (hit.collider != null)
+            if (hit.collider != null && !hit.collider.isTrigger)
             {
                 Debug.Log("Hit: " + hit.collider.name);
                 hit.collider.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);

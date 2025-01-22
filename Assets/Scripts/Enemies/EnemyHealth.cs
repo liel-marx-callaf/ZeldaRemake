@@ -10,11 +10,13 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     private int _currentHealth;
     private EnemyTypeEnum _enemyType;
     private bool _isInvincible = false;
+    private Collider2D _collider2D;
 
     private void OnEnable()
     {
         _currentHealth = initialHealth;
         _animator = GetComponent<Animator>();
+        _collider2D = GetComponent<Collider2D>();
         MyEvents.ClearAllEnemies += Die;
     }
     
