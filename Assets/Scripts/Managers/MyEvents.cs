@@ -9,4 +9,5 @@ public class MyEvents : MonoBehaviour
     public static Action<int, int> AreaSwitch;
     public static Action<int> PlayerHit;
     public static Action<Vector2, float> PlayerPushback;
+    public static Action<int> ReturnEnemiesToPool;
 }

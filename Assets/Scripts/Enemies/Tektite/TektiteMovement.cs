@@ -118,9 +118,9 @@ public class TektiteMovement : MonoBehaviour, IPoolable
 
     private void Jump()
     {
-        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
-        string currentStateName = _animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
-        Debug.Log("Jumping and the state is: " + currentStateName);
+        // AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        // string currentStateName = _animator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        // Debug.Log("Jumping and the state is: " + currentStateName);
         // _animator.ResetTrigger(Load);
         _animator.SetTrigger(Jump1);
         if(_isJumping) return;
@@ -131,8 +131,8 @@ public class TektiteMovement : MonoBehaviour, IPoolable
         while (Mathf.Abs(_jumpRangeY) < 1) _jumpRangeY = Random.Range(-jumpRange, jumpRange);
         _xDestination = _jumpRangeX + transform.position.x;
         _yDestination = _jumpRangeY + transform.position.y;
-        _xDestination = Mathf.Clamp(_xDestination, _topLeftBorder.x- 5, _bottomRightBorder.x + 5);
-        _yDestination = Mathf.Clamp(_yDestination, _bottomRightBorder.y - 5, _topLeftBorder.y + 5);
+        _xDestination = Mathf.Clamp(_xDestination, _topLeftBorder.x- 3, _bottomRightBorder.x + 3);
+        _yDestination = Mathf.Clamp(_yDestination, _bottomRightBorder.y - 3, _topLeftBorder.y + 3);
         StartCoroutine(JumpCoroutine());
         _jumpRangeX = 0;
         _jumpRangeY = 0;
@@ -149,7 +149,7 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     // yield return new WaitForSeconds(Random.Range(0f, maxJumpInterval));
     // _animator.SetTrigger(Jump1);
 
-    _rb.gravityScale = 2;
+    _rb.gravityScale = 1;
     _rb.AddForce(jumpDirection * jumpForce, ForceMode2D.Impulse);
 
     float elapsedTime = 0;
@@ -239,6 +239,7 @@ public class TektiteMovement : MonoBehaviour, IPoolable
 
     public void Reset()
     {
+        _rb.gravityScale = 0;
         _rb.linearVelocity = Vector2.zero;
     }
 }
