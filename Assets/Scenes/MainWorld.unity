@@ -219,7 +219,7 @@ Transform:
   m_GameObject: {fileID: 38197052}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7, y: 2.5, z: 0}
+  m_LocalPosition: {x: -7, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1760,7 +1760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473085428464147802, guid: 960788c7005c2f5409730b453321403c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.25
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 473085428464147802, guid: 960788c7005c2f5409730b453321403c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20874,7 +20874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473085428464147802, guid: 960788c7005c2f5409730b453321403c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.75
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 473085428464147802, guid: 960788c7005c2f5409730b453321403c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26801,15 +26801,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.05
-    y: 0
-    width: 0.90020204
-    height: 1
+    x: 0
+    y: 0.010159652
+    width: 1
+    height: 0.9799528
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
   orthographic: 1
-  orthographic size: 8.25
+  orthographic size: 6.5
   m_Depth: 20
   m_CullingMask:
     serializedVersion: 2
@@ -26982,7 +26982,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_AssetsPPU: 16
   m_RefResolutionX: 256
-  m_RefResolutionY: 264
+  m_RefResolutionY: 208
   m_CropFrame: 4
   m_GridSnapping: 0
   m_FilterMode: 1
