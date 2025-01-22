@@ -6,11 +6,13 @@ public class PoolableTektite : MonoBehaviour, IPoolable
     private EnemyHealth _tektiteHealth;
     private TektiteMovement _tektiteMovement;
     private Rigidbody2D _rigidbody2D;
+    private EnemyTypeEnum _enemyType = EnemyTypeEnum.Tektite;
     [SerializeField] private int sourceAreaIndex;
 
     private void OnEnable()
     {
         _tektiteHealth = GetComponent<EnemyHealth>();
+        _tektiteHealth.SetEnemyType(_enemyType);
         _tektiteMovement = GetComponent<TektiteMovement>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         MyEvents.ReturnEnemiesToPool += ReturnToPoolByAreaIndex;

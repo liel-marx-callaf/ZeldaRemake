@@ -26807,7 +26807,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 39
   orthographic: 1
   orthographic size: 8.25
   m_Depth: 20
@@ -26834,7 +26834,7 @@ Transform:
   m_GameObject: {fileID: 1465800116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: 2.5, z: -10}
+  m_LocalPosition: {x: 0, y: 2.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27155,8 +27155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Priority:
-    Enabled: 1
-    m_Value: 5
+    Enabled: 0
+    m_Value: 0
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -27532,8 +27532,6 @@ MonoBehaviour:
   tektitePool: {fileID: 2120321849}
   topLeftOffset: {x: -7, y: 2.5}
   bottomRightOffset: {x: 7, y: -7.5}
-  maxSpawnDelay: 2
-  minSpawnDelay: 0
   areas:
   - areaName: Area 1
     areaIndex: 1
@@ -28120,11 +28118,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.06
+      value: -2.36
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.24
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: 8928403527220791011, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28166,63 +28164,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 108479364}
   m_SourcePrefab: {fileID: 100100000, guid: 7108098263d7c6c42a3abe8c17b3d764, type: 3}
---- !u!1001 &5844559342623888363
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4558788483033870229, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_Name
-      value: Tektite
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -16.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688419479129220425, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -28232,7 +28173,6 @@ SceneRoots:
   - {fileID: 1512222203}
   - {fileID: 1632754461}
   - {fileID: 3270191820600037859}
-  - {fileID: 5844559342623888363}
   - {fileID: 171813749}
   - {fileID: 2065133923}
   - {fileID: 1665044757}

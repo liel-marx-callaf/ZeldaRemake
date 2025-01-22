@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     [SerializeField] private int initialHealth = 1;
     private Animator _animator;
     private int _currentHealth;
+    private EnemyTypeEnum _enemyType;
 
     private void OnEnable()
     {
@@ -23,6 +24,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
 
     private void Die()
     {
+        MyEvents.EnemyDied?.Invoke(_enemyType);
         _animator.SetTrigger(Death);
     }
     
@@ -38,5 +40,10 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     public void Reset()
     {
         _currentHealth = initialHealth;
+    }
+
+    public void SetEnemyType(EnemyTypeEnum enemyType)
+    {
+        _enemyType = enemyType;
     }
 }

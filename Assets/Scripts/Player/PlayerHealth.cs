@@ -31,7 +31,7 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
     {
         _currentHealth -= damage;
         // _rb.AddForce(hitPushback, ForceMode2D.Impulse);
-        Debug.Log($"Player took {damage} damage. Current health: {_currentHealth}");
+        // Debug.Log($"Player took {damage} damage. Current health: {_currentHealth}");
         if (_currentHealth <= 0)
         {
             Die();

@@ -136,25 +136,25 @@ public class PlayerAttack : MonoBehaviour
     {
         hits = Physics2D.BoxCastAll(_downRayOrigin + playerPos, boxSize, 0, Vector2.down, attackRange, enemyLayer);
         Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _downRayOrigin + playerPos, boxSize, 0f, Vector2.down, attackRange);
-        Debug.Log("Down");
+        // Debug.Log("Down");
     }
     else if (lastDir == Vector2.up)
     {
         hits = Physics2D.BoxCastAll(_upRayOrigin + playerPos, boxSize, 0, Vector2.up, attackRange, enemyLayer);
         Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _upRayOrigin + playerPos, boxSize, 0f, Vector2.up, attackRange);
-        Debug.Log("Up");
+        // Debug.Log("Up");
     }
     else if (lastDir == Vector2.left)
     {
         hits = Physics2D.BoxCastAll(_leftRayOrigin + playerPos, boxSize, 0, Vector2.left, attackRange, enemyLayer);
         Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _leftRayOrigin + playerPos, boxSize, 0f, Vector2.left, attackRange);
-        Debug.Log("Left");
+        // Debug.Log("Left");
     }
     else if (lastDir == Vector2.right)
     {
         hits = Physics2D.BoxCastAll(_rightRayOrigin + playerPos, boxSize, 0, Vector2.right, attackRange, enemyLayer);
         Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _rightRayOrigin + playerPos, boxSize, 0f, Vector2.right, attackRange);
-        Debug.Log("Right");
+        // Debug.Log("Right");
     }
 
     if (hits != null)
