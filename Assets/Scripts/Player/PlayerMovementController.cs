@@ -1,13 +1,13 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using PDirection = PlayerDirectionEnum;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    private static readonly int MoveHorizontal = Animator.StringToHash("MoveHorizontal");
-    private static readonly int MoveUp = Animator.StringToHash("MoveUp");
-    private static readonly int MoveDown = Animator.StringToHash("MoveDown");
+    // private static readonly int MoveHorizontal = Animator.StringToHash("MoveHorizontal");
+    // private static readonly int MoveUp = Animator.StringToHash("MoveUp");
+    // private static readonly int MoveDown = Animator.StringToHash("MoveDown");
     [SerializeField] private float speed = 4f;
     [SerializeField] private float stunDuration = 0.2f;
 
@@ -16,8 +16,9 @@ public class PlayerMovementController : MonoBehaviour
     private InputPlayerActions _inputPlayerActions;
     private InputAction _moveAction;
     private Vector2 _moveDirection;
-    private SpriteRenderer _spriteRenderer;
-    private Animator _animator;
+    // private SpriteRenderer _spriteRenderer;
+    // private Animator _animator;
+    private PlayerAnimationControl _playerAnimationControl;
     
     internal bool IsAttacking {get; set;}
     public Vector2 LastFacingDirection {get; private set;}
@@ -26,15 +27,18 @@ public class PlayerMovementController : MonoBehaviour
     private void Awake()
     {
         _inputPlayerActions = new InputPlayerActions();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        _animator = GetComponent<Animator>();
         LastFacingDirection = Vector2.down;
     }
     
+    
     private void OnEnable()
     {
+        // _spriteRenderer = GetComponent<SpriteRenderer>();
+        _playerAnimationControl = GetComponent<PlayerAnimationControl>();
+        // _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
-        _animator.speed = 0;
+        // _playerAnimationControl.SetAnimatorSpeed(0);
+        // _animator.speed = 0;
         _moveAction = _inputPlayerActions.Player.Move;
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
@@ -68,7 +72,7 @@ public class PlayerMovementController : MonoBehaviour
         if(_playerHit) return;
         if (!IsAttacking)
         {
-            Vector2 moveInput = _moveAction.ReadValue<Vector2>();
+            Vector2? moveInput = _moveAction.ReadValue<Vector2>();
             PlayerMovement(moveInput);
         }
         else
@@ -77,11 +81,12 @@ public class PlayerMovementController : MonoBehaviour
         }
     }
     
-    private void PlayerMovement(Vector2 moveInput)
+    private void PlayerMovement(Vector2? moveInput)
     {
+        if(moveInput == null) return;
         if(moveInput != Vector2.zero)
         {
-            _animator.speed = 1;
+            _playerAnimationControl.SetAnimatorSpeed(1);
         }
         _rb.linearVelocity = _moveDirection * speed;
 
@@ -89,47 +94,76 @@ public class PlayerMovementController : MonoBehaviour
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
         // if(_playerHit) return;
+        // if(IsAttacking) return;
         Vector2 moveInput = context.ReadValue<Vector2>();
-        
-        _animator.ResetTrigger(MoveHorizontal);
-        _animator.ResetTrigger(MoveUp);
-        _animator.ResetTrigger(MoveDown);
+        //
+        // _animator.ResetTrigger(MoveHorizontal);
+        // _animator.ResetTrigger(MoveUp);
+        // _animator.ResetTrigger(MoveDown);
         if (moveInput.y > 0)
         {
+            if (!IsAttacking)
+            {
+                _playerAnimationControl.SetDirection(PDirection.Up);
+                _playerAnimationControl.SetAnimatorSpeed(1);
+            }
+
             _moveDirection = Vector2.up;
-            _spriteRenderer.flipX = false;
-            _animator.SetTrigger(MoveUp);
-            _animator.speed = 1;
+            // _spriteRenderer.flipX = false;
+            // _animator.SetTrigger(MoveUp);
+            // _animator.speed = 1;
             LastFacingDirection = _moveDirection;
         }
         else if (moveInput.y < 0)
         {
+            if (!IsAttacking)
+            {
+                _playerAnimationControl.SetDirection(PDirection.Down);
+                _playerAnimationControl.SetAnimatorSpeed(1);
+            }
             _moveDirection = Vector2.down;
-            _spriteRenderer.flipX = false;
-            _animator.SetTrigger(MoveDown);
-            _animator.speed = 1;
+            // _playerAnimationControl.SetDirection(PDirection.Down);
+            // _playerAnimationControl.SetAnimatorSpeed(1);
+            // _spriteRenderer.flipX = false;
+            // _animator.SetTrigger(MoveDown);
+            // _animator.speed = 1;
             LastFacingDirection = _moveDirection;
         }
         else if (moveInput.x > 0)
         {
+            if (!IsAttacking)
+            {
+                _playerAnimationControl.SetDirection(PDirection.Right);
+                _playerAnimationControl.SetAnimatorSpeed(1);
+            }
+            // _playerAnimationControl.SetDirection(PDirection.Right);
+            // _playerAnimationControl.SetAnimatorSpeed(1);
             _moveDirection = Vector2.right;
-            _spriteRenderer.flipX = false;
-            _animator.SetTrigger(MoveHorizontal);
-            _animator.speed = 1;
+            // _spriteRenderer.flipX = false;
+            // _animator.SetTrigger(MoveHorizontal);
+            // _animator.speed = 1;
             LastFacingDirection = _moveDirection;
         }
         else if (moveInput.x < 0)
         {
+            if (!IsAttacking)
+            {
+                _playerAnimationControl.SetDirection(PDirection.Left);
+                _playerAnimationControl.SetAnimatorSpeed(1);
+            }
+            // _playerAnimationControl.SetDirection(PDirection.Left);
+            // _playerAnimationControl.SetAnimatorSpeed(1);
             _moveDirection = Vector2.left;
-            _spriteRenderer.flipX = true;
-            _animator.SetTrigger(MoveHorizontal);
-            _animator.speed = 1;
+            // _spriteRenderer.flipX = true;
+            // _animator.SetTrigger(MoveHorizontal);
+            // _animator.speed = 1;
             LastFacingDirection = _moveDirection;
         }
         else
         {
             // _moveDirection = Vector2.zero;
-            _animator.speed = 0;
+            _playerAnimationControl.SetAnimatorSpeed(0);
+            // _animator.speed = 0;
         }
     }
     private void OnMoveCanceled(InputAction.CallbackContext context)
@@ -139,15 +173,16 @@ public class PlayerMovementController : MonoBehaviour
         {
             // Vector2 moveInput = context.ReadValue<Vector2>();
             _moveDirection = Vector2.zero;
-            _animator.speed = 0;
+            _playerAnimationControl.SetAnimatorSpeed(0);
+            // _animator.speed = 0;
         }
         else
         {
             _moveDirection = Vector2.zero;
         }
     }
-    private void Pushback(Vector2 direction, float force)
-    {
-        _rb.AddForce(direction * force, ForceMode2D.Impulse);
-    }
+    // private void Pushback(Vector2 direction, float force)
+    // {
+    //     _rb.AddForce(direction * force, ForceMode2D.Impulse);
+    // }
 }
