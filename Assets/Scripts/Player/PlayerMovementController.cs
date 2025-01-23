@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using PDirection = PlayerDirectionEnum;
 
 public class PlayerMovementController : MonoBehaviour
 {
@@ -104,7 +103,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (!IsAttacking)
             {
-                _playerAnimationControl.SetDirection(PDirection.Up);
+                _playerAnimationControl.SetDirection(DirectionsEnum.Up);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
 
@@ -118,7 +117,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (!IsAttacking)
             {
-                _playerAnimationControl.SetDirection(PDirection.Down);
+                _playerAnimationControl.SetDirection(DirectionsEnum.Down);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
             _moveDirection = Vector2.down;
@@ -133,7 +132,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (!IsAttacking)
             {
-                _playerAnimationControl.SetDirection(PDirection.Right);
+                _playerAnimationControl.SetDirection(DirectionsEnum.Right);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
             // _playerAnimationControl.SetDirection(PDirection.Right);
@@ -148,7 +147,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (!IsAttacking)
             {
-                _playerAnimationControl.SetDirection(PDirection.Left);
+                _playerAnimationControl.SetDirection(DirectionsEnum.Left);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
             // _playerAnimationControl.SetDirection(PDirection.Left);

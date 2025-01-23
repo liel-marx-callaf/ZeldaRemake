@@ -5,7 +5,7 @@ public class PlayerAnimationControl : MonoBehaviour
 {
     private Animator _animator;
     private Dictionary<string, int> _animatorParameters;
-    private Vector2? _direction = Vector2.down;
+    private Vector2 _direction = Vector2.down;
 
     private void OnEnable()
     {
@@ -27,27 +27,27 @@ public class PlayerAnimationControl : MonoBehaviour
         _animator.speed = speed;
     }
 
-    public void SetDirection(PlayerDirectionEnum direction)
+    public void SetDirection(DirectionsEnum directionEnum)
     {
-        _direction = GetDirectionVector(direction);
-        if (_direction.HasValue)
-        {
-            _animator.SetFloat(_animatorParameters["HorizontalMovement"], _direction.Value.x);
-            _animator.SetFloat(_animatorParameters["VerticalMovement"], _direction.Value.y);
-        }
+        _direction = DirectionVector.GetDirectionVector(directionEnum);
+        if ((_direction.x != 0 && _direction.y != 0) || (_direction.x == 0 && _direction.y == 0)) return;
+        _animator.SetFloat(_animatorParameters["HorizontalMovement"], _direction.x);
+        _animator.SetFloat(_animatorParameters["VerticalMovement"], _direction.y);
     }
 
-    private Vector2? GetDirectionVector(PlayerDirectionEnum direction)
+    
+    private Vector2? GetDirectionVector(DirectionsEnum directionEnum)   // made obsolete by DirectionVector.GetDirectionVector
+
     {
-        switch (direction)
+        switch (directionEnum)
         {
-            case PlayerDirectionEnum.Up:
+            case DirectionsEnum.Up:
                 return Vector2.up;
-            case PlayerDirectionEnum.Down:
+            case DirectionsEnum.Down:
                 return Vector2.down;
-            case PlayerDirectionEnum.Left:
+            case DirectionsEnum.Left:
                 return Vector2.left;
-            case PlayerDirectionEnum.Right:
+            case DirectionsEnum.Right:
                 return Vector2.right;
         }
 
