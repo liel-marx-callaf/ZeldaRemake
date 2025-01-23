@@ -26882,9 +26882,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.06548673
+    y: 0
     width: 1
-    height: 0.86858404
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
@@ -27622,23 +27622,29 @@ MonoBehaviour:
     areaIndex: 2
     areaCameraPosition: {x: 0, y: -8.5}
     enemyTypes:
-    - enemyType: 0
-      spawnAmount: 5
+    - enemyName: Tektite
+      enemyType: 0
+      spawnAmount: 6
   - areaName: Area 3
     areaIndex: 3
     areaCameraPosition: {x: -16, y: -8.5}
-    enemyTypes: []
+    enemyTypes:
+    - enemyName: Peahat
+      enemyType: 1
+      spawnAmount: 6
   - areaName: Area 4
     areaIndex: 4
     areaCameraPosition: {x: -16, y: 2.5}
     enemyTypes:
-    - enemyType: 0
-      spawnAmount: 5
+    - enemyName: Tektite
+      enemyType: 0
+      spawnAmount: 6
   - areaName: Area 5
     areaIndex: 5
     areaCameraPosition: {x: -32, y: 2.5}
     enemyTypes:
-    - enemyType: 0
+    - enemyName: Tektite
+      enemyType: 0
       spawnAmount: 7
   - areaName: Area 6
     areaIndex: 6
@@ -27647,15 +27653,30 @@ MonoBehaviour:
   - areaName: Area 7
     areaIndex: 7
     areaCameraPosition: {x: -48, y: -8.5}
-    enemyTypes: []
+    enemyTypes:
+    - enemyName: Tektite
+      enemyType: 0
+      spawnAmount: 3
+    - enemyName: Peahat
+      enemyType: 1
+      spawnAmount: 3
   - areaName: Area 8
     areaIndex: 8
     areaCameraPosition: {x: -64, y: -8.5}
-    enemyTypes: []
+    enemyTypes:
+    - enemyName: 
+      enemyType: 0
+      spawnAmount: 6
   - areaName: Area 9
     areaIndex: 9
     areaCameraPosition: {x: -64, y: 2.51}
-    enemyTypes: []
+    enemyTypes:
+    - enemyName: Tektite
+      enemyType: 0
+      spawnAmount: 7
+    - enemyName: Peahat
+      enemyType: 1
+      spawnAmount: 7
 --- !u!4 &1665044757
 Transform:
   m_ObjectHideFlags: 0
