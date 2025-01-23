@@ -208,6 +208,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_Landing_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 126
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a786f925a1474a9763b6d8bf9602a
+      internalID: 573672962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_Landing_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 126
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8605cfbff5d3f9640ae44f4206222003
+      internalID: -1013093265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -224,6 +268,8 @@ TextureImporter:
     nameFileIdTable:
       NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_0: -2359033496736543711
       NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_1: 1118860154
+      NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_Landing_0: 573672962
+      NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Peahat_Landing_1: -1013093265
       NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Red_Tektite_0: 1295330097
       NES_The_Legend_of_Zelda_Overworld_Enemies_Spritesheet_Red_Tektite_1: 1806918702
   mipmapLimitGroupName: 
