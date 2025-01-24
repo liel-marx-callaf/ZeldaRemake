@@ -5,11 +5,14 @@ using UnityEngine;
 
 public class HeartPickup : MonoBehaviour, IPickupable
 {
+    [Header("Heart Settings")]
     [SerializeField] private int healAmount = 1;
     [SerializeField] private float despawnTime = 5f;
+    private PoolableHeart _poolableHeart;
 
     private void OnEnable()
     {
+        _poolableHeart = GetComponent<PoolableHeart>();
         StartCoroutine(DespawnTimer());
     }
 
@@ -23,7 +26,7 @@ public class HeartPickup : MonoBehaviour, IPickupable
 
     public void Despawn()
     {
-        HeartPool.Instance.Return(this);
+        _poolableHeart.ReturnToPool();
     }
 
     public void Pickup()

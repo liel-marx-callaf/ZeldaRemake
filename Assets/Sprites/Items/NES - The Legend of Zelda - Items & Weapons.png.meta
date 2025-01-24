@@ -374,7 +374,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_0
+      name: HeartSprite0
       rect:
         serializedVersion: 2
         x: 0
@@ -396,7 +396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_1
+      name: HeartHalf
       rect:
         serializedVersion: 2
         x: 7
@@ -418,7 +418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_2
+      name: HeartMissing
       rect:
         serializedVersion: 2
         x: 15
@@ -462,7 +462,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_4
+      name: RupeePickupSprite0
       rect:
         serializedVersion: 2
         x: 72
@@ -484,7 +484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_5
+      name: PapaerSprite
       rect:
         serializedVersion: 2
         x: 88
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_7
+      name: BombPickupSprite
       rect:
         serializedVersion: 2
         x: 136
@@ -550,7 +550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_8
+      name: FairySprite0
       rect:
         serializedVersion: 2
         x: 40
@@ -572,7 +572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_9
+      name: FairySprite1
       rect:
         serializedVersion: 2
         x: 48
@@ -594,7 +594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_10
+      name: HeartSprite1
       rect:
         serializedVersion: 2
         x: 0
@@ -602,7 +602,7 @@ TextureImporter:
         width: 7
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -616,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - Items & Weapons_11
+      name: RupeePickupSprite1
       rect:
         serializedVersion: 2
         x: 72
@@ -624,7 +624,7 @@ TextureImporter:
         width: 8
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -651,10 +651,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NES - The Legend of Zelda - Items & Weapons_0: -8063706435249619624
-      NES - The Legend of Zelda - Items & Weapons_1: 19914036242240595
-      NES - The Legend of Zelda - Items & Weapons_10: 904177824145225468
-      NES - The Legend of Zelda - Items & Weapons_11: 8291927474347078375
+      BombPickupSprite: -3129231327347436
+      FairySprite0: 5760879605181178472
+      FairySprite1: 3633132069725597035
+      HeartHalf: 19914036242240595
+      HeartMissing: -574490981749059618
+      HeartSprite0: -8063706435249619624
+      HeartSprite1: 904177824145225468
       NES - The Legend of Zelda - Items & Weapons_12: -7204626482551677898
       NES - The Legend of Zelda - Items & Weapons_13: 678778970494154322
       NES - The Legend of Zelda - Items & Weapons_14: -2288461857271467592
@@ -663,7 +666,6 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_17: 7617408997071573552
       NES - The Legend of Zelda - Items & Weapons_18: -610826595969715988
       NES - The Legend of Zelda - Items & Weapons_19: -5215137509366894895
-      NES - The Legend of Zelda - Items & Weapons_2: -574490981749059618
       NES - The Legend of Zelda - Items & Weapons_20: 5158475865280193848
       NES - The Legend of Zelda - Items & Weapons_21: -1160045376245522532
       NES - The Legend of Zelda - Items & Weapons_22: -5208660096653059405
@@ -685,7 +687,6 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_37: 7239993419185180963
       NES - The Legend of Zelda - Items & Weapons_38: -7133163458890382688
       NES - The Legend of Zelda - Items & Weapons_39: -6416745728772391170
-      NES - The Legend of Zelda - Items & Weapons_4: -6588373309297639260
       NES - The Legend of Zelda - Items & Weapons_40: 5992451483163786231
       NES - The Legend of Zelda - Items & Weapons_41: 696930646872816096
       NES - The Legend of Zelda - Items & Weapons_42: -6547914150252090361
@@ -696,7 +697,6 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_47: 9128553192520636891
       NES - The Legend of Zelda - Items & Weapons_48: -3149765912914907284
       NES - The Legend of Zelda - Items & Weapons_49: -3001732319475686061
-      NES - The Legend of Zelda - Items & Weapons_5: -4439669913078404926
       NES - The Legend of Zelda - Items & Weapons_50: 5271364834185504741
       NES - The Legend of Zelda - Items & Weapons_51: -8187373755756849428
       NES - The Legend of Zelda - Items & Weapons_52: -8687771866695829806
@@ -718,7 +718,6 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_67: -6471456782352949912
       NES - The Legend of Zelda - Items & Weapons_68: 7524186664910249742
       NES - The Legend of Zelda - Items & Weapons_69: -5640546685330389316
-      NES - The Legend of Zelda - Items & Weapons_7: -3129231327347436
       NES - The Legend of Zelda - Items & Weapons_70: 4874060046130761083
       NES - The Legend of Zelda - Items & Weapons_71: 568645084880885989
       NES - The Legend of Zelda - Items & Weapons_72: 5879831704844367871
@@ -729,7 +728,6 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_77: -8168721010697099294
       NES - The Legend of Zelda - Items & Weapons_78: 286505520570547937
       NES - The Legend of Zelda - Items & Weapons_79: 4353514361016802925
-      NES - The Legend of Zelda - Items & Weapons_8: 5760879605181178472
       NES - The Legend of Zelda - Items & Weapons_80: 7855614391045844436
       NES - The Legend of Zelda - Items & Weapons_81: -626687931369990230
       NES - The Legend of Zelda - Items & Weapons_82: -8478727614674290078
@@ -738,7 +736,9 @@ TextureImporter:
       NES - The Legend of Zelda - Items & Weapons_85: 6713638147231344178
       NES - The Legend of Zelda - Items & Weapons_86: 6029149351978452733
       NES - The Legend of Zelda - Items & Weapons_87: -3091003511359187591
-      NES - The Legend of Zelda - Items & Weapons_9: 3633132069725597035
+      PapaerSprite: -4439669913078404926
+      RupeePickupSprite0: -6588373309297639260
+      RupeePickupSprite1: 8291927474347078375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

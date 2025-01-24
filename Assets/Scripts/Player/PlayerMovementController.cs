@@ -1,4 +1,5 @@
 using System.Collections;
+using Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,22 +15,24 @@ public class PlayerMovementController : MonoBehaviour
     private Rigidbody2D _rb;
     private InputPlayerActions _inputPlayerActions;
     private InputAction _moveAction;
+
     private Vector2 _moveDirection;
+
     // private SpriteRenderer _spriteRenderer;
     // private Animator _animator;
     private PlayerAnimationControl _playerAnimationControl;
-    
-    internal bool IsAttacking {get; set;}
-    public Vector2 LastFacingDirection {get; private set;}
-    
-    
+
+    internal bool IsAttacking { get; set; }
+    public Vector2 LastFacingDirection { get; private set; }
+
+
     private void Awake()
     {
         _inputPlayerActions = new InputPlayerActions();
         LastFacingDirection = Vector2.down;
     }
-    
-    
+
+
     private void OnEnable()
     {
         // _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -58,7 +61,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         StartCoroutine(PlayerHitCoroutine());
     }
-    
+
     private IEnumerator PlayerHitCoroutine()
     {
         _playerHit = true;
@@ -68,7 +71,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(_playerHit) return;
+        if (_playerHit) return;
         if (!IsAttacking)
         {
             Vector2? moveInput = _moveAction.ReadValue<Vector2>();
@@ -79,17 +82,25 @@ public class PlayerMovementController : MonoBehaviour
             _rb.linearVelocity = Vector2.zero;
         }
     }
-    
+
     private void PlayerMovement(Vector2? moveInput)
     {
-        if(moveInput == null) return;
-        if(moveInput != Vector2.zero)
+        if (moveInput == null) return;
+        if (moveInput != Vector2.zero)
         {
             _playerAnimationControl.SetAnimatorSpeed(1);
         }
-        _rb.linearVelocity = _moveDirection * speed;
 
+        if (!IsAttacking)
+        {
+            _rb.linearVelocity = _moveDirection * speed;
+        }
+        else
+        {
+            _rb.linearVelocity = Vector2.zero;
+        }
     }
+
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
         // if(_playerHit) return;
@@ -120,12 +131,8 @@ public class PlayerMovementController : MonoBehaviour
                 _playerAnimationControl.SetDirection(DirectionsEnum.Down);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
+
             _moveDirection = Vector2.down;
-            // _playerAnimationControl.SetDirection(PDirection.Down);
-            // _playerAnimationControl.SetAnimatorSpeed(1);
-            // _spriteRenderer.flipX = false;
-            // _animator.SetTrigger(MoveDown);
-            // _animator.speed = 1;
             LastFacingDirection = _moveDirection;
         }
         else if (moveInput.x > 0)
@@ -135,8 +142,7 @@ public class PlayerMovementController : MonoBehaviour
                 _playerAnimationControl.SetDirection(DirectionsEnum.Right);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
-            // _playerAnimationControl.SetDirection(PDirection.Right);
-            // _playerAnimationControl.SetAnimatorSpeed(1);
+
             _moveDirection = Vector2.right;
             // _spriteRenderer.flipX = false;
             // _animator.SetTrigger(MoveHorizontal);
@@ -150,8 +156,7 @@ public class PlayerMovementController : MonoBehaviour
                 _playerAnimationControl.SetDirection(DirectionsEnum.Left);
                 _playerAnimationControl.SetAnimatorSpeed(1);
             }
-            // _playerAnimationControl.SetDirection(PDirection.Left);
-            // _playerAnimationControl.SetAnimatorSpeed(1);
+
             _moveDirection = Vector2.left;
             // _spriteRenderer.flipX = true;
             // _animator.SetTrigger(MoveHorizontal);
@@ -165,6 +170,7 @@ public class PlayerMovementController : MonoBehaviour
             // _animator.speed = 0;
         }
     }
+
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
         // if(_playerHit) return;

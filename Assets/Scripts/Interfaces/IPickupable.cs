@@ -2,7 +2,7 @@ using Pool;
 
 namespace Interfaces
 {
-    public interface IPickupable : IPoolable
+    public interface IPickupable
     {
         public void Despawn();
         public void Pickup();
