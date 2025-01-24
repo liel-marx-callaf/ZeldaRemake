@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 8793209166026026768}
   - component: {fileID: 1958705785909893529}
   - component: {fileID: 7604577113826821447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HeartPickup
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00c92be799259944acb8b85dcee0a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 1
+  healAmount: 2
   despawnTime: 5
 --- !u!114 &7604577113826821447
 MonoBehaviour:

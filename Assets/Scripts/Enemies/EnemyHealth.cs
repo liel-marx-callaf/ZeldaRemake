@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
         _currentHealth = initialHealth;
         _animator = GetComponent<Animator>();
         _colliders = GetComponents<Collider2D>();
+        _rb = GetComponent<Rigidbody2D>();
         MyEvents.ClearAllEnemies += Die;
     }
     

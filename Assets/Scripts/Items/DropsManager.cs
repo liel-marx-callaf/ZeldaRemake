@@ -1,16 +1,13 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Android;
 using static ItemsEnum;
-using static EnemyTypeEnum;
 using Random = UnityEngine.Random;
 
 public class DropsManager : MonoSingleton<DropsManager>
 {
     [SerializeField] private HeartPool heartPool;
 
-    // [SerializeField] private RupeePool rupeePool;
+    [SerializeField] private RupeePool rupeePool;
     private int _killCount = 0;
     private readonly ItemsEnum[] _groupADrops = { Heart, Rupee, Heart, Rupee, Heart, Rupee, Heart, Heart, Rupee, Rupee };
     private readonly ItemsEnum[] _groupBDrops = { Heart, Rupee, Heart, Rupee, Heart, Rupee, Heart, Heart, Rupee, Rupee };
@@ -102,8 +99,8 @@ public class DropsManager : MonoSingleton<DropsManager>
                             heart.transform.position = position;
                             break;
                         case Rupee:
-                            // var rupee = rupeePool.Get();
-                            // rupee.transform.position = position;
+                            var rupee = rupeePool.Get();
+                            rupee.transform.position = position;
                             break;
                     }
                 }
@@ -123,8 +120,8 @@ public class DropsManager : MonoSingleton<DropsManager>
                     heart.transform.position = position;
                     break;
                 case Rupee:
-                    // var rupee = rupeePool.Get();
-                    // rupee.transform.position = position;
+                    var rupee = rupeePool.Get();
+                    rupee.transform.position = position;
                     break;
             }
         }
