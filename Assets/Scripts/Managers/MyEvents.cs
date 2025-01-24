@@ -8,7 +8,9 @@ public class MyEvents : MonoBehaviour
     public static Action ClearAllEnemies;
     public static Action<int, int> AreaSwitch;
     public static Action<int> PlayerHit;
+    public static Action<int> PlayerHeal;
     // public static Action<float> PlayerPushback;
     public static Action<int> ReturnEnemiesToPool;
     public static Action<EnemyTypeEnum> EnemyDied;
+    public static Action ClearAreaFromEnemies;
 }

@@ -16,11 +16,13 @@ public class PoolableTektite : MonoBehaviour, IPoolable
         _tektiteMovement = GetComponent<TektiteMovement>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         MyEvents.ReturnEnemiesToPool += ReturnToPoolByAreaIndex;
+        MyEvents.ClearAllEnemies += ReturnToPool;
     }
 
     private void OnDisable()
     {
         MyEvents.ReturnEnemiesToPool -= ReturnToPoolByAreaIndex;
+        MyEvents.ClearAllEnemies -= ReturnToPool;
     }
 
     public void Reset()

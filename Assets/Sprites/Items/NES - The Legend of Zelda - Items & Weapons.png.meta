@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: cd81fa14b60fda94c8b38b2424bae8fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8063706435249619624
+    second: NES - The Legend of Zelda - Items & Weapons_0
+  - first:
+      213: 19914036242240595
+    second: NES - The Legend of Zelda - Items & Weapons_1
+  - first:
+      213: -574490981749059618
+    second: NES - The Legend of Zelda - Items & Weapons_2
+  - first:
+      213: 5459553077145618740
+    second: NES - The Legend of Zelda - Items & Weapons_3
+  - first:
+      213: -6588373309297639260
+    second: NES - The Legend of Zelda - Items & Weapons_4
+  - first:
+      213: -4439669913078404926
+    second: NES - The Legend of Zelda - Items & Weapons_5
+  - first:
+      213: -3196605202078468579
+    second: NES - The Legend of Zelda - Items & Weapons_6
+  - first:
+      213: -3129231327347436
+    second: NES - The Legend of Zelda - Items & Weapons_7
+  - first:
+      213: 5760879605181178472
+    second: NES - The Legend of Zelda - Items & Weapons_8
+  - first:
+      213: 3633132069725597035
+    second: NES - The Legend of Zelda - Items & Weapons_9
+  - first:
+      213: 904177824145225468
+    second: NES - The Legend of Zelda - Items & Weapons_10
+  - first:
+      213: 8291927474347078375
+    second: NES - The Legend of Zelda - Items & Weapons_11
+  - first:
+      213: -7204626482551677898
+    second: NES - The Legend of Zelda - Items & Weapons_12
+  - first:
+      213: 678778970494154322
+    second: NES - The Legend of Zelda - Items & Weapons_13
+  - first:
+      213: -2288461857271467592
+    second: NES - The Legend of Zelda - Items & Weapons_14
+  - first:
+      213: -6444236633293613824
+    second: NES - The Legend of Zelda - Items & Weapons_15
+  - first:
+      213: 195888039859484587
+    second: NES - The Legend of Zelda - Items & Weapons_16
+  - first:
+      213: 7617408997071573552
+    second: NES - The Legend of Zelda - Items & Weapons_17
+  - first:
+      213: -610826595969715988
+    second: NES - The Legend of Zelda - Items & Weapons_18
+  - first:
+      213: -5215137509366894895
+    second: NES - The Legend of Zelda - Items & Weapons_19
+  - first:
+      213: 5158475865280193848
+    second: NES - The Legend of Zelda - Items & Weapons_20
+  - first:
+      213: -1160045376245522532
+    second: NES - The Legend of Zelda - Items & Weapons_21
+  - first:
+      213: -5208660096653059405
+    second: NES - The Legend of Zelda - Items & Weapons_22
+  - first:
+      213: 3837010636422515362
+    second: NES - The Legend of Zelda - Items & Weapons_23
+  - first:
+      213: -2638043184717278455
+    second: NES - The Legend of Zelda - Items & Weapons_24
+  - first:
+      213: 7957258302408745939
+    second: NES - The Legend of Zelda - Items & Weapons_25
+  - first:
+      213: 8437259076843805909
+    second: NES - The Legend of Zelda - Items & Weapons_26
+  - first:
+      213: 3500979091766222731
+    second: NES - The Legend of Zelda - Items & Weapons_27
+  - first:
+      213: 7715991570371991366
+    second: NES - The Legend of Zelda - Items & Weapons_28
+  - first:
+      213: -8768316172980754025
+    second: NES - The Legend of Zelda - Items & Weapons_29
+  - first:
+      213: -1562360826345409511
+    second: NES - The Legend of Zelda - Items & Weapons_30
+  - first:
+      213: -3656995462670863914
+    second: NES - The Legend of Zelda - Items & Weapons_31
+  - first:
+      213: 7707018286761520386
+    second: NES - The Legend of Zelda - Items & Weapons_32
+  - first:
+      213: 3140601342693669163
+    second: NES - The Legend of Zelda - Items & Weapons_33
+  - first:
+      213: 2470235021847606552
+    second: NES - The Legend of Zelda - Items & Weapons_34
+  - first:
+      213: 546007122643515334
+    second: NES - The Legend of Zelda - Items & Weapons_35
+  - first:
+      213: 7783414040291251967
+    second: NES - The Legend of Zelda - Items & Weapons_36
+  - first:
+      213: 7239993419185180963
+    second: NES - The Legend of Zelda - Items & Weapons_37
+  - first:
+      213: -7133163458890382688
+    second: NES - The Legend of Zelda - Items & Weapons_38
+  - first:
+      213: -6416745728772391170
+    second: NES - The Legend of Zelda - Items & Weapons_39
+  - first:
+      213: 5992451483163786231
+    second: NES - The Legend of Zelda - Items & Weapons_40
+  - first:
+      213: 696930646872816096
+    second: NES - The Legend of Zelda - Items & Weapons_41
+  - first:
+      213: -6547914150252090361
+    second: NES - The Legend of Zelda - Items & Weapons_42
+  - first:
+      213: 8185488997402982754
+    second: NES - The Legend of Zelda - Items & Weapons_43
+  - first:
+      213: 5171059723657254960
+    second: NES - The Legend of Zelda - Items & Weapons_44
+  - first:
+      213: 1385868768875596141
+    second: NES - The Legend of Zelda - Items & Weapons_45
+  - first:
+      213: -6896713952325960342
+    second: NES - The Legend of Zelda - Items & Weapons_46
+  - first:
+      213: 9128553192520636891
+    second: NES - The Legend of Zelda - Items & Weapons_47
+  - first:
+      213: -3149765912914907284
+    second: NES - The Legend of Zelda - Items & Weapons_48
+  - first:
+      213: -3001732319475686061
+    second: NES - The Legend of Zelda - Items & Weapons_49
+  - first:
+      213: 5271364834185504741
+    second: NES - The Legend of Zelda - Items & Weapons_50
+  - first:
+      213: -8187373755756849428
+    second: NES - The Legend of Zelda - Items & Weapons_51
+  - first:
+      213: -8687771866695829806
+    second: NES - The Legend of Zelda - Items & Weapons_52
+  - first:
+      213: 1034064035835314557
+    second: NES - The Legend of Zelda - Items & Weapons_53
+  - first:
+      213: 7424454407523838021
+    second: NES - The Legend of Zelda - Items & Weapons_54
+  - first:
+      213: 8337874251405860913
+    second: NES - The Legend of Zelda - Items & Weapons_55
+  - first:
+      213: -3384220332453553683
+    second: NES - The Legend of Zelda - Items & Weapons_56
+  - first:
+      213: -4316543325391423109
+    second: NES - The Legend of Zelda - Items & Weapons_57
+  - first:
+      213: -4624299652072875471
+    second: NES - The Legend of Zelda - Items & Weapons_58
+  - first:
+      213: -585939852549275561
+    second: NES - The Legend of Zelda - Items & Weapons_59
+  - first:
+      213: -7256192008983686971
+    second: NES - The Legend of Zelda - Items & Weapons_60
+  - first:
+      213: -4602320802481571983
+    second: NES - The Legend of Zelda - Items & Weapons_61
+  - first:
+      213: -5909406994145426966
+    second: NES - The Legend of Zelda - Items & Weapons_62
+  - first:
+      213: -9143325920188122621
+    second: NES - The Legend of Zelda - Items & Weapons_63
+  - first:
+      213: -8827422164179847863
+    second: NES - The Legend of Zelda - Items & Weapons_64
+  - first:
+      213: 3923255699176752656
+    second: NES - The Legend of Zelda - Items & Weapons_65
+  - first:
+      213: 8617096587661146650
+    second: NES - The Legend of Zelda - Items & Weapons_66
+  - first:
+      213: -6471456782352949912
+    second: NES - The Legend of Zelda - Items & Weapons_67
+  - first:
+      213: 7524186664910249742
+    second: NES - The Legend of Zelda - Items & Weapons_68
+  - first:
+      213: -5640546685330389316
+    second: NES - The Legend of Zelda - Items & Weapons_69
+  - first:
+      213: 4874060046130761083
+    second: NES - The Legend of Zelda - Items & Weapons_70
+  - first:
+      213: 568645084880885989
+    second: NES - The Legend of Zelda - Items & Weapons_71
+  - first:
+      213: 5879831704844367871
+    second: NES - The Legend of Zelda - Items & Weapons_72
+  - first:
+      213: 6659617386716323939
+    second: NES - The Legend of Zelda - Items & Weapons_73
+  - first:
+      213: -1829124023928576639
+    second: NES - The Legend of Zelda - Items & Weapons_74
+  - first:
+      213: -9054361104677809512
+    second: NES - The Legend of Zelda - Items & Weapons_75
+  - first:
+      213: -8250641407110952894
+    second: NES - The Legend of Zelda - Items & Weapons_76
+  - first:
+      213: -8168721010697099294
+    second: NES - The Legend of Zelda - Items & Weapons_77
+  - first:
+      213: 286505520570547937
+    second: NES - The Legend of Zelda - Items & Weapons_78
+  - first:
+      213: 4353514361016802925
+    second: NES - The Legend of Zelda - Items & Weapons_79
+  - first:
+      213: 7855614391045844436
+    second: NES - The Legend of Zelda - Items & Weapons_80
+  - first:
+      213: -626687931369990230
+    second: NES - The Legend of Zelda - Items & Weapons_81
+  - first:
+      213: -8478727614674290078
+    second: NES - The Legend of Zelda - Items & Weapons_82
+  - first:
+      213: 6996223837777909783
+    second: NES - The Legend of Zelda - Items & Weapons_83
+  - first:
+      213: 167561289860657924
+    second: NES - The Legend of Zelda - Items & Weapons_84
+  - first:
+      213: 6713638147231344178
+    second: NES - The Legend of Zelda - Items & Weapons_85
+  - first:
+      213: 6029149351978452733
+    second: NES - The Legend of Zelda - Items & Weapons_86
+  - first:
+      213: -3091003511359187591
+    second: NES - The Legend of Zelda - Items & Weapons_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d3ae178b5f71090800000000000000
+      internalID: -8063706435249619624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3545340e5bfb64000800000000000000
+      internalID: 19914036242240595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf8e22fe7ff608f0800000000000000
+      internalID: -574490981749059618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439c7a3099a34cb40800000000000000
+      internalID: 5459553077145618740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a046a3c1656194a0800000000000000
+      internalID: -6588373309297639260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8e8f68cbf1362c0800000000000000
+      internalID: -4439669913078404926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1672fa418063a3d0800000000000000
+      internalID: -3196605202078468579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d305e0bf1e4fff0800000000000000
+      internalID: -3129231327347436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862ed9c7a71c2ff40800000000000000
+      internalID: 5760879605181178472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Items & Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6de2164e5a7b6230800000000000000
+      internalID: 3633132069725597035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4a00285261f666a42abdeb2150a4201e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES - The Legend of Zelda - Items & Weapons_0: -8063706435249619624
+      NES - The Legend of Zelda - Items & Weapons_1: 19914036242240595
+      NES - The Legend of Zelda - Items & Weapons_10: 904177824145225468
+      NES - The Legend of Zelda - Items & Weapons_11: 8291927474347078375
+      NES - The Legend of Zelda - Items & Weapons_12: -7204626482551677898
+      NES - The Legend of Zelda - Items & Weapons_13: 678778970494154322
+      NES - The Legend of Zelda - Items & Weapons_14: -2288461857271467592
+      NES - The Legend of Zelda - Items & Weapons_15: -6444236633293613824
+      NES - The Legend of Zelda - Items & Weapons_16: 195888039859484587
+      NES - The Legend of Zelda - Items & Weapons_17: 7617408997071573552
+      NES - The Legend of Zelda - Items & Weapons_18: -610826595969715988
+      NES - The Legend of Zelda - Items & Weapons_19: -5215137509366894895
+      NES - The Legend of Zelda - Items & Weapons_2: -574490981749059618
+      NES - The Legend of Zelda - Items & Weapons_20: 5158475865280193848
+      NES - The Legend of Zelda - Items & Weapons_21: -1160045376245522532
+      NES - The Legend of Zelda - Items & Weapons_22: -5208660096653059405
+      NES - The Legend of Zelda - Items & Weapons_23: 3837010636422515362
+      NES - The Legend of Zelda - Items & Weapons_24: -2638043184717278455
+      NES - The Legend of Zelda - Items & Weapons_25: 7957258302408745939
+      NES - The Legend of Zelda - Items & Weapons_26: 8437259076843805909
+      NES - The Legend of Zelda - Items & Weapons_27: 3500979091766222731
+      NES - The Legend of Zelda - Items & Weapons_28: 7715991570371991366
+      NES - The Legend of Zelda - Items & Weapons_29: -8768316172980754025
+      NES - The Legend of Zelda - Items & Weapons_3: 5459553077145618740
+      NES - The Legend of Zelda - Items & Weapons_30: -1562360826345409511
+      NES - The Legend of Zelda - Items & Weapons_31: -3656995462670863914
+      NES - The Legend of Zelda - Items & Weapons_32: 7707018286761520386
+      NES - The Legend of Zelda - Items & Weapons_33: 3140601342693669163
+      NES - The Legend of Zelda - Items & Weapons_34: 2470235021847606552
+      NES - The Legend of Zelda - Items & Weapons_35: 546007122643515334
+      NES - The Legend of Zelda - Items & Weapons_36: 7783414040291251967
+      NES - The Legend of Zelda - Items & Weapons_37: 7239993419185180963
+      NES - The Legend of Zelda - Items & Weapons_38: -7133163458890382688
+      NES - The Legend of Zelda - Items & Weapons_39: -6416745728772391170
+      NES - The Legend of Zelda - Items & Weapons_4: -6588373309297639260
+      NES - The Legend of Zelda - Items & Weapons_40: 5992451483163786231
+      NES - The Legend of Zelda - Items & Weapons_41: 696930646872816096
+      NES - The Legend of Zelda - Items & Weapons_42: -6547914150252090361
+      NES - The Legend of Zelda - Items & Weapons_43: 8185488997402982754
+      NES - The Legend of Zelda - Items & Weapons_44: 5171059723657254960
+      NES - The Legend of Zelda - Items & Weapons_45: 1385868768875596141
+      NES - The Legend of Zelda - Items & Weapons_46: -6896713952325960342
+      NES - The Legend of Zelda - Items & Weapons_47: 9128553192520636891
+      NES - The Legend of Zelda - Items & Weapons_48: -3149765912914907284
+      NES - The Legend of Zelda - Items & Weapons_49: -3001732319475686061
+      NES - The Legend of Zelda - Items & Weapons_5: -4439669913078404926
+      NES - The Legend of Zelda - Items & Weapons_50: 5271364834185504741
+      NES - The Legend of Zelda - Items & Weapons_51: -8187373755756849428
+      NES - The Legend of Zelda - Items & Weapons_52: -8687771866695829806
+      NES - The Legend of Zelda - Items & Weapons_53: 1034064035835314557
+      NES - The Legend of Zelda - Items & Weapons_54: 7424454407523838021
+      NES - The Legend of Zelda - Items & Weapons_55: 8337874251405860913
+      NES - The Legend of Zelda - Items & Weapons_56: -3384220332453553683
+      NES - The Legend of Zelda - Items & Weapons_57: -4316543325391423109
+      NES - The Legend of Zelda - Items & Weapons_58: -4624299652072875471
+      NES - The Legend of Zelda - Items & Weapons_59: -585939852549275561
+      NES - The Legend of Zelda - Items & Weapons_6: -3196605202078468579
+      NES - The Legend of Zelda - Items & Weapons_60: -7256192008983686971
+      NES - The Legend of Zelda - Items & Weapons_61: -4602320802481571983
+      NES - The Legend of Zelda - Items & Weapons_62: -5909406994145426966
+      NES - The Legend of Zelda - Items & Weapons_63: -9143325920188122621
+      NES - The Legend of Zelda - Items & Weapons_64: -8827422164179847863
+      NES - The Legend of Zelda - Items & Weapons_65: 3923255699176752656
+      NES - The Legend of Zelda - Items & Weapons_66: 8617096587661146650
+      NES - The Legend of Zelda - Items & Weapons_67: -6471456782352949912
+      NES - The Legend of Zelda - Items & Weapons_68: 7524186664910249742
+      NES - The Legend of Zelda - Items & Weapons_69: -5640546685330389316
+      NES - The Legend of Zelda - Items & Weapons_7: -3129231327347436
+      NES - The Legend of Zelda - Items & Weapons_70: 4874060046130761083
+      NES - The Legend of Zelda - Items & Weapons_71: 568645084880885989
+      NES - The Legend of Zelda - Items & Weapons_72: 5879831704844367871
+      NES - The Legend of Zelda - Items & Weapons_73: 6659617386716323939
+      NES - The Legend of Zelda - Items & Weapons_74: -1829124023928576639
+      NES - The Legend of Zelda - Items & Weapons_75: -9054361104677809512
+      NES - The Legend of Zelda - Items & Weapons_76: -8250641407110952894
+      NES - The Legend of Zelda - Items & Weapons_77: -8168721010697099294
+      NES - The Legend of Zelda - Items & Weapons_78: 286505520570547937
+      NES - The Legend of Zelda - Items & Weapons_79: 4353514361016802925
+      NES - The Legend of Zelda - Items & Weapons_8: 5760879605181178472
+      NES - The Legend of Zelda - Items & Weapons_80: 7855614391045844436
+      NES - The Legend of Zelda - Items & Weapons_81: -626687931369990230
+      NES - The Legend of Zelda - Items & Weapons_82: -8478727614674290078
+      NES - The Legend of Zelda - Items & Weapons_83: 6996223837777909783
+      NES - The Legend of Zelda - Items & Weapons_84: 167561289860657924
+      NES - The Legend of Zelda - Items & Weapons_85: 6713638147231344178
+      NES - The Legend of Zelda - Items & Weapons_86: 6029149351978452733
+      NES - The Legend of Zelda - Items & Weapons_87: -3091003511359187591
+      NES - The Legend of Zelda - Items & Weapons_9: 3633132069725597035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
