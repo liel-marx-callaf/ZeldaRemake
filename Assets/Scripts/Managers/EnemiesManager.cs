@@ -6,20 +6,15 @@ using Random = UnityEngine.Random;
 
 public class EnemiesManager : MonoSingleton<EnemiesManager>
 {
-    [SerializeField] private TektitePool tektitePool;
+    [Header("Enemy Pools")] [SerializeField]
+    private TektitePool tektitePool;
+
     // [SerializeField] private PeahatPool peahatPool;
+    [Header("Spawn Settings")] [SerializeField]
+    private Vector2 topLeftOffset;
 
-    // [Serializable]
-    // public class Offset
-    // {
-    //     public float x;
-    //     public float y;
-    // }
-
-    [SerializeField] private Vector2 topLeftOffset;
     [SerializeField] private Vector2 bottomRightOffset;
-    // [SerializeField, Range(0f, 3f)] private float maxSpawnDelay = 2f;
-    // [SerializeField, Range(0f, 3f)] private float minSpawnDelay = 0f;
+    [SerializeField, Range(0f, 5f)] private float spawnEdgeBuffer = 1f;
 
     [Serializable]
     public class Area
@@ -29,11 +24,13 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         [SerializeField] public Vector2 areaCameraPosition;
         [SerializeField] public EnemyType[] enemyTypes;
     }
-    
-    [SerializeField] private int startingAreaIndex;
+
+    [Header("Area Settings")] [SerializeField]
+    private int startingAreaIndex;
+
     [SerializeField] private Area[] areas;
-    
-    
+
+
     private CinemachineBrain _cinemachineBrain;
     private int _currentAreaIndex;
 
@@ -41,7 +38,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     {
         MyEvents.AreaSwitch += AreaChanged;
         MyEvents.EnemyDied += EnemyDied;
-        if(Camera.main.GetComponent<CinemachineBrain>() != null)
+        if (Camera.main?.GetComponent<CinemachineBrain>() != null)
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
         // _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
     }
@@ -72,7 +69,6 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         var enterArea = areas[areaEnterIndex - 1];
         DespawnEnemies(exitArea);
         StartCoroutine(SpawnEnemies(enterArea));
-        
     }
 
     private void DespawnEnemies(Area exitArea)
@@ -97,14 +93,20 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
 
     private void SpawnEnemiesCoroutine(EnemyType enemy, Area area)
     {
-        var spawnPosition = new Vector3(Random.Range(topLeftOffset.x, bottomRightOffset.x) + area.areaCameraPosition.x, Random.Range(topLeftOffset.y, bottomRightOffset.y)+ area.areaCameraPosition.y, 0);
+        var spawnPosition = new Vector3(
+            Random.Range(topLeftOffset.x + spawnEdgeBuffer, bottomRightOffset.x - spawnEdgeBuffer) +
+            area.areaCameraPosition.x,
+            Random.Range(topLeftOffset.y + spawnEdgeBuffer, bottomRightOffset.y - spawnEdgeBuffer) +
+            area.areaCameraPosition.y, 0);
         // yield return new WaitForSeconds(spawnDelay);
         if (enemy.enemyType == EnemyTypeEnum.Tektite)
         {
             var enemyObj = tektitePool.Get();
             enemyObj.transform.position = spawnPosition;
             enemyObj.SetAreaIndex(area.areaIndex);
-            enemyObj.SetAreaBorders(topLeftOffset+area.areaCameraPosition, bottomRightOffset+area.areaCameraPosition);
+            enemyObj.SetAreaBorders(topLeftOffset + area.areaCameraPosition,
+                bottomRightOffset + area.areaCameraPosition);
+            enemyObj.SetStartingPosition(spawnPosition);
             enemyObj.gameObject.SetActive(true);
         }
         // enemyObj.transform.position = spawnPosition;

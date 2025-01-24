@@ -12,6 +12,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     private bool _isInvincible = false;
     private Collider2D[] _colliders;
     private Rigidbody2D _rb;
+    private TektiteMovement _tektiteMovement;
 
     private void OnEnable()
     {
@@ -36,11 +37,18 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
             enemyCollider.enabled = false;
         }
         _rb.linearVelocity = Vector2.zero;
+        if (_enemyType == EnemyTypeEnum.Tektite)
+        {
+            _tektiteMovement = GetComponent<TektiteMovement>();
+            _tektiteMovement.OnDeath();
+        }
     }
     
     public void TakeDamage(int damage)
     {
         if (_isInvincible) return;
+        // Debug.Log("Enemy took damage:  + damage  Current health:  + _currentHealth");
+        Debug.Log("Enemy took damage: " + damage + " Current health: " + _currentHealth);
         _currentHealth -= damage;
         if (_currentHealth <= 0)
         {

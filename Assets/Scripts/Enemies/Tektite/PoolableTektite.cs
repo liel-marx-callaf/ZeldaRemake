@@ -43,6 +43,11 @@ public class PoolableTektite : MonoBehaviour, IPoolable
         _tektiteMovement.SetBottomRightBorder(bottomRightBorder);
     }
     
+    public void SetStartingPosition(Vector2 position)
+    {
+        _tektiteMovement.SetStartingPosition(position);
+    }
+    
     private void ReturnToPoolByAreaIndex(int areaIndex)
     {
         if (sourceAreaIndex == areaIndex)

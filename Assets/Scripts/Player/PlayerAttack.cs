@@ -142,7 +142,7 @@ namespace Player
             foreach (var hit in hits)
             {
                 if (hit.collider == null) continue;
-                if (!hit.collider.isTrigger && hit.collider.CompareTag("Enemy"))
+                if (hit.collider.isTrigger && hit.collider.CompareTag("Enemy"))
                 {
                     var enemy = hit.collider.gameObject;
                     if(!hitEnemies.Contains(enemy))

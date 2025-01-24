@@ -26921,10 +26921,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.14705881
-    y: 0
-    width: 0.7065065
-    height: 1
+    x: 0
+    y: 0.04770318
+    width: 1
+    height: 0.90437275
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
@@ -27664,7 +27664,7 @@ MonoBehaviour:
     enemyTypes:
     - enemyName: Tektite
       enemyType: 0
-      spawnAmount: 12
+      spawnAmount: 6
   - areaName: Area 3
     areaIndex: 3
     areaCameraPosition: {x: -16, y: -8.5}
@@ -28332,7 +28332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fbc682943c75049b23a3158344b818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSize: 5
+  initialSize: 10
   prefab: {fileID: 429306794505344112, guid: 0c13ecc1533ec0f43aaaba985a9110f4, type: 3}
   parent: {fileID: 2120321850}
 --- !u!4 &2120321850
