@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     private EnemyTypeEnum _enemyType;
     private bool _isInvincible = false;
     private Collider2D[] _colliders;
+    private Rigidbody2D _rb;
 
     private void OnEnable()
     {
@@ -33,6 +34,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
         {
             enemyCollider.enabled = false;
         }
+        _rb.linearVelocity = Vector2.zero;
     }
     
     public void TakeDamage(int damage)
