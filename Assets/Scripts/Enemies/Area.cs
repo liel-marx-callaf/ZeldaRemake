@@ -10,5 +10,4 @@ public class Area : ScriptableObject
     public Collider2D cameraEdgeCollider;
     public EnemyType[] enemyTypes;
     
-    
 }

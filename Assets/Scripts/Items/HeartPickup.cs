@@ -1,28 +1,51 @@
 
+using System.Collections;
+using Interfaces;
 using UnityEngine;
-using Pool;
 
-public class HeartPickup : MonoBehaviour, IPoolable
+public class HeartPickup : MonoBehaviour, IPickupable
 {
     [SerializeField] private int healAmount = 1;
     [SerializeField] private float despawnTime = 5f;
-    private float _timeLeft;
 
     private void OnEnable()
     {
-        _timeLeft = despawnTime;
+        StartCoroutine(DespawnTimer());
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            MyEvents.PlayerHeal?.Invoke(healAmount);
+            Pickup();
         }
     }
 
+    public void Despawn()
+    {
+        HeartPool.Instance.Return(this);
+    }
+
+    public void Pickup()
+    {
+        MyEvents.PlayerHeal?.Invoke(healAmount);
+        Despawn();
+    }
+
+    public void SetDespawnTime(float time)
+    {
+        despawnTime = time;
+    }
+
+
     public void Reset()
     {
-        _timeLeft = despawnTime;
+        StopAllCoroutines();
+    }
+
+    private IEnumerator DespawnTimer()
+    {
+        yield return new WaitForSeconds(despawnTime);
+        Despawn();
     }
 }

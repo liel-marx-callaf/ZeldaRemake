@@ -180,7 +180,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0.2
+  m_EdgeRadius: 0.03
 --- !u!70 &8839521156710804268
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -216,7 +216,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.2, y: 1}
+  m_Size: {x: 0.9, y: 0.9}
   m_Direction: 0
 --- !u!50 &7464498330028588311
 Rigidbody2D:
