@@ -28258,6 +28258,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2069221754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2069221756}
+  - component: {fileID: 2069221755}
+  m_Layer: 0
+  m_Name: DropsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2069221755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069221754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9ba9add022bf4cab6df20c79ab9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heartPool: {fileID: 756592282}
+  groupDropRates:
+  - enemyGroup: 0
+    dropRate: 31
+  - enemyGroup: 1
+    dropRate: 0
+  - enemyGroup: 2
+    dropRate: 0
+  - enemyGroup: 3
+    dropRate: 41
+  enemyGroupMappingLists:
+  - enemyGroup: 0
+    enemyTypes: 00000000
+  - enemyGroup: 1
+    enemyTypes: 
+  - enemyGroup: 2
+    enemyTypes: 
+  - enemyGroup: 3
+    enemyTypes: 01000000
+--- !u!4 &2069221756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069221754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6077566, y: -2.1156623, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2120321848
 GameObject:
   m_ObjectHideFlags: 0
@@ -28388,3 +28451,4 @@ SceneRoots:
   - {fileID: 2120321850}
   - {fileID: 159971014}
   - {fileID: 756592283}
+  - {fileID: 2069221756}

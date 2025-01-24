@@ -28,7 +28,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
 
     private void Die()
     {
-        MyEvents.EnemyDied?.Invoke(_enemyType);
+        MyEvents.EnemyDied?.Invoke(_enemyType, transform.position);
         _animator.SetTrigger(Death);
         foreach (var enemyCollider in _colliders)
         {

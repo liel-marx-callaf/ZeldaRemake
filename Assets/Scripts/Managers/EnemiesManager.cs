@@ -52,7 +52,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         MyEvents.EnemyDied -= EnemyDied;
     }
 
-    private void EnemyDied(EnemyTypeEnum obj)
+    private void EnemyDied(EnemyTypeEnum obj, Vector3 position)
     {
         Debug.Log("Enemy died: " + obj);
         foreach (var enemytype in areas[_currentAreaIndex - 1].enemyTypes)

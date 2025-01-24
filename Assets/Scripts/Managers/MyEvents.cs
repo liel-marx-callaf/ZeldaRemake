@@ -11,6 +11,6 @@ public class MyEvents : MonoBehaviour
     public static Action<int> PlayerHeal;
     // public static Action<float> PlayerPushback;
     public static Action<int> ReturnEnemiesToPool;
-    public static Action<EnemyTypeEnum> EnemyDied;
+    public static Action<EnemyTypeEnum, Vector3> EnemyDied;
     public static Action ClearAreaFromEnemies;
 }

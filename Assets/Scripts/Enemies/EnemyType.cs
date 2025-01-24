@@ -1,13 +1,19 @@
 using System;
-using Pool;
-using Unity.VisualScripting;
-using UnityEngine;
 
 [Serializable] 
 public enum EnemyTypeEnum
 {
     Tektite,
     Peahat
+}
+
+[Serializable]
+public enum EnemyGroupEnum
+{
+    GroupA,
+    GroupB,
+    GroupC,
+    GroupD
 }
 
 [Serializable]
