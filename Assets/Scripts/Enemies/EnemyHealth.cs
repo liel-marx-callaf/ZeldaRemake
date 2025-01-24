@@ -10,13 +10,13 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     private int _currentHealth;
     private EnemyTypeEnum _enemyType;
     private bool _isInvincible = false;
-    private Collider2D _collider2D;
+    private Collider2D[] _colliders;
 
     private void OnEnable()
     {
         _currentHealth = initialHealth;
         _animator = GetComponent<Animator>();
-        _collider2D = GetComponent<Collider2D>();
+        _colliders = GetComponents<Collider2D>();
         MyEvents.ClearAllEnemies += Die;
     }
     
@@ -29,6 +29,10 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     {
         MyEvents.EnemyDied?.Invoke(_enemyType);
         _animator.SetTrigger(Death);
+        foreach (var enemyCollider in _colliders)
+        {
+            enemyCollider.enabled = false;
+        }
     }
     
     public void TakeDamage(int damage)
@@ -44,6 +48,10 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     public void Reset()
     {
         _currentHealth = initialHealth;
+        foreach (var enemyCollider in _colliders)
+        {
+            enemyCollider.enabled = true;
+        }
     }
 
     public void SetEnemyType(EnemyTypeEnum enemyType)
