@@ -61,7 +61,14 @@ public class CheatManager : MonoSingleton<CheatManager>
     {
         if (_isAltPressed && _is1Pressed)
         {
+            Debug.Log("Cheat activated: Clear all enemies");
             MyEvents.ClearAllEnemies?.Invoke();
+        }
+        
+        if(_isAltPressed && _is5Pressed)
+        {
+            Debug.Log("Cheat activated: Force drop rate switch");
+            MyEvents.ForceDropSwitch?.Invoke();
         }
 
         if (_isEscapePressed)

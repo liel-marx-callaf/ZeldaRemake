@@ -13,4 +13,5 @@ public class MyEvents : MonoBehaviour
     public static Action<int> ReturnEnemiesToPool;
     public static Action<EnemyTypeEnum, Vector3> EnemyDied;
     public static Action ClearAreaFromEnemies;
+    public static Action ForceDropSwitch;
 }
