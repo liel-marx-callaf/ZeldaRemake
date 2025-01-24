@@ -19,11 +19,13 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
     private void OnEnable()
     {
         MyEvents.PlayerHit += TakeDamage;
+        MyEvents.PlayerHeal += GainHealth;
     }
     
     private void OnDisable()
     {
         MyEvents.PlayerHit -= TakeDamage;
+        MyEvents.PlayerHeal -= GainHealth;
     }
 
 
@@ -36,6 +38,12 @@ public class PlayerHealth : MonoBehaviour, IHasHealth
         {
             Die();
         }
+    }
+    
+    private void GainHealth(int health)
+    {
+        _currentHealth += health;
+        Debug.Log($"Player gained {health} health. Current health: {_currentHealth}");
     }
 
     private void Die()
