@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using Player;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,8 +5,8 @@ using UnityEngine.UI;
 public class UIManager : MonoSingleton<UIManager>
 {
     // ---------------- HEARTS ----------------
-    [Header("Heart Settings")] 
-    [SerializeField] private Image[] heartContainers;
+    [Header("Heart Settings")] [SerializeField]
+    private Image[] heartContainers;
     // Each element in this array is a single half-heart Image in the top UI
     // So for 4 hearts, you have 8 half-sprites in a row.
 
@@ -17,36 +15,32 @@ public class UIManager : MonoSingleton<UIManager>
     [SerializeField] private Sprite emptyHeartSprite;
 
     // ---------------- SPRITE-BASED DIGITS ----------------
-    [Header("Digits Sprites")]
-    [Tooltip("Index 0 to 9 for each digit sprite.")]
-    [SerializeField] private Sprite[] digitSprites; // an array of length 10
-    [Tooltip("The 'X' sprite for 'X 00' style counters.")]
-    [SerializeField] private Sprite spriteX;
-    
+    [Header("Digits Sprites")] [Tooltip("Index 0 to 9 for each digit sprite.")] [SerializeField]
+    private Sprite[] digitSprites; // an array of length 10
+
+    [Tooltip("The 'X' sprite for 'X 00' style counters.")] [SerializeField]
+    private Sprite spriteX;
+
     // ---------------- RUPEES COUNTER ----------------
-    [Header("Rupees UI")]
-    [SerializeField] private Image rupeeX;    // The "X" sprite to the left
+    [Header("Rupees UI")] [SerializeField] private Image rupeeX; // The "X" sprite to the left
     [SerializeField] private Image rupeeTens; // The tens digit
     [SerializeField] private Image rupeeOnes; // The ones digit
     private int currentRupees; // The current rupee count
-    
+
     // ---------------- KEYS COUNTER ----------------
-    [Header("Keys UI")]
-    [SerializeField] private Image keyX;
+    [Header("Keys UI")] [SerializeField] private Image keyX;
     [SerializeField] private Image keyTens;
     [SerializeField] private Image keyOnes;
     private int currentKeys;
-    
+
     // ---------------- BOMBS COUNTER ----------------
-    [Header("Bombs UI")]
-    [SerializeField] private Image bombX;     
-    [SerializeField] private Image bombTens;  
-    [SerializeField] private Image bombOnes;  
+    [Header("Bombs UI")] [SerializeField] private Image bombX;
+    [SerializeField] private Image bombTens;
+    [SerializeField] private Image bombOnes;
     private int currentBombs;
-    
+
     // ---------------- MINIMAP ----------------
-    [Header("Minimap")] 
-    [SerializeField] private Image mapBackground;
+    [Header("Minimap")] [SerializeField] private Image mapBackground;
     [SerializeField] private MinimapData minimapData;
     [SerializeField] private RectTransform playerLocationMarker;
     [SerializeField] private int startingAreaIndex = 1; // The area where the player starts
@@ -67,8 +61,8 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Subscribe to events
         MyEvents.PlayerGainRupees += OnPlayerGainRupees;
-        MyEvents.PlayerHit += OnPlayerHit;
-        MyEvents.PlayerHeal += OnPlayerHeal;
+        // MyEvents.PlayerHit += OnPlayerHit;
+        // MyEvents.PlayerHeal += OnPlayerHeal;
         MyEvents.AreaSwitch += OnAreaSwitch;
         // etc. (if you have bombs or keys events)
     }
@@ -77,8 +71,8 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Unsubscribe
         MyEvents.PlayerGainRupees -= OnPlayerGainRupees;
-        MyEvents.PlayerHit -= OnPlayerHit;
-        MyEvents.PlayerHeal -= OnPlayerHeal;
+        // MyEvents.PlayerHit -= OnPlayerHit;
+        // MyEvents.PlayerHeal -= OnPlayerHeal;
         MyEvents.AreaSwitch -= OnAreaSwitch;
     }
 
@@ -94,7 +88,7 @@ public class UIManager : MonoSingleton<UIManager>
         // Possibly place the location marker at the starting area
         UpdateMapLocation( /*some default index*/ startingAreaIndex);
     }
-    
+
     // -------------- EVENT HANDLERS --------------
 
     private void OnPlayerGainRupees(int amount)
@@ -102,20 +96,26 @@ public class UIManager : MonoSingleton<UIManager>
         currentRupees = Mathf.Clamp(currentRupees + amount, 0, 99);
         UpdateRupeesUI();
     }
-
-    private void OnPlayerHit(int damage)
+    
+    public void UpdateCurrentHealthUI(int currentHealth)
     {
-        _currentHP -= damage;
-        if (_currentHP < 0) _currentHP = 0;
+        _currentHP = currentHealth;
         UpdateHeartsUI();
     }
 
-    private void OnPlayerHeal(int amount)
-    {
-        _currentHP += amount;
-        if (_currentHP > _maxHP) _currentHP = _maxHP;
-        UpdateHeartsUI();
-    }
+    // private void OnPlayerHit(int damage)
+    // {
+    //     _currentHP -= damage;
+    //     if (_currentHP < 0) _currentHP = 0;
+    //     UpdateHeartsUI();
+    // }
+    //
+    // private void OnPlayerHeal(int amount)
+    // {
+    //     _currentHP += amount;
+    //     if (_currentHP > _maxHP) _currentHP = _maxHP;
+    //     UpdateHeartsUI();
+    // }
 
     private void OnAreaSwitch(int areaEnterIndex, int areaExitIndex)
     {
@@ -165,7 +165,8 @@ public class UIManager : MonoSingleton<UIManager>
         int tens = currentBombs / 10;
         int ones = currentBombs % 10;
         bombTens.sprite = digitSprites[tens];
-        bombOnes.sprite = digitSprites[ones];    }
+        bombOnes.sprite = digitSprites[ones];
+    }
 
     private void UpdateKeysUI()
     {
@@ -173,7 +174,8 @@ public class UIManager : MonoSingleton<UIManager>
         int tens = currentKeys / 10;
         int ones = currentKeys % 10;
         keyTens.sprite = digitSprites[tens];
-        keyOnes.sprite = digitSprites[ones];    }
+        keyOnes.sprite = digitSprites[ones];
+    }
 
     private void UpdateMapLocation(int areaIndex)
     {
@@ -189,20 +191,6 @@ public class UIManager : MonoSingleton<UIManager>
         }
     }
 
-    // Example map dictionary (You can store in a ScriptableObject or inspector)
-    private Dictionary<int, Vector2> mapPositions = new Dictionary<int, Vector2>()
-    {
-        // areaIndex -> local position on the mini-map
-        { 1, new Vector2(0, 0) },
-        { 2, new Vector2(16, 0) },
-        { 3, new Vector2(32, 0) },
-        // etc...
-    };
-
-    private bool TryGetMapPosition(int areaIndex, out Vector2 pos)
-    {
-        return mapPositions.TryGetValue(areaIndex, out pos);
-    }
 
     // -------------- Public Methods for other scripts --------------
     public void AddBomb(int amount)

@@ -35,6 +35,7 @@ namespace Player
         public void TakeDamage(int damage)
         {
             _currentHealth -= damage;
+            UIManager.Instance.UpdateCurrentHealthUI(_currentHealth);
             // _rb.AddForce(hitPushback, ForceMode2D.Impulse);
             // Debug.Log($"Player took {damage} damage. Current health: {_currentHealth}");
             if (_currentHealth <= 0)
@@ -50,6 +51,7 @@ namespace Player
             {
                 _currentHealth = _maxHealth;
             }
+            UIManager.Instance.UpdateCurrentHealthUI(_currentHealth);
             Debug.Log($"Player gained {health} health. Current health: {_currentHealth}");
         }
 
