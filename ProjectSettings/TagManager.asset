@@ -52,5 +52,8 @@ TagManager:
   - name: Characters
     uniqueID: 311876583
     locked: 0
+  - name: Menu
+    uniqueID: 707762275
+    locked: 0
   m_RenderingLayers:
   - Default
