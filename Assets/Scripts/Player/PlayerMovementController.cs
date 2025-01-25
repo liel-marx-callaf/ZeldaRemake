@@ -5,9 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    // private static readonly int MoveHorizontal = Animator.StringToHash("MoveHorizontal");
-    // private static readonly int MoveUp = Animator.StringToHash("MoveUp");
-    // private static readonly int MoveDown = Animator.StringToHash("MoveDown");
     [SerializeField] private float speed = 4f;
     [SerializeField] private float stunDuration = 0.2f;
 
@@ -17,9 +14,7 @@ public class PlayerMovementController : MonoBehaviour
     private InputAction _moveAction;
 
     private Vector2 _moveDirection;
-
-    // private SpriteRenderer _spriteRenderer;
-    // private Animator _animator;
+    
     private PlayerAnimationControl _playerAnimationControl;
 
     internal bool IsAttacking { get; set; }
@@ -35,16 +30,15 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnEnable()
     {
-        // _spriteRenderer = GetComponent<SpriteRenderer>();
         _playerAnimationControl = GetComponent<PlayerAnimationControl>();
-        // _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
-        // _playerAnimationControl.SetAnimatorSpeed(0);
-        // _animator.speed = 0;
         _moveAction = _inputPlayerActions.Player.Move;
         _moveAction.Enable();
         _moveAction.performed += OnMovePerformed;
         _moveAction.canceled += OnMoveCanceled;
+        
+        // _playerAnimationControl.SetDirection(DirectionsEnum.Down);
+        
         MyEvents.PlayerHit += OnPlayerHit;
     }
 
@@ -77,10 +71,10 @@ public class PlayerMovementController : MonoBehaviour
             Vector2? moveInput = _moveAction.ReadValue<Vector2>();
             PlayerMovement(moveInput);
         }
-        else
-        {
-            _rb.linearVelocity = Vector2.zero;
-        }
+        // else
+        // {
+        //     _rb.linearVelocity = Vector2.zero;
+        // }
     }
 
     private void PlayerMovement(Vector2? moveInput)
@@ -186,8 +180,10 @@ public class PlayerMovementController : MonoBehaviour
             _moveDirection = Vector2.zero;
         }
     }
-    // private void Pushback(Vector2 direction, float force)
-    // {
-    //     _rb.AddForce(direction * force, ForceMode2D.Impulse);
-    // }
+
+    public void Attacking()
+    {
+        IsAttacking = true;
+        _rb.linearVelocity = Vector2.zero;
+    }
 }

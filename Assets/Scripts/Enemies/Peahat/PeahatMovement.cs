@@ -33,7 +33,7 @@ public class PeahatMovement : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _currentDirectionEnum = DirectionsEnum.Up;
         _initialPosition = transform.position;
-        _movementDirection = DirectionVector.GetDirectionVector(_currentDirectionEnum);
+        _movementDirection = DirectionVector.GetDirectionToVector(_currentDirectionEnum);
     }
     
     private IEnumerator MovementCoroutine()
@@ -66,7 +66,7 @@ public class PeahatMovement : MonoBehaviour
 
     private void SetMovementDirection(DirectionsEnum direction)
     {
-        _movementDirection = DirectionVector.GetDirectionVector(direction);
+        _movementDirection = DirectionVector.GetDirectionToVector(direction);
     }
     
     public void SetTopLeftBorder(Vector2 topLeftBorder)

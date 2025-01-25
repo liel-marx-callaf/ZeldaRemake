@@ -5,6 +5,7 @@ namespace Player
 {
     public class PlayerAnimationControl : MonoBehaviour
     {
+        private PlayerMovementController _playerMovementController;
         private Animator _animator;
         private Dictionary<string, int> _animatorParameters;
         private Vector2 _direction = Vector2.down;
@@ -12,7 +13,9 @@ namespace Player
         private void OnEnable()
         {
             _animator = GetComponent<Animator>();
+            _playerMovementController = GetComponent<PlayerMovementController>();
             CacheAnimatorParameters();
+            SetAnimatorSpeed(0);
         }
 
         private void CacheAnimatorParameters()
@@ -31,29 +34,25 @@ namespace Player
 
         public void SetDirection(DirectionsEnum directionEnum)
         {
-            _direction = DirectionVector.GetDirectionVector(directionEnum);
-            if ((_direction.x != 0 && _direction.y != 0) || (_direction.x == 0 && _direction.y == 0)) return;
+            _direction = DirectionVector.GetDirectionToVector(directionEnum);
+            if ((_direction.x != 0 && _direction.y != 0) || _direction == Vector2.zero) return;
             _animator.SetFloat(_animatorParameters["HorizontalMovement"], _direction.x);
             _animator.SetFloat(_animatorParameters["VerticalMovement"], _direction.y);
         }
-
-    
-        private Vector2? GetDirectionVector(DirectionsEnum directionEnum)   // made obsolete by DirectionVector.GetDirectionVector
-
+        
+        public void SetSwordAttack()
         {
-            switch (directionEnum)
-            {
-                case DirectionsEnum.Up:
-                    return Vector2.up;
-                case DirectionsEnum.Down:
-                    return Vector2.down;
-                case DirectionsEnum.Left:
-                    return Vector2.left;
-                case DirectionsEnum.Right:
-                    return Vector2.right;
-            }
-
-            return null;
+            _animator.SetTrigger(_animatorParameters["Attack"]);
+            _animator.speed = 1;
         }
+        
+        public void OnSwordAttackAnimationEnd()
+        {
+            _playerMovementController.IsAttacking = false;
+            DirectionsEnum directionEnum = DirectionVector.GetVectorToDirection(_playerMovementController.LastFacingDirection);
+            SetDirection(directionEnum);
+        }
+        
+        
     }
 }

@@ -11,9 +11,9 @@ namespace Player
         // private static readonly int Attack = Animator.StringToHash("Attack");
         private InputPlayerActions _inputPlayerActions;
 
-        private Animator _animator;
+        // private Animator _animator;
 
-        // private PlayerAnimationControl _playerAnimationControl;
+        private PlayerAnimationControl _playerAnimationControl;
         private PlayerMovementController _playerMovementController;
 
         // private RaycastHit2D[] hits;
@@ -33,8 +33,8 @@ namespace Player
 
         private void Awake()
         {
-            _animator = GetComponent<Animator>();
-            // _playerAnimationControl = GetComponent<PlayerAnimationControl>();
+            // _animator = GetComponent<Animator>();
+            _playerAnimationControl = GetComponent<PlayerAnimationControl>();
             _inputPlayerActions = new InputPlayerActions();
             _playerMovementController = GetComponent<PlayerMovementController>();
             _rightRayOrigin = Vector2.right * 0.5f + Vector2.up * rightRayHeightOffset;
@@ -61,9 +61,10 @@ namespace Player
 
         private void OnActionA(InputAction.CallbackContext context)
         {
-            _animator.SetTrigger(Attack);
-            _animator.speed = 1;
-            _playerMovementController.IsAttacking = true;
+            _playerAnimationControl.SetSwordAttack();
+            // _animator.speed = 1;
+            // _playerMovementController.IsAttacking = true;
+            _playerMovementController.Attacking();
             SwordAttack();
         }
 
@@ -71,11 +72,7 @@ namespace Player
         {
             // _animator.SetTrigger(Attack);
         }
-
-        public void OnAttackAnimationEnd()
-        {
-            _playerMovementController.IsAttacking = false;
-        }
+        
 
         private void SwordAttack()
         {

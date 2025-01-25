@@ -11,12 +11,13 @@ public enum DirectionsEnum
     UpLeft,
     UpRight,
     DownLeft,
-    DownRight
+    DownRight,
+    Error
 }
 
 public static class DirectionVector
 {
-    public static Vector2 GetDirectionVector(DirectionsEnum directionEnum)
+    public static Vector2 GetDirectionToVector(DirectionsEnum directionEnum)
     {
         switch (directionEnum)
         {
@@ -39,5 +40,41 @@ public static class DirectionVector
         }
 
         return Vector2.zero;
+    }
+    public static DirectionsEnum GetVectorToDirection(Vector2 direction)
+    {
+        if (direction == Vector2.up)
+        {
+            return DirectionsEnum.Up;
+        }
+        if (direction == Vector2.down)
+        {
+            return DirectionsEnum.Down;
+        }
+        if (direction == Vector2.left)
+        {
+            return DirectionsEnum.Left;
+        }
+        if (direction == Vector2.right)
+        {
+            return DirectionsEnum.Right;
+        }
+        if (direction == new Vector2(-1, 1))
+        {
+            return DirectionsEnum.UpLeft;
+        }
+        if (direction == new Vector2(1, 1))
+        {
+            return DirectionsEnum.UpRight;
+        }
+        if (direction == new Vector2(-1, -1))
+        {
+            return DirectionsEnum.DownLeft;
+        }
+        if (direction == new Vector2(1, -1))
+        {
+            return DirectionsEnum.DownRight;
+        }
+        return DirectionsEnum.Error;
     }
 }
