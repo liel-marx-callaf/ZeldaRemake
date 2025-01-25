@@ -4,14 +4,23 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - fullHeartSprite: {fileID: -7702038667889969680, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
-  - halfHeartSprite: {fileID: -2102333442540926688, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
-  - emptyHeartSprite: {fileID: -6753181429845580175, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
-  - rupeeCounterText: {instanceID: 0}
-  - bombCounterText: {instanceID: 0}
-  - keyCounterText: {instanceID: 0}
+  - fullHeartSprite: {instanceID: 0}
+  - halfHeartSprite: {instanceID: 0}
+  - emptyHeartSprite: {instanceID: 0}
+  - spriteX: {instanceID: 0}
+  - rupeeX: {instanceID: 0}
+  - rupeeTens: {instanceID: 0}
+  - rupeeOnes: {instanceID: 0}
+  - keyX: {instanceID: 0}
+  - keyTens: {instanceID: 0}
+  - keyOnes: {instanceID: 0}
+  - bombX: {instanceID: 0}
+  - bombTens: {instanceID: 0}
+  - bombOnes: {instanceID: 0}
   - mapBackground: {instanceID: 0}
+  - minimapData: {instanceID: 0}
   - playerLocationMarker: {instanceID: 0}
+  - playerHealth: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
