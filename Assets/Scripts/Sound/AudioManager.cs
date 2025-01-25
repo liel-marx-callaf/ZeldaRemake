@@ -2,7 +2,7 @@ using System;
 using UnityEngine.Audio;
 using UnityEngine;
 
-public class SoundManager : MonoSingleton<SoundManager>
+public class AudioManager : MonoSingleton<AudioManager>
 {
     [SerializeField] private AudioClip[] audioClips;
     [SerializeField, Range(0f, 1f)] private float backgroundVolume = 0.5f;

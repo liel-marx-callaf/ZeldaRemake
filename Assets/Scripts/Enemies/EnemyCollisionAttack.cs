@@ -5,10 +5,12 @@ public class EnemyCollisionAttack : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
     [SerializeField] private float pushbackForce = 10f;
+    private bool _spawned = false;
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(!_spawned) return;
         if (other.CompareTag("Player"))
         {
             // MyEvents.PlayerHit?.Invoke(damage);
@@ -33,5 +35,9 @@ public class EnemyCollisionAttack : MonoBehaviour
         }
         return direction.y > 0 ? Vector2.up : Vector2.down;
         
+    }
+    public void SetSpawned(bool value)
+    {
+        _spawned = value;
     }
 }

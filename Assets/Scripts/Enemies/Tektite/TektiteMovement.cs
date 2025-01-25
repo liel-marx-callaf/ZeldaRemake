@@ -31,11 +31,16 @@ public class TektiteMovement : MonoBehaviour, IPoolable
     private bool _isJumping;
     private Vector3 _startPosition;
     private Vector3 _currentPosition;
+    private Collider2D _collider;
+    private EnemyHealth _enemyHealth;
+    private EnemyCollisionAttack _enemyCollisionAttack;
 
     private void OnEnable()
     {
         _animator = GetComponent<Animator>();
-
+        _collider = GetComponent<Collider2D>();
+        _enemyHealth = GetComponent<EnemyHealth>();
+        _enemyCollisionAttack = GetComponent<EnemyCollisionAttack>();
         _startPosition = transform.position;
         _currentPosition = _startPosition;
 
@@ -48,10 +53,15 @@ public class TektiteMovement : MonoBehaviour, IPoolable
 
     private IEnumerator MovementCoroutine()
     {
-        
+        _collider.enabled = false;
+        _enemyHealth.SetInvincibility(true);
+        _enemyCollisionAttack.SetSpawned(false);
         // 1) Optional “WaitBeforeSpawn”
         float spawnDelay = Random.Range(0.5f, maxWaitBeforeSpawn);
         yield return new WaitForSeconds(spawnDelay);
+        _collider.enabled = true;
+        _enemyHealth.SetInvincibility(false);
+        _enemyCollisionAttack.SetSpawned(true);
 
         // Now allow animations to play normally
         _animator.speed = 1f;

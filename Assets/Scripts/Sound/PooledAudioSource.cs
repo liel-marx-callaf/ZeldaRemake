@@ -25,16 +25,12 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     private void MuteSounds()
     {
-        if (!_isMuted)
-        {
-            _isMuted = true;
-            SetVolume(0);
-        }
+        _isMuted = !_isMuted;
+        if (!_isMuted) SetVolume(0);
         else
         {
             SetVolume(_originalVolume);
             _isMuted = false;
-            // _originalVolume = _audioSource.volume;
         }
     }
 
