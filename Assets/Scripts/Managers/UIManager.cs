@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class UIManager : MonoSingleton<UIManager>
 {
-    [Header("Heart Settings")] [SerializeField]
-    private Image[] heartContainers;
+    // ---------------- HEARTS ----------------
+    [Header("Heart Settings")] 
+    [SerializeField] private Image[] heartContainers;
     // Each element in this array is a single half-heart Image in the top UI
     // So for 4 hearts, you have 8 half-sprites in a row.
 
@@ -15,16 +16,43 @@ public class UIManager : MonoSingleton<UIManager>
     [SerializeField] private Sprite halfHeartSprite; // If you want half usage
     [SerializeField] private Sprite emptyHeartSprite;
 
-    [Header("Counters")] [SerializeField] private Text rupeeCounterText; // or a sprite-based approach
-    [SerializeField] private Text bombCounterText;
-    [SerializeField] private Text keyCounterText;
-
-    [Header("Minimap")] [SerializeField] private Image mapBackground;
+    // ---------------- SPRITE-BASED DIGITS ----------------
+    [Header("Digits Sprites")]
+    [Tooltip("Index 0 to 9 for each digit sprite.")]
+    [SerializeField] private Sprite[] digitSprites; // an array of length 10
+    [Tooltip("The 'X' sprite for 'X 00' style counters.")]
+    [SerializeField] private Sprite spriteX;
+    
+    // ---------------- RUPEES COUNTER ----------------
+    [Header("Rupees UI")]
+    [SerializeField] private Image rupeeX;    // The "X" sprite to the left
+    [SerializeField] private Image rupeeTens; // The tens digit
+    [SerializeField] private Image rupeeOnes; // The ones digit
+    private int currentRupees; // The current rupee count
+    
+    // ---------------- KEYS COUNTER ----------------
+    [Header("Keys UI")]
+    [SerializeField] private Image keyX;
+    [SerializeField] private Image keyTens;
+    [SerializeField] private Image keyOnes;
+    private int currentKeys;
+    
+    // ---------------- BOMBS COUNTER ----------------
+    [Header("Bombs UI")]
+    [SerializeField] private Image bombX;     
+    [SerializeField] private Image bombTens;  
+    [SerializeField] private Image bombOnes;  
+    private int currentBombs;
+    
+    // ---------------- MINIMAP ----------------
+    [Header("Minimap")] 
+    [SerializeField] private Image mapBackground;
     [SerializeField] private MinimapData minimapData;
     [SerializeField] private RectTransform playerLocationMarker;
     [SerializeField] private int startingAreaIndex = 1; // The area where the player starts
     // We'll move this marker to show the player's position
 
+    // ---------------- PLAYER STATS ----------------
     [Header("Player Stats")] [SerializeField]
     private PlayerHealth playerHealth;
 
@@ -66,10 +94,12 @@ public class UIManager : MonoSingleton<UIManager>
         // Possibly place the location marker at the starting area
         UpdateMapLocation( /*some default index*/ startingAreaIndex);
     }
+    
+    // -------------- EVENT HANDLERS --------------
 
     private void OnPlayerGainRupees(int amount)
     {
-        _currentRupees += amount;
+        currentRupees = Mathf.Clamp(currentRupees + amount, 0, 99);
         UpdateRupeesUI();
     }
 
@@ -122,21 +152,28 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void UpdateRupeesUI()
     {
-        // For a truly “NES look,” you might use a sprite font or 
-        // a pre-made text sprite. 
-        // But let's keep it simple with a Text:
-        rupeeCounterText.text = _currentRupees.ToString();
+        rupeeX.sprite = spriteX; // Always show "X"
+        int tens = currentRupees / 10;
+        int ones = currentRupees % 10;
+        rupeeTens.sprite = digitSprites[tens];
+        rupeeOnes.sprite = digitSprites[ones];
     }
 
     private void UpdateBombUI()
     {
-        bombCounterText.text = _currentBombs.ToString();
-    }
+        bombX.sprite = spriteX;
+        int tens = currentBombs / 10;
+        int ones = currentBombs % 10;
+        bombTens.sprite = digitSprites[tens];
+        bombOnes.sprite = digitSprites[ones];    }
 
     private void UpdateKeysUI()
     {
-        keyCounterText.text = _currentKeys.ToString();
-    }
+        keyX.sprite = spriteX;
+        int tens = currentKeys / 10;
+        int ones = currentKeys % 10;
+        keyTens.sprite = digitSprites[tens];
+        keyOnes.sprite = digitSprites[ones];    }
 
     private void UpdateMapLocation(int areaIndex)
     {
