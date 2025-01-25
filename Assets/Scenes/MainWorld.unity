@@ -654,6 +654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   journalCanvas: {fileID: 1255627750}
   journalController: {fileID: 876039297}
+  startingScene: 1
 --- !u!1 &150243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -22344,8 +22345,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27568908892855d45a30bae4dd0a7b6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
+  areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   audioClips:
-  - {fileID: 8300000, guid: 830278ea4620bfb479fae0fd70465589, type: 3}
+  - {fileID: 0}
   backgroundVolume: 0.5
 --- !u!4 &1127907133
 Transform:
@@ -28862,14 +28865,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.068716094
-    width: 0.99999994
-    height: 0.8609855
+    y: 0.04339964
+    width: 1
+    height: 0.91240954
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
   orthographic: 1
-  orthographic size: 5.5625
+  orthographic size: 6.5
   m_Depth: 20
   m_CullingMask:
     serializedVersion: 2

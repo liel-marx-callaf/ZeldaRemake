@@ -1,9 +1,12 @@
 using System;
+using Sound;
 using UnityEngine.Audio;
 using UnityEngine;
 
 public class AudioManager : MonoSingleton<AudioManager>
 {
+    [SerializeField] private SceneBackgroundMusicData sceneBackgroundMusicData;
+    [SerializeField] private AreaTypeData areaTypeData;
     [SerializeField] private AudioClip[] audioClips;
     [SerializeField, Range(0f, 1f)] private float backgroundVolume = 0.5f;
     private AudioSource _backgroundMusicSource;
@@ -13,24 +16,37 @@ public class AudioManager : MonoSingleton<AudioManager>
 
     private void Start()
     {
-            PlayBackgroundMusic();
+        // PlayBackgroundMusic();
     }
 
     private void OnEnable()
     {
         MyEvents.PauseUnpauseBackgroundMusic += PauseUnpauseBackgroundMusic;
         MyEvents.MuteSounds += MuteSounds;
+        MyEvents.LoadScene += OnLoadScene;
+        _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
     }
-    
+
     private void OnDisable()
     {
-        if (MyEvents.PauseUnpauseBackgroundMusic != null)
+        MyEvents.PauseUnpauseBackgroundMusic -= PauseUnpauseBackgroundMusic;
+        MyEvents.MuteSounds -= MuteSounds;
+        MyEvents.LoadScene -= OnLoadScene;
+    }
+
+    private void OnLoadScene(SceneIndexEnum obj)
+    {
+        if (sceneBackgroundMusicData == null) return;
+        if (sceneBackgroundMusicData.TryGetBackgroundMusic(obj, out var backgroundMusic))
         {
-            MyEvents.PauseUnpauseBackgroundMusic -= PauseUnpauseBackgroundMusic;
-        }
-        if (MyEvents.MuteSounds != null)
-        {
-            MyEvents.MuteSounds -= MuteSounds;
+            if (_backgroundMusicSource != null)
+            {
+                PlayBackgroundMusic(backgroundMusic);
+            }
+            else
+            {
+                Debug.LogError("Background music source is null");
+            }
         }
     }
 
@@ -40,32 +56,40 @@ public class AudioManager : MonoSingleton<AudioManager>
     }
 
 
-    private void PlayBackgroundMusic()
+    private void PlayBackgroundMusic(AudioClip backgroundMusic)
     {
-        _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
-        _backgroundMusicSource.clip = GetAudioClip("background_music");
+        _backgroundMusicSource.Stop();
+        _backgroundMusicSource.clip = backgroundMusic;
         _backgroundMusicSource.volume = backgroundVolume;
         _backgroundMusicSource.loop = true;
         _backgroundMusicSource.Play();
         _isBackgroundMusicPlaying = true;
     }
+    // {
+    // _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
+    // _backgroundMusicSource.clip = GetAudioClip("background_music");
+    // _backgroundMusicSource.volume = backgroundVolume;
+    // _backgroundMusicSource.loop = true;
+    // _backgroundMusicSource.Play();
+    // _isBackgroundMusicPlaying = true;
+    // }
 
     public void PlaySound(Vector3 position, string soundName, float volume = 1f, float pitch = 1f, bool loop = false,
         float spatialBlend = 1f)
     {
         // if (!_isMuted)
         // {
-            var audioSource = AudioSourcePool.Instance.Get();
-            if (audioSource != null)
-            {
-                audioSource.transform.position = position;
-                audioSource.SetAudioClip(GetAudioClip(soundName));
-                audioSource.SetVolume(volume);
-                audioSource.SetPitch(pitch);
-                audioSource.SetLoop(loop);
-                audioSource.SetSpatialBlend(spatialBlend);
-                audioSource.Play();
-            }
+        var audioSource = AudioSourcePool.Instance.Get();
+        if (audioSource != null)
+        {
+            audioSource.transform.position = position;
+            audioSource.SetAudioClip(GetAudioClip(soundName));
+            audioSource.SetVolume(volume);
+            audioSource.SetPitch(pitch);
+            audioSource.SetLoop(loop);
+            audioSource.SetSpatialBlend(spatialBlend);
+            audioSource.Play();
+        }
         // }
     }
 
@@ -82,7 +106,7 @@ public class AudioManager : MonoSingleton<AudioManager>
         Debug.LogError("Sound not found");
         return null;
     }
-    
+
     private void OnApplicationFocus(bool hasFocus)
     {
         if (_backgroundMusicSource != null)
@@ -100,7 +124,7 @@ public class AudioManager : MonoSingleton<AudioManager>
             }
         }
     }
-    
+
     private void PauseUnpauseBackgroundMusic()
     {
         if (_isBackgroundMusicPlaying)

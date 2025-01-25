@@ -6,12 +6,15 @@ namespace Managers
 {
     public class GameManager : MonoSingleton<GameManager>
     {
-        [Header("Journal References")] [SerializeField]
-        private GameObject journalCanvas;
-
+        [Header("Journal References")] 
+        [SerializeField] private GameObject journalCanvas;
         [SerializeField] private JournalController journalController;
         private bool _isJournalOpen;
 
+        [Header("Scene References")]
+        [SerializeField] private SceneIndexEnum startingScene;
+        private SceneIndexEnum _currentScene;
+        
         private InputPlayerActions _inputPlayerActions;
         private InputAction _actionSelect;
 
@@ -32,6 +35,7 @@ namespace Managers
         private void Start()
         {
             if (journalCanvas != null) journalCanvas.SetActive(false);
+            MyEvents.LoadScene?.Invoke(startingScene);
         }
 
         private void OnActionSelect(InputAction.CallbackContext context)

@@ -17,4 +17,5 @@ public class MyEvents : MonoBehaviour
     public static Action ForceDropSwitch;
     public static Action PauseUnpauseBackgroundMusic;
     public static Action MuteSounds;
+    public static Action<SceneIndexEnum> LoadScene;
 }

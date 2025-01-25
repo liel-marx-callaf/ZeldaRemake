@@ -61,18 +61,14 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Subscribe to events
         MyEvents.PlayerGainRupees += OnPlayerGainRupees;
-        // MyEvents.PlayerHit += OnPlayerHit;
-        // MyEvents.PlayerHeal += OnPlayerHeal;
         MyEvents.AreaSwitch += OnAreaSwitch;
-        // etc. (if you have bombs or keys events)
+        // etc. (if I have bombs or keys events)
     }
 
     private void OnDisable()
     {
         // Unsubscribe
         MyEvents.PlayerGainRupees -= OnPlayerGainRupees;
-        // MyEvents.PlayerHit -= OnPlayerHit;
-        // MyEvents.PlayerHeal -= OnPlayerHeal;
         MyEvents.AreaSwitch -= OnAreaSwitch;
     }
 
@@ -86,7 +82,7 @@ public class UIManager : MonoSingleton<UIManager>
         UpdateBombUI();
         UpdateKeysUI();
         // Possibly place the location marker at the starting area
-        UpdateMapLocation( /*some default index*/ startingAreaIndex);
+        UpdateMapLocation(startingAreaIndex);
     }
 
     // -------------- EVENT HANDLERS --------------
