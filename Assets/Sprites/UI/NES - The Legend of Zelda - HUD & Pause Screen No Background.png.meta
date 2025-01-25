@@ -482,7 +482,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_16
+      name: UIMinimapBackgroundSprite
       rect:
         serializedVersion: 2
         x: 519
@@ -499,28 +499,6 @@ TextureImporter:
       bones: []
       spriteID: 29619d050b13103b0800000000000000
       internalID: -5548098632603330926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_17
-      rect:
-        serializedVersion: 2
-        x: 583
-        y: 166
-        width: 66
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd4676637e49140e0800000000000000
-      internalID: -2287383414956399397
       vertices: []
       indices: 
       edges: []
@@ -548,7 +526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_19
+      name: UIMainBackgroundSprite
       rect:
         serializedVersion: 2
         x: 258
@@ -565,600 +543,6 @@ TextureImporter:
       bones: []
       spriteID: b0bde48f24997bf30800000000000000
       internalID: 4591306858040318731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_20
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 117
-        width: 98
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88d05efecc47e92e0800000000000000
-      internalID: -2117126351270638200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_21
-      rect:
-        serializedVersion: 2
-        x: 619
-        y: 117
-        width: 66
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2dacf17902d03e150800000000000000
-      internalID: 5900574370411039442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_22
-      rect:
-        serializedVersion: 2
-        x: 686
-        y: 117
-        width: 66
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0b2d9017d247c5b0800000000000000
-      internalID: -5348232541015037174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_44
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 100
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 786075db1e70fc930800000000000000
-      internalID: 4165556846466631303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_45
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e230c179384b4c1e0800000000000000
-      internalID: -2178417842471566546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_46
-      rect:
-        serializedVersion: 2
-        x: 527
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97c130f2837aa7240800000000000000
-      internalID: 4790325013410684025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_47
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 100
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b075c5f96cd9ac450800000000000000
-      internalID: 6109869320884213515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_48
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7603c76fa77de8f0800000000000000
-      internalID: -509619587579181444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_49
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81ec792aeef1abdf0800000000000000
-      internalID: -163783326655066600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_50
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 100
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff83d9a6d668502d0800000000000000
-      internalID: -3313094146362885889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_51
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6d9f568914932070800000000000000
-      internalID: 8080464993782308207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_52
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27f7bdc80fafbfe70800000000000000
-      internalID: 9150182978995584882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_53
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 100
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95701eca35cf48d80800000000000000
-      internalID: -8249191181122992295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_54
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f400f4e9530c8560800000000000000
-      internalID: 7317227179198121205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_55
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cb332654994801d0800000000000000
-      internalID: -3384374218519790653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_56
-      rect:
-        serializedVersion: 2
-        x: 586
-        y: 100
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdc80f34e078eb440800000000000000
-      internalID: 4953545135493254363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_57
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cca473ab400a38af0800000000000000
-      internalID: -395296400113972532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_58
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 271df81095fd7db20800000000000000
-      internalID: 3159239236994978162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_59
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 396780700e96c7620800000000000000
-      internalID: 2773207881464968851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_60
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19416bce628935bb0800000000000000
-      internalID: -4948444272602508143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_61
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 357ae0680509ffcd0800000000000000
-      internalID: -2522138590783297709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_62
-      rect:
-        serializedVersion: 2
-        x: 635
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91750b92a234d40d0800000000000000
-      internalID: -3437017092246710503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_63
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d974d909a2f2b2fb0800000000000000
-      internalID: -4671588328605399139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_64
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edac9e28bdddee1c0800000000000000
-      internalID: -4472393445068387618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_65
-      rect:
-        serializedVersion: 2
-        x: 662
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4805fba98b0424eb0800000000000000
-      internalID: -4737152696425951100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_66
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78d9746c5fbacd5f0800000000000000
-      internalID: -730519967458943609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_67
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 91
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f98825b3c2fdbf80800000000000000
-      internalID: -8089042433315665415
       vertices: []
       indices: 
       edges: []
@@ -1208,7 +592,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_70
+      name: UINumberSpriteX
       rect:
         serializedVersion: 2
         x: 519
@@ -1230,7 +614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_71
+      name: UIGreenPlayerMinimapIndicatorSprite
       rect:
         serializedVersion: 2
         x: 519
@@ -1252,7 +636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_72
+      name: UINumberSprite0
       rect:
         serializedVersion: 2
         x: 528
@@ -1274,29 +658,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_73
-      rect:
-        serializedVersion: 2
-        x: 527
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3fb308c519d66f40800000000000000
-      internalID: 5721499064194023228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_74
+      name: UINumberSprite1
       rect:
         serializedVersion: 2
         x: 537
@@ -1318,29 +680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_75
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d94d481c2f7256a0800000000000000
-      internalID: -6461962687960233512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_76
+      name: UINumberSprite2
       rect:
         serializedVersion: 2
         x: 546
@@ -1362,29 +702,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_77
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf6915e45d9db6820800000000000000
-      internalID: 2912661094190388987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_78
+      name: UINumberSprite3
       rect:
         serializedVersion: 2
         x: 555
@@ -1406,29 +724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_79
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 853a520cecc002150800000000000000
-      internalID: 5845686398453392216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_80
+      name: UINumberSprite4
       rect:
         serializedVersion: 2
         x: 564
@@ -1450,29 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_81
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1101ffc10664091c0800000000000000
-      internalID: -4499018649125842927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_82
+      name: UINumberSprite5
       rect:
         serializedVersion: 2
         x: 573
@@ -1494,29 +768,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_83
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b2db9c7e6214c750800000000000000
-      internalID: 6324200042481308342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_84
+      name: UINumberSprite6
       rect:
         serializedVersion: 2
         x: 582
@@ -1538,29 +790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_85
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ca27c28633eb5e20800000000000000
-      internalID: 3340513371887184583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_86
+      name: UINumberSprite7
       rect:
         serializedVersion: 2
         x: 591
@@ -1582,29 +812,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_87
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ce216ee4e23a52f0800000000000000
-      internalID: -983417609793753401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_88
+      name: UINumberSprite8
       rect:
         serializedVersion: 2
         x: 600
@@ -1626,29 +834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_89
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e4441fdbb8bda310800000000000000
-      internalID: 1417992574732616929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_90
+      name: UINumberSprite9
       rect:
         serializedVersion: 2
         x: 609
@@ -1665,28 +851,6 @@ TextureImporter:
       bones: []
       spriteID: fd9ddc217e2a4f480800000000000000
       internalID: -8866282653049038369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_91
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 73
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b9ba516dcb1f1710800000000000000
-      internalID: 1666080956065954230
       vertices: []
       indices: 
       edges: []
@@ -1714,7 +878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_93
+      name: UIHeartSpriteEmpty
       rect:
         serializedVersion: 2
         x: 627
@@ -1736,7 +900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_94
+      name: UIHeartSpriteHalf
       rect:
         serializedVersion: 2
         x: 636
@@ -1758,7 +922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_95
+      name: UIHeartSpriteFull
       rect:
         serializedVersion: 2
         x: 645
@@ -1780,51 +944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_96
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 54
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84251b282e3aa2560800000000000000
-      internalID: 7289819140103164488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_97
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 54
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8638d698590ef9a0800000000000000
-      internalID: -6197505761122699634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_98
+      name: UIWoodenSwordSprite
       rect:
         serializedVersion: 2
         x: 555
@@ -1846,95 +966,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_99
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10ef7ec8b204ee4c0800000000000000
-      internalID: -4256394042026754559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_100
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b9ba48f182952050800000000000000
-      internalID: 5775183184086612408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_101
-      rect:
-        serializedVersion: 2
-        x: 583
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe9db75663693f320800000000000000
-      internalID: 2590579371043183087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_102
-      rect:
-        serializedVersion: 2
-        x: 592
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b165d8ca6b0c9070800000000000000
-      internalID: 8114373181878657457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_103
+      name: UIBombSprite
       rect:
         serializedVersion: 2
         x: 604
@@ -1956,419 +988,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_104
+      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_0
       rect:
         serializedVersion: 2
-        x: 614
-        y: 54
-        width: 10
-        height: 18
+        x: 612
+        y: 80
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c572045b2abe3220800000000000000
-      internalID: 2467614341101417929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_105
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 358c5df77e6549db0800000000000000
-      internalID: -4786104951705843629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_106
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b71df43f3db1b9e0800000000000000
-      internalID: -1607295512824965196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_107
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01ad63703c2396490800000000000000
-      internalID: -7752609470320551408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_108
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc0b3a4a4b5d7ad00800000000000000
-      internalID: 983990015436763343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_109
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4556226a1ee88d080800000000000000
-      internalID: -9162416342079216300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_110
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20cb0f00cc86e5e00800000000000000
-      internalID: 1035380189740186626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_111
-      rect:
-        serializedVersion: 2
-        x: 686
-        y: 55
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd330062f6dab6630800000000000000
-      internalID: 3921418593446671327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_112
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 063ef33a79a535140800000000000000
-      internalID: 4707205642857735008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_113
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf0110bcd0f153130800000000000000
-      internalID: 3545774425725014268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_114
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 54
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1575376a81ff8e10800000000000000
-      internalID: 2202244319546799388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_115
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 35
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4eb763a4ac7526e0800000000000000
-      internalID: -1862945824289866165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_116
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 35
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce564c0303975b990800000000000000
-      internalID: -7370851967238380052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_117
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 35
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22835fb8f8f04e910800000000000000
-      internalID: 1865633254841071650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_118
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 35
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 164b577d14b3e60e0800000000000000
-      internalID: -2274815607801793439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_119
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 35
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7586d9c347363d00800000000000000
-      internalID: 952009135524054394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_120
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 35
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 383c913aca0742920800000000000000
-      internalID: 2964618341489689475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_121
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 35
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 241d437ceab117cf0800000000000000
-      internalID: -256393266303020734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_122
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 35
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96f1e8b5cf259fd80800000000000000
-      internalID: -8216444801339482263
+      spriteID: b39e889124caca840b19bd37445553ee
+      internalID: 3685449009312275965
       vertices: []
       indices: 
       edges: []
@@ -2393,7 +1029,6 @@ TextureImporter:
       NES - The Legend of Zelda - HUD & Pause Screen No Background_100: 5775183184086612408
       NES - The Legend of Zelda - HUD & Pause Screen No Background_101: 2590579371043183087
       NES - The Legend of Zelda - HUD & Pause Screen No Background_102: 8114373181878657457
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_103: 7718295414236696026
       NES - The Legend of Zelda - HUD & Pause Screen No Background_104: 2467614341101417929
       NES - The Legend of Zelda - HUD & Pause Screen No Background_105: -4786104951705843629
       NES - The Legend of Zelda - HUD & Pause Screen No Background_106: -1607295512824965196
@@ -2419,10 +1054,8 @@ TextureImporter:
       NES - The Legend of Zelda - HUD & Pause Screen No Background_13: -4412043388177392348
       NES - The Legend of Zelda - HUD & Pause Screen No Background_14: 865106693440470809
       NES - The Legend of Zelda - HUD & Pause Screen No Background_15: 550649103502078533
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_16: -5548098632603330926
       NES - The Legend of Zelda - HUD & Pause Screen No Background_17: -2287383414956399397
       NES - The Legend of Zelda - HUD & Pause Screen No Background_18: -1514866277151750880
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_19: 4591306858040318731
       NES - The Legend of Zelda - HUD & Pause Screen No Background_2: -6688961026565553979
       NES - The Legend of Zelda - HUD & Pause Screen No Background_20: -2117126351270638200
       NES - The Legend of Zelda - HUD & Pause Screen No Background_21: 5900574370411039442
@@ -2479,38 +1112,41 @@ TextureImporter:
       NES - The Legend of Zelda - HUD & Pause Screen No Background_68: -4648374131650622746
       NES - The Legend of Zelda - HUD & Pause Screen No Background_69: 3852702593540694977
       NES - The Legend of Zelda - HUD & Pause Screen No Background_7: -1086378237453881068
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_70: 5416979042541627731
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_71: -4847452482283200124
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_72: -1781243872298186523
       NES - The Legend of Zelda - HUD & Pause Screen No Background_73: 5721499064194023228
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_74: 3358363605571105031
       NES - The Legend of Zelda - HUD & Pause Screen No Background_75: -6461962687960233512
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_76: 4664167572527350904
       NES - The Legend of Zelda - HUD & Pause Screen No Background_77: 2912661094190388987
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_78: -7671434517750228903
       NES - The Legend of Zelda - HUD & Pause Screen No Background_79: 5845686398453392216
       NES - The Legend of Zelda - HUD & Pause Screen No Background_8: -3415834468844897833
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_80: 7434261796861319146
       NES - The Legend of Zelda - HUD & Pause Screen No Background_81: -4499018649125842927
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_82: -8638667021228080764
       NES - The Legend of Zelda - HUD & Pause Screen No Background_83: 6324200042481308342
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_84: -5068985079104781060
       NES - The Legend of Zelda - HUD & Pause Screen No Background_85: 3340513371887184583
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_86: -7183653779617165697
       NES - The Legend of Zelda - HUD & Pause Screen No Background_87: -983417609793753401
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_88: -7334378437218650056
       NES - The Legend of Zelda - HUD & Pause Screen No Background_89: 1417992574732616929
       NES - The Legend of Zelda - HUD & Pause Screen No Background_9: -4626020833885400423
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_90: -8866282653049038369
       NES - The Legend of Zelda - HUD & Pause Screen No Background_91: 1666080956065954230
       NES - The Legend of Zelda - HUD & Pause Screen No Background_92: 6453250255953134102
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_93: -6753181429845580175
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_94: -2102333442540926688
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_95: -7702038667889969680
       NES - The Legend of Zelda - HUD & Pause Screen No Background_96: 7289819140103164488
       NES - The Legend of Zelda - HUD & Pause Screen No Background_97: -6197505761122699634
-      NES - The Legend of Zelda - HUD & Pause Screen No Background_98: 3006237197840081550
       NES - The Legend of Zelda - HUD & Pause Screen No Background_99: -4256394042026754559
+      UIBombSprite: 7718295414236696026
+      UIGreenPlayerMinimapIndicatorSprite: -4847452482283200124
+      UIHeartSpriteEmpty: -6753181429845580175
+      UIHeartSpriteFull: -7702038667889969680
+      UIHeartSpriteHalf: -2102333442540926688
+      UIMainBackgroundSprite: 4591306858040318731
+      UIMinimapBackgroundSprite: -5548098632603330926
+      UINumberSprite0: -1781243872298186523
+      UINumberSprite1: 3358363605571105031
+      UINumberSprite2: 4664167572527350904
+      UINumberSprite3: -7671434517750228903
+      UINumberSprite4: 7434261796861319146
+      UINumberSprite5: -8638667021228080764
+      UINumberSprite6: -5068985079104781060
+      UINumberSprite7: -7183653779617165697
+      UINumberSprite8: -7334378437218650056
+      UINumberSprite9: -8866282653049038369
+      UINumberSpriteX: 5416979042541627731
+      UIWoodenSwordSprite: 3006237197840081550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

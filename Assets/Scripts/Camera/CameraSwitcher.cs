@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using Unity.Cinemachine;
-// todo: fix pixel perfect camera size and colliders
+
 public class CameraSwitcher : MonoBehaviour
 {
     [SerializeField] private CinemachineCamera currentCamera;
