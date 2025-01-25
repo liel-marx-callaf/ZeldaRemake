@@ -1,11 +1,13 @@
+using System;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoSingleton<UIManager>
 {
-[Header("Heart Settings")]
-    [SerializeField] private Image[] heartHalves; 
+    [Header("Heart Settings")] [SerializeField]
+    private Image[] heartContainers;
     // Each element in this array is a single half-heart Image in the top UI
     // So for 4 hearts, you have 8 half-sprites in a row.
 
@@ -13,23 +15,25 @@ public class UIManager : MonoSingleton<UIManager>
     [SerializeField] private Sprite halfHeartSprite; // If you want half usage
     [SerializeField] private Sprite emptyHeartSprite;
 
-    [Header("Counters")]
-    [SerializeField] private Text rupeeCounterText; // or a sprite-based approach
+    [Header("Counters")] [SerializeField] private Text rupeeCounterText; // or a sprite-based approach
     [SerializeField] private Text bombCounterText;
     [SerializeField] private Text keyCounterText;
 
-    [Header("Minimap")]
-    [SerializeField] private Image mapBackground;
+    [Header("Minimap")] [SerializeField] private Image mapBackground;
+    [SerializeField] private MinimapData minimapData;
     [SerializeField] private RectTransform playerLocationMarker;
     [SerializeField] private int startingAreaIndex = 1; // The area where the player starts
     // We'll move this marker to show the player's position
 
+    [Header("Player Stats")] [SerializeField]
+    private PlayerHealth playerHealth;
+
     // We'll track the player's current HP, rupees, bombs, etc.
-    private int currentHP = 8; // default (4 hearts x 2 halves)
-    private int maxHP = 8;     // also 4 hearts in halves
-    private int currentRupees = 0;
-    private int currentBombs = 0;
-    private int currentKeys = 0; // Always 0 for now
+    private int _currentHP = 8; // default (4 hearts x 2 halves)
+    private int _maxHP = 8; // also 4 hearts in halves
+    private int _currentRupees = 0;
+    private int _currentBombs = 0;
+    private int _currentKeys = 0; // Always 0 for now
 
     private void OnEnable()
     {
@@ -52,6 +56,8 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void Start()
     {
+        _currentHP = playerHealth.GetCurrentHealth();
+        _maxHP = playerHealth.GetMaxHealth();
         // Initialize UI
         UpdateHeartsUI();
         UpdateRupeesUI();
@@ -63,21 +69,21 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void OnPlayerGainRupees(int amount)
     {
-        currentRupees += amount;
+        _currentRupees += amount;
         UpdateRupeesUI();
     }
 
     private void OnPlayerHit(int damage)
     {
-        currentHP -= damage;
-        if (currentHP < 0) currentHP = 0;
+        _currentHP -= damage;
+        if (_currentHP < 0) _currentHP = 0;
         UpdateHeartsUI();
     }
 
     private void OnPlayerHeal(int amount)
     {
-        currentHP += amount;
-        if (currentHP > maxHP) currentHP = maxHP;
+        _currentHP += amount;
+        if (_currentHP > _maxHP) _currentHP = _maxHP;
         UpdateHeartsUI();
     }
 
@@ -93,18 +99,23 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // E.g. if currentHP = 7, that means 3.5 hearts
         // We have 8 half-hearts total. We'll fill them up from left to right.
-        int hpLeft = currentHP; // e.g. 7
-        for (int i = 0; i < heartHalves.Length; i++)
+        int hpLeft = _currentHP; // e.g. 7
+        for (int i = 0; i < heartContainers.Length; i++)
         {
-            if (hpLeft >= 1)
+            if (hpLeft >= 2)
             {
                 // This half is full
-                heartHalves[i].sprite = fullHeartSprite;
+                heartContainers[i].sprite = fullHeartSprite;
+                hpLeft -= 2;
+            }
+            else if (hpLeft == 1)
+            {
+                heartContainers[i].sprite = halfHeartSprite;
                 hpLeft -= 1;
             }
             else
             {
-                heartHalves[i].sprite = emptyHeartSprite;
+                heartContainers[i].sprite = emptyHeartSprite;
             }
         }
     }
@@ -114,31 +125,30 @@ public class UIManager : MonoSingleton<UIManager>
         // For a truly “NES look,” you might use a sprite font or 
         // a pre-made text sprite. 
         // But let's keep it simple with a Text:
-        rupeeCounterText.text = currentRupees.ToString();
+        rupeeCounterText.text = _currentRupees.ToString();
     }
 
     private void UpdateBombUI()
     {
-        bombCounterText.text = currentBombs.ToString();
+        bombCounterText.text = _currentBombs.ToString();
     }
 
     private void UpdateKeysUI()
     {
-        keyCounterText.text = currentKeys.ToString();
+        keyCounterText.text = _currentKeys.ToString();
     }
 
     private void UpdateMapLocation(int areaIndex)
     {
-        // The original Zelda had a small green square on a blocky map 
-        // that highlights your current room.
-        // Easiest approach: store a dictionary of "AreaIndex -> localPosition".
-        // Then just set `playerLocationMarker.anchoredPosition = thatPosition;`
+        if (minimapData == null || playerLocationMarker == null) return;
 
-        // For example:
-        Vector2 pos;
-        if (TryGetMapPosition(areaIndex, out pos))
+        if (minimapData.TryGetPosition(areaIndex, out Vector2 newPosition))
         {
-            playerLocationMarker.anchoredPosition = pos;
+            playerLocationMarker.anchoredPosition = newPosition;
+        }
+        else
+        {
+            Debug.Log($"Area index {areaIndex} not found in minimap data.");
         }
     }
 
@@ -160,17 +170,16 @@ public class UIManager : MonoSingleton<UIManager>
     // -------------- Public Methods for other scripts --------------
     public void AddBomb(int amount)
     {
-        currentBombs += amount;
+        _currentBombs += amount;
         UpdateBombUI();
     }
 
     public void UseBomb()
     {
-        if (currentBombs > 0)
+        if (_currentBombs > 0)
         {
-            currentBombs--;
+            _currentBombs--;
             UpdateBombUI();
         }
     }
-    
 }

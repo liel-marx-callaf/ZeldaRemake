@@ -59,10 +59,10 @@ public class CameraSwitcher : MonoBehaviour
     }
         private void OnAreaSwitch(int enterIndex, int exitIndex)
         {
-            if (enterIndex == currentIndex)
-            {
+            // if (enterIndex == currentIndex)
+            // {
                 StartCoroutine(IgnoreTriggerTemporarily());
     
-            }
+            // }
         }
 }

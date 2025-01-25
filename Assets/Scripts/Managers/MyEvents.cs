@@ -15,4 +15,6 @@ public class MyEvents : MonoBehaviour
     public static Action<EnemyTypeEnum, Vector3> EnemyDied;
     public static Action ClearAreaFromEnemies;
     public static Action ForceDropSwitch;
+    public static Action PauseUnpauseBackgroundMusic;
+    public static Action MuteSounds;
 }

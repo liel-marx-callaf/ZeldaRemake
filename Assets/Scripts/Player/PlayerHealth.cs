@@ -5,8 +5,9 @@ namespace Player
 {
     public class PlayerHealth : MonoBehaviour, IHasHealth
     {
-        [SerializeField] private int initialHealth = 6;
+        [SerializeField] private int initialHealth = 8;
         private int _currentHealth;
+        private int _maxHealth;
         private Rigidbody2D _rb;
         // private Animator _animator;
     
@@ -14,6 +15,7 @@ namespace Player
         {
             _rb = GetComponent<Rigidbody2D>();
             _currentHealth = initialHealth;
+            _maxHealth = initialHealth;
             // _animator = GetComponent<Animator>();
         }
 
@@ -44,9 +46,22 @@ namespace Player
         private void GainHealth(int health)
         {
             _currentHealth += health;
+            if (_currentHealth > _maxHealth)
+            {
+                _currentHealth = _maxHealth;
+            }
             Debug.Log($"Player gained {health} health. Current health: {_currentHealth}");
         }
 
+        public int GetCurrentHealth()
+        {
+            return _currentHealth;
+        }
+        
+        public int GetMaxHealth()
+        {
+            return _maxHealth;
+        }
         private void Die()
         {
             // throw new System.NotImplementedException();

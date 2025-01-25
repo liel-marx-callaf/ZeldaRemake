@@ -1,2 +1,19 @@
 fileFormatVersion: 2
 guid: 94ff0d275baea4444bf009a128fb6364
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fullHeartSprite: {fileID: -7702038667889969680, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
+  - halfHeartSprite: {fileID: -2102333442540926688, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
+  - emptyHeartSprite: {fileID: -6753181429845580175, guid: 6b24a6a69e2a97d4296ccf2945d8061d, type: 3}
+  - rupeeCounterText: {instanceID: 0}
+  - bombCounterText: {instanceID: 0}
+  - keyCounterText: {instanceID: 0}
+  - mapBackground: {instanceID: 0}
+  - playerLocationMarker: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

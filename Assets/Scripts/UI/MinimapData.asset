@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a516e099feb984bb07e9132297e192, type: 3}
+  m_Name: MinimapData
+  m_EditorClassIdentifier: 
+  areaPositions:
+  - areaIndex: 1
+    position: {x: 32, y: 11}
+  - areaIndex: 2
+    position: {x: 32, y: 8}
+  - areaIndex: 3
+    position: {x: 29, y: 8}
+  - areaIndex: 4
+    position: {x: 29, y: 11}
+  - areaIndex: 5
+    position: {x: 26, y: 11}
+  - areaIndex: 6
+    position: {x: 26, y: 8}
+  - areaIndex: 7
+    position: {x: 23, y: 8}
+  - areaIndex: 8
+    position: {x: 20, y: 8}
+  - areaIndex: 9
+    position: {x: 20, y: 11}
