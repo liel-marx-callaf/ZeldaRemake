@@ -37,6 +37,7 @@ public class AudioManager : MonoSingleton<AudioManager>
         MyEvents.PauseUnpauseBackgroundMusic += PauseUnpauseBackgroundMusic;
         MyEvents.MuteSounds += MuteSounds;
         MyEvents.LoadScene += OnLoadScene;
+        // MyEvents.StopSound += StopSound;
         _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
         _backgroundVolume = backgroundVolume;
 
@@ -100,22 +101,19 @@ public class AudioManager : MonoSingleton<AudioManager>
         var audioSource = AudioSourcePool.Instance.Get();
         if (audioSource != null)
         {
-            Debug.Log("Got audio source");
             audioSource.transform.position = position;
-            Debug.Log("Set position");
             audioSource.SetAudioClip(GetAudioClip(soundName));
-            Debug.Log("Set audio clip");
             audioSource.SetVolume(volume);
-            Debug.Log("Set volume");
             audioSource.SetPitch(pitch);
-            Debug.Log("Set pitch");
             audioSource.SetLoop(loop);
-            Debug.Log("Set loop");
             audioSource.SetSpatialBlend(spatialBlend);
-            Debug.Log("Set spatial blend");
             audioSource.Play();
-            Debug.Log("Set Play");
         }
+    }
+
+    public void StopSound(string soundName)
+    {
+        MyEvents.StopSound?.Invoke(soundName);
     }
 
     private AudioClip GetAudioClip(string soundName)

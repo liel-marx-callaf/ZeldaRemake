@@ -8,6 +8,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
     private AudioSource _audioSource;
     private static bool _isMuted = false;
     private float _originalVolume;
+    private bool _isLooping;
 
 
     private void OnEnable()
@@ -15,11 +16,21 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
         _audioSource = GetComponent<AudioSource>();
         // _originalVolume = _audioSource.volume;
         MyEvents.MuteSounds += MuteSounds;
+        MyEvents.StopSound += StopSound;
     }
 
     private void OnDisable()
     {
         MyEvents.MuteSounds -= MuteSounds;
+        MyEvents.StopSound -= StopSound;
+    }
+
+    private void StopSound(string soundName)
+    {
+        if (_audioSource.clip.name == soundName)
+        {
+            Stop();
+        }
     }
 
     private void MuteSounds()
@@ -47,6 +58,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     public void SetLoop(bool loop)
     {
+        _isLooping = loop;
         _audioSource.loop = loop;
     }
 
@@ -55,7 +67,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
         _audioSource.spatialBlend = spatialBlend;
     }
 
-    public float GetClipLength()
+    private float GetClipLength()
     {
         return _audioSource.clip.length;
     }
@@ -63,7 +75,6 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     public void Play()
     {
-        Debug.Log("Playing audio");
         _audioSource.Play();
         StartCoroutine(ReturnToPoolWhenFinished());
     }
@@ -76,6 +87,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     private IEnumerator ReturnToPoolWhenFinished()
     {
+        if (_isLooping) yield break;
         float clipLength = GetClipLength();
         if (clipLength < 1) yield return new WaitForSeconds(1f);
         else yield return new WaitWhile(() => _audioSource.isPlaying);

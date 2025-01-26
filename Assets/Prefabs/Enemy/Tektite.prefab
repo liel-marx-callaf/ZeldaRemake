@@ -232,6 +232,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialHealth: 1
+  hitSoundName: LOZ_Enemy_Hit
+  hitSoundVolume: 1
+  deathSoundName: LOZ_Enemy_Die
+  deathSoundVolume: 1
 --- !u!114 &429306794505344112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,7 +278,7 @@ MonoBehaviour:
   topLeftBorder: {x: -8, y: 6}
   bottomRightBorder: {x: 8, y: -4}
   edgeBuffer: 1
-  maxWaitBeforeSpawn: 9
+  maxWaitBeforeSpawn: 3
   maxLoadDuration: 2
   maxIdleDuration: 2
   maxJumpInterval: 4

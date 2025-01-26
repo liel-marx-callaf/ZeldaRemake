@@ -6,13 +6,12 @@ using Random = UnityEngine.Random;
 
 public class EnemiesManager : MonoSingleton<EnemiesManager>
 {
-    [Header("Enemy Pools")] [SerializeField]
-    private TektitePool tektitePool;
+    [Header("Enemy Pools")] 
+    [SerializeField] private TektitePool tektitePool;
 
     // [SerializeField] private PeahatPool peahatPool;
-    [Header("Spawn Settings")] [SerializeField]
-    private Vector2 topLeftOffset;
-
+    [Header("Spawn Settings")] 
+    [SerializeField] private Vector2 topLeftOffset;
     [SerializeField] private Vector2 bottomRightOffset;
     [SerializeField, Range(0f, 5f)] private float spawnEdgeBuffer = 1f;
 
@@ -25,8 +24,8 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         [SerializeField] public EnemyType[] enemyTypes;
     }
 
-    [Header("Area Settings")] [SerializeField]
-    private int startingAreaIndex;
+    [Header("Area Settings")] 
+    [SerializeField] private int startingAreaIndex = 1;
 
     [SerializeField] private Area[] areas;
 
@@ -52,11 +51,11 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     private void EnemyDied(EnemyTypeEnum obj, Vector3 position)
     {
         Debug.Log("Enemy died: " + obj);
-        foreach (var enemytype in areas[_currentAreaIndex - 1].enemyTypes)
+        foreach (var enemyType in areas[_currentAreaIndex - 1].enemyTypes)
         {
-            if (enemytype.enemyType == obj)
+            if (enemyType.enemyType == obj)
             {
-                enemytype.spawnAmount--;
+                enemyType.spawnAmount--;
             }
         }
     }
@@ -86,17 +85,17 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
             for (int i = 0; i < enemyType.spawnAmount; i++)
             {
                 // var spawnDelay = UnityEngine.Random.Range(minSpawnDelay, maxSpawnDelay);
-                SpawnEnemiesCoroutine(enemyType, area);
+                SpawnEnemies(enemyType, area);
             }
         }
     }
 
-    private void SpawnEnemiesCoroutine(EnemyType enemy, Area area)
+    private void SpawnEnemies(EnemyType enemy, Area area)
     {
         var spawnPosition = new Vector3(
             Random.Range(topLeftOffset.x + spawnEdgeBuffer, bottomRightOffset.x - spawnEdgeBuffer) +
             area.areaCameraPosition.x,
-            Random.Range(topLeftOffset.y + spawnEdgeBuffer, bottomRightOffset.y - spawnEdgeBuffer) +
+            Random.Range(bottomRightOffset.y + spawnEdgeBuffer, topLeftOffset.y - spawnEdgeBuffer) +
             area.areaCameraPosition.y, 0);
         // yield return new WaitForSeconds(spawnDelay);
         if (enemy.enemyType == EnemyTypeEnum.Tektite)
