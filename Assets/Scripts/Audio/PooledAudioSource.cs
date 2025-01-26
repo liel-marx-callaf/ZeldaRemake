@@ -5,16 +5,15 @@ using UnityEngine;
 
 public class PooledAudioSource : MonoBehaviour, IPoolable
 {
-    // [SerializeField] private AudioClip audioClip;
     private AudioSource _audioSource;
-    static bool _isMuted = false;
+    private static bool _isMuted = false;
     private float _originalVolume;
 
 
     private void OnEnable()
     {
-        _originalVolume = _audioSource.volume;
         _audioSource = GetComponent<AudioSource>();
+        // _originalVolume = _audioSource.volume;
         MyEvents.MuteSounds += MuteSounds;
     }
 
@@ -27,11 +26,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
     {
         _isMuted = !_isMuted;
         if (!_isMuted) SetVolume(0);
-        else
-        {
-            SetVolume(_originalVolume);
-            _isMuted = false;
-        }
+        else SetVolume(_originalVolume);
     }
 
     public void SetAudioClip(AudioClip audioClip)
@@ -46,7 +41,8 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     public void SetVolume(float volume)
     {
-            _audioSource.volume = volume;
+        _originalVolume = volume;
+        _audioSource.volume = volume;
     }
 
     public void SetLoop(bool loop)
@@ -67,10 +63,11 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     public void Play()
     {
+        Debug.Log("Playing audio");
         _audioSource.Play();
         StartCoroutine(ReturnToPoolWhenFinished());
     }
-    
+
     public void Stop()
     {
         _audioSource.Stop();

@@ -15,6 +15,7 @@ public class CheatManager : MonoSingleton<CheatManager>
     private bool _is8Pressed;
     private bool _is9Pressed;
     private bool _is0Pressed;
+    private bool _isMPressed;
     private bool _isEscapePressed;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,6 +31,7 @@ public class CheatManager : MonoSingleton<CheatManager>
         _is7Pressed = false;
         _is8Pressed = false;
         _is9Pressed = false;
+        _isMPressed = false;
         _isAltPressed = false;
         _isEscapePressed = false;
     }
@@ -54,6 +56,7 @@ public class CheatManager : MonoSingleton<CheatManager>
         _is8Pressed = Input.GetKeyDown(KeyCode.Alpha8);
         _is9Pressed = Input.GetKeyDown(KeyCode.Alpha9);
         _is0Pressed = Input.GetKeyDown(KeyCode.Alpha0);
+        _isMPressed = Input.GetKeyDown(KeyCode.M);
         _isEscapePressed = Input.GetKeyDown(KeyCode.Escape);
     }
 
@@ -71,6 +74,12 @@ public class CheatManager : MonoSingleton<CheatManager>
             MyEvents.ForceDropSwitch?.Invoke();
         }
 
+        if (_isMPressed)
+        {
+            Debug.Log("Cheat activated: Mute sounds");
+            MyEvents.MuteSounds?.Invoke();
+        }
+        
         if (_isEscapePressed)
         {
             Debug.Log("Cheat activated: Quit game");

@@ -6,9 +6,6 @@ namespace Player
 {
     public class PlayerAttack : MonoBehaviour
     {
-        private static readonly int Attack = Animator.StringToHash("Attack");
-
-        // private static readonly int Attack = Animator.StringToHash("Attack");
         private InputPlayerActions _inputPlayerActions;
 
         // private Animator _animator;
@@ -17,14 +14,20 @@ namespace Player
         private PlayerMovementController _playerMovementController;
 
         // private RaycastHit2D[] hits;
+        [Header("Attack Settings")]
         [SerializeField] private float attackRange = 0.5f;
         [SerializeField] private int attackDamage = 1;
         [SerializeField] private LayerMask hittableLayer;
+        
+        [Header("Raycast Offsets")]
         [SerializeField, Range(-1f, 1f)] private float rightRayHeightOffset = 0.4f;
         [SerializeField, Range(-1f, 1f)] private float leftRayHeightOffset = 0.4f;
         [SerializeField, Range(-1f, 1f)] private float downRayHorizontalOffset = -0.4f;
         [SerializeField, Range(-1f, 1f)] private float upRayHorizontalOffset = -0.4f;
-
+        
+        [Header("Audio")]
+        [SerializeField] private string attackSoundName = "LOZ_Sword_Slash";
+        [SerializeField, Range(0f, 1f)] private float attackSoundVolume = 0.5f;
 
         private Vector2 _rightRayOrigin;
         private Vector2 _leftRayOrigin;
@@ -62,20 +65,20 @@ namespace Player
         private void OnActionA(InputAction.CallbackContext context)
         {
             _playerAnimationControl.SetSwordAttack();
-            // _animator.speed = 1;
-            // _playerMovementController.IsAttacking = true;
             _playerMovementController.Attacking();
             SwordAttack();
         }
 
         private void OnActionB(InputAction.CallbackContext context)
         {
+            // todo: implement bomb attack?
             // _animator.SetTrigger(Attack);
         }
         
 
         private void SwordAttack()
         {
+            AudioManager.Instance.PlaySound(this.transform.position, attackSoundName, attackSoundVolume);
             _rightRayOrigin = Vector2.right * 0.5f + Vector2.up * rightRayHeightOffset;
             _leftRayOrigin = Vector2.left * 0.5f + Vector2.up * leftRayHeightOffset;
             _upRayOrigin = Vector2.up + Vector2.right * upRayHorizontalOffset;

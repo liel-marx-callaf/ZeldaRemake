@@ -46,7 +46,7 @@ namespace Managers
 
         private void OnActionSelect(InputAction.CallbackContext context)
         {
-            if (_currentScene == SceneIndexEnum.MainGame || _currentScene == SceneIndexEnum.Journal)
+            if (_currentScene is SceneIndexEnum.MainGame or SceneIndexEnum.Journal)
             {
                 ToggleJournal();
             }

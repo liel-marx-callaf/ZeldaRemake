@@ -1,6 +1,5 @@
-using System;
+// Purpose: To manage the audio in the game. This includes background music, sound effects, and audio pools.
 using Sound;
-using UnityEngine.Audio;
 using UnityEngine;
 
 public class AudioManager : MonoSingleton<AudioManager>
@@ -8,6 +7,7 @@ public class AudioManager : MonoSingleton<AudioManager>
     [Header("Background Music")]
     [SerializeField] private SceneBackgroundMusicData sceneBackgroundMusicData;
     [SerializeField, Range(0f, 1f)] private float backgroundVolume = 0.5f;
+    private float _backgroundVolume;
     private AudioSource _backgroundMusicSource;
     private bool _isBackgroundMusicPlaying = false;
     private bool _shouldBackgroundMusicPlay = true;    
@@ -38,6 +38,8 @@ public class AudioManager : MonoSingleton<AudioManager>
         MyEvents.MuteSounds += MuteSounds;
         MyEvents.LoadScene += OnLoadScene;
         _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
+        _backgroundVolume = backgroundVolume;
+
     }
 
     private void OnDisable()
@@ -66,6 +68,14 @@ public class AudioManager : MonoSingleton<AudioManager>
     private void MuteSounds()
     {
         _isMuted = !_isMuted;
+        if (_isMuted)
+        {
+            SetBackgroundMusicVolume(0);
+        }
+        else
+        {
+            SetBackgroundMusicVolume(_backgroundVolume);
+        }
     }
 
 
@@ -78,32 +88,34 @@ public class AudioManager : MonoSingleton<AudioManager>
         _backgroundMusicSource.Play();
         _isBackgroundMusicPlaying = true;
     }
-    // {
-    // _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
-    // _backgroundMusicSource.clip = GetAudioClip("background_music");
-    // _backgroundMusicSource.volume = backgroundVolume;
-    // _backgroundMusicSource.loop = true;
-    // _backgroundMusicSource.Play();
-    // _isBackgroundMusicPlaying = true;
-    // }
+    
+    private void SetBackgroundMusicVolume(float volume)
+    {
+        _backgroundMusicSource.volume = volume;
+    }
 
     public void PlaySound(Vector3 position, string soundName, float volume = 1f, float pitch = 1f, bool loop = false,
-        float spatialBlend = 1f)
+        float spatialBlend = 0f)
     {
-        // if (!_isMuted)
-        // {
         var audioSource = AudioSourcePool.Instance.Get();
         if (audioSource != null)
         {
+            Debug.Log("Got audio source");
             audioSource.transform.position = position;
+            Debug.Log("Set position");
             audioSource.SetAudioClip(GetAudioClip(soundName));
+            Debug.Log("Set audio clip");
             audioSource.SetVolume(volume);
+            Debug.Log("Set volume");
             audioSource.SetPitch(pitch);
+            Debug.Log("Set pitch");
             audioSource.SetLoop(loop);
+            Debug.Log("Set loop");
             audioSource.SetSpatialBlend(spatialBlend);
+            Debug.Log("Set spatial blend");
             audioSource.Play();
+            Debug.Log("Set Play");
         }
-        // }
     }
 
     private AudioClip GetAudioClip(string soundName)
