@@ -17,9 +17,9 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 1688827bea25f054b95f0e0c4f5216e2, type: 3}
   - sceneName: 1
     backgroundMusic: {fileID: 8300000, guid: 4735653529f5ec044a8d28aa82ea53a4, type: 3}
-  - sceneName: 2
-    backgroundMusic: {fileID: 8300000, guid: 00b268e147a26024aba8b9e5d57a6d01, type: 3}
   - sceneName: 3
-    backgroundMusic: {fileID: 8300000, guid: 830278ea4620bfb479fae0fd70465589, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: e331d4f1ddb67f840aab4765acd41f86, type: 3}
+  - sceneName: 4
+    backgroundMusic: {fileID: 8300000, guid: 4f13d0b07f77d314f82a4db5e4fac43b, type: 3}
   - sceneName: 2
     backgroundMusic: {fileID: 8300000, guid: 5b31b7d862cab5c458d4682e3403cea4, type: 3}
