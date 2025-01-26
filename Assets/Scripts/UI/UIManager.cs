@@ -25,19 +25,16 @@ public class UIManager : MonoSingleton<UIManager>
     [Header("Rupees UI")] [SerializeField] private Image rupeeX; // The "X" sprite to the left
     [SerializeField] private Image rupeeTens; // The tens digit
     [SerializeField] private Image rupeeOnes; // The ones digit
-    private int currentRupees; // The current rupee count
 
     // ---------------- KEYS COUNTER ----------------
     [Header("Keys UI")] [SerializeField] private Image keyX;
     [SerializeField] private Image keyTens;
     [SerializeField] private Image keyOnes;
-    private int currentKeys;
 
     // ---------------- BOMBS COUNTER ----------------
     [Header("Bombs UI")] [SerializeField] private Image bombX;
     [SerializeField] private Image bombTens;
     [SerializeField] private Image bombOnes;
-    private int currentBombs;
 
     // ---------------- MINIMAP ----------------
     [Header("Minimap")] [SerializeField] private Image mapBackground;
@@ -60,7 +57,6 @@ public class UIManager : MonoSingleton<UIManager>
     private void OnEnable()
     {
         // Subscribe to events
-        MyEvents.PlayerGainRupees += OnPlayerGainRupees;
         MyEvents.AreaSwitch += OnAreaSwitch;
         // etc. (if I have bombs or keys events)
     }
@@ -68,7 +64,6 @@ public class UIManager : MonoSingleton<UIManager>
     private void OnDisable()
     {
         // Unsubscribe
-        MyEvents.PlayerGainRupees -= OnPlayerGainRupees;
         MyEvents.AreaSwitch -= OnAreaSwitch;
     }
 
@@ -86,33 +81,31 @@ public class UIManager : MonoSingleton<UIManager>
     }
 
     // -------------- EVENT HANDLERS --------------
-
-    private void OnPlayerGainRupees(int amount)
-    {
-        currentRupees = Mathf.Clamp(currentRupees + amount, 0, 99);
-        UpdateRupeesUI();
-    }
+    
     
     public void UpdateCurrentHealthUI(int currentHealth)
     {
         _currentHP = currentHealth;
         UpdateHeartsUI();
     }
+    
+    public void UpdateCurrentRupeesUI(int currentRupees)
+    {
+        _currentRupees = currentRupees;
+        UpdateRupeesUI();
+    }
 
-    // private void OnPlayerHit(int damage)
-    // {
-    //     _currentHP -= damage;
-    //     if (_currentHP < 0) _currentHP = 0;
-    //     UpdateHeartsUI();
-    // }
-    //
-    // private void OnPlayerHeal(int amount)
-    // {
-    //     _currentHP += amount;
-    //     if (_currentHP > _maxHP) _currentHP = _maxHP;
-    //     UpdateHeartsUI();
-    // }
+    public void UpdateCurrentBombsUI(int bombs)
+    {
+        _currentBombs = bombs;
+        UpdateBombUI();
+    }
 
+    public void UpdateCurrentKeysUI(int keys)
+    {
+        _currentKeys = keys;
+        UpdateKeysUI();
+    }
     private void OnAreaSwitch(int areaEnterIndex, int areaExitIndex)
     {
         // Move the green square or do any other map updates
@@ -149,8 +142,8 @@ public class UIManager : MonoSingleton<UIManager>
     private void UpdateRupeesUI()
     {
         rupeeX.sprite = spriteX; // Always show "X"
-        int tens = currentRupees / 10;
-        int ones = currentRupees % 10;
+        int tens = _currentRupees / 10;
+        int ones = _currentRupees % 10;
         rupeeTens.sprite = digitSprites[tens];
         rupeeOnes.sprite = digitSprites[ones];
     }
@@ -158,8 +151,8 @@ public class UIManager : MonoSingleton<UIManager>
     private void UpdateBombUI()
     {
         bombX.sprite = spriteX;
-        int tens = currentBombs / 10;
-        int ones = currentBombs % 10;
+        int tens = _currentBombs / 10;
+        int ones = _currentBombs % 10;
         bombTens.sprite = digitSprites[tens];
         bombOnes.sprite = digitSprites[ones];
     }
@@ -167,8 +160,8 @@ public class UIManager : MonoSingleton<UIManager>
     private void UpdateKeysUI()
     {
         keyX.sprite = spriteX;
-        int tens = currentKeys / 10;
-        int ones = currentKeys % 10;
+        int tens = _currentKeys / 10;
+        int ones = _currentKeys % 10;
         keyTens.sprite = digitSprites[tens];
         keyOnes.sprite = digitSprites[ones];
     }
@@ -203,4 +196,7 @@ public class UIManager : MonoSingleton<UIManager>
             UpdateBombUI();
         }
     }
+
+
+
 }

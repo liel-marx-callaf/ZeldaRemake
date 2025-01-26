@@ -420,6 +420,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LinkUseItemDown
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee3480b016b38d49b00f30d3f5ce381
+      internalID: 2111987718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkUseItemHorizontal
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 283
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6abce78b9e4a54b9ae717438be03b8
+      internalID: 30587248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkUseItemUp
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c17bff2fc6d3744c9f45067a68a7fbf
+      internalID: 415723666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -440,6 +506,9 @@ TextureImporter:
       LinkMovementHorizontalR1: -310652898
       LinkMovmentForward0: -6160091232409139698
       LinkMovmentForward1: 1720449039
+      LinkUseItemDown: 2111987718
+      LinkUseItemHorizontal: 30587248
+      LinkUseItemUp: 415723666
       SpriteBomb: -574257444
       SpriteSheetLink_0: 431161302
       SpriteSheetLink_1: 847920217
