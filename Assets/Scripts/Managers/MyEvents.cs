@@ -18,6 +18,7 @@ public class MyEvents : MonoBehaviour
     public static Action PauseUnpauseBackgroundMusic;
     public static Action MuteSounds;
     public static Action<string> StopSound;
+    public static Action ToggleJournal;
     
     public static Action<SceneIndexEnum> LoadScene;
     

@@ -75,12 +75,14 @@ namespace Managers
             {
                 _currentScene = SceneIndexEnum.Journal;
                 MyEvents.LoadScene?.Invoke(_currentScene);
+                MyEvents.ToggleJournal?.Invoke();
                 OpenJournal();
             }
             else
             {
                 _currentScene = SceneIndexEnum.MainGame;
                 MyEvents.LoadScene?.Invoke(_currentScene);
+                MyEvents.ToggleJournal?.Invoke();
                 CloseJournal();
             }
         }

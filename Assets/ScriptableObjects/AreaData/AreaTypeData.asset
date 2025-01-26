@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: AreaTypeData
   m_EditorClassIdentifier: 
   areaTypes:
+  - areaIndex: 0
+    areaType: 3
   - areaIndex: 1
     areaType: 1
   - areaIndex: 2

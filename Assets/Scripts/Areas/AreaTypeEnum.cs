@@ -8,5 +8,6 @@ namespace Helper
         Error,
         Shore,
         Inland,
+        Journal,
     }
 }

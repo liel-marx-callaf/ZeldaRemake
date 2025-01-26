@@ -22498,8 +22498,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
   backgroundVolume: 0.5
+  startingSceneIndex: 1
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
+  areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
   startingAreaIndex: 1
+  startingAreaType: 1
+  areaSwitchSoundName: LOZ_Stairs
+  areaSwitchSoundVolume: 1
   audioClips:
   - {fileID: 8300000, guid: 574b53abd842fec40bc9f732ef2a6316, type: 3}
   - {fileID: 8300000, guid: c0b193a313f3f434fb60dd626279e11b, type: 3}
@@ -22509,6 +22514,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 40d759fc86c840c48acc428aa0556019, type: 3}
   - {fileID: 8300000, guid: 3f4d3199dfc1a2a40b9450be59d5c627, type: 3}
   - {fileID: 8300000, guid: 9e84952494ff8f2409dc943256666836, type: 3}
+  - {fileID: 8300000, guid: 521b84eb21dfb5f4f801b0b5322f8052, type: 3}
+  - {fileID: 8300000, guid: c08d814baa3b94d4380682fa434d6619, type: 3}
   audioSourcePool: {fileID: 4297142210507475136, guid: 21d14b460ef407c4cb15f87d2a68f151, type: 3}
 --- !u!4 &1127907133
 Transform:
@@ -29025,9 +29032,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.043782838
-    width: 0.99999994
-    height: 0.91352886
+    y: 0.05078809
+    width: 1
+    height: 0.8978765
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 39
