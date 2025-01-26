@@ -1,0 +1,644 @@
+fileFormatVersion: 2
+guid: c262642cfcaa7c2438084e1511a16351
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4385011867778135717
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_0
+  - first:
+      213: 5688753261794564529
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_1
+  - first:
+      213: 5405863680945264724
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_2
+  - first:
+      213: 3005306573174618848
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_3
+  - first:
+      213: -5004379052363872359
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_4
+  - first:
+      213: -4755231237021698018
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_5
+  - first:
+      213: -7181196752671966801
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_6
+  - first:
+      213: -8047073997069337421
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_7
+  - first:
+      213: -996436237426292131
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_8
+  - first:
+      213: 7624891112458227110
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_9
+  - first:
+      213: -3615658125143413282
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_10
+  - first:
+      213: -8432117278323233682
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_11
+  - first:
+      213: 7685418870347303510
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_12
+  - first:
+      213: -563281462998185043
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_13
+  - first:
+      213: 7228565607793540651
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_14
+  - first:
+      213: -4826082946550854041
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_15
+  - first:
+      213: -5814827673683103949
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_16
+  - first:
+      213: -3610812904931936278
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_17
+  - first:
+      213: -7241290064772498955
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_18
+  - first:
+      213: 8751903191941066445
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_19
+  - first:
+      213: 1382914853062951520
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_20
+  - first:
+      213: -7783824925834030646
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_21
+  - first:
+      213: 4098110020099905354
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_22
+  - first:
+      213: 8911438251166592866
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_23
+  - first:
+      213: -8361196117356172819
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_24
+  - first:
+      213: -4504567148635306718
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_25
+  - first:
+      213: 6974427112283813522
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_26
+  - first:
+      213: 8122713573875417006
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_27
+  - first:
+      213: 2168095229281232924
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_28
+  - first:
+      213: -8343160099332624077
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_29
+  - first:
+      213: -8331826573105339700
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_30
+  - first:
+      213: 1111181590515113854
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_31
+  - first:
+      213: -3310135740935279953
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_32
+  - first:
+      213: -5923292469492400453
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_33
+  - first:
+      213: 1351053164783393791
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_34
+  - first:
+      213: 514249771034879185
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_35
+  - first:
+      213: 524796528963749378
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_36
+  - first:
+      213: 6469239849428034613
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_37
+  - first:
+      213: 5908384382562689791
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_38
+  - first:
+      213: -2913732532140667728
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_39
+  - first:
+      213: 7515297792247216653
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_40
+  - first:
+      213: 428026667763511392
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_41
+  - first:
+      213: -1158603694773912788
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_42
+  - first:
+      213: 6833913860298728626
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_43
+  - first:
+      213: -4915637151821501696
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_44
+  - first:
+      213: -2094993685001324610
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_45
+  - first:
+      213: -1981504415921561846
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_46
+  - first:
+      213: 8572415873222846470
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_47
+  - first:
+      213: 8041268491270531900
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_48
+  - first:
+      213: -8065338366506631517
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_49
+  - first:
+      213: -1395676386065897959
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_50
+  - first:
+      213: -5697847636423985806
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_51
+  - first:
+      213: 4494775006598216328
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_52
+  - first:
+      213: -6468309190243501738
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_53
+  - first:
+      213: -8736546028209805746
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_54
+  - first:
+      213: -3160502216378664984
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_55
+  - first:
+      213: 4301139843833076278
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_56
+  - first:
+      213: -3622206396954182964
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_57
+  - first:
+      213: 2455109826248477669
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_58
+  - first:
+      213: -4596455253568554912
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_59
+  - first:
+      213: -8870296269775805473
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_60
+  - first:
+      213: 4674869837012773439
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_61
+  - first:
+      213: -6176397426284245086
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_62
+  - first:
+      213: 3529475928313771729
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_63
+  - first:
+      213: -4107879926791071819
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_64
+  - first:
+      213: -5234546523769550546
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_65
+  - first:
+      213: 7834592424546065939
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_66
+  - first:
+      213: -5845500446722372226
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_67
+  - first:
+      213: 300452183968317207
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_68
+  - first:
+      213: 7254684785509906753
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_69
+  - first:
+      213: 862873156373433572
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_70
+  - first:
+      213: 8456318013469983386
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_71
+  - first:
+      213: 1057207850331236085
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_72
+  - first:
+      213: 4076662962841483111
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_73
+  - first:
+      213: -639245514901145562
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_74
+  - first:
+      213: -9066067572226526228
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_75
+  - first:
+      213: -6810863337832331575
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_76
+  - first:
+      213: 5686231564567105290
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_77
+  - first:
+      213: 3061995510874081944
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_78
+  - first:
+      213: -270284647054388347
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_79
+  - first:
+      213: 3094677709091029062
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_80
+  - first:
+      213: 7484766979396327845
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_81
+  - first:
+      213: 6363060575259567015
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_82
+  - first:
+      213: -5192808687501787320
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_83
+  - first:
+      213: -8535360236386706742
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_84
+  - first:
+      213: -7988016177677130922
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_85
+  - first:
+      213: 3400251165762287282
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_86
+  - first:
+      213: 1866960353883179552
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_87
+  - first:
+      213: -2991931265586416709
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_88
+  - first:
+      213: -6734776316266819304
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_89
+  - first:
+      213: -8096628703163622485
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_90
+  - first:
+      213: 4489639227894847728
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_91
+  - first:
+      213: 967584027313713946
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_92
+  - first:
+      213: -5681802115494214189
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_93
+  - first:
+      213: 2794132422307232587
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_94
+  - first:
+      213: -2865050650719337264
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_95
+  - first:
+      213: -4916301539831102079
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_96
+  - first:
+      213: -8833977861565279042
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_97
+  - first:
+      213: 5330952937275247742
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_98
+  - first:
+      213: 4933552236003372328
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_99
+  - first:
+      213: 6972821491635499496
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_100
+  - first:
+      213: 6069580493604842246
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_101
+  - first:
+      213: -8665823482631628953
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_102
+  - first:
+      213: -8560004142940991419
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_103
+  - first:
+      213: 8159315369360843657
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_104
+  - first:
+      213: -7596362279898566503
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_105
+  - first:
+      213: -7580329475779651387
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_106
+  - first:
+      213: 652910521050042002
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_107
+  - first:
+      213: 7713860003769725438
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_108
+  - first:
+      213: 5879333624774477424
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_109
+  - first:
+      213: -8849239709412225201
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_110
+  - first:
+      213: -1239008480733117799
+    second: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIWoodenSwordSprite
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 55
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59463560fe4523c0800000000000000
+      internalID: -4385011867778135717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_90
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 56
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab53bd971ff2af80800000000000000
+      internalID: -8096628703163622485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_111
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 226
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992c430f9582ecee0800000000000000
+      internalID: -1239008480733117799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6ffce25e27d51eb4f91c1f6c8a8a3211
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_1: 5688753261794564529
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_10: -3615658125143413282
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_100: 6972821491635499496
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_101: 6069580493604842246
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_102: -8665823482631628953
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_103: -8560004142940991419
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_104: 8159315369360843657
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_105: -7596362279898566503
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_106: -7580329475779651387
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_107: 652910521050042002
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_108: 7713860003769725438
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_109: 5879333624774477424
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_11: -8432117278323233682
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_110: -8849239709412225201
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_111: -1239008480733117799
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_12: 7685418870347303510
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_13: -563281462998185043
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_14: 7228565607793540651
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_15: -4826082946550854041
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_16: -5814827673683103949
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_17: -3610812904931936278
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_18: -7241290064772498955
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_19: 8751903191941066445
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_2: 5405863680945264724
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_20: 1382914853062951520
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_21: -7783824925834030646
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_22: 4098110020099905354
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_23: 8911438251166592866
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_24: -8361196117356172819
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_25: -4504567148635306718
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_26: 6974427112283813522
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_27: 8122713573875417006
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_28: 2168095229281232924
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_29: -8343160099332624077
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_3: 3005306573174618848
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_30: -8331826573105339700
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_31: 1111181590515113854
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_32: -3310135740935279953
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_33: -5923292469492400453
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_34: 1351053164783393791
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_35: 514249771034879185
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_36: 524796528963749378
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_37: 6469239849428034613
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_38: 5908384382562689791
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_39: -2913732532140667728
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_4: -5004379052363872359
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_40: 7515297792247216653
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_41: 428026667763511392
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_42: -1158603694773912788
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_43: 6833913860298728626
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_44: -4915637151821501696
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_45: -2094993685001324610
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_46: -1981504415921561846
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_47: 8572415873222846470
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_48: 8041268491270531900
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_49: -8065338366506631517
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_5: -4755231237021698018
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_50: -1395676386065897959
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_51: -5697847636423985806
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_52: 4494775006598216328
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_53: -6468309190243501738
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_54: -8736546028209805746
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_55: -3160502216378664984
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_56: 4301139843833076278
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_57: -3622206396954182964
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_58: 2455109826248477669
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_59: -4596455253568554912
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_6: -7181196752671966801
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_60: -8870296269775805473
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_61: 4674869837012773439
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_62: -6176397426284245086
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_63: 3529475928313771729
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_64: -4107879926791071819
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_65: -5234546523769550546
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_66: 7834592424546065939
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_67: -5845500446722372226
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_68: 300452183968317207
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_69: 7254684785509906753
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_7: -8047073997069337421
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_70: 862873156373433572
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_71: 8456318013469983386
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_72: 1057207850331236085
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_73: 4076662962841483111
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_74: -639245514901145562
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_75: -9066067572226526228
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_76: -6810863337832331575
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_77: 5686231564567105290
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_78: 3061995510874081944
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_79: -270284647054388347
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_8: -996436237426292131
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_80: 3094677709091029062
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_81: 7484766979396327845
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_82: 6363060575259567015
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_83: -5192808687501787320
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_84: -8535360236386706742
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_85: -7988016177677130922
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_86: 3400251165762287282
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_87: 1866960353883179552
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_88: -2991931265586416709
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_89: -6734776316266819304
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_9: 7624891112458227110
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_90: -8096628703163622485
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_91: 4489639227894847728
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_92: 967584027313713946
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_93: -5681802115494214189
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_94: 2794132422307232587
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_95: -2865050650719337264
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_96: -4916301539831102079
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_97: -8833977861565279042
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_98: 5330952937275247742
+      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_99: 4933552236003372328
+      UIWoodenSwordSprite: -4385011867778135717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
