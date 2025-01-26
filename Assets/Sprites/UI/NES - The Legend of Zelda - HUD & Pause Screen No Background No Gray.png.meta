@@ -468,7 +468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_90
+      name: UIBombSprite
       rect:
         serializedVersion: 2
         x: 604
@@ -485,28 +485,6 @@ TextureImporter:
       bones: []
       spriteID: bab53bd971ff2af80800000000000000
       internalID: -8096628703163622485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_111
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 0
-        width: 226
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 992c430f9582ecee0800000000000000
-      internalID: -1239008480733117799
       vertices: []
       indices: 
       edges: []
@@ -626,7 +604,6 @@ TextureImporter:
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_88: -2991931265586416709
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_89: -6734776316266819304
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_9: 7624891112458227110
-      NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_90: -8096628703163622485
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_91: 4489639227894847728
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_92: 967584027313713946
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_93: -5681802115494214189
@@ -636,6 +613,7 @@ TextureImporter:
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_97: -8833977861565279042
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_98: 5330952937275247742
       NES - The Legend of Zelda - HUD & Pause Screen No Background No Gray_99: 4933552236003372328
+      UIBombSprite: -8096628703163622485
       UIWoodenSwordSprite: -4385011867778135717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

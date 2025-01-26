@@ -943,50 +943,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: UIBombSprite
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 55
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: addca1539c4ec1b60800000000000000
-      internalID: 7718295414236696026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - The Legend of Zelda - HUD & Pause Screen No Background_0
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 80
-        width: 3
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b39e889124caca840b19bd37445553ee
-      internalID: 3685449009312275965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
