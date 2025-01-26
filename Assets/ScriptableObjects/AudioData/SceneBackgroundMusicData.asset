@@ -21,3 +21,5 @@ MonoBehaviour:
     backgroundMusic: {fileID: 8300000, guid: 00b268e147a26024aba8b9e5d57a6d01, type: 3}
   - sceneName: 3
     backgroundMusic: {fileID: 8300000, guid: 830278ea4620bfb479fae0fd70465589, type: 3}
+  - sceneName: 2
+    backgroundMusic: {fileID: 8300000, guid: 5b31b7d862cab5c458d4682e3403cea4, type: 3}

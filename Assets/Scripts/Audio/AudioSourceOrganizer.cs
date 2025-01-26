@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Sound
+namespace Audio
 {
     public enum AudioSourceCategoryEnum
     {
@@ -12,7 +12,6 @@ namespace Sound
     [Serializable]
     public class AudioSourceCategory
     {
-        [SerializeField] private AudioSourceCategoryEnum _audioSourceCategoryEnum;
-        
+        [SerializeField] private AudioSourceCategoryEnum audioSourceCategoryEnum;
     }
 }

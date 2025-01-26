@@ -1,20 +1,25 @@
 using UnityEngine;
-using System;
 using UnityEngine.InputSystem;
 
 namespace Managers
 {
     public class GameManager : MonoSingleton<GameManager>
     {
-        [Header("Journal References")] 
-        [SerializeField] private GameObject journalCanvas;
+        [Header("Journal References")] [SerializeField]
+        private GameObject journalCanvas;
+
         [SerializeField] private JournalController journalController;
         private bool _isJournalOpen;
 
-        [Header("Scene References")]
-        [SerializeField] private SceneIndexEnum startingScene;
+        [Header("Scene References")] [SerializeField]
+        private SceneIndexEnum startingScene;
         private SceneIndexEnum _currentScene;
-        
+
+        [Header("Area References")] [SerializeField]
+        private AreaTypeData areaTypeData;
+
+        [SerializeField] private int startingAreaIndex;
+
         private InputPlayerActions _inputPlayerActions;
         private InputAction _actionSelect;
 
@@ -36,17 +41,14 @@ namespace Managers
         {
             if (journalCanvas != null) journalCanvas.SetActive(false);
             MyEvents.LoadScene?.Invoke(startingScene);
+            _currentScene = startingScene;
         }
 
         private void OnActionSelect(InputAction.CallbackContext context)
         {
-            if (!_isJournalOpen)
+            if (_currentScene == SceneIndexEnum.MainGame || _currentScene == SceneIndexEnum.Journal)
             {
-                OpenJournal();
-            }
-            else
-            {
-                CloseJournal();
+                ToggleJournal();
             }
         }
 
@@ -65,6 +67,22 @@ namespace Managers
             Time.timeScale = 1;
             if (journalCanvas != null) journalCanvas.SetActive(false);
             if (journalController != null) journalController.OnCloseJournal();
+        }
+        
+        private void ToggleJournal()
+        {
+            if (!_isJournalOpen)
+            {
+                _currentScene = SceneIndexEnum.Journal;
+                MyEvents.LoadScene?.Invoke(_currentScene);
+                OpenJournal();
+            }
+            else
+            {
+                _currentScene = SceneIndexEnum.MainGame;
+                MyEvents.LoadScene?.Invoke(_currentScene);
+                CloseJournal();
+            }
         }
     }
 }

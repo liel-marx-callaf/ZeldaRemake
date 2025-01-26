@@ -655,6 +655,8 @@ MonoBehaviour:
   journalCanvas: {fileID: 1255627750}
   journalController: {fileID: 876039297}
   startingScene: 1
+  areaTypeData: {fileID: 0}
+  startingAreaIndex: 0
 --- !u!1 &150243790
 GameObject:
   m_ObjectHideFlags: 0
@@ -22346,10 +22348,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
+  backgroundVolume: 0.5
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
+  startingAreaIndex: 1
   audioClips:
   - {fileID: 0}
-  backgroundVolume: 0.5
+  audioSourcePool: {fileID: 0}
 --- !u!4 &1127907133
 Transform:
   m_ObjectHideFlags: 0

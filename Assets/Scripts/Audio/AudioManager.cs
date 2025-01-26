@@ -5,13 +5,26 @@ using UnityEngine;
 
 public class AudioManager : MonoSingleton<AudioManager>
 {
+    [Header("Background Music")]
     [SerializeField] private SceneBackgroundMusicData sceneBackgroundMusicData;
-    [SerializeField] private AreaTypeData areaTypeData;
-    [SerializeField] private AudioClip[] audioClips;
     [SerializeField, Range(0f, 1f)] private float backgroundVolume = 0.5f;
     private AudioSource _backgroundMusicSource;
     private bool _isBackgroundMusicPlaying = false;
-    private bool _shouldBackgroundMusicPlay = true;
+    private bool _shouldBackgroundMusicPlay = true;    
+    
+    [Header("Area Type Data")]
+    [SerializeField] private AreaTypeData areaTypeData;
+    [SerializeField] private int startingAreaIndex;
+    private int _currentAreaIndex;
+    
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip[] audioClips;
+    
+    [Header("Audio Pool")]
+    [SerializeField] private AudioSourcePool audioSourcePool;
+    
+
+
     private bool _isMuted = false;
 
     private void Start()
