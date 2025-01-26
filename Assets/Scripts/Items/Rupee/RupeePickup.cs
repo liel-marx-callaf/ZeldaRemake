@@ -8,6 +8,11 @@ public class RupeePickup : MonoBehaviour, IPickupable
     [SerializeField] private int value = 1;
     [SerializeField] private float despawnTime = 5f;
     private PoolableRupee _poolableRupee;
+    
+    [Header("Audio")]
+    [SerializeField] private string pickupSoundName = "LOZ_Get_Rupee";
+    [SerializeField, Range(0f, 1f)] private float pickupSoundVolume = 1f;
+    
     private void OnEnable()
     {
         _poolableRupee = GetComponent<PoolableRupee>();
@@ -29,6 +34,7 @@ public class RupeePickup : MonoBehaviour, IPickupable
 
     public void Pickup()
     {
+        AudioManager.Instance.PlaySound(transform.position, pickupSoundName, pickupSoundVolume);
         MyEvents.PlayerGainRupees?.Invoke(value);
         Despawn();
     }

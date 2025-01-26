@@ -22348,11 +22348,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
-  backgroundVolume: 0.627
+  backgroundVolume: 0
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   startingAreaIndex: 1
   audioClips:
   - {fileID: 8300000, guid: 574b53abd842fec40bc9f732ef2a6316, type: 3}
+  - {fileID: 8300000, guid: c0b193a313f3f434fb60dd626279e11b, type: 3}
+  - {fileID: 8300000, guid: fae5851575f78094e917c5f1f95e2396, type: 3}
+  - {fileID: 8300000, guid: 46bfb39c107d600488f915a87639e3b4, type: 3}
+  - {fileID: 8300000, guid: bdc9467d08c69a547a4a061619d1e414, type: 3}
   audioSourcePool: {fileID: 4297142210507475136, guid: 21d14b460ef407c4cb15f87d2a68f151, type: 3}
 --- !u!4 &1127907133
 Transform:

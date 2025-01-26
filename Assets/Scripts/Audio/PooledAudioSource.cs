@@ -76,7 +76,9 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
 
     private IEnumerator ReturnToPoolWhenFinished()
     {
-        yield return new WaitWhile(() => _audioSource.isPlaying);
+        float clipLength = GetClipLength();
+        if (clipLength < 1) yield return new WaitForSeconds(1f);
+        else yield return new WaitWhile(() => _audioSource.isPlaying);
         AudioSourcePool.Instance.Return(this);
     }
 

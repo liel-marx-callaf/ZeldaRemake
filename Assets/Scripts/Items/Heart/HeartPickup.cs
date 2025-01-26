@@ -9,6 +9,10 @@ public class HeartPickup : MonoBehaviour, IPickupable
     [SerializeField] private int healAmount = 1;
     [SerializeField] private float despawnTime = 5f;
     private PoolableHeart _poolableHeart;
+    
+    [Header("Audio")]
+    [SerializeField] private string pickupSoundName = "LOZ_Get_Heart";
+    [SerializeField, Range(0f, 1f)] private float pickupSoundVolume = 1f;
 
     private void OnEnable()
     {
@@ -31,6 +35,7 @@ public class HeartPickup : MonoBehaviour, IPickupable
 
     public void Pickup()
     {
+        AudioManager.Instance.PlaySound(transform.position, pickupSoundName, pickupSoundVolume);
         MyEvents.PlayerHeal?.Invoke(healAmount);
         Despawn();
     }

@@ -5,7 +5,16 @@ using Pool;
 public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
 {
     private static readonly int Death = Animator.StringToHash("Death");
+    [Header("Enemy Health")]
     [SerializeField] private int initialHealth = 1;
+    
+    [Header("Audio")]
+    [SerializeField] private string hitSoundName = "LOZ_Enemy_Hit";
+    [SerializeField, Range(0f, 1f)] private float hitSoundVolume = 1f;
+    [SerializeField] private string deathSoundName = "LOZ_Enemy_Die";
+    [SerializeField, Range(0f, 1f)] private float deathSoundVolume = 1f;
+    
+    
     private Animator _animator;
     private int _currentHealth;
     private EnemyTypeEnum _enemyType;
@@ -30,6 +39,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
 
     private void Die()
     {
+        AudioManager.Instance.PlaySound(transform.position, deathSoundName, deathSoundVolume);
         MyEvents.EnemyDied?.Invoke(_enemyType, transform.position);
         _animator.SetTrigger(Death);
         foreach (var enemyCollider in _colliders)
@@ -47,6 +57,7 @@ public class EnemyHealth : MonoBehaviour, IHasHealth, IPoolable
     public void TakeDamage(int damage)
     {
         if (_isInvincible) return;
+        AudioManager.Instance.PlaySound(transform.position, hitSoundName, hitSoundVolume);
         // Debug.Log("Enemy took damage:  + damage  Current health:  + _currentHealth");
         Debug.Log("Enemy took damage: " + damage + " Current health: " + _currentHealth);
         _currentHealth -= damage;
