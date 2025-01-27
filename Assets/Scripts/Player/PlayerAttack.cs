@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Audio;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace Player
 {
@@ -13,22 +14,33 @@ namespace Player
 
         private PlayerAnimationControl _playerAnimationControl;
         private PlayerMovementController _playerMovementController;
+        private PlayerInventory _playerInventory;
 
         // private RaycastHit2D[] hits;
-        [Header("Attack Settings")]
-        [SerializeField] private float attackRange = 0.5f;
-        [SerializeField] private int attackDamage = 1;
+        [Header("Player Attack Settings")]
         [SerializeField] private LayerMask hittableLayer;
+        [Header("Sword Attack Settings")] 
+        [SerializeField] private float swordAttackRange = 0.5f;
+        [SerializeField] private int swordAttackDamage = 1;
         
-        [Header("Raycast Offsets")]
+        [Header("Bomb Throw Settings")] 
+        [SerializeField] private float bombThrowDistance = 2f; // Distance from player
+        [SerializeField] private Vector2 upThrowOffset = Vector2.zero;
+        [SerializeField] private Vector2 downThrowOffset = Vector2.up;
+        [SerializeField] private Vector2 leftThrowOffset = Vector2.up * 0.5f;
+        [SerializeField] private Vector2 rightThrowOffset = Vector2.up * 0.5f;
+
+        [Header("Raycast Offsets")] 
         [SerializeField, Range(-1f, 1f)] private float rightRayHeightOffset = 0.4f;
         [SerializeField, Range(-1f, 1f)] private float leftRayHeightOffset = 0.4f;
         [SerializeField, Range(-1f, 1f)] private float downRayHorizontalOffset = -0.4f;
         [SerializeField, Range(-1f, 1f)] private float upRayHorizontalOffset = -0.4f;
-        
-        [Header("Audio")]
+
+        [Header("Audio")] 
         [SerializeField] private string attackSoundName = "LOZ_Sword_Slash";
         [SerializeField, Range(0f, 1f)] private float attackSoundVolume = 0.5f;
+        [SerializeField] private string bombThrowSound = "LOZ_Bomb_Throw";
+        [SerializeField, Range(0f, 1f)] private float bombThrowVolume = 0.7f;
 
         private Vector2 _rightRayOrigin;
         private Vector2 _leftRayOrigin;
@@ -41,6 +53,7 @@ namespace Player
             _playerAnimationControl = GetComponent<PlayerAnimationControl>();
             _inputPlayerActions = new InputPlayerActions();
             _playerMovementController = GetComponent<PlayerMovementController>();
+            _playerInventory = GetComponent<PlayerInventory>();
             _rightRayOrigin = Vector2.right * 0.5f + Vector2.up * rightRayHeightOffset;
             _leftRayOrigin = Vector2.left * 0.5f + Vector2.up * leftRayHeightOffset;
             _upRayOrigin = Vector2.up + Vector2.right * upRayHorizontalOffset;
@@ -72,10 +85,19 @@ namespace Player
 
         private void OnActionB(InputAction.CallbackContext context)
         {
-            // todo: implement bomb attack?
-            // _animator.SetTrigger(Attack);
+            if (_playerInventory.GetBombCount() <= 0) return;
+            var bomb = BombPool.Instance.Get();
+            var lastDir = _playerMovementController.LastFacingDirection;
+            var throwOffset = Vector2.zero;
+            if(lastDir == Vector2.down) throwOffset = downThrowOffset;
+            if(lastDir == Vector2.up) throwOffset = upThrowOffset;
+            if(lastDir == Vector2.left) throwOffset = leftThrowOffset;
+            if(lastDir == Vector2.right) throwOffset = rightThrowOffset;
+            bomb.ThrowBomb(transform.position, _playerMovementController.LastFacingDirection + throwOffset, bombThrowDistance);
+            AudioManager.Instance.PlaySound(transform.position, bombThrowSound, bombThrowVolume);
+            MyEvents.PlayerUseBomb?.Invoke(1);
         }
-        
+
 
         private void SwordAttack()
         {
@@ -91,42 +113,42 @@ namespace Player
 
             if (lastDir == Vector2.down)
             {
-                hits = Physics2D.BoxCastAll(_downRayOrigin + playerPos, boxSize, 0, Vector2.down, attackRange,
+                hits = Physics2D.BoxCastAll(_downRayOrigin + playerPos, boxSize, 0, Vector2.down, swordAttackRange,
                     hittableLayer);
 
                 // used for debugging
                 Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _downRayOrigin + playerPos, boxSize,
-                    0f, Vector2.down, attackRange);
+                    0f, Vector2.down, swordAttackRange);
                 // Debug.Log("Down");
             }
             else if (lastDir == Vector2.up)
             {
-                hits = Physics2D.BoxCastAll(_upRayOrigin + playerPos, boxSize, 0, Vector2.up, attackRange,
+                hits = Physics2D.BoxCastAll(_upRayOrigin + playerPos, boxSize, 0, Vector2.up, swordAttackRange,
                     hittableLayer);
 
                 // used for debugging
                 Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _upRayOrigin + playerPos, boxSize, 0f,
-                    Vector2.up, attackRange);
+                    Vector2.up, swordAttackRange);
                 // Debug.Log("Up");
             }
             else if (lastDir == Vector2.left)
             {
-                hits = Physics2D.BoxCastAll(_leftRayOrigin + playerPos, boxSize, 0, Vector2.left, attackRange,
+                hits = Physics2D.BoxCastAll(_leftRayOrigin + playerPos, boxSize, 0, Vector2.left, swordAttackRange,
                     hittableLayer);
 
                 // used for debugging
                 Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _leftRayOrigin + playerPos, boxSize,
-                    0f, Vector2.left, attackRange);
+                    0f, Vector2.left, swordAttackRange);
                 // Debug.Log("Left");
             }
             else if (lastDir == Vector2.right)
             {
-                hits = Physics2D.BoxCastAll(_rightRayOrigin + playerPos, boxSize, 0, Vector2.right, attackRange,
+                hits = Physics2D.BoxCastAll(_rightRayOrigin + playerPos, boxSize, 0, Vector2.right, swordAttackRange,
                     hittableLayer);
 
                 // used for debugging
                 Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _rightRayOrigin + playerPos, boxSize,
-                    0f, Vector2.right, attackRange);
+                    0f, Vector2.right, swordAttackRange);
                 // Debug.Log("Right");
             }
 
@@ -146,11 +168,11 @@ namespace Player
                 if (hit.collider.isTrigger && hit.collider.CompareTag("Enemy"))
                 {
                     var enemy = hit.collider.gameObject;
-                    if(!hitEnemies.Contains(enemy))
+                    if (!hitEnemies.Contains(enemy))
                     {
                         Debug.Log("Hit: " + hit.collider.name);
                         hitEnemies.Add(enemy);
-                        enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
+                        enemy.GetComponent<EnemyHealth>()?.TakeDamage(swordAttackDamage);
                     }
                 }
 

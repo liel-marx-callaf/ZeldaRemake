@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 436764461594802259}
   - component: {fileID: 8866820004032793897}
   - component: {fileID: 8047868392537004303}
+  - component: {fileID: 1058586642431851503}
   - component: {fileID: 2671042887763762403}
   - component: {fileID: 5210736973777577234}
   - component: {fileID: 1527656540994281101}
-  - component: {fileID: 8619773777005609294}
   m_Layer: 7
   m_Name: Link
   m_TagString: Player
@@ -143,6 +143,8 @@ MonoBehaviour:
   leftRayHeightOffset: 0.4
   downRayHorizontalOffset: 0
   upRayHorizontalOffset: -0.1
+  attackSoundName: LOZ_Sword_Slash
+  attackSoundVolume: 1
 --- !u!114 &8866820004032793897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +157,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3babb3239623f5142a2ca15780b06589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialHealth: 6
+  initialHealth: 8
+  lowHealthThreshold: 2
+  hitSoundName: LOZ_Link_Hurt
+  hitSoundVolume: 1
+  lowHealthSoundName: LOZ_LowHealth
+  lowHealthSoundVolume: 1
+  deathSoundName: LOZ_Link_Die
+  deathSoundVolume: 1
 --- !u!114 &8047868392537004303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,6 +258,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1058586642431851503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378767122176547392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d5e36715f04675b83801facfb8326a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rupees: 0
+  keys: 0
+  bombs: 0
 --- !u!50 &2671042887763762403
 Rigidbody2D:
   serializedVersion: 5
@@ -335,49 +359,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &8619773777005609294
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6378767122176547392}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0.12

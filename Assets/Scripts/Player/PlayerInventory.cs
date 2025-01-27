@@ -31,6 +31,13 @@ namespace Player
             MyEvents.PlayerUseKey -= UseKey;
             MyEvents.PlayerUseRupee -= UseRupee;
         }
+        
+        private void Start()
+        {
+            UIManager.Instance.UpdateCurrentRupeesUI(rupees);
+            UIManager.Instance.UpdateCurrentKeysUI(keys);
+            UIManager.Instance.UpdateCurrentBombsUI(bombs);
+        }
 
         private void AddBomb(int amount)
         {
@@ -66,6 +73,21 @@ namespace Player
         {
             rupees -= amount;
             UIManager.Instance.UpdateCurrentRupeesUI(rupees);
+        }
+        
+        public int GetBombCount()
+        {
+            return bombs;
+        }
+        
+        public int GetKeyCount()
+        {
+            return keys;
+        }
+        
+        public int GetRupeeCount()
+        {
+            return rupees;
         }
     }
 }
