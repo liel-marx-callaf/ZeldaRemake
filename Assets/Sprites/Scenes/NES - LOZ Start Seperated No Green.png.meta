@@ -1,0 +1,3980 @@
+fileFormatVersion: 2
+guid: 64a67d235b4b63b429a8f628c5948223
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 482063816142612495
+    second: NES - LOZ Start Seperated No Green_0
+  - first:
+      213: 5193836710568699924
+    second: NES - LOZ Start Seperated No Green_1
+  - first:
+      213: 6838064888421732967
+    second: NES - LOZ Start Seperated No Green_2
+  - first:
+      213: -2061229782181459815
+    second: NES - LOZ Start Seperated No Green_3
+  - first:
+      213: -7630081535680257439
+    second: NES - LOZ Start Seperated No Green_4
+  - first:
+      213: 3146325006095760101
+    second: NES - LOZ Start Seperated No Green_5
+  - first:
+      213: 5382908985993703092
+    second: NES - LOZ Start Seperated No Green_6
+  - first:
+      213: -3263935100368541289
+    second: NES - LOZ Start Seperated No Green_7
+  - first:
+      213: -4728692880298355330
+    second: NES - LOZ Start Seperated No Green_8
+  - first:
+      213: -849444043525546029
+    second: NES - LOZ Start Seperated No Green_9
+  - first:
+      213: 557067440324059914
+    second: NES - LOZ Start Seperated No Green_10
+  - first:
+      213: 6322497004810403449
+    second: NES - LOZ Start Seperated No Green_11
+  - first:
+      213: 8591285911466159670
+    second: NES - LOZ Start Seperated No Green_12
+  - first:
+      213: 2540687994108130685
+    second: NES - LOZ Start Seperated No Green_13
+  - first:
+      213: -1089373732073211177
+    second: NES - LOZ Start Seperated No Green_14
+  - first:
+      213: -5891273038352065954
+    second: NES - LOZ Start Seperated No Green_15
+  - first:
+      213: 417917247824140997
+    second: NES - LOZ Start Seperated No Green_16
+  - first:
+      213: 3900907561227909810
+    second: NES - LOZ Start Seperated No Green_17
+  - first:
+      213: -7062212700787179382
+    second: NES - LOZ Start Seperated No Green_18
+  - first:
+      213: 3236820578810332970
+    second: NES - LOZ Start Seperated No Green_19
+  - first:
+      213: -5369668899977661471
+    second: NES - LOZ Start Seperated No Green_20
+  - first:
+      213: -9194446447330478787
+    second: NES - LOZ Start Seperated No Green_21
+  - first:
+      213: -8593643970809957644
+    second: NES - LOZ Start Seperated No Green_22
+  - first:
+      213: -306088004167314488
+    second: NES - LOZ Start Seperated No Green_23
+  - first:
+      213: -2869705582633849192
+    second: NES - LOZ Start Seperated No Green_24
+  - first:
+      213: 1084624641019316852
+    second: NES - LOZ Start Seperated No Green_25
+  - first:
+      213: 4828361434983856194
+    second: NES - LOZ Start Seperated No Green_26
+  - first:
+      213: -7689743497154299489
+    second: NES - LOZ Start Seperated No Green_27
+  - first:
+      213: -4505405646613300756
+    second: NES - LOZ Start Seperated No Green_28
+  - first:
+      213: 3298181480776943480
+    second: NES - LOZ Start Seperated No Green_29
+  - first:
+      213: 1042562519996986905
+    second: NES - LOZ Start Seperated No Green_30
+  - first:
+      213: 5224305965072005380
+    second: NES - LOZ Start Seperated No Green_31
+  - first:
+      213: -942622318430085269
+    second: NES - LOZ Start Seperated No Green_32
+  - first:
+      213: 8221918365507792440
+    second: NES - LOZ Start Seperated No Green_33
+  - first:
+      213: 6539765976340579060
+    second: NES - LOZ Start Seperated No Green_34
+  - first:
+      213: -7549709471097049970
+    second: NES - LOZ Start Seperated No Green_35
+  - first:
+      213: -393326155649816942
+    second: NES - LOZ Start Seperated No Green_36
+  - first:
+      213: -2440446960978012583
+    second: NES - LOZ Start Seperated No Green_37
+  - first:
+      213: -6864231481281356384
+    second: NES - LOZ Start Seperated No Green_38
+  - first:
+      213: -3491572287061858958
+    second: NES - LOZ Start Seperated No Green_39
+  - first:
+      213: -3935459285960149438
+    second: NES - LOZ Start Seperated No Green_40
+  - first:
+      213: -6911766018576291024
+    second: NES - LOZ Start Seperated No Green_41
+  - first:
+      213: -7879527913137831628
+    second: NES - LOZ Start Seperated No Green_42
+  - first:
+      213: 7315059721379910307
+    second: NES - LOZ Start Seperated No Green_43
+  - first:
+      213: 1118915303060022894
+    second: NES - LOZ Start Seperated No Green_44
+  - first:
+      213: 4830516092187437870
+    second: NES - LOZ Start Seperated No Green_45
+  - first:
+      213: 4108912003512243218
+    second: NES - LOZ Start Seperated No Green_46
+  - first:
+      213: 619278285706777118
+    second: NES - LOZ Start Seperated No Green_47
+  - first:
+      213: 3556310473643235285
+    second: NES - LOZ Start Seperated No Green_48
+  - first:
+      213: 1780950560056992034
+    second: NES - LOZ Start Seperated No Green_49
+  - first:
+      213: 196400219858541528
+    second: NES - LOZ Start Seperated No Green_50
+  - first:
+      213: 1118873683673523036
+    second: NES - LOZ Start Seperated No Green_51
+  - first:
+      213: 6906562798741557779
+    second: NES - LOZ Start Seperated No Green_52
+  - first:
+      213: 3881769652118025151
+    second: NES - LOZ Start Seperated No Green_53
+  - first:
+      213: -7870604935389485593
+    second: NES - LOZ Start Seperated No Green_54
+  - first:
+      213: -9152023930338803772
+    second: NES - LOZ Start Seperated No Green_55
+  - first:
+      213: -7642223255271047189
+    second: NES - LOZ Start Seperated No Green_56
+  - first:
+      213: -9094728974906182601
+    second: NES - LOZ Start Seperated No Green_57
+  - first:
+      213: -8847361409051129100
+    second: NES - LOZ Start Seperated No Green_58
+  - first:
+      213: 1258208758460131397
+    second: NES - LOZ Start Seperated No Green_59
+  - first:
+      213: -5491300446137661944
+    second: NES - LOZ Start Seperated No Green_60
+  - first:
+      213: -309643524615662161
+    second: NES - LOZ Start Seperated No Green_61
+  - first:
+      213: -7802140185223134236
+    second: NES - LOZ Start Seperated No Green_62
+  - first:
+      213: -6511303348192328508
+    second: NES - LOZ Start Seperated No Green_63
+  - first:
+      213: -259432045616226964
+    second: NES - LOZ Start Seperated No Green_64
+  - first:
+      213: -2885938859935240848
+    second: NES - LOZ Start Seperated No Green_65
+  - first:
+      213: -9117421799794397868
+    second: NES - LOZ Start Seperated No Green_66
+  - first:
+      213: -2626849816110912059
+    second: NES - LOZ Start Seperated No Green_67
+  - first:
+      213: 2593637418812755221
+    second: NES - LOZ Start Seperated No Green_68
+  - first:
+      213: -1285420643382510669
+    second: NES - LOZ Start Seperated No Green_69
+  - first:
+      213: 3220800780315922727
+    second: NES - LOZ Start Seperated No Green_70
+  - first:
+      213: -503666585867153690
+    second: NES - LOZ Start Seperated No Green_71
+  - first:
+      213: -1428609628512783987
+    second: NES - LOZ Start Seperated No Green_72
+  - first:
+      213: 6708084958077270598
+    second: NES - LOZ Start Seperated No Green_73
+  - first:
+      213: -7103990011718020608
+    second: NES - LOZ Start Seperated No Green_74
+  - first:
+      213: 4464362765326048342
+    second: NES - LOZ Start Seperated No Green_75
+  - first:
+      213: 254759794685512331
+    second: NES - LOZ Start Seperated No Green_76
+  - first:
+      213: 767747870693180692
+    second: NES - LOZ Start Seperated No Green_77
+  - first:
+      213: -2951378025040533049
+    second: NES - LOZ Start Seperated No Green_78
+  - first:
+      213: 8795147399137177085
+    second: NES - LOZ Start Seperated No Green_79
+  - first:
+      213: 6995915094843601312
+    second: NES - LOZ Start Seperated No Green_80
+  - first:
+      213: -6892360290281384196
+    second: NES - LOZ Start Seperated No Green_81
+  - first:
+      213: -811953978172527839
+    second: NES - LOZ Start Seperated No Green_82
+  - first:
+      213: -1452882544502204628
+    second: NES - LOZ Start Seperated No Green_83
+  - first:
+      213: 6555532243979848578
+    second: NES - LOZ Start Seperated No Green_84
+  - first:
+      213: -6537050559549153904
+    second: NES - LOZ Start Seperated No Green_85
+  - first:
+      213: -2009124021306929309
+    second: NES - LOZ Start Seperated No Green_86
+  - first:
+      213: 7298844270660867684
+    second: NES - LOZ Start Seperated No Green_87
+  - first:
+      213: -3300527741180729041
+    second: NES - LOZ Start Seperated No Green_88
+  - first:
+      213: 1079311640165912280
+    second: NES - LOZ Start Seperated No Green_89
+  - first:
+      213: -5256222615705265972
+    second: NES - LOZ Start Seperated No Green_90
+  - first:
+      213: -4825670993266395892
+    second: NES - LOZ Start Seperated No Green_91
+  - first:
+      213: 7521619490127184200
+    second: NES - LOZ Start Seperated No Green_92
+  - first:
+      213: -8265727653517339566
+    second: NES - LOZ Start Seperated No Green_93
+  - first:
+      213: 753405792862785407
+    second: NES - LOZ Start Seperated No Green_94
+  - first:
+      213: 911792218289981000
+    second: NES - LOZ Start Seperated No Green_95
+  - first:
+      213: 2082313019906273100
+    second: NES - LOZ Start Seperated No Green_96
+  - first:
+      213: -5503981134478305189
+    second: NES - LOZ Start Seperated No Green_97
+  - first:
+      213: 2496089692855464589
+    second: NES - LOZ Start Seperated No Green_98
+  - first:
+      213: 7160628733225516910
+    second: NES - LOZ Start Seperated No Green_99
+  - first:
+      213: 5034436681117823361
+    second: NES - LOZ Start Seperated No Green_100
+  - first:
+      213: -4262656307317282858
+    second: NES - LOZ Start Seperated No Green_101
+  - first:
+      213: -8494526869618289378
+    second: NES - LOZ Start Seperated No Green_102
+  - first:
+      213: 7843240696119531543
+    second: NES - LOZ Start Seperated No Green_103
+  - first:
+      213: 9173828265493505313
+    second: NES - LOZ Start Seperated No Green_104
+  - first:
+      213: 3094265373520004531
+    second: NES - LOZ Start Seperated No Green_105
+  - first:
+      213: 5671894154418597674
+    second: NES - LOZ Start Seperated No Green_106
+  - first:
+      213: -7953941593125348809
+    second: NES - LOZ Start Seperated No Green_107
+  - first:
+      213: 287599920432656161
+    second: NES - LOZ Start Seperated No Green_108
+  - first:
+      213: 155259606409013873
+    second: NES - LOZ Start Seperated No Green_109
+  - first:
+      213: -9067836192395714591
+    second: NES - LOZ Start Seperated No Green_110
+  - first:
+      213: -3808028723545809131
+    second: NES - LOZ Start Seperated No Green_111
+  - first:
+      213: 7621016798515237102
+    second: NES - LOZ Start Seperated No Green_112
+  - first:
+      213: 1546718166698713392
+    second: NES - LOZ Start Seperated No Green_113
+  - first:
+      213: -7268857220180302396
+    second: NES - LOZ Start Seperated No Green_114
+  - first:
+      213: -5627196137453100686
+    second: NES - LOZ Start Seperated No Green_115
+  - first:
+      213: 6304730628511744703
+    second: NES - LOZ Start Seperated No Green_116
+  - first:
+      213: -5774671867591538475
+    second: NES - LOZ Start Seperated No Green_117
+  - first:
+      213: 6642830004431718653
+    second: NES - LOZ Start Seperated No Green_118
+  - first:
+      213: 4084843756264903275
+    second: NES - LOZ Start Seperated No Green_119
+  - first:
+      213: 3709621228783570920
+    second: NES - LOZ Start Seperated No Green_120
+  - first:
+      213: 190600461757811581
+    second: NES - LOZ Start Seperated No Green_121
+  - first:
+      213: 6865356459690479061
+    second: NES - LOZ Start Seperated No Green_122
+  - first:
+      213: -2821741828889990119
+    second: NES - LOZ Start Seperated No Green_123
+  - first:
+      213: -1907527597344597558
+    second: NES - LOZ Start Seperated No Green_124
+  - first:
+      213: 6683468157659241796
+    second: NES - LOZ Start Seperated No Green_125
+  - first:
+      213: 399807096672326210
+    second: NES - LOZ Start Seperated No Green_126
+  - first:
+      213: 5792593344971307626
+    second: NES - LOZ Start Seperated No Green_127
+  - first:
+      213: -2921762125549189593
+    second: NES - LOZ Start Seperated No Green_128
+  - first:
+      213: 3183128764845245706
+    second: NES - LOZ Start Seperated No Green_129
+  - first:
+      213: -98480996227038370
+    second: NES - LOZ Start Seperated No Green_130
+  - first:
+      213: 3320510367341301820
+    second: NES - LOZ Start Seperated No Green_131
+  - first:
+      213: -8651642162955576425
+    second: NES - LOZ Start Seperated No Green_132
+  - first:
+      213: 1396832134035735386
+    second: NES - LOZ Start Seperated No Green_133
+  - first:
+      213: -1849335650792581650
+    second: NES - LOZ Start Seperated No Green_134
+  - first:
+      213: 9169258840975983569
+    second: NES - LOZ Start Seperated No Green_135
+  - first:
+      213: 1226618421783314338
+    second: NES - LOZ Start Seperated No Green_136
+  - first:
+      213: -4722919810240589707
+    second: NES - LOZ Start Seperated No Green_137
+  - first:
+      213: -5451149261934853340
+    second: NES - LOZ Start Seperated No Green_138
+  - first:
+      213: 6538893357266163712
+    second: NES - LOZ Start Seperated No Green_139
+  - first:
+      213: -5127479096973683826
+    second: NES - LOZ Start Seperated No Green_140
+  - first:
+      213: -8523715014852169870
+    second: NES - LOZ Start Seperated No Green_141
+  - first:
+      213: 4016742356335373987
+    second: NES - LOZ Start Seperated No Green_142
+  - first:
+      213: 3220370706092902731
+    second: NES - LOZ Start Seperated No Green_143
+  - first:
+      213: -7145297722607774495
+    second: NES - LOZ Start Seperated No Green_144
+  - first:
+      213: 7289396619323756921
+    second: NES - LOZ Start Seperated No Green_145
+  - first:
+      213: 4531277275853627623
+    second: NES - LOZ Start Seperated No Green_146
+  - first:
+      213: -7776223705547555618
+    second: NES - LOZ Start Seperated No Green_147
+  - first:
+      213: -7517309138240500859
+    second: NES - LOZ Start Seperated No Green_148
+  - first:
+      213: -3235195177511233805
+    second: NES - LOZ Start Seperated No Green_149
+  - first:
+      213: 5063112223483374069
+    second: NES - LOZ Start Seperated No Green_150
+  - first:
+      213: 8942611528895642395
+    second: NES - LOZ Start Seperated No Green_151
+  - first:
+      213: 7438805663296904760
+    second: NES - LOZ Start Seperated No Green_152
+  - first:
+      213: 5642576933521170079
+    second: NES - LOZ Start Seperated No Green_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ef389c72a0b600800000000000000
+      internalID: 482063816142612495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 709
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418a4da58f6341840800000000000000
+      internalID: 5193836710568699924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 709
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d27159cfa5ee50800000000000000
+      internalID: 6838064888421732967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 709
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9984e981f6a0563e0800000000000000
+      internalID: -2061229782181459815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 709
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162e28ae4418c1690800000000000000
+      internalID: -7630081535680257439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 709
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea34405cedf9ab20800000000000000
+      internalID: 3146325006095760101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 709
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bea960f33fe3ba40800000000000000
+      internalID: 5382908985993703092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 482
+        width: 254
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799aa9cb15c24b2d0800000000000000
+      internalID: -3263935100368541289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 482
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75d5e901ee406eb0800000000000000
+      internalID: -4728692880298355330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 482
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df9619942b2634f0800000000000000
+      internalID: -849444043525546029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_10
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 690
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03a370b2e91bb700800000000000000
+      internalID: 557067440324059914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 673
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef13127850eb750800000000000000
+      internalID: 6322497004810403449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 690
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e22c494016a3770800000000000000
+      internalID: 8591285911466159670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 673
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d753aedf446524320800000000000000
+      internalID: 2540687994108130685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_14
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 690
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da7228cc54c1e0f0800000000000000
+      internalID: -1089373732073211177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_15
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 690
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a503a826efd3ea0800000000000000
+      internalID: -5891273038352065954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_16
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 690
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca111ec58dbcc500800000000000000
+      internalID: 417917247824140997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 690
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baff9052cec22630800000000000000
+      internalID: 3900907561227909810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_18
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 673
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80045147fafdfd90800000000000000
+      internalID: -7062212700787179382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_19
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 690
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a270aa1ca2f7bec20800000000000000
+      internalID: 3236820578810332970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_20
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 690
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e37e5fc59a1b75b0800000000000000
+      internalID: -5369668899977661471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_21
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 661
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35b380aba3c66080800000000000000
+      internalID: -9194446447330478787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_22
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 661
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f1b1f65e3db880800000000000000
+      internalID: -8593643970809957644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_23
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 661
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c35999f49e80cbf0800000000000000
+      internalID: -306088004167314488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_24
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 661
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e67291af1cc28d0800000000000000
+      internalID: -2869705582633849192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_25
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 661
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a879a4d5c5d0f00800000000000000
+      internalID: 1084624641019316852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_26
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 661
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2487863b429c10340800000000000000
+      internalID: 4828361434983856194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_27
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 661
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f997f36080b884590800000000000000
+      internalID: -7689743497154299489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_28
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 661
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce933906f659971c0800000000000000
+      internalID: -4505405646613300756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_29
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 661
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8774b7e059e75cd20800000000000000
+      internalID: 3298181480776943480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_30
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 661
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9167e84961de77e00800000000000000
+      internalID: 1042562519996986905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_31
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 650
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409321e7896708840800000000000000
+      internalID: 5224305965072005380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_32
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 641
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f9e90eef12be2f0800000000000000
+      internalID: -942622318430085269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_33
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 650
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e2a5c113f1a1270800000000000000
+      internalID: 8221918365507792440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_34
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 641
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f247fd918ae1ca50800000000000000
+      internalID: 6539765976340579060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_35
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 650
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cabd17c3b0a3790800000000000000
+      internalID: -7549709471097049970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_36
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 641
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2966f9302ff9a8af0800000000000000
+      internalID: -393326155649816942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_37
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 650
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95659b54b6ac12ed0800000000000000
+      internalID: -2440446960978012583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_38
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 641
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0addb2606d95db0a0800000000000000
+      internalID: -6864231481281356384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_39
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 650
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275641a01817b8fc0800000000000000
+      internalID: -3491572287061858958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_40
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 641
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246355061a07269c0800000000000000
+      internalID: -3935459285960149438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_41
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 632
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be42c1d697410a0800000000000000
+      internalID: -6911766018576291024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_42
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 623
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43105ab4c1b46a290800000000000000
+      internalID: -7879527913137831628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_43
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 632
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a21e9b4f00548560800000000000000
+      internalID: 7315059721379910307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_44
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 623
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6624a43a8f278f00800000000000000
+      internalID: 1118915303060022894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_45
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 632
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2be3aceac0790340800000000000000
+      internalID: 4830516092187437870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_46
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 623
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2149fae72b9c50930800000000000000
+      internalID: 4108912003512243218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 632
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e125aacd15e189800800000000000000
+      internalID: 619278285706777118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_48
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 623
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7918c988d8a5130800000000000000
+      internalID: 3556310473643235285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_49
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 632
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221eab6391537b810800000000000000
+      internalID: 1780950560056992034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_50
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 623
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db1a7a95f0c9b200800000000000000
+      internalID: 196400219858541528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_51
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 614
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53a4efefa9078f00800000000000000
+      internalID: 1118873683673523036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_52
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 605
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3121bedd54a09df50800000000000000
+      internalID: 6906562798741557779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_53
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 614
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f26e9ee0ded530800000000000000
+      internalID: 3881769652118025151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_54
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 605
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e56ca2f28ef5c290800000000000000
+      internalID: -7870604935389485593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_55
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 614
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cff74099ba7df080800000000000000
+      internalID: -9152023930338803772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_56
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 605
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beff657807e51f590800000000000000
+      internalID: -7642223255271047189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_57
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 614
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734b34aee2809c180800000000000000
+      internalID: -9094728974906182601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_58
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 605
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa020e7cabd73580800000000000000
+      internalID: -8847361409051129100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_59
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 596
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5482d45133e067110800000000000000
+      internalID: 1258208758460131397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_60
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 587
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8064501a65bfac3b0800000000000000
+      internalID: -5491300446137661944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_61
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 596
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5984cdadce3bbf0800000000000000
+      internalID: -309643524615662161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_62
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 587
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e389fbc6da39b390800000000000000
+      internalID: -7802140185223134236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_63
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 596
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c44f2a6a1433a5a0800000000000000
+      internalID: -6511303348192328508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_64
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 587
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d11b5ddef466cf0800000000000000
+      internalID: -259432045616226964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_65
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 596
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d6012b5e513f7d0800000000000000
+      internalID: -2885938859935240848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_66
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 587
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d2ad3ed29687180800000000000000
+      internalID: -9117421799794397868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_67
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 578
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cda868820e8b8bd0800000000000000
+      internalID: -2626849816110912059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_68
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 569
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dce70ad737ef320800000000000000
+      internalID: 2593637418812755221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_69
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 578
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb3b3c3cb4492ee0800000000000000
+      internalID: -1285420643382510669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_70
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 569
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7211803ce3592bc20800000000000000
+      internalID: 3220800780315922727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_71
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 578
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee8720a8ed9209f0800000000000000
+      internalID: -503666585867153690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_72
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 569
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81fac9ac1f8c2ce0800000000000000
+      internalID: -1428609628512783987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_73
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 578
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a36597ab7e71d50800000000000000
+      internalID: 6708084958077270598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_74
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 569
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002df9f09be896d90800000000000000
+      internalID: -7103990011718020608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_75
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 560
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c5db7284a94fd30800000000000000
+      internalID: 4464362765326048342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_76
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 551
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a0849fea6198300800000000000000
+      internalID: 254759794685512331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_77
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 560
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415cab5ee9697aa00800000000000000
+      internalID: 767747870693180692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_78
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 551
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9a093c2599a07d0800000000000000
+      internalID: -2951378025040533049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_79
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 560
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfda5c8f5f3ae0a70800000000000000
+      internalID: 8795147399137177085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_80
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 551
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a132fa76bb761160800000000000000
+      internalID: 6995915094843601312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_81
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 560
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf615c155da6950a0800000000000000
+      internalID: -6892360290281384196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_82
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 551
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12baf05a82c5bb4f0800000000000000
+      internalID: -811953978172527839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_83
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 542
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c279492060356dbe0800000000000000
+      internalID: -1452882544502204628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_84
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 542
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bc90cd7dde9fa50800000000000000
+      internalID: 6555532243979848578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_85
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 542
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ddd4f962bb745a0800000000000000
+      internalID: -6537050559549153904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_86
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 542
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fcb40f8582e14e0800000000000000
+      internalID: -2009124021306929309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466d2a77134ba4560800000000000000
+      internalID: 7298844270660867684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a99f918b2232d0800000000000000
+      internalID: -3300527741180729041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_89
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 470
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de8802e73c7afe00800000000000000
+      internalID: 1079311640165912280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_90
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 470
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8538231652e07b0800000000000000
+      internalID: -5256222615705265972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_91
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0533739cc5c70db0800000000000000
+      internalID: -4825670993266395892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_92
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8418fa43319226860800000000000000
+      internalID: 7521619490127184200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_93
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254d9f92e7c3a4d80800000000000000
+      internalID: -8265727653517339566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_94
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fce4fa392a47a00800000000000000
+      internalID: 753405792862785407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_95
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846c320113657ac00800000000000000
+      internalID: 911792218289981000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_96
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f2fa6b8acd5ec10800000000000000
+      internalID: 2082313019906273100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_97
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5818fcc15eed93b0800000000000000
+      internalID: -5503981134478305189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_98
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82f92ec954e3a220800000000000000
+      internalID: 2496089692855464589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_99
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fbc5ce4e9af5360800000000000000
+      internalID: 7160628733225516910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_100
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1817936ec79edd540800000000000000
+      internalID: 5034436681117823361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_101
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d766ca4ca008d4c0800000000000000
+      internalID: -4262656307317282858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_102
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15146961d06d1a80800000000000000
+      internalID: -8494526869618289378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_103
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718971c9bd9c8dc60800000000000000
+      internalID: 7843240696119531543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_104
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125ad23d33cff4f70800000000000000
+      internalID: 9173828265493505313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_105
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5837d86f901fa20800000000000000
+      internalID: 3094265373520004531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_106
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 470
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f2cb5bead96be40800000000000000
+      internalID: 5671894154418597674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 254
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a1f89434ced9190800000000000000
+      internalID: -7953941593125348809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 254
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fa1d69a92cdf300800000000000000
+      internalID: 287599920432656161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_109
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 243
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ae9f71ac7972200800000000000000
+      internalID: 155259606409013873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_110
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 18
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef92d6c603982280800000000000000
+      internalID: -9067836192395714591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_111
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 243
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f519e3d0a272bc0800000000000000
+      internalID: -3808028723545809131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_112
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 18
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee019ce766a43c960800000000000000
+      internalID: 7621016798515237102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_113
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 243
+        width: 258
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03168bd4afb077510800000000000000
+      internalID: 1546718166698713392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_114
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 178
+        width: 258
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5ae1cced4df1b90800000000000000
+      internalID: -7268857220180302396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27168a95dee28e1b0800000000000000
+      internalID: -5627196137453100686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_116
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c7fc4a17ee7750800000000000000
+      internalID: 6304730628511744703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_117
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c3cd288e3cdfa0800000000000000
+      internalID: -5774671867591538475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_118
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8857d91b2103c50800000000000000
+      internalID: 6642830004431718653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_119
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62542ff0c740b830800000000000000
+      internalID: 4084843756264903275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_120
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef84e86ad83b7330800000000000000
+      internalID: 3709621228783570920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_121
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b89113c1625a200800000000000000
+      internalID: 190600461757811581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_122
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddc84c6355a64f50800000000000000
+      internalID: 6865356459690479061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_123
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ca621c1c827d8d0800000000000000
+      internalID: -2821741828889990119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_124
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac95509b1c91785e0800000000000000
+      internalID: -1907527597344597558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_125
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dd9ecf0e270cc50800000000000000
+      internalID: 6683468157659241796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_126
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24295d7af666c8500800000000000000
+      internalID: 399807096672326210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_127
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a7e4fe4fc636050800000000000000
+      internalID: 5792593344971307626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_128
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7264374b3d0d377d0800000000000000
+      internalID: -2921762125549189593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_129
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05cde62fbebc2c20800000000000000
+      internalID: 3183128764845245706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_130
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53c2c24e0022aef0800000000000000
+      internalID: -98480996227038370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_131
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3051661692d41e20800000000000000
+      internalID: 3320510367341301820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_132
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b9d398a413fe780800000000000000
+      internalID: -8651642162955576425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_133
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a530d08dc6b826310800000000000000
+      internalID: 1396832134035735386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_134
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5da081607d556e0800000000000000
+      internalID: -1849335650792581650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_135
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3cbf5c550cf3f70800000000000000
+      internalID: 9169258840975983569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_136
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af3859a4f2d50110800000000000000
+      internalID: 1226618421783314338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_137
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57054f7a471d47eb0800000000000000
+      internalID: -4722919810240589707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_138
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4238db0b0a0a954b0800000000000000
+      internalID: -5451149261934853340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008d2082dd0deba50800000000000000
+      internalID: 6538893357266163712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_140
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8394a78de887d8b0800000000000000
+      internalID: -5127479096973683826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_141
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fa215ca5ea5b980800000000000000
+      internalID: -8523715014852169870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_142
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea2a734e55eb730800000000000000
+      internalID: 4016742356335373987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_143
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49cdbd481e01bc20800000000000000
+      internalID: 3220370706092902731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_144
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e45e85249dc6dc90800000000000000
+      internalID: -7145297722607774495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971d9b9ba93292560800000000000000
+      internalID: 7289396619323756921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_146
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e02e06bca452ee30800000000000000
+      internalID: 4531277275853627623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_147
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcbdd07dbd451490800000000000000
+      internalID: -7776223705547555618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_148
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b806cca272da790800000000000000
+      internalID: -7517309138240500859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_149
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6d26970274a13d0800000000000000
+      internalID: -3235195177511233805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_150
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f92aa2edb9c34640800000000000000
+      internalID: 5063112223483374069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_151
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b33283ec98a1c70800000000000000
+      internalID: 8942611528895642395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_152
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ed9f99652fb3760800000000000000
+      internalID: 7438805663296904760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Green_153
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 226
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e975c43d57e4e40800000000000000
+      internalID: 5642576933521170079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

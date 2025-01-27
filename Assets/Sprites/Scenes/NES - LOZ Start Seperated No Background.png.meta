@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 5e7ab14215672944d9e676e19b325803
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1456650566391972115
+    second: NES - LOZ Start Seperated No Background_0
+  - first:
+      213: 960384311507955178
+    second: NES - LOZ Start Seperated No Background_1
+  - first:
+      213: -5252730986000745428
+    second: NES - LOZ Start Seperated No Background_2
+  - first:
+      213: -665110082514824404
+    second: NES - LOZ Start Seperated No Background_3
+  - first:
+      213: -8395000126605079377
+    second: NES - LOZ Start Seperated No Background_4
+  - first:
+      213: -8508012734558563561
+    second: NES - LOZ Start Seperated No Background_5
+  - first:
+      213: -2049615482787651495
+    second: NES - LOZ Start Seperated No Background_6
+  - first:
+      213: 7542130407981135773
+    second: NES - LOZ Start Seperated No Background_7
+  - first:
+      213: 5293284203943867149
+    second: NES - LOZ Start Seperated No Background_8
+  - first:
+      213: -1496919075845249740
+    second: NES - LOZ Start Seperated No Background_9
+  - first:
+      213: 4956845480591124573
+    second: NES - LOZ Start Seperated No Background_10
+  - first:
+      213: -1717014610850318327
+    second: NES - LOZ Start Seperated No Background_11
+  - first:
+      213: -4235920989652465984
+    second: NES - LOZ Start Seperated No Background_12
+  - first:
+      213: 6378959209547382834
+    second: NES - LOZ Start Seperated No Background_13
+  - first:
+      213: 2688039869024753625
+    second: NES - LOZ Start Seperated No Background_14
+  - first:
+      213: 245486309580620341
+    second: NES - LOZ Start Seperated No Background_15
+  - first:
+      213: 1861175285799609135
+    second: NES - LOZ Start Seperated No Background_16
+  - first:
+      213: -7001959228787654015
+    second: NES - LOZ Start Seperated No Background_17
+  - first:
+      213: 2970900735984484258
+    second: NES - LOZ Start Seperated No Background_18
+  - first:
+      213: -822855844715873244
+    second: NES - LOZ Start Seperated No Background_19
+  - first:
+      213: -6173003990663445301
+    second: NES - LOZ Start Seperated No Background_20
+  - first:
+      213: -3895309413632424688
+    second: NES - LOZ Start Seperated No Background_21
+  - first:
+      213: 7902054981004590497
+    second: NES - LOZ Start Seperated No Background_22
+  - first:
+      213: 7126539397417256551
+    second: NES - LOZ Start Seperated No Background_23
+  - first:
+      213: -6141935529732233500
+    second: NES - LOZ Start Seperated No Background_24
+  - first:
+      213: -8742053991192437300
+    second: NES - LOZ Start Seperated No Background_25
+  - first:
+      213: 3832054766873341484
+    second: NES - LOZ Start Seperated No Background_26
+  - first:
+      213: 4945072893940860481
+    second: NES - LOZ Start Seperated No Background_27
+  - first:
+      213: 328976051230746930
+    second: NES - LOZ Start Seperated No Background_28
+  - first:
+      213: 789505537223549062
+    second: NES - LOZ Start Seperated No Background_29
+  - first:
+      213: 6422596255967008472
+    second: NES - LOZ Start Seperated No Background_30
+  - first:
+      213: 8633726502133144113
+    second: NES - LOZ Start Seperated No Background_31
+  - first:
+      213: -5347462000304330178
+    second: NES - LOZ Start Seperated No Background_32
+  - first:
+      213: -4700438958151911275
+    second: NES - LOZ Start Seperated No Background_33
+  - first:
+      213: -4402563028127696577
+    second: NES - LOZ Start Seperated No Background_34
+  - first:
+      213: -4544446580429190772
+    second: NES - LOZ Start Seperated No Background_35
+  - first:
+      213: -3439043738852342048
+    second: NES - LOZ Start Seperated No Background_36
+  - first:
+      213: -7793207624887887364
+    second: NES - LOZ Start Seperated No Background_37
+  - first:
+      213: 8587218614287225266
+    second: NES - LOZ Start Seperated No Background_38
+  - first:
+      213: 8493327570720030269
+    second: NES - LOZ Start Seperated No Background_39
+  - first:
+      213: 100956877792387747
+    second: NES - LOZ Start Seperated No Background_40
+  - first:
+      213: 573720579281572907
+    second: NES - LOZ Start Seperated No Background_41
+  - first:
+      213: 7611768016771379161
+    second: NES - LOZ Start Seperated No Background_42
+  - first:
+      213: -5602960150736784854
+    second: NES - LOZ Start Seperated No Background_43
+  - first:
+      213: -4081243243553958810
+    second: NES - LOZ Start Seperated No Background_44
+  - first:
+      213: -3066493882370928308
+    second: NES - LOZ Start Seperated No Background_45
+  - first:
+      213: -2834176985433685515
+    second: NES - LOZ Start Seperated No Background_46
+  - first:
+      213: 15400188465284754
+    second: NES - LOZ Start Seperated No Background_47
+  - first:
+      213: -9154252431460607407
+    second: NES - LOZ Start Seperated No Background_48
+  - first:
+      213: 1750505188423894436
+    second: NES - LOZ Start Seperated No Background_49
+  - first:
+      213: 5062895367607519840
+    second: NES - LOZ Start Seperated No Background_50
+  - first:
+      213: -5781837916282427928
+    second: NES - LOZ Start Seperated No Background_51
+  - first:
+      213: -1823691403539926276
+    second: NES - LOZ Start Seperated No Background_52
+  - first:
+      213: 6342527605936355828
+    second: NES - LOZ Start Seperated No Background_53
+  - first:
+      213: -3924915525857333099
+    second: NES - LOZ Start Seperated No Background_54
+  - first:
+      213: 705937027650366794
+    second: NES - LOZ Start Seperated No Background_55
+  - first:
+      213: 7266330256095556167
+    second: NES - LOZ Start Seperated No Background_56
+  - first:
+      213: -2245187314276483224
+    second: NES - LOZ Start Seperated No Background_57
+  - first:
+      213: 2069136420175284399
+    second: NES - LOZ Start Seperated No Background_58
+  - first:
+      213: 4609774854584771104
+    second: NES - LOZ Start Seperated No Background_59
+  - first:
+      213: 7025921008418841033
+    second: NES - LOZ Start Seperated No Background_60
+  - first:
+      213: -5784717209692558898
+    second: NES - LOZ Start Seperated No Background_61
+  - first:
+      213: 7732126868668626374
+    second: NES - LOZ Start Seperated No Background_62
+  - first:
+      213: 2337170177792516402
+    second: NES - LOZ Start Seperated No Background_63
+  - first:
+      213: -4331505755503701982
+    second: NES - LOZ Start Seperated No Background_64
+  - first:
+      213: -2467865430119045668
+    second: NES - LOZ Start Seperated No Background_65
+  - first:
+      213: 5942757638748550177
+    second: NES - LOZ Start Seperated No Background_66
+  - first:
+      213: -7638832489892698195
+    second: NES - LOZ Start Seperated No Background_67
+  - first:
+      213: -4733067778119225109
+    second: NES - LOZ Start Seperated No Background_68
+  - first:
+      213: -142797381549790990
+    second: NES - LOZ Start Seperated No Background_69
+  - first:
+      213: -6586330918453789111
+    second: NES - LOZ Start Seperated No Background_70
+  - first:
+      213: 1621401592946988176
+    second: NES - LOZ Start Seperated No Background_71
+  - first:
+      213: -2893085397142687655
+    second: NES - LOZ Start Seperated No Background_72
+  - first:
+      213: -1435325152871162950
+    second: NES - LOZ Start Seperated No Background_73
+  - first:
+      213: -6869138913600785157
+    second: NES - LOZ Start Seperated No Background_74
+  - first:
+      213: 1542968730443591684
+    second: NES - LOZ Start Seperated No Background_75
+  - first:
+      213: 556035171953621837
+    second: NES - LOZ Start Seperated No Background_76
+  - first:
+      213: 5207778711050294301
+    second: NES - LOZ Start Seperated No Background_77
+  - first:
+      213: -3721160933872682423
+    second: NES - LOZ Start Seperated No Background_78
+  - first:
+      213: -5664493723155015076
+    second: NES - LOZ Start Seperated No Background_79
+  - first:
+      213: -5999018363521418536
+    second: NES - LOZ Start Seperated No Background_80
+  - first:
+      213: -8071806851814287496
+    second: NES - LOZ Start Seperated No Background_81
+  - first:
+      213: 1442981649522806518
+    second: NES - LOZ Start Seperated No Background_82
+  - first:
+      213: -8502199308675374603
+    second: NES - LOZ Start Seperated No Background_83
+  - first:
+      213: 451288307742506435
+    second: NES - LOZ Start Seperated No Background_84
+  - first:
+      213: -5393694650340117484
+    second: NES - LOZ Start Seperated No Background_85
+  - first:
+      213: -7967803512690733639
+    second: NES - LOZ Start Seperated No Background_86
+  - first:
+      213: 1509283907942594751
+    second: NES - LOZ Start Seperated No Background_87
+  - first:
+      213: -2314810032485407153
+    second: NES - LOZ Start Seperated No Background_88
+  - first:
+      213: 9159340009131350140
+    second: NES - LOZ Start Seperated No Background_89
+  - first:
+      213: -6829313078011053189
+    second: NES - LOZ Start Seperated No Background_90
+  - first:
+      213: -2853613210669610670
+    second: NES - LOZ Start Seperated No Background_91
+  - first:
+      213: -8158580762349976491
+    second: NES - LOZ Start Seperated No Background_92
+  - first:
+      213: -470350257123238042
+    second: NES - LOZ Start Seperated No Background_93
+  - first:
+      213: -735572646409730600
+    second: NES - LOZ Start Seperated No Background_94
+  - first:
+      213: -3877518513032763972
+    second: NES - LOZ Start Seperated No Background_95
+  - first:
+      213: -7448336512811632948
+    second: NES - LOZ Start Seperated No Background_96
+  - first:
+      213: 3423824960431434024
+    second: NES - LOZ Start Seperated No Background_97
+  - first:
+      213: 694525358805204641
+    second: NES - LOZ Start Seperated No Background_98
+  - first:
+      213: -7989615087986742180
+    second: NES - LOZ Start Seperated No Background_99
+  - first:
+      213: -547910997329565737
+    second: NES - LOZ Start Seperated No Background_100
+  - first:
+      213: -1218386916627533580
+    second: NES - LOZ Start Seperated No Background_101
+  - first:
+      213: 98563469183621954
+    second: NES - LOZ Start Seperated No Background_102
+  - first:
+      213: 184931573786204649
+    second: NES - LOZ Start Seperated No Background_103
+  - first:
+      213: -6855913002315299059
+    second: NES - LOZ Start Seperated No Background_104
+  - first:
+      213: -103738089072090774
+    second: NES - LOZ Start Seperated No Background_105
+  - first:
+      213: 7811309906073417784
+    second: NES - LOZ Start Seperated No Background_106
+  - first:
+      213: 8062032807464681804
+    second: NES - LOZ Start Seperated No Background_107
+  - first:
+      213: 8984898271537904559
+    second: NES - LOZ Start Seperated No Background_108
+  - first:
+      213: -65014099821964467
+    second: NES - LOZ Start Seperated No Background_109
+  - first:
+      213: -958673524815563396
+    second: NES - LOZ Start Seperated No Background_110
+  - first:
+      213: -6875431108621370648
+    second: NES - LOZ Start Seperated No Background_111
+  - first:
+      213: 3048992910203032904
+    second: NES - LOZ Start Seperated No Background_112
+  - first:
+      213: 8443371965921354345
+    second: NES - LOZ Start Seperated No Background_113
+  - first:
+      213: 8492886549430914495
+    second: NES - LOZ Start Seperated No Background_114
+  - first:
+      213: -6418463099252706690
+    second: NES - LOZ Start Seperated No Background_115
+  - first:
+      213: -7325573208912029186
+    second: NES - LOZ Start Seperated No Background_116
+  - first:
+      213: 8251550434496953291
+    second: NES - LOZ Start Seperated No Background_117
+  - first:
+      213: 571645865319308157
+    second: NES - LOZ Start Seperated No Background_118
+  - first:
+      213: -6621292949847726290
+    second: NES - LOZ Start Seperated No Background_119
+  - first:
+      213: -5729450358963159365
+    second: NES - LOZ Start Seperated No Background_120
+  - first:
+      213: 4785013984004769039
+    second: NES - LOZ Start Seperated No Background_121
+  - first:
+      213: -8431124209774229678
+    second: NES - LOZ Start Seperated No Background_122
+  - first:
+      213: -5839766901556703921
+    second: NES - LOZ Start Seperated No Background_123
+  - first:
+      213: 543137022542414862
+    second: NES - LOZ Start Seperated No Background_124
+  - first:
+      213: 6749093103808005565
+    second: NES - LOZ Start Seperated No Background_125
+  - first:
+      213: -8920418654851557586
+    second: NES - LOZ Start Seperated No Background_126
+  - first:
+      213: -3911176505862741708
+    second: NES - LOZ Start Seperated No Background_127
+  - first:
+      213: -3671934478845380857
+    second: NES - LOZ Start Seperated No Background_128
+  - first:
+      213: 4791280154308406965
+    second: NES - LOZ Start Seperated No Background_129
+  - first:
+      213: 9087888253165200928
+    second: NES - LOZ Start Seperated No Background_130
+  - first:
+      213: 552785931671818954
+    second: NES - LOZ Start Seperated No Background_131
+  - first:
+      213: 8810154253570947510
+    second: NES - LOZ Start Seperated No Background_132
+  - first:
+      213: -5637356136838713503
+    second: NES - LOZ Start Seperated No Background_133
+  - first:
+      213: -7005408375302874207
+    second: NES - LOZ Start Seperated No Background_134
+  - first:
+      213: 2571335901724648544
+    second: NES - LOZ Start Seperated No Background_135
+  - first:
+      213: -2559790403538148084
+    second: NES - LOZ Start Seperated No Background_136
+  - first:
+      213: 1245768649950705091
+    second: NES - LOZ Start Seperated No Background_137
+  - first:
+      213: 4262376428622457411
+    second: NES - LOZ Start Seperated No Background_138
+  - first:
+      213: -8992747984222323128
+    second: NES - LOZ Start Seperated No Background_139
+  - first:
+      213: 8087401485454810072
+    second: NES - LOZ Start Seperated No Background_140
+  - first:
+      213: 960764442866344016
+    second: NES - LOZ Start Seperated No Background_141
+  - first:
+      213: 7623704058188739119
+    second: NES - LOZ Start Seperated No Background_142
+  - first:
+      213: 6311792586779860353
+    second: NES - LOZ Start Seperated No Background_143
+  - first:
+      213: 440650318573593139
+    second: NES - LOZ Start Seperated No Background_144
+  - first:
+      213: -241864849627283727
+    second: NES - LOZ Start Seperated No Background_145
+  - first:
+      213: 2629562398893144304
+    second: NES - LOZ Start Seperated No Background_146
+  - first:
+      213: -8254693816358169340
+    second: NES - LOZ Start Seperated No Background_147
+  - first:
+      213: -135354261779483866
+    second: NES - LOZ Start Seperated No Background_148
+  - first:
+      213: -7871485496886690725
+    second: NES - LOZ Start Seperated No Background_149
+  - first:
+      213: 22168744791875473
+    second: NES - LOZ Start Seperated No Background_150
+  - first:
+      213: 2991160024786732545
+    second: NES - LOZ Start Seperated No Background_151
+  - first:
+      213: 4456912063730197316
+    second: NES - LOZ Start Seperated No Background_152
+  - first:
+      213: 1828243408543482282
+    second: NES - LOZ Start Seperated No Background_153
+  - first:
+      213: 8184200308838398748
+    second: NES - LOZ Start Seperated No Background_154
+  - first:
+      213: 1537530140284761087
+    second: NES - LOZ Start Seperated No Background_155
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StartScreenTriangle1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 587
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb55c0700f8cbe0800000000000000
+      internalID: -1456650566391972115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - LOZ Start Seperated No Background_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 253
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97336965a70ba860800000000000000
+      internalID: 7542130407981135773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartScreenTriangle3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 580
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6daa43445a12950800000000000000
+      internalID: 6422596255967008472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartScreenTriangle4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 580
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a958f928821d770800000000000000
+      internalID: 8633726502133144113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartScreenTriangle2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 493
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b3beafa0f67b700800000000000000
+      internalID: 556035171953621837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6cc6cf30db7addf46ad36fa68fab3250
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES - LOZ Start Seperated No Background_1: 960384311507955178
+      NES - LOZ Start Seperated No Background_10: 4956845480591124573
+      NES - LOZ Start Seperated No Background_100: -547910997329565737
+      NES - LOZ Start Seperated No Background_101: -1218386916627533580
+      NES - LOZ Start Seperated No Background_102: 98563469183621954
+      NES - LOZ Start Seperated No Background_103: 184931573786204649
+      NES - LOZ Start Seperated No Background_104: -6855913002315299059
+      NES - LOZ Start Seperated No Background_105: -103738089072090774
+      NES - LOZ Start Seperated No Background_106: 7811309906073417784
+      NES - LOZ Start Seperated No Background_107: 8062032807464681804
+      NES - LOZ Start Seperated No Background_108: 8984898271537904559
+      NES - LOZ Start Seperated No Background_109: -65014099821964467
+      NES - LOZ Start Seperated No Background_11: -1717014610850318327
+      NES - LOZ Start Seperated No Background_110: -958673524815563396
+      NES - LOZ Start Seperated No Background_111: -6875431108621370648
+      NES - LOZ Start Seperated No Background_112: 3048992910203032904
+      NES - LOZ Start Seperated No Background_113: 8443371965921354345
+      NES - LOZ Start Seperated No Background_114: 8492886549430914495
+      NES - LOZ Start Seperated No Background_115: -6418463099252706690
+      NES - LOZ Start Seperated No Background_116: -7325573208912029186
+      NES - LOZ Start Seperated No Background_117: 8251550434496953291
+      NES - LOZ Start Seperated No Background_118: 571645865319308157
+      NES - LOZ Start Seperated No Background_119: -6621292949847726290
+      NES - LOZ Start Seperated No Background_12: -4235920989652465984
+      NES - LOZ Start Seperated No Background_120: -5729450358963159365
+      NES - LOZ Start Seperated No Background_121: 4785013984004769039
+      NES - LOZ Start Seperated No Background_122: -8431124209774229678
+      NES - LOZ Start Seperated No Background_123: -5839766901556703921
+      NES - LOZ Start Seperated No Background_124: 543137022542414862
+      NES - LOZ Start Seperated No Background_125: 6749093103808005565
+      NES - LOZ Start Seperated No Background_126: -8920418654851557586
+      NES - LOZ Start Seperated No Background_127: -3911176505862741708
+      NES - LOZ Start Seperated No Background_128: -3671934478845380857
+      NES - LOZ Start Seperated No Background_129: 4791280154308406965
+      NES - LOZ Start Seperated No Background_13: 6378959209547382834
+      NES - LOZ Start Seperated No Background_130: 9087888253165200928
+      NES - LOZ Start Seperated No Background_131: 552785931671818954
+      NES - LOZ Start Seperated No Background_132: 8810154253570947510
+      NES - LOZ Start Seperated No Background_133: -5637356136838713503
+      NES - LOZ Start Seperated No Background_134: -7005408375302874207
+      NES - LOZ Start Seperated No Background_135: 2571335901724648544
+      NES - LOZ Start Seperated No Background_136: -2559790403538148084
+      NES - LOZ Start Seperated No Background_137: 1245768649950705091
+      NES - LOZ Start Seperated No Background_138: 4262376428622457411
+      NES - LOZ Start Seperated No Background_139: -8992747984222323128
+      NES - LOZ Start Seperated No Background_14: 2688039869024753625
+      NES - LOZ Start Seperated No Background_140: 8087401485454810072
+      NES - LOZ Start Seperated No Background_141: 960764442866344016
+      NES - LOZ Start Seperated No Background_142: 7623704058188739119
+      NES - LOZ Start Seperated No Background_143: 6311792586779860353
+      NES - LOZ Start Seperated No Background_144: 440650318573593139
+      NES - LOZ Start Seperated No Background_145: -241864849627283727
+      NES - LOZ Start Seperated No Background_146: 2629562398893144304
+      NES - LOZ Start Seperated No Background_147: -8254693816358169340
+      NES - LOZ Start Seperated No Background_148: -135354261779483866
+      NES - LOZ Start Seperated No Background_149: -7871485496886690725
+      NES - LOZ Start Seperated No Background_15: 245486309580620341
+      NES - LOZ Start Seperated No Background_150: 22168744791875473
+      NES - LOZ Start Seperated No Background_151: 2991160024786732545
+      NES - LOZ Start Seperated No Background_152: 4456912063730197316
+      NES - LOZ Start Seperated No Background_153: 1828243408543482282
+      NES - LOZ Start Seperated No Background_154: 8184200308838398748
+      NES - LOZ Start Seperated No Background_155: 1537530140284761087
+      NES - LOZ Start Seperated No Background_16: 1861175285799609135
+      NES - LOZ Start Seperated No Background_17: -7001959228787654015
+      NES - LOZ Start Seperated No Background_18: 2970900735984484258
+      NES - LOZ Start Seperated No Background_19: -822855844715873244
+      NES - LOZ Start Seperated No Background_2: -5252730986000745428
+      NES - LOZ Start Seperated No Background_20: -6173003990663445301
+      NES - LOZ Start Seperated No Background_21: -3895309413632424688
+      NES - LOZ Start Seperated No Background_22: 7902054981004590497
+      NES - LOZ Start Seperated No Background_23: 7126539397417256551
+      NES - LOZ Start Seperated No Background_24: -6141935529732233500
+      NES - LOZ Start Seperated No Background_25: -8742053991192437300
+      NES - LOZ Start Seperated No Background_26: 3832054766873341484
+      NES - LOZ Start Seperated No Background_27: 4945072893940860481
+      NES - LOZ Start Seperated No Background_28: 328976051230746930
+      NES - LOZ Start Seperated No Background_29: 789505537223549062
+      NES - LOZ Start Seperated No Background_3: -665110082514824404
+      NES - LOZ Start Seperated No Background_32: -5347462000304330178
+      NES - LOZ Start Seperated No Background_33: -4700438958151911275
+      NES - LOZ Start Seperated No Background_34: -4402563028127696577
+      NES - LOZ Start Seperated No Background_35: -4544446580429190772
+      NES - LOZ Start Seperated No Background_36: -3439043738852342048
+      NES - LOZ Start Seperated No Background_37: -7793207624887887364
+      NES - LOZ Start Seperated No Background_38: 8587218614287225266
+      NES - LOZ Start Seperated No Background_39: 8493327570720030269
+      NES - LOZ Start Seperated No Background_4: -8395000126605079377
+      NES - LOZ Start Seperated No Background_40: 100956877792387747
+      NES - LOZ Start Seperated No Background_41: 573720579281572907
+      NES - LOZ Start Seperated No Background_42: 7611768016771379161
+      NES - LOZ Start Seperated No Background_43: -5602960150736784854
+      NES - LOZ Start Seperated No Background_44: -4081243243553958810
+      NES - LOZ Start Seperated No Background_45: -3066493882370928308
+      NES - LOZ Start Seperated No Background_46: -2834176985433685515
+      NES - LOZ Start Seperated No Background_47: 15400188465284754
+      NES - LOZ Start Seperated No Background_48: -9154252431460607407
+      NES - LOZ Start Seperated No Background_49: 1750505188423894436
+      NES - LOZ Start Seperated No Background_5: -8508012734558563561
+      NES - LOZ Start Seperated No Background_50: 5062895367607519840
+      NES - LOZ Start Seperated No Background_51: -5781837916282427928
+      NES - LOZ Start Seperated No Background_52: -1823691403539926276
+      NES - LOZ Start Seperated No Background_53: 6342527605936355828
+      NES - LOZ Start Seperated No Background_54: -3924915525857333099
+      NES - LOZ Start Seperated No Background_55: 705937027650366794
+      NES - LOZ Start Seperated No Background_56: 7266330256095556167
+      NES - LOZ Start Seperated No Background_57: -2245187314276483224
+      NES - LOZ Start Seperated No Background_58: 2069136420175284399
+      NES - LOZ Start Seperated No Background_59: 4609774854584771104
+      NES - LOZ Start Seperated No Background_6: -2049615482787651495
+      NES - LOZ Start Seperated No Background_60: 7025921008418841033
+      NES - LOZ Start Seperated No Background_61: -5784717209692558898
+      NES - LOZ Start Seperated No Background_62: 7732126868668626374
+      NES - LOZ Start Seperated No Background_63: 2337170177792516402
+      NES - LOZ Start Seperated No Background_64: -4331505755503701982
+      NES - LOZ Start Seperated No Background_65: -2467865430119045668
+      NES - LOZ Start Seperated No Background_66: 5942757638748550177
+      NES - LOZ Start Seperated No Background_67: -7638832489892698195
+      NES - LOZ Start Seperated No Background_68: -4733067778119225109
+      NES - LOZ Start Seperated No Background_69: -142797381549790990
+      NES - LOZ Start Seperated No Background_7: 7542130407981135773
+      NES - LOZ Start Seperated No Background_70: -6586330918453789111
+      NES - LOZ Start Seperated No Background_71: 1621401592946988176
+      NES - LOZ Start Seperated No Background_72: -2893085397142687655
+      NES - LOZ Start Seperated No Background_73: -1435325152871162950
+      NES - LOZ Start Seperated No Background_74: -6869138913600785157
+      NES - LOZ Start Seperated No Background_75: 1542968730443591684
+      NES - LOZ Start Seperated No Background_77: 5207778711050294301
+      NES - LOZ Start Seperated No Background_78: -3721160933872682423
+      NES - LOZ Start Seperated No Background_79: -5664493723155015076
+      NES - LOZ Start Seperated No Background_8: 5293284203943867149
+      NES - LOZ Start Seperated No Background_80: -5999018363521418536
+      NES - LOZ Start Seperated No Background_81: -8071806851814287496
+      NES - LOZ Start Seperated No Background_82: 1442981649522806518
+      NES - LOZ Start Seperated No Background_83: -8502199308675374603
+      NES - LOZ Start Seperated No Background_84: 451288307742506435
+      NES - LOZ Start Seperated No Background_85: -5393694650340117484
+      NES - LOZ Start Seperated No Background_86: -7967803512690733639
+      NES - LOZ Start Seperated No Background_87: 1509283907942594751
+      NES - LOZ Start Seperated No Background_88: -2314810032485407153
+      NES - LOZ Start Seperated No Background_89: 9159340009131350140
+      NES - LOZ Start Seperated No Background_9: -1496919075845249740
+      NES - LOZ Start Seperated No Background_90: -6829313078011053189
+      NES - LOZ Start Seperated No Background_91: -2853613210669610670
+      NES - LOZ Start Seperated No Background_92: -8158580762349976491
+      NES - LOZ Start Seperated No Background_93: -470350257123238042
+      NES - LOZ Start Seperated No Background_94: -735572646409730600
+      NES - LOZ Start Seperated No Background_95: -3877518513032763972
+      NES - LOZ Start Seperated No Background_96: -7448336512811632948
+      NES - LOZ Start Seperated No Background_97: 3423824960431434024
+      NES - LOZ Start Seperated No Background_98: 694525358805204641
+      NES - LOZ Start Seperated No Background_99: -7989615087986742180
+      StartScreenTriangle1: -1456650566391972115
+      StartScreenTriangle2: 556035171953621837
+      StartScreenTriangle3: 6422596255967008472
+      StartScreenTriangle4: 8633726502133144113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
