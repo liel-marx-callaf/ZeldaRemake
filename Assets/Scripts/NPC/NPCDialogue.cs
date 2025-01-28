@@ -9,7 +9,7 @@ public class NPCDialogue : MonoBehaviour
     [TextArea]
     [SerializeField] private string enterMessage;
     [TextArea]
-    [SerializeField] private string reEnterMessage;
+    [SerializeField] private string[] reEnterMessages;
     [SerializeField] private float typingSpeed = 0.05f;
 
     private bool _isTyping;
@@ -44,7 +44,8 @@ public class NPCDialogue : MonoBehaviour
         }
         else
         {
-            foreach (char c in reEnterMessage)
+            string randomMessage = reEnterMessages[Random.Range(0, reEnterMessages.Length)];
+            foreach (char c in randomMessage)
             {
                 dialogueText.text += c;
                 AudioManager.Instance.PlaySound(transform.position, "LOZ_Text", 0.5f);

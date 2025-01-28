@@ -360,14 +360,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1141887185}
-  enterMessage: 'TAKE THIS JOURNAL AND GO TO THE ROOM ONTOP OF THE WATERFALL
+  enterMessage: 'TAKE THIS JOURNAL
 
-    DON''T
-    OPEN IT HERE'
-  reEnterMessage: 'I ALREDY GAVE YOU A JORUNAL AND TOLD YOU A HINT
+    NO OPENING IT HERE!
 
-    YOUR NOT
-    GETTING ANOTHER ONE'
+    FIND THE ROOM AT
+    THE WATERFALL''S TOP'
+  reEnterMessages:
+  - 'I GAVE YOU A JOURNAL ALREADY!
+
+    NO REPEATS!'
+  - 'YOU''VE GOT YOUR JOURNAL. HINT GIVEN.
+
+    NOW LEAVE ME BE!'
+  - "STOP BUGGING ME! YOU\u2019VE GOT WHAT YOU NEED!"
+  - "JOURNAL\u2019S YOURS. HINT\u2019S DONE.\nWHAT MORE DO YOU WANT?"
+  - "DIDN\u2019T I GIVE YOU A JOURNAL?\nGO AWAY!"
   typingSpeed: 0.1
 --- !u!212 &114924548
 SpriteRenderer:
@@ -411,7 +419,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 311876583
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -8869993592485127130, guid: e630acdf8801ed949b127f7c63811b9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4589,6 +4597,14 @@ PrefabInstance:
     - target: {fileID: 7282701022726651794, guid: 026870ceaf4b6754a87f681237d2f10b, type: 3}
       propertyPath: startingScene
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282701022726651794, guid: 026870ceaf4b6754a87f681237d2f10b, type: 3}
+      propertyPath: startingPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282701022726651794, guid: 026870ceaf4b6754a87f681237d2f10b, type: 3}
+      propertyPath: startingPosition.y
+      value: -3.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

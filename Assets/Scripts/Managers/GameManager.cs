@@ -1,4 +1,5 @@
 using System.Collections;
+using Player;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -54,7 +55,7 @@ namespace Managers
             MyEvents.AreaSwitch += OnAreaSwitch;
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
             SceneManager.sceneLoaded += OnSceneLoaded;
-            MyEvents.LoadScene += OnSceneLoad;
+            MyEvents.LoadScene += OnLoadScene;
         }
 
         private void OnDisable()
@@ -65,7 +66,7 @@ namespace Managers
             _actionStart.Disable();
             MyEvents.AreaSwitch -= OnAreaSwitch;
             SceneManager.sceneLoaded -= OnSceneLoaded;
-            MyEvents.LoadScene -= OnSceneLoad;
+            MyEvents.LoadScene -= OnLoadScene;
         }
         
 
@@ -130,7 +131,6 @@ namespace Managers
                     // "DontDestroyOnLoad" is also called in the player's Awake, 
                     // so it won't be destroyed on scene changes
                 }
-                _currentPlayer.transform.position = startingPosition;
                 journalCanvas = GameObject.FindGameObjectWithTag("JournalCanvas");
                 // journalCanvas.SetActive(true);
                 var tempJournalController = GameObject.FindGameObjectWithTag("JournalController");
@@ -142,11 +142,22 @@ namespace Managers
                 if (scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom)
                 {
                     MyEvents.StartText?.Invoke();
+                    _currentPlayer.transform.position = startingPositionSideRoom;
                 }
+                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene == SceneIndexEnum.StartingSideRoom)
+                {
+                    _currentPlayer.transform.position = exitPositionSideRoom;
+                    _currentPlayer.GetComponent<PlayerAnimationControl>().SetAnimTrigger("ExitRoom");
+                }
+                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene == SceneIndexEnum.StartMenu)
+                {
+                    _currentPlayer.transform.position = startingPosition;
+                }
+                
             }
         }
         
-        private void OnSceneLoad(SceneIndexEnum enterSceneIndex, SceneIndexEnum exitSceneIndex)
+        private void OnLoadScene(SceneIndexEnum enterSceneIndex, SceneIndexEnum exitSceneIndex)
         {
             Debug.Log("Enter Scene: " + enterSceneIndex + " Exit Scene: " + exitSceneIndex);
             // todo: _currentScene = enterSceneIndex;
