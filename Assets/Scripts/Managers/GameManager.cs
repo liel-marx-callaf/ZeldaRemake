@@ -26,6 +26,10 @@ namespace Managers
         [Header("Scene References")] 
         [SerializeField] private SceneIndexEnum startingScene;
         private SceneIndexEnum _currentScene;
+        private SceneIndexEnum _lastScene;
+        [SerializeField] private Vector2 startingPosition;
+        [SerializeField] private Vector2 startingPositionSideRoom;
+        [SerializeField] private Vector2 exitPositionSideRoom;
 
         [Header("Area References")] [SerializeField]
         private AreaTypeData areaTypeData;
@@ -50,6 +54,7 @@ namespace Managers
             MyEvents.AreaSwitch += OnAreaSwitch;
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
             SceneManager.sceneLoaded += OnSceneLoaded;
+            MyEvents.LoadScene += OnSceneLoad;
         }
 
         private void OnDisable()
@@ -60,18 +65,20 @@ namespace Managers
             _actionStart.Disable();
             MyEvents.AreaSwitch -= OnAreaSwitch;
             SceneManager.sceneLoaded -= OnSceneLoaded;
+            MyEvents.LoadScene -= OnSceneLoad;
         }
+        
 
         private void Start()
         {
             if (journalCanvas != null) journalCanvas.SetActive(false);
-            MyEvents.LoadScene?.Invoke(startingScene);
+            MyEvents.LoadScene?.Invoke(startingScene, startingScene);
             _currentScene = startingScene;
         }
 
         private void OnActionSelect(InputAction.CallbackContext context)
         {
-            if (_currentScene is SceneIndexEnum.MainGame or SceneIndexEnum.Journal)
+            if (_currentScene is SceneIndexEnum.MainGame or SceneIndexEnum.Journal or SceneIndexEnum.StartingSideRoom)
             {
                 ToggleJournal();
             }
@@ -81,46 +88,86 @@ namespace Managers
         {
             if (_currentScene is SceneIndexEnum.StartMenu)
             {
-                LoadNextScene(_currentScene,SceneIndexEnum.MainGame);
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.MainGame, SceneIndexEnum.StartMenu);
+                // LoadNextScene(_currentScene,SceneIndexEnum.MainGame);
             }
         }
-        private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
-        {
-            if (currentSceneIndexEnum == SceneIndexEnum.StartMenu)
-            {
-                StartCoroutine(LoadScene(nextSceneIndexEnum, false));
-            }
-            
-        }
+        // private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
+        // {
+        //     if (currentSceneIndexEnum == SceneIndexEnum.StartMenu)
+        //     {
+        //         StartCoroutine(LoadScene(nextSceneIndexEnum, false));
+        //     }
+        //     
+        // }
         
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            if(scene.buildIndex == (int)SceneIndexEnum.StartMenu || scene.buildIndex == (int)SceneIndexEnum.GameOver || scene.buildIndex == (int)SceneIndexEnum.Win)
+            // Scenes that DO NOT NEED the player:
+            if (scene.buildIndex == (int)SceneIndexEnum.StartMenu 
+                || scene.buildIndex == (int)SceneIndexEnum.GameOver
+                || scene.buildIndex == (int)SceneIndexEnum.Win)
             {
+                // If a player already exists, destroy it (or do nothing if you want 
+                // them to carry over items between attempts, but usually you'd destroy)
                 if (_currentPlayer != null)
                 {
                     Destroy(_currentPlayer);
                     _currentPlayer = null;
                 }
+                return;
             }
-            if(scene.buildIndex == (int)SceneIndexEnum.MainGame || scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom || scene.buildIndex == (int)SceneIndexEnum.Shop)
+
+            // Scenes that DO NEED the player (MainGame, StartingSideRoom, Shop):
+            if (scene.buildIndex == (int)SceneIndexEnum.MainGame 
+                || scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom
+                || scene.buildIndex == (int)SceneIndexEnum.Shop)
             {
+                // If we don’t have a reference, create the player
                 if (_currentPlayer == null)
                 {
                     _currentPlayer = Instantiate(player);
-                    DontDestroyOnLoad(_currentPlayer);
+                    // "DontDestroyOnLoad" is also called in the player's Awake, 
+                    // so it won't be destroyed on scene changes
                 }
             }
         }
+        
+        private void OnSceneLoad(SceneIndexEnum enterSceneIndex, SceneIndexEnum exitSceneIndex)
+        {
+            Debug.Log("Enter Scene: " + enterSceneIndex + " Exit Scene: " + exitSceneIndex);
+            // todo: _currentScene = enterSceneIndex;
+            // todo: different logic for different scenes
+            _currentScene = enterSceneIndex;
+            if(exitSceneIndex != SceneIndexEnum.Journal) _lastScene = exitSceneIndex;
+            if (enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.StartMenu)
+            {
+                StartCoroutine(LoadScene(enterSceneIndex, startingPosition,true));
+                // player.transform.position = startingPosition;
+            }
+            if(enterSceneIndex == SceneIndexEnum.StartingSideRoom && exitSceneIndex == SceneIndexEnum.MainGame)
+            {
+                StartCoroutine(LoadScene(enterSceneIndex, startingPositionSideRoom,true));
+                // player.transform.position = startingPositionSideRoom;
+            }
+            if(enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.StartingSideRoom)
+            {
+                StartCoroutine(LoadScene(SceneIndexEnum.MainGame,exitPositionSideRoom ,true));
+                // player.transform.position = exitPositionSideRoom;
+            }
+        }
 
+        
     
-        private IEnumerator LoadScene(SceneIndexEnum sceneIndexEnum, bool needPlayerFreeze)
+        private IEnumerator LoadScene(SceneIndexEnum enterSceneIndex ,Vector2 playerPositionAfterLoad ,bool needPlayerFreeze)
         {
             if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
             transition.SetTrigger(Start1);
-            yield return new WaitForSeconds(1);
-            SceneManager.LoadScene(sceneIndexEnum.ToString());
-            MyEvents.LoadScene?.Invoke(sceneIndexEnum);
+            yield return new WaitForSeconds(transitionTime);
+            Debug.Log("Loading scene: " + enterSceneIndex.ToString());
+            SceneManager.LoadScene(enterSceneIndex.ToString());
+            // MyEvents.LoadScene?.Invoke(enterSceneIndex, exitSceneIndex);
+            _currentPlayer.transform.position = playerPositionAfterLoad;
             if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
         }
 
@@ -156,15 +203,15 @@ namespace Managers
         {
             if (!_isJournalOpen)
             {
-                _currentScene = SceneIndexEnum.Journal;
-                MyEvents.LoadScene?.Invoke(_currentScene);
+                // _currentScene = SceneIndexEnum.Journal;
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.Journal, _currentScene);
                 MyEvents.ToggleJournal?.Invoke();
                 OpenJournal();
             }
             else
             {
-                _currentScene = SceneIndexEnum.MainGame;
-                MyEvents.LoadScene?.Invoke(_currentScene);
+                // _currentScene = SceneIndexEnum.MainGame;
+                MyEvents.LoadScene?.Invoke(_lastScene, _currentScene);
                 MyEvents.ToggleJournal?.Invoke();
                 CloseJournal();
             }

@@ -103,7 +103,7 @@ namespace Audio
 
         private void Start()
         {
-            OnLoadScene(startingSceneIndex);
+            OnLoadScene(startingSceneIndex, startingSceneIndex);
             AreaChanged(startingAreaIndex, startingAreaIndex);
         }
 
@@ -150,10 +150,10 @@ namespace Audio
         }
 
 
-        private void OnLoadScene(SceneIndexEnum obj)
+        private void OnLoadScene(SceneIndexEnum enterScene, SceneIndexEnum exitScene)
         {
             if (sceneBackgroundMusicData == null) return;
-            if (sceneBackgroundMusicData.TryGetBackgroundMusic(obj, out var backgroundMusic))
+            if (sceneBackgroundMusicData.TryGetBackgroundMusic(enterScene, out var backgroundMusic))
             {
                 if (_backgroundMusicSource != null)
                 {

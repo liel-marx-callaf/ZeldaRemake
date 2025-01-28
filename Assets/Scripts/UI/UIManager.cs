@@ -58,6 +58,7 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Subscribe to events
         MyEvents.AreaSwitch += OnAreaSwitch;
+        // MyEvents.LoadScene += OnSceneLoad;
         // etc. (if I have bombs or keys events)
     }
 
@@ -65,7 +66,9 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Unsubscribe
         MyEvents.AreaSwitch -= OnAreaSwitch;
+        // MyEvents.LoadScene -= OnSceneLoad;
     }
+
 
     private void Start()
     {
@@ -79,20 +82,27 @@ public class UIManager : MonoSingleton<UIManager>
     }
 
     // -------------- EVENT HANDLERS --------------
-    
-    
+
+    // private void OnSceneLoad(SceneIndexEnum arg1, SceneIndexEnum arg2)
+    // {
+    //     UpdateHeartsUI();
+    //     UpdateRupeesUI();
+    //     UpdateBombUI();
+    //     UpdateKeysUI();
+    // }
+
     public void UpdateCurrentHealthUI(int currentHealth)
     {
         _currentHP = currentHealth;
         UpdateHeartsUI();
     }
-    
+
     public void UpdateMaxHealthUI(int maxHealth)
     {
         _maxHP = maxHealth;
         UpdateHeartsUI();
     }
-    
+
     public void UpdateCurrentRupeesUI(int currentRupees)
     {
         _currentRupees = currentRupees;
@@ -110,6 +120,7 @@ public class UIManager : MonoSingleton<UIManager>
         _currentKeys = keys;
         UpdateKeysUI();
     }
+
     private void OnAreaSwitch(int areaEnterIndex, int areaExitIndex)
     {
         // Move the green square or do any other map updates
@@ -200,7 +211,4 @@ public class UIManager : MonoSingleton<UIManager>
             UpdateBombUI();
         }
     }
-
-
-
 }
