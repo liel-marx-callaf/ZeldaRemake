@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -31,6 +32,8 @@ namespace Managers
         private InputPlayerActions _inputPlayerActions;
         private InputAction _actionSelect;
         private InputAction _actionStart;
+        public bool IsAreaSwitching { get; private set; }
+        private CinemachineBrain _cinemachineBrain;
 
         private void OnEnable()
         {
@@ -41,6 +44,8 @@ namespace Managers
             _actionStart = _inputPlayerActions.Player.ActionStart;
             _actionStart.Enable();
             _actionStart.performed += OnActionStart;
+            MyEvents.AreaSwitch += OnAreaSwitch;
+            _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
         }
 
         private void OnDisable()
@@ -49,6 +54,7 @@ namespace Managers
             _actionSelect.Disable();
             _actionStart.performed -= OnActionStart;
             _actionStart.Disable();
+            MyEvents.AreaSwitch -= OnAreaSwitch;
         }
 
         private void Start()
@@ -84,6 +90,18 @@ namespace Managers
             yield return new WaitForSeconds(1);
             SceneManager.LoadScene(sceneIndexEnum.ToString());
             MyEvents.LoadScene?.Invoke(sceneIndexEnum);
+        }
+
+        private void OnAreaSwitch(int enteringAreaIndex, int exitingAreaIndex)
+        {
+            IsAreaSwitching = true;
+            StartCoroutine(AreaSwitchTimer());
+        }
+
+        private IEnumerator AreaSwitchTimer()
+        {
+            yield return new WaitForSeconds(_cinemachineBrain.DefaultBlend.Time);
+            IsAreaSwitching = false;
         }
 
         private void OpenJournal()

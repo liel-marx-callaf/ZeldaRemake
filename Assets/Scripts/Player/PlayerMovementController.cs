@@ -1,4 +1,5 @@
 using System.Collections;
+using Managers;
 using Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -40,6 +41,7 @@ public class PlayerMovementController : MonoBehaviour
         // _playerAnimationControl.SetDirection(DirectionsEnum.Down);
         
         MyEvents.PlayerHit += OnPlayerHit;
+        MyEvents.AreaSwitch += OnAreaSwitch;
     }
 
 
@@ -49,6 +51,12 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.canceled -= OnMoveCanceled;
         _moveAction.Disable();
         MyEvents.PlayerHit -= OnPlayerHit;
+        MyEvents.AreaSwitch -= OnAreaSwitch;
+    }
+
+    private void OnAreaSwitch(int arg1, int arg2)
+    {
+        _rb.linearVelocity = Vector2.zero;
     }
 
     private void OnPlayerHit(int obj)
@@ -65,6 +73,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(GameManager.Instance.IsAreaSwitching) return;
         if (_playerHit) return;
         if (!IsAttacking)
         {
@@ -97,6 +106,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
+        if(GameManager.Instance.IsAreaSwitching) return;
         // if(_playerHit) return;
         // if(IsAttacking) return;
         Vector2 moveInput = context.ReadValue<Vector2>();

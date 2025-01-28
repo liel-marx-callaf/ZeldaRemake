@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Audio;
+using Managers;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
@@ -78,6 +79,7 @@ namespace Player
 
         private void OnActionA(InputAction.CallbackContext context)
         {
+            if(GameManager.Instance.IsAreaSwitching) return;
             _playerAnimationControl.SetSwordAttack();
             _playerMovementController.Attacking();
             SwordAttack();
@@ -85,6 +87,7 @@ namespace Player
 
         private void OnActionB(InputAction.CallbackContext context)
         {
+            if(GameManager.Instance.IsAreaSwitching) return;
             if (_playerInventory.GetBombCount() <= 0) return;
             var bomb = BombPool.Instance.Get();
             var lastDir = _playerMovementController.LastFacingDirection;
