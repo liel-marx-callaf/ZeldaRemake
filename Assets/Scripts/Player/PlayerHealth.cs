@@ -1,3 +1,4 @@
+using System;
 using Audio;
 using Interfaces;
 using UnityEngine;
@@ -39,6 +40,12 @@ namespace Player
             MyEvents.PlayerHeal -= GainHealth;
         }
 
+        private void Start()
+        {
+            UIManager.Instance.UpdateMaxHealthUI(_maxHealth);
+            UIManager.Instance.UpdateCurrentHealthUI(_currentHealth);
+        }
+
 
         public void TakeDamage(int damage)
         {
@@ -49,6 +56,7 @@ namespace Player
             UIManager.Instance.UpdateCurrentHealthUI(_currentHealth);
             if (_currentHealth <= 0)
             {
+                _currentHealth = 0;
                 Die();
             }
         }

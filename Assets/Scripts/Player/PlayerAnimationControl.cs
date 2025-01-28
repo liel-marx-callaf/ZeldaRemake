@@ -9,13 +9,26 @@ namespace Player
         private Animator _animator;
         private Dictionary<string, int> _animatorParameters;
         private Vector2 _direction = Vector2.down;
+        private SpriteRenderer _spriteRenderer;
 
         private void OnEnable()
         {
             _animator = GetComponent<Animator>();
             _playerMovementController = GetComponent<PlayerMovementController>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
             CacheAnimatorParameters();
             SetAnimatorSpeed(0);
+            MyEvents.TogglePlayerFreeze += OnPlayerFreeze;
+        }
+        
+        private void OnDisable()
+        {
+            MyEvents.TogglePlayerFreeze -= OnPlayerFreeze;
+        }
+
+        private void OnPlayerFreeze()
+        {
+            _animator.speed = 1;
         }
 
         private void CacheAnimatorParameters()
@@ -53,6 +66,20 @@ namespace Player
             SetDirection(directionEnum);
         }
         
+        public void TogglePlayerFreeze()
+        {
+            MyEvents.TogglePlayerFreeze?.Invoke();
+        }
+        
+        public void SetAnimTrigger(string triggerName)
+        {
+            _animator.SetTrigger(_animatorParameters[triggerName]);
+        }
+        
+        public void SetRenderPriority(int priority)
+        {
+            _spriteRenderer.sortingOrder = priority;
+        }
         
     }
 }

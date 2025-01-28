@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+// using JetBrains.Annotations;
+// using JetBrains.Annotations;
 using Unity.Cinemachine;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -64,8 +66,13 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     {
         Debug.Log("areaEnterIndex: " + areaEnterIndex + " areaExitIndex: " + areaExitIndex);
         _currentAreaIndex = areaEnterIndex;
-        var exitArea = areas[areaExitIndex - 1];
-        var enterArea = areas[areaEnterIndex - 1];
+        var exitArea = GetAreaFromIndex(areaExitIndex);
+        var enterArea = GetAreaFromIndex(areaEnterIndex);
+        if (exitArea == null || enterArea == null)
+        {
+            Debug.Log("Area not found");
+            return;
+        }
         DespawnEnemies(exitArea);
         StartCoroutine(SpawnEnemies(enterArea));
     }
@@ -110,5 +117,18 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         }
         // enemyObj.transform.position = spawnPosition;
         // yield return null;
+    }
+
+    
+    private Area GetAreaFromIndex(int index)
+    {
+        foreach(var area in areas)
+        {
+            if (area.areaIndex == index)
+            {
+                return area;
+            }
+        }
+        return null;
     }
 }

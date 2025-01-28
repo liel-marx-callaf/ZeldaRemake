@@ -6,7 +6,9 @@ public enum SceneIndexEnum
 {
     StartMenu,
     MainGame,
-    Journal,
+    StartingSideRoom,
     GameOver,
     Win,
+    Shop,
+    Journal,
 }

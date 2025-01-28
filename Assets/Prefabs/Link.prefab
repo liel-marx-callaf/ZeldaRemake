@@ -83,8 +83,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 311876583
-  m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: -6160091232409139698, guid: ff8a098b746715d4fbed0955af5147a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -134,17 +134,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 002660477f500cf4496961656b787d2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 0.75
-  attackDamage: 1
   hittableLayer:
     serializedVersion: 2
     m_Bits: 768
+  swordAttackRange: 0.5
+  swordAttackDamage: 1
+  bombThrowDistance: 2
+  upThrowOffset: {x: 0, y: -0.25}
+  downThrowOffset: {x: 0, y: 0.75}
+  leftThrowOffset: {x: 0.5, y: 0.25}
+  rightThrowOffset: {x: -0.5, y: 0.25}
   rightRayHeightOffset: 0.4
   leftRayHeightOffset: 0.4
   downRayHorizontalOffset: 0
   upRayHorizontalOffset: -0.1
   attackSoundName: LOZ_Sword_Slash
   attackSoundVolume: 1
+  bombThrowSound: LOZ_Bomb_Throw
+  bombThrowVolume: 0.7
 --- !u!114 &8866820004032793897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rupees: 0
   keys: 0
-  bombs: 0
+  bombs: 10
 --- !u!50 &2671042887763762403
 Rigidbody2D:
   serializedVersion: 5

@@ -60,6 +60,8 @@ public class PlayerMovementController : MonoBehaviour
     private void OnTogglePlayerFreeze()
     {
         _playerFreeze = !_playerFreeze;
+        _rb.linearVelocity = Vector2.zero;
+        _moveDirection = Vector2.zero;
     }
 
     private void OnAreaSwitch(int arg1, int arg2)
@@ -96,6 +98,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void PlayerMovement(Vector2? moveInput)
     {
+        if(_playerFreeze) return;
         if (moveInput == null) return;
         if (moveInput != Vector2.zero)
         {
@@ -105,11 +108,11 @@ public class PlayerMovementController : MonoBehaviour
         if (!IsAttacking)
         {
             _rb.linearVelocity = _moveDirection * speed;
-            Debug.Log("linar velocity: " + _rb.linearVelocity);
+            // Debug.Log("linar velocity: " + _rb.linearVelocity);
         }
         else
         {
-            _rb.linearVelocity = Vector2.zero;
+            // _rb.linearVelocity = Vector2.zero;
         }
     }
 
@@ -119,7 +122,7 @@ public class PlayerMovementController : MonoBehaviour
         // if(_playerHit) return;
         // if(IsAttacking) return;
         Vector2 moveInput = context.ReadValue<Vector2>();
-        Debug.Log("Move input: " + moveInput);
+        // Debug.Log("Move input: " + moveInput);
         //
         // _animator.ResetTrigger(MoveHorizontal);
         // _animator.ResetTrigger(MoveUp);
@@ -187,6 +190,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
+        if(_playerFreeze) return;
         // if(_playerHit) return;
         if (!IsAttacking)
         {
@@ -205,5 +209,10 @@ public class PlayerMovementController : MonoBehaviour
     {
         IsAttacking = true;
         _rb.linearVelocity = Vector2.zero;
+    }
+
+    public void Teleport(Vector2 position)
+    {
+        transform.position = position;
     }
 }

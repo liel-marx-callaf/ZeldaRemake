@@ -9,7 +9,10 @@ namespace Managers
     public class GameManager : MonoSingleton<GameManager>
     {
         private static readonly int Start1 = Animator.StringToHash("Start");
-
+        [Header("Player")]
+        [SerializeField] private GameObject player;
+        private GameObject _currentPlayer;
+        
         [Header("Journal References")] [SerializeField]
         private GameObject journalCanvas;
 
@@ -46,6 +49,7 @@ namespace Managers
             _actionStart.performed += OnActionStart;
             MyEvents.AreaSwitch += OnAreaSwitch;
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
 
         private void OnDisable()
@@ -55,6 +59,7 @@ namespace Managers
             _actionStart.performed -= OnActionStart;
             _actionStart.Disable();
             MyEvents.AreaSwitch -= OnAreaSwitch;
+            SceneManager.sceneLoaded -= OnSceneLoaded;
         }
 
         private void Start()
@@ -76,20 +81,47 @@ namespace Managers
         {
             if (_currentScene is SceneIndexEnum.StartMenu)
             {
-                LoadNextScene(SceneIndexEnum.MainGame);
+                LoadNextScene(_currentScene,SceneIndexEnum.MainGame);
             }
         }
-        private void LoadNextScene(SceneIndexEnum sceneIndexEnum)
+        private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
         {
-            StartCoroutine(LoadScene(sceneIndexEnum));
+            if (currentSceneIndexEnum == SceneIndexEnum.StartMenu)
+            {
+                StartCoroutine(LoadScene(nextSceneIndexEnum, false));
+            }
+            
         }
-    
-        private IEnumerator LoadScene(SceneIndexEnum sceneIndexEnum)
+        
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            if(scene.buildIndex == (int)SceneIndexEnum.StartMenu || scene.buildIndex == (int)SceneIndexEnum.GameOver || scene.buildIndex == (int)SceneIndexEnum.Win)
+            {
+                if (_currentPlayer != null)
+                {
+                    Destroy(_currentPlayer);
+                    _currentPlayer = null;
+                }
+            }
+            if(scene.buildIndex == (int)SceneIndexEnum.MainGame || scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom || scene.buildIndex == (int)SceneIndexEnum.Shop)
+            {
+                if (_currentPlayer == null)
+                {
+                    _currentPlayer = Instantiate(player);
+                    DontDestroyOnLoad(_currentPlayer);
+                }
+            }
+        }
+
+    
+        private IEnumerator LoadScene(SceneIndexEnum sceneIndexEnum, bool needPlayerFreeze)
+        {
+            if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
             transition.SetTrigger(Start1);
             yield return new WaitForSeconds(1);
             SceneManager.LoadScene(sceneIndexEnum.ToString());
             MyEvents.LoadScene?.Invoke(sceneIndexEnum);
+            if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
         }
 
         private void OnAreaSwitch(int enteringAreaIndex, int exitingAreaIndex)

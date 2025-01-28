@@ -69,8 +69,6 @@ public class UIManager : MonoSingleton<UIManager>
 
     private void Start()
     {
-        _currentHP = playerHealth.GetCurrentHealth();
-        _maxHP = playerHealth.GetMaxHealth();
         // Initialize UI
         UpdateHeartsUI();
         UpdateRupeesUI();
@@ -86,6 +84,12 @@ public class UIManager : MonoSingleton<UIManager>
     public void UpdateCurrentHealthUI(int currentHealth)
     {
         _currentHP = currentHealth;
+        UpdateHeartsUI();
+    }
+    
+    public void UpdateMaxHealthUI(int maxHealth)
+    {
+        _maxHP = maxHealth;
         UpdateHeartsUI();
     }
     
