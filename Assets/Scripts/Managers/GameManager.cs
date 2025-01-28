@@ -78,7 +78,7 @@ namespace Managers
 
         private void OnActionSelect(InputAction.CallbackContext context)
         {
-            if (_currentScene is SceneIndexEnum.MainGame or SceneIndexEnum.Journal or SceneIndexEnum.StartingSideRoom)
+            if (_currentScene is SceneIndexEnum.MainGame or SceneIndexEnum.Journal)
             {
                 ToggleJournal();
             }
@@ -130,6 +130,19 @@ namespace Managers
                     // "DontDestroyOnLoad" is also called in the player's Awake, 
                     // so it won't be destroyed on scene changes
                 }
+                _currentPlayer.transform.position = startingPosition;
+                journalCanvas = GameObject.FindGameObjectWithTag("JournalCanvas");
+                // journalCanvas.SetActive(true);
+                var tempJournalController = GameObject.FindGameObjectWithTag("JournalController");
+                if (tempJournalController != null)
+                {
+                    journalController = tempJournalController.GetComponent<JournalController>();
+                }
+                journalCanvas.SetActive(false);
+                if (scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom)
+                {
+                    MyEvents.StartText?.Invoke();
+                }
             }
         }
         
@@ -167,8 +180,9 @@ namespace Managers
             Debug.Log("Loading scene: " + enterSceneIndex.ToString());
             SceneManager.LoadScene(enterSceneIndex.ToString());
             // MyEvents.LoadScene?.Invoke(enterSceneIndex, exitSceneIndex);
-            _currentPlayer.transform.position = playerPositionAfterLoad;
             if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
+            yield return new WaitForSeconds(1);
+            MyEvents.RefreshUI?.Invoke();
         }
 
         private void OnAreaSwitch(int enteringAreaIndex, int exitingAreaIndex)
@@ -195,12 +209,16 @@ namespace Managers
         {
             _isJournalOpen = false;
             Time.timeScale = 1;
+            // journalCanvas = GameObject.FindGameObjectWithTag("JournalCanvas");
+            // journalController = journalCanvas.transform.GetChild(0).GetComponent<JournalController>();
             if (journalCanvas != null) journalCanvas.SetActive(false);
             if (journalController != null) journalController.OnCloseJournal();
         }
         
         private void ToggleJournal()
         {
+            // journalCanvas = GameObject.FindGameObjectWithTag("JournalCanvas");
+            // journalController = journalCanvas.transform.GetChild(0).GetComponent<JournalController>();
             if (!_isJournalOpen)
             {
                 // _currentScene = SceneIndexEnum.Journal;

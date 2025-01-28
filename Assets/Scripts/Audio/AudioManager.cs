@@ -164,6 +164,15 @@ namespace Audio
                     Debug.LogError("Background music source is null");
                 }
             }
+
+            if (enterScene == SceneIndexEnum.MainGame && exitScene == SceneIndexEnum.StartingSideRoom)
+            {
+                StartCoroutine(PlayAreaSwitchSound());
+            }
+            if (enterScene == SceneIndexEnum.StartingSideRoom && exitScene == SceneIndexEnum.MainGame)
+            {
+                StartCoroutine(PlayAreaSwitchSound());
+            }
         }
 
         private void MuteSounds()

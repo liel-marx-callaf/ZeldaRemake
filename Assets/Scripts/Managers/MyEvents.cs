@@ -35,9 +35,11 @@ public class MyEvents : MonoBehaviour
     
     // UI events
     public static Action ToggleJournal;
+    public static Action RefreshUI;
 
     public static Action<SceneIndexEnum, SceneIndexEnum> LoadScene;
 
 
-
+    public static Action StartText;
+    
 }

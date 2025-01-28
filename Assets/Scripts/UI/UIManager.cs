@@ -43,22 +43,22 @@ public class UIManager : MonoSingleton<UIManager>
     [SerializeField] private int startingAreaIndex = 1; // The area where the player starts
     // We'll move this marker to show the player's position
 
-    // ---------------- PLAYER STATS ----------------
-    [Header("Player Stats")] [SerializeField]
-    private PlayerHealth playerHealth;
+    // // ---------------- PLAYER STATS ----------------
+    // [Header("Player Stats")] [SerializeField]
+    // private PlayerHealth playerHealth;
 
     // We'll track the player's current HP, rupees, bombs, etc.
-    private int _currentHP = 8; // default (4 hearts x 2 halves)
-    private int _maxHP = 8; // also 4 hearts in halves
-    private int _currentRupees = 0;
-    private int _currentBombs = 0;
-    private int _currentKeys = 0; // Always 0 for now
+    private static int _currentHP = 8; // default (4 hearts x 2 halves)
+    private static int _maxHP = 8; // also 4 hearts in halves
+    private static int _currentRupees = 0;
+    private static int _currentBombs = 10;
+    private static int _currentKeys = 0; // Always 0 for now
 
     private void OnEnable()
     {
         // Subscribe to events
         MyEvents.AreaSwitch += OnAreaSwitch;
-        // MyEvents.LoadScene += OnSceneLoad;
+        MyEvents.RefreshUI += OnRefreshUI;
         // etc. (if I have bombs or keys events)
     }
 
@@ -66,8 +66,10 @@ public class UIManager : MonoSingleton<UIManager>
     {
         // Unsubscribe
         MyEvents.AreaSwitch -= OnAreaSwitch;
+        MyEvents.RefreshUI -= OnRefreshUI;
         // MyEvents.LoadScene -= OnSceneLoad;
     }
+    
 
 
     private void Start()
@@ -91,6 +93,15 @@ public class UIManager : MonoSingleton<UIManager>
     //     UpdateKeysUI();
     // }
 
+    private void OnRefreshUI()
+    {
+        UpdateCurrentHealthUI(_currentHP);
+        UpdateMaxHealthUI(_maxHP);
+        UpdateCurrentRupeesUI(_currentRupees);
+        UpdateCurrentBombsUI(_currentBombs);
+        UpdateCurrentKeysUI(_currentKeys);
+    }
+    
     public void UpdateCurrentHealthUI(int currentHealth)
     {
         _currentHP = currentHealth;
