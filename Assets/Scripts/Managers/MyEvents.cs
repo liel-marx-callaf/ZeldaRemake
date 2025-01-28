@@ -12,6 +12,7 @@ public class MyEvents : MonoBehaviour
     // Player events
     public static Action<int> PlayerHit;
     public static Action<int> PlayerHeal;
+    public static Action TogglePlayerFreeze;
     
     // Item events
     public static Action<int> PlayerGainRupees;

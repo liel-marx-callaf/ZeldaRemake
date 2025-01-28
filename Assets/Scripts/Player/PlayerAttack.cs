@@ -47,6 +47,8 @@ namespace Player
         private Vector2 _leftRayOrigin;
         private Vector2 _upRayOrigin;
         private Vector2 _downRayOrigin;
+        
+        private bool _playerFreeze = false;
 
         private void Awake()
         {
@@ -67,6 +69,7 @@ namespace Player
             _inputPlayerActions.Player.ActionA.Enable();
             _inputPlayerActions.Player.ActionB.performed += OnActionB;
             _inputPlayerActions.Player.ActionB.Enable();
+            MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
         }
 
         private void OnDisable()
@@ -75,11 +78,12 @@ namespace Player
             _inputPlayerActions.Player.ActionA.Disable();
             _inputPlayerActions.Player.ActionB.performed -= OnActionB;
             _inputPlayerActions.Player.ActionB.Disable();
+            MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
         }
 
         private void OnActionA(InputAction.CallbackContext context)
         {
-            if(GameManager.Instance.IsAreaSwitching) return;
+            if(_playerFreeze) return;
             _playerAnimationControl.SetSwordAttack();
             _playerMovementController.Attacking();
             SwordAttack();
@@ -87,7 +91,7 @@ namespace Player
 
         private void OnActionB(InputAction.CallbackContext context)
         {
-            if(GameManager.Instance.IsAreaSwitching) return;
+            if(_playerFreeze) return;
             if (_playerInventory.GetBombCount() <= 0) return;
             var bomb = BombPool.Instance.Get();
             var lastDir = _playerMovementController.LastFacingDirection;
@@ -101,6 +105,10 @@ namespace Player
             MyEvents.PlayerUseBomb?.Invoke(1);
         }
 
+        private void OnTogglePlayerFreeze()
+        {
+            _playerFreeze = !_playerFreeze;
+        }
 
         private void SwordAttack()
         {

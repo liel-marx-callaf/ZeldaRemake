@@ -32,7 +32,7 @@ namespace Managers
         private InputPlayerActions _inputPlayerActions;
         private InputAction _actionSelect;
         private InputAction _actionStart;
-        public bool IsAreaSwitching { get; private set; }
+        public bool PlayerFreeze { get; private set; }
         private CinemachineBrain _cinemachineBrain;
 
         private void OnEnable()
@@ -93,15 +93,15 @@ namespace Managers
         }
 
         private void OnAreaSwitch(int enteringAreaIndex, int exitingAreaIndex)
-        {
-            IsAreaSwitching = true;
+        { 
+            MyEvents.TogglePlayerFreeze?.Invoke();
             StartCoroutine(AreaSwitchTimer());
         }
 
         private IEnumerator AreaSwitchTimer()
         {
-            yield return new WaitForSeconds(_cinemachineBrain.DefaultBlend.Time);
-            IsAreaSwitching = false;
+            yield return new WaitForSeconds(_cinemachineBrain.DefaultBlend.Time); 
+            MyEvents.TogglePlayerFreeze?.Invoke();
         }
 
         private void OpenJournal()

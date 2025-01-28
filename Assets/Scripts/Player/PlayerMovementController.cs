@@ -20,6 +20,7 @@ public class PlayerMovementController : MonoBehaviour
 
     internal bool IsAttacking { get; set; }
     public Vector2 LastFacingDirection { get; private set; }
+    private bool _playerFreeze = false;
 
 
     private void Awake()
@@ -42,6 +43,7 @@ public class PlayerMovementController : MonoBehaviour
         
         MyEvents.PlayerHit += OnPlayerHit;
         MyEvents.AreaSwitch += OnAreaSwitch;
+        MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
     }
 
 
@@ -52,6 +54,12 @@ public class PlayerMovementController : MonoBehaviour
         _moveAction.Disable();
         MyEvents.PlayerHit -= OnPlayerHit;
         MyEvents.AreaSwitch -= OnAreaSwitch;
+        MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
+    }
+
+    private void OnTogglePlayerFreeze()
+    {
+        _playerFreeze = !_playerFreeze;
     }
 
     private void OnAreaSwitch(int arg1, int arg2)
@@ -73,7 +81,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(GameManager.Instance.IsAreaSwitching) return;
+        if(_playerFreeze) return;
         if (_playerHit) return;
         if (!IsAttacking)
         {
@@ -97,6 +105,7 @@ public class PlayerMovementController : MonoBehaviour
         if (!IsAttacking)
         {
             _rb.linearVelocity = _moveDirection * speed;
+            Debug.Log("linar velocity: " + _rb.linearVelocity);
         }
         else
         {
@@ -106,10 +115,11 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
-        if(GameManager.Instance.IsAreaSwitching) return;
+        if(_playerFreeze) return;
         // if(_playerHit) return;
         // if(IsAttacking) return;
         Vector2 moveInput = context.ReadValue<Vector2>();
+        Debug.Log("Move input: " + moveInput);
         //
         // _animator.ResetTrigger(MoveHorizontal);
         // _animator.ResetTrigger(MoveUp);

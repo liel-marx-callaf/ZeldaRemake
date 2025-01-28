@@ -120,7 +120,7 @@ TextureImporter:
         y: 283
         width: 16
         height: 16
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -142,7 +142,7 @@ TextureImporter:
         y: 283
         width: 16
         height: 16
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LinkMovementBack1
+      name: LinkEnterRoom7
       rect:
         serializedVersion: 2
         x: 86
@@ -231,7 +231,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 9
-      pivot: {x: 0.5, y: 0}
+      pivot: {x: 0.5, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -486,6 +486,512 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947bdf7dcb1bb9043bb86ab64f8c1175
+      internalID: 964196858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73881ec689fb95046b4564dffcb863ab
+      internalID: 1383658178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d8606a9fc92c49b149912aed4b698
+      internalID: 1344932541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetLink_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fa4280a4f36ae4daadf7c026223ce9
+      internalID: -229606191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03729160263649c459fa7e1a5d0f6370
+      internalID: 2132427302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71b8bce03c46f640a93b0504e3cafe4
+      internalID: 1915501462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb37f496ce6d75d4c9a18edfb51efa21
+      internalID: -25485260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a1f4cd1315c54dac3007f97129fe1
+      internalID: -628891048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dff4d8237c692f4c86edab8108a351d
+      internalID: 1113123200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce821e623e732894e8fda09219b7d71e
+      internalID: 4177896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkEnterRoom10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0657294bbad1f247907ff0368d77fd5
+      internalID: 1717589536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkMovementBack1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1861f716dff0e494fa44f6183f2560b1
+      internalID: -628109984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcf556c78f9de54c9d4971a10e5a8f3
+      internalID: 927538775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710d1c130da719d4b855c0ecf5ef7940
+      internalID: -1177370373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6038b7b8794a6644ea935e1b50c94a40
+      internalID: -571582550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0862ba5045802546b2f1ed3bb8c334c
+      internalID: -1085118746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeeff63bbe23b64c88ecd4bee123921
+      internalID: -1118790245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da364da87f9f2c143a8fb13ad6754c1b
+      internalID: -261365588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ac8347fb6e694478a978ad96986e01
+      internalID: 1887474296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84591bda1a3b2f242b366a2435727666
+      internalID: -690311608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d9b7a537162d489bce20c8adae4f4
+      internalID: 1205210748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652875d846ddcee429936cce711e6a62
+      internalID: 1439889399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LinkExitRoom10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cda5bad8e4eb314d822e3f897b6a1f6
+      internalID: -692162032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -500,8 +1006,29 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      LinkEnterRoom0: 1383658178
+      LinkEnterRoom1: 1344932541
+      LinkEnterRoom10: 1717589536
+      LinkEnterRoom3: 2132427302
+      LinkEnterRoom4: 1915501462
+      LinkEnterRoom5: -25485260
+      LinkEnterRoom6: -628891048
+      LinkEnterRoom7: 255650676
+      LinkEnterRoom8: 1113123200
+      LinkEnterRoom9: 4177896
+      LinkExitRoom0: 927538775
+      LinkExitRoom1: -1177370373
+      LinkExitRoom10: -692162032
+      LinkExitRoom2: -571582550
+      LinkExitRoom3: -1085118746
+      LinkExitRoom4: -1118790245
+      LinkExitRoom5: -261365588
+      LinkExitRoom6: 1887474296
+      LinkExitRoom7: -690311608
+      LinkExitRoom8: 1205210748
+      LinkExitRoom9: 1439889399
       LinkMovementBack0: -1380529871
-      LinkMovementBack1: 255650676
+      LinkMovementBack1: -628109984
       LinkMovementHorizontalR0: 434870879
       LinkMovementHorizontalR1: -310652898
       LinkMovmentForward0: -6160091232409139698
@@ -514,6 +1041,7 @@ TextureImporter:
       SpriteSheetLink_1: 847920217
       SpriteSheetLink_2: -1768033161
       SpriteSheetLink_3: 1760995580
+      SpriteSheetLink_4: -229606191
       SpriteSmoke1: 685804593
       SpriteSmoke2: -1743104804
       SpriteSmoke3: 1704516169

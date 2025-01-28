@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LinkMovingUp
+  m_Name: FireBurnning
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1380529871, guid: ff8a098b746715d4fbed0955af5147a0, type: 3}
+      value: {fileID: -1252006842, guid: e630acdf8801ed949b127f7c63811b9b, type: 3}
     - time: 0.1
-      value: {fileID: -628109984, guid: ff8a098b746715d4fbed0955af5147a0, type: 3}
+      value: {fileID: -1825507155, guid: e630acdf8801ed949b127f7c63811b9b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1380529871, guid: ff8a098b746715d4fbed0955af5147a0, type: 3}
-    - {fileID: -628109984, guid: ff8a098b746715d4fbed0955af5147a0, type: 3}
+    - {fileID: -1252006842, guid: e630acdf8801ed949b127f7c63811b9b, type: 3}
+    - {fileID: -1825507155, guid: e630acdf8801ed949b127f7c63811b9b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
