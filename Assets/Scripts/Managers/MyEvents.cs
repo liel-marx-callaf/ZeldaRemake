@@ -45,4 +45,10 @@ public class MyEvents : MonoBehaviour
 
 
     public static Action GameWon;
+
+    public static Action TogglePlayerInvincibility;
+
+    public static Action ResetEnemyCounters;
+
+    public static Action ResetGame;
 }

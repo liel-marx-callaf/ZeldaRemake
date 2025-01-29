@@ -68,13 +68,62 @@ public class CheatManager : MonoSingleton<CheatManager>
             MyEvents.ClearAllEnemies?.Invoke();
         }
         
+        if(_isAltPressed && _is2Pressed)
+        {
+            Debug.Log("Cheat activated: Player invincibility");
+            MyEvents.TogglePlayerInvincibility?.Invoke();
+        }
+        
+        if(_isAltPressed && _is3Pressed)
+        {
+            Debug.Log("Cheat activated: Player Takes 10 damage");
+            MyEvents.PlayerHit?.Invoke(10);
+        }
+        
+        if(_isAltPressed && _is4Pressed)
+        {
+            Debug.Log("Cheat activated: Game Reset");
+            MyEvents.ResetGame?.Invoke();
+            MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartMenu, SceneIndexEnum.Win);
+        }
+        
         if(_isAltPressed && _is5Pressed)
         {
             Debug.Log("Cheat activated: Force drop rate switch");
             MyEvents.ForceDropSwitch?.Invoke();
         }
-
-        if (_isMPressed)
+        
+        if(_isAltPressed && _is6Pressed)
+        {
+            Debug.Log("Cheat activated: Player gain 10 rupees");
+            MyEvents.PlayerGainRupees?.Invoke(10);
+        }
+        
+        if(_isAltPressed && _is7Pressed)
+        {
+            Debug.Log("Cheat activated: Player gain 10 keys");
+            MyEvents.PlayerGainKey?.Invoke(10);
+        }
+        
+        if(_isAltPressed && _is8Pressed)
+        {
+            Debug.Log("Cheat activated: Player gain 10 bombs");
+            MyEvents.PlayerGainBomb?.Invoke(10);
+        }
+        
+        if(_isAltPressed && _is9Pressed)
+        {
+            Debug.Log("Cheat activated: Player heal 10 health");
+            MyEvents.PlayerHeal?.Invoke(10);
+        }
+        
+        if(_isAltPressed && _is0Pressed)
+        {
+            Debug.Log("Cheat activated: Reset enemies counters");
+            MyEvents.ResetEnemyCounters?.Invoke();
+        }
+        
+        if (_isAltPressed && _isMPressed)
         {
             Debug.Log("Cheat activated: Mute sounds");
             MyEvents.MuteSounds?.Invoke();

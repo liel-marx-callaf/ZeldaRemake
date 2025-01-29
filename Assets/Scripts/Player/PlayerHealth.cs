@@ -12,6 +12,7 @@ namespace Player
         [SerializeField, Range(0, 4)] private int lowHealthThreshold = 2;
         private int _currentHealth;
         private int _maxHealth;
+        private bool _isInvincible = false;
 
         [Header("Audio")]
         [SerializeField] private string hitSoundName = "LOZ_Link_Hurt";
@@ -32,12 +33,19 @@ namespace Player
         {
             MyEvents.PlayerHit += TakeDamage;
             MyEvents.PlayerHeal += GainHealth;
+            MyEvents.TogglePlayerInvincibility += ToggleInvincibility;
         }
     
         private void OnDisable()
         {
             MyEvents.PlayerHit -= TakeDamage;
             MyEvents.PlayerHeal -= GainHealth;
+            MyEvents.TogglePlayerInvincibility -= ToggleInvincibility;
+        }
+
+        private void ToggleInvincibility()
+        {
+            _isInvincible = !_isInvincible;
         }
 
         private void Start()
@@ -51,7 +59,7 @@ namespace Player
         {
             Vector3 position = transform.position;
             AudioManager.Instance.PlaySound(position,hitSoundName, hitSoundVolume);
-            _currentHealth -= damage;
+             if (!_isInvincible) _currentHealth -= damage;
             CheckLowHealthSound();
             UIManager.Instance.UpdateCurrentHealthUI(_currentHealth);
             if (_currentHealth <= 0)
