@@ -28869,73 +28869,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1127907131
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1127907133}
-  - component: {fileID: 1127907132}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1127907132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127907131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27568908892855d45a30bae4dd0a7b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
-  backgroundVolume: 0.5
-  startingSceneIndex: 1
-  areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
-  areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
-  startingAreaIndex: 1
-  startingAreaType: 1
-  areaSwitchSoundName: LOZ_Stairs
-  areaSwitchSoundVolume: 1
-  audioClips:
-  - {fileID: 8300000, guid: 574b53abd842fec40bc9f732ef2a6316, type: 3}
-  - {fileID: 8300000, guid: c0b193a313f3f434fb60dd626279e11b, type: 3}
-  - {fileID: 8300000, guid: fae5851575f78094e917c5f1f95e2396, type: 3}
-  - {fileID: 8300000, guid: 46bfb39c107d600488f915a87639e3b4, type: 3}
-  - {fileID: 8300000, guid: bdc9467d08c69a547a4a061619d1e414, type: 3}
-  - {fileID: 8300000, guid: 40d759fc86c840c48acc428aa0556019, type: 3}
-  - {fileID: 8300000, guid: 3f4d3199dfc1a2a40b9450be59d5c627, type: 3}
-  - {fileID: 8300000, guid: 9e84952494ff8f2409dc943256666836, type: 3}
-  - {fileID: 8300000, guid: 521b84eb21dfb5f4f801b0b5322f8052, type: 3}
-  - {fileID: 8300000, guid: c08d814baa3b94d4380682fa434d6619, type: 3}
-  - {fileID: 8300000, guid: 1149ff1d636f9184997b2acb2996992b, type: 3}
-  - {fileID: 8300000, guid: 2f2f81d5bba62e74291182c55336a350, type: 3}
-  audioSourcePool: {fileID: 4297142210507475136, guid: 21d14b460ef407c4cb15f87d2a68f151, type: 3}
---- !u!4 &1127907133
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127907131}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.478, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135496579
 GameObject:
   m_ObjectHideFlags: 0
@@ -36709,6 +36642,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527232538}
   m_CullTransparentMesh: 1
+--- !u!1 &1532325188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1532325190}
+  - component: {fileID: 1532325189}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1532325189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532325188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27568908892855d45a30bae4dd0a7b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
+  backgroundVolume: 0.5
+  startingSceneIndex: 1
+  areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
+  areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
+  startingAreaIndex: 1
+  startingAreaType: 1
+  areaSwitchSoundName: LOZ_Stairs
+  areaSwitchSoundVolume: 1
+  audioClips:
+  - {fileID: 8300000, guid: 574b53abd842fec40bc9f732ef2a6316, type: 3}
+  - {fileID: 8300000, guid: c0b193a313f3f434fb60dd626279e11b, type: 3}
+  - {fileID: 8300000, guid: fae5851575f78094e917c5f1f95e2396, type: 3}
+  - {fileID: 8300000, guid: 46bfb39c107d600488f915a87639e3b4, type: 3}
+  - {fileID: 8300000, guid: bdc9467d08c69a547a4a061619d1e414, type: 3}
+  - {fileID: 8300000, guid: 40d759fc86c840c48acc428aa0556019, type: 3}
+  - {fileID: 8300000, guid: 3f4d3199dfc1a2a40b9450be59d5c627, type: 3}
+  - {fileID: 8300000, guid: 9e84952494ff8f2409dc943256666836, type: 3}
+  - {fileID: 8300000, guid: 521b84eb21dfb5f4f801b0b5322f8052, type: 3}
+  - {fileID: 8300000, guid: c08d814baa3b94d4380682fa434d6619, type: 3}
+  - {fileID: 8300000, guid: 1149ff1d636f9184997b2acb2996992b, type: 3}
+  - {fileID: 8300000, guid: 2f2f81d5bba62e74291182c55336a350, type: 3}
+  audioSourcePool: {fileID: 4297142210507475136, guid: 21d14b460ef407c4cb15f87d2a68f151, type: 3}
+--- !u!4 &1532325190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532325188}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.478, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1533189797
 GameObject:
   m_ObjectHideFlags: 0
@@ -38621,7 +38621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.10726257
+      value: 0.124197
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -38629,7 +38629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.78521705
+      value: 0.75242966
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -38750,8 +38750,8 @@ SceneRoots:
   - {fileID: 1632754461}
   - {fileID: 1944943066}
   - {fileID: 1294310319}
+  - {fileID: 1532325190}
   - {fileID: 159971014}
-  - {fileID: 1127907133}
   - {fileID: 207205590}
   - {fileID: 1665044757}
   - {fileID: 2069221756}

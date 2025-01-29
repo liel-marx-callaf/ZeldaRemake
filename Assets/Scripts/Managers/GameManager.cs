@@ -56,6 +56,7 @@ namespace Managers
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
             SceneManager.sceneLoaded += OnSceneLoaded;
             MyEvents.LoadScene += OnLoadScene;
+            MyEvents.GameOver += OnGameOver;
         }
 
         private void OnDisable()
@@ -67,8 +68,14 @@ namespace Managers
             MyEvents.AreaSwitch -= OnAreaSwitch;
             SceneManager.sceneLoaded -= OnSceneLoaded;
             MyEvents.LoadScene -= OnLoadScene;
+            MyEvents.GameOver -= OnGameOver;
         }
-        
+
+        private void OnGameOver()
+        {
+            MyEvents.LoadScene?.Invoke(SceneIndexEnum.GameOver, SceneIndexEnum.MainGame);
+        }
+
 
         private void Start()
         {
@@ -91,6 +98,11 @@ namespace Managers
             {
                 MyEvents.LoadScene?.Invoke(SceneIndexEnum.MainGame, SceneIndexEnum.StartMenu);
                 // LoadNextScene(_currentScene,SceneIndexEnum.MainGame);
+            }
+
+            if (_currentScene == SceneIndexEnum.GameOver)
+            {
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartMenu, SceneIndexEnum.GameOver);
             }
         }
         // private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
@@ -149,7 +161,7 @@ namespace Managers
                     _currentPlayer.transform.position = exitPositionSideRoom;
                     _currentPlayer.GetComponent<PlayerAnimationControl>().SetAnimTrigger("ExitRoom");
                 }
-                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene == SceneIndexEnum.StartMenu)
+                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene is SceneIndexEnum.StartMenu or SceneIndexEnum.GameOver)
                 {
                     _currentPlayer.transform.position = startingPosition;
                 }
@@ -166,24 +178,38 @@ namespace Managers
             if(exitSceneIndex != SceneIndexEnum.Journal) _lastScene = exitSceneIndex;
             if (enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.StartMenu)
             {
-                StartCoroutine(LoadScene(enterSceneIndex, startingPosition,true));
+                StartCoroutine(LoadScene(enterSceneIndex,true));
                 // player.transform.position = startingPosition;
             }
             if(enterSceneIndex == SceneIndexEnum.StartingSideRoom && exitSceneIndex == SceneIndexEnum.MainGame)
             {
-                StartCoroutine(LoadScene(enterSceneIndex, startingPositionSideRoom,true));
+                StartCoroutine(LoadScene(enterSceneIndex,true));
                 // player.transform.position = startingPositionSideRoom;
             }
             if(enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.StartingSideRoom)
             {
-                StartCoroutine(LoadScene(SceneIndexEnum.MainGame,exitPositionSideRoom ,true));
+                StartCoroutine(LoadScene(SceneIndexEnum.MainGame ,true));
                 // player.transform.position = exitPositionSideRoom;
+            }
+
+            if (enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.GameOver)
+            {
+                StartCoroutine(LoadScene(SceneIndexEnum.MainGame ,true));
+            }
+            if(enterSceneIndex == SceneIndexEnum.GameOver)
+            {
+                StartCoroutine(LoadScene(SceneIndexEnum.GameOver ,true));
+            }
+
+            if (enterSceneIndex == SceneIndexEnum.StartMenu)
+            {
+                StartCoroutine(LoadScene(SceneIndexEnum.StartMenu ,false));
             }
         }
 
         
     
-        private IEnumerator LoadScene(SceneIndexEnum enterSceneIndex ,Vector2 playerPositionAfterLoad ,bool needPlayerFreeze)
+        private IEnumerator LoadScene(SceneIndexEnum enterSceneIndex ,bool needPlayerFreeze)
         {
             if(needPlayerFreeze) MyEvents.TogglePlayerFreeze?.Invoke();
             transition.SetTrigger(Start1);

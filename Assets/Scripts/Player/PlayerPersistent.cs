@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerPersistent : MonoBehaviour
@@ -18,4 +19,18 @@ public class PlayerPersistent : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void OnEnable()
+    {
+        MyEvents.PlayerDeath += OnPlayerDeath;
+    }
+    
+    private void OnDisable()
+    {
+        MyEvents.PlayerDeath -= OnPlayerDeath;
+    }
+    
+    private void OnPlayerDeath()
+    {
+        _playerExists = false;
+    }
 }

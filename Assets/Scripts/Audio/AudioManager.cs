@@ -19,7 +19,7 @@ namespace Audio
         private SceneIndexEnum _currentSceneIndex;
         private float _backgroundVolume;
         private AudioSource _backgroundMusicSource;
-        private bool _isBackgroundMusicPlaying = false;
+        // private bool _isBackgroundMusicPlaying = false;
         private bool _shouldBackgroundMusicPlay = true;
     
         [Header("Area Type Data")]
@@ -119,27 +119,24 @@ namespace Audio
 
         private void AreaChanged(int enteringAreaIndex, int exitingAreaIndex)
         {
-            
-            if (_currentSceneIndex == SceneIndexEnum.MainGame)
+            if (_currentSceneIndex != SceneIndexEnum.MainGame) return;
+            if(areaTypeData.TryGetAreaType(_currentAreaIndex, out var exitingAreaType))
             {
-                if(areaTypeData.TryGetAreaType(_currentAreaIndex, out var exitingAreaType))
+                if (areaTypeAudioData.TryGetAreaTypeAudio(exitingAreaType, out var areaTypeAudio))
                 {
-                    if (areaTypeAudioData.TryGetAreaTypeAudio(exitingAreaType, out var areaTypeAudio))
-                    {
-                        StopSound(areaTypeAudio.audioClip.name);
-                    }
+                    StopSound(areaTypeAudio.audioClip.name);
                 }
-                _currentAreaIndex = enteringAreaIndex;
-                if (areaTypeData.TryGetAreaType(_currentAreaIndex, out var enteringAreaType))
-                {
-                    if (areaTypeAudioData.TryGetAreaTypeAudio(enteringAreaType, out var areaTypeAudio))
-                    {
-                        PlaySound(Vector3.zero, areaTypeAudio.audioClip.name, areaTypeAudio.volume, 1, true);
-                    }
-                }
-                if(enteringAreaIndex == exitingAreaIndex) return;
-                StartCoroutine(PlayAreaSwitchSound());
             }
+            _currentAreaIndex = enteringAreaIndex;
+            if (areaTypeData.TryGetAreaType(_currentAreaIndex, out var enteringAreaType))
+            {
+                if (areaTypeAudioData.TryGetAreaTypeAudio(enteringAreaType, out var areaTypeAudio))
+                {
+                    PlaySound(Vector3.zero, areaTypeAudio.audioClip.name, areaTypeAudio.volume, 1, true);
+                }
+            }
+            if(enteringAreaIndex == exitingAreaIndex) return;
+            StartCoroutine(PlayAreaSwitchSound());
         }
 
         private IEnumerator PlayAreaSwitchSound()
@@ -196,7 +193,7 @@ namespace Audio
             _backgroundMusicSource.volume = backgroundVolume;
             _backgroundMusicSource.loop = true;
             _backgroundMusicSource.Play();
-            _isBackgroundMusicPlaying = true;
+            // _isBackgroundMusicPlaying = true;
         }
     
         private void SetBackgroundMusicVolume(float volume)
@@ -253,26 +250,24 @@ namespace Audio
 
         private void OnApplicationFocus(bool hasFocus)
         {
-            if (_backgroundMusicSource != null)
+            if (_backgroundMusicSource == null) return;
+            if (hasFocus)
             {
-                if (hasFocus)
+                if (_shouldBackgroundMusicPlay)
                 {
-                    if (_shouldBackgroundMusicPlay)
-                    {
-                        _backgroundMusicSource.UnPause();
-                    }
+                    _backgroundMusicSource.UnPause();
                 }
-                else
-                {
-                    _backgroundMusicSource.Pause();
-                }
+            }
+            else
+            {
+                _backgroundMusicSource.Pause();
             }
         }
 
         private void PauseUnpauseBackgroundMusic()
         {
-            if (_isBackgroundMusicPlaying)
-            {
+            // if (_isBackgroundMusicPlaying)
+            // {
                 if (_backgroundMusicSource.isPlaying)
                 {
                     _backgroundMusicSource.Pause();
@@ -283,12 +278,23 @@ namespace Audio
                     _backgroundMusicSource.UnPause();
                     _shouldBackgroundMusicPlay = true;
                 }
-            }
+            // }
         }
         public void StopBackgroundMusicPlaying()
         {
             _backgroundMusicSource.Stop();
-            _isBackgroundMusicPlaying = false;
+            // _isBackgroundMusicPlaying = false;
+        }
+
+        public void StopAreaSounds()
+        {
+            if(areaTypeData.TryGetAreaType(_currentAreaIndex, out var currentAreaType))
+            {
+                if (areaTypeAudioData.TryGetAreaTypeAudio(currentAreaType, out var areaTypeAudio))
+                {
+                    StopSound(areaTypeAudio.audioClip.name);
+                }
+            }
         }
     }
 }

@@ -79,7 +79,7 @@ public class PooledAudioSource : MonoBehaviour, IPoolable
         StartCoroutine(ReturnToPoolWhenFinished());
     }
 
-    public void Stop()
+    private void Stop()
     {
         _audioSource.Stop();
         AudioSourcePool.Instance.Return(this);
