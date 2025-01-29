@@ -22,13 +22,20 @@ public class PlayerPersistent : MonoBehaviour
     private void OnEnable()
     {
         MyEvents.PlayerDeath += OnPlayerDeath;
+        MyEvents.GameWon += OnGameWon;
     }
     
     private void OnDisable()
     {
         MyEvents.PlayerDeath -= OnPlayerDeath;
+        MyEvents.GameWon -= OnGameWon;
     }
-    
+
+    private void OnGameWon()
+    {
+        _playerExists = false;
+    }
+
     private void OnPlayerDeath()
     {
         _playerExists = false;

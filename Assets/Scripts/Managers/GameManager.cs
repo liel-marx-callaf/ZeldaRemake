@@ -1,4 +1,5 @@
 using System.Collections;
+using Audio;
 using Player;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -57,6 +58,7 @@ namespace Managers
             SceneManager.sceneLoaded += OnSceneLoaded;
             MyEvents.LoadScene += OnLoadScene;
             MyEvents.GameOver += OnGameOver;
+            MyEvents.GameWon += OnGameWon;
         }
 
         private void OnDisable()
@@ -69,10 +71,18 @@ namespace Managers
             SceneManager.sceneLoaded -= OnSceneLoaded;
             MyEvents.LoadScene -= OnLoadScene;
             MyEvents.GameOver -= OnGameOver;
+            MyEvents.GameWon -= OnGameWon;
+        }
+
+        private void OnGameWon()
+        {
+            NPCDialogue.ResetHasEntered();
+            // MyEvents.LoadScene?.Invoke(SceneIndexEnum.Win, SceneIndexEnum.MainGame);
         }
 
         private void OnGameOver()
         {
+            NPCDialogue.ResetHasEntered();
             MyEvents.LoadScene?.Invoke(SceneIndexEnum.GameOver, SceneIndexEnum.MainGame);
         }
 
@@ -90,6 +100,16 @@ namespace Managers
             {
                 ToggleJournal();
             }
+
+            if (_currentScene is SceneIndexEnum.Win)
+            {
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.MainGame, SceneIndexEnum.Win);
+            }
+            
+            if (_currentScene is SceneIndexEnum.GameOver)
+            {
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.MainGame, SceneIndexEnum.GameOver);
+            }
         }
         
         private void OnActionStart(InputAction.CallbackContext context)
@@ -103,6 +123,11 @@ namespace Managers
             if (_currentScene == SceneIndexEnum.GameOver)
             {
                 MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartMenu, SceneIndexEnum.GameOver);
+            }
+            
+            if (_currentScene == SceneIndexEnum.Win)
+            {
+                MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartMenu, SceneIndexEnum.Win);
             }
         }
         // private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
@@ -161,7 +186,7 @@ namespace Managers
                     _currentPlayer.transform.position = exitPositionSideRoom;
                     _currentPlayer.GetComponent<PlayerAnimationControl>().SetAnimTrigger("ExitRoom");
                 }
-                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene is SceneIndexEnum.StartMenu or SceneIndexEnum.GameOver)
+                if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene is SceneIndexEnum.StartMenu or SceneIndexEnum.GameOver or SceneIndexEnum.Win)
                 {
                     _currentPlayer.transform.position = startingPosition;
                 }
@@ -204,6 +229,11 @@ namespace Managers
             if (enterSceneIndex == SceneIndexEnum.StartMenu)
             {
                 StartCoroutine(LoadScene(SceneIndexEnum.StartMenu ,false));
+            }
+            if(enterSceneIndex == SceneIndexEnum.Win)
+            {
+                AudioManager.Instance.StopAreaSounds();
+                StartCoroutine(LoadScene(SceneIndexEnum.Win ,true));
             }
         }
 

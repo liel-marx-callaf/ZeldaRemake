@@ -43,5 +43,6 @@ public class MyEvents : MonoBehaviour
 
     // public static Action StartText;
 
-    
+
+    public static Action GameWon;
 }

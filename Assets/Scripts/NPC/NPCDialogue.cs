@@ -15,6 +15,10 @@ public class NPCDialogue : MonoBehaviour
     private bool _isTyping;
     private static bool _hasEntered;
 
+    public static void ResetHasEntered()
+    {
+        _hasEntered = false;
+    }
     private void Start()
     {
         dialogueText.text = "";

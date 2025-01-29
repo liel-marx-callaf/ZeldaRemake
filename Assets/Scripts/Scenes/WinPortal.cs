@@ -1,10 +1,9 @@
-using System;
 using System.Collections;
 using Player;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class SideRoomPortal : MonoBehaviour
+
+public class WinPortal : MonoBehaviour
 {
     // [Header("Scene to Load")] [SerializeField]
     // private string sideRoomSceneName = "StartingSideRoom";
@@ -70,9 +69,10 @@ public class SideRoomPortal : MonoBehaviour
         yield return new WaitForSeconds(enterAnimationTime);
         MyEvents.TogglePlayerFreeze?.Invoke();
         // 3) Fade out
+        MyEvents.GameWon?.Invoke();
         fadeAnimator.SetTrigger("Start"); // "Start" is the fade-out trigger
         yield return new WaitForSeconds(fadeDuration);
-        MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartingSideRoom, SceneIndexEnum.MainGame);
+        MyEvents.LoadScene?.Invoke(SceneIndexEnum.Win, SceneIndexEnum.MainGame);
 
         // 4) Load the side room scene
         // SceneManager.LoadScene(sideRoomSceneName);
