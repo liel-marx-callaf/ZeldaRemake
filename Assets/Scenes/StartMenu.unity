@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
-  backgroundVolume: 0.5
+  backgroundVolume: 0.6
   startingSceneIndex: 0
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}

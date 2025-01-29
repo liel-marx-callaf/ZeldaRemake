@@ -1,5 +1,13 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/eSN7mvPM)
 
+Keyboad controles:  
+* Movement = arrow keys
+* Action A = x
+* Action B = z
+* Start = Enter
+* Select = Shift
+
+
 Cheat codes:  
 * Alt + 1 = Clear all enemies in area
 * Alt + 2 = Toggle Player Invincibility

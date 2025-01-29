@@ -36798,7 +36798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
-  backgroundVolume: 0.5
+  backgroundVolume: 0.6
   startingSceneIndex: 1
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
@@ -37361,15 +37361,15 @@ MonoBehaviour:
     enemyTypes:
     - enemyName: Tektite
       enemyType: 0
-      spawnAmount: 6
+      spawnAmount: 3
       originalSpawnAmount: 0
   - areaName: Area 3
     areaIndex: 3
     areaCameraPosition: {x: -16, y: -8.5}
     enemyTypes:
-    - enemyName: Peahat
-      enemyType: 1
-      spawnAmount: 6
+    - enemyName: Tektite
+      enemyType: 0
+      spawnAmount: 4
       originalSpawnAmount: 0
   - areaName: Area 4
     areaIndex: 4
@@ -37397,17 +37397,13 @@ MonoBehaviour:
     enemyTypes:
     - enemyName: Tektite
       enemyType: 0
-      spawnAmount: 3
-      originalSpawnAmount: 0
-    - enemyName: Peahat
-      enemyType: 1
-      spawnAmount: 3
+      spawnAmount: 5
       originalSpawnAmount: 0
   - areaName: Area 8
     areaIndex: 8
     areaCameraPosition: {x: -64, y: -8.5}
     enemyTypes:
-    - enemyName: 
+    - enemyName: Tektite
       enemyType: 0
       spawnAmount: 6
       originalSpawnAmount: 0
@@ -37417,11 +37413,7 @@ MonoBehaviour:
     enemyTypes:
     - enemyName: Tektite
       enemyType: 0
-      spawnAmount: 7
-      originalSpawnAmount: 0
-    - enemyName: Peahat
-      enemyType: 1
-      spawnAmount: 7
+      spawnAmount: 10
       originalSpawnAmount: 0
   - areaName: Side Room
     areaIndex: 0

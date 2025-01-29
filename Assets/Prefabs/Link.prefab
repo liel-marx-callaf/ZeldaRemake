@@ -280,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rupees: 0
   keys: 0
-  bombs: 10
+  bombs: 4
 --- !u!50 &2671042887763762403
 Rigidbody2D:
   serializedVersion: 5
