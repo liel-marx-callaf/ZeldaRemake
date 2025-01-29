@@ -92,7 +92,7 @@ namespace Player
         private void OnPlayerDeath()
         {
             _playerDead = true;
-            
+            StopAllCoroutines();
         }
 
         private void OnPlayerHit(int obj)

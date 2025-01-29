@@ -40,7 +40,7 @@ namespace Managers
         private InputPlayerActions _inputPlayerActions;
         private InputAction _actionSelect;
         private InputAction _actionStart;
-        public bool PlayerFreeze { get; private set; }
+        // public bool PlayerFreeze { get; private set; }
         private CinemachineBrain _cinemachineBrain;
 
         private void OnEnable()

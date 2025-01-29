@@ -38621,19 +38621,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0
+      value: 0.10726257
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.0929878
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.78521705
       objectReference: {fileID: 0}
     - target: {fileID: 5649568046942303098, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.8137385
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8151900896940058537, guid: 8d716b56b178f974b83382718c49ff68, type: 3}
       propertyPath: m_LocalPosition.x

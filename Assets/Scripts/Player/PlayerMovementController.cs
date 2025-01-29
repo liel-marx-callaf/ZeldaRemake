@@ -65,6 +65,7 @@ public class PlayerMovementController : MonoBehaviour
         _rb.linearVelocity = Vector2.zero;
         _moveDirection = Vector2.zero;
         _playerDead = true;
+        StopAllCoroutines();
         _playerAnimationControl.SetAnimatorSpeed(1);
     }
     

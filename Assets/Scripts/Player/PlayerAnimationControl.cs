@@ -51,7 +51,8 @@ namespace Player
         private void OnPlayerDeath()
         {
             _isDead = true;
-            StopCoroutine(PlayerHitCoroutine());
+            // StopCoroutine(PlayerHitCoroutine());
+            StopAllCoroutines();
             _animator.SetTrigger(_animatorParameters["Death"]);
             _animator.speed = 1;
         }

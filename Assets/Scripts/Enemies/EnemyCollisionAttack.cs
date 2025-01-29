@@ -18,7 +18,7 @@ public class EnemyCollisionAttack : MonoBehaviour
             Rigidbody2D playerRb = other.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
-                Debug.Log("found player rb");
+                // Debug.Log("found player rb");
                 Vector2 direction = (other.transform.position - transform.position).normalized;
                 MyEvents.PlayerHit?.Invoke(damage);
                 Vector2 pushDirection = GetCardinalDirection(direction);
