@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SideRoomPortal : MonoBehaviour
 {
-    [Header("Scene to Load")] [SerializeField]
-    private string sideRoomSceneName = "StartingSideRoom";
+    // [Header("Scene to Load")] [SerializeField]
+    // private string sideRoomSceneName = "StartingSideRoom";
 
     [Header("Fade and Animation")] [SerializeField]
     private Animator fadeAnimator; // fade to black

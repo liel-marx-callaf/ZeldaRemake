@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 public class PeahatMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField, Range(0.1f, 5f)] private float moveSpeed = 1f;
+    // [SerializeField, Range(0.1f, 5f)] private float moveSpeed = 1f;
     [SerializeField, Range(3f, 10f)] private float minMoveDuration = 5f;
     [SerializeField, Range(5f, 20f)] private float maxMoveDuration = 15f;
     private float _moveDuration;
@@ -17,7 +17,7 @@ public class PeahatMovement : MonoBehaviour
     private float _idleDuration;
     
     [Header("Transitions")]
-    [SerializeField, Range(0f, 5f)] private float transitionSpeed = 1f;
+    // [SerializeField, Range(0f, 5f)] private float transitionSpeed = 1f;
     [SerializeField] private float edgeBuffer = 1f;
     
     

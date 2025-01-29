@@ -1,15 +1,13 @@
 using System.Collections;
-using Player;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ExitSideRoomPortal : MonoBehaviour
 {
-    [SerializeField] private string mainWorldSceneName = "MainWorld";
+    // [SerializeField] private string mainWorldSceneName = "MainWorld";
     [SerializeField] private Animator fadeAnimator;
     [SerializeField] private float fadeDuration = 1f;
-    [SerializeField] private string exitAnimationTrigger = "ExitRoom";
-    [SerializeField] private float exitAnimationTime = 1f;
+    // [SerializeField] private string exitAnimationTrigger = "ExitRoom";
+    // [SerializeField] private float exitAnimationTime = 1f;
 
     private bool _isTransitioning;
 
@@ -42,11 +40,11 @@ public class ExitSideRoomPortal : MonoBehaviour
         if (_isTransitioning) return;
         if (other.CompareTag("Player"))
         {
-            StartCoroutine(ExitRoutine(other.gameObject));
+            StartCoroutine(ExitRoutine());
         }
     }
 
-    private IEnumerator ExitRoutine(GameObject player)
+    private IEnumerator ExitRoutine()
     {
         _isTransitioning = true;
         // MyEvents.TogglePlayerFreeze?.Invoke();

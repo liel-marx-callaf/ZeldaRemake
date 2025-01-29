@@ -67,6 +67,7 @@ public class PlayerMovementController : MonoBehaviour
         _playerDead = true;
         _playerAnimationControl.SetAnimatorSpeed(1);
     }
+    
 
     private void OnTogglePlayerFreeze()
     {

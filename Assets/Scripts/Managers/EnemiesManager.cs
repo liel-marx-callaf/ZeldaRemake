@@ -27,7 +27,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     }
 
     [Header("Area Settings")] 
-    [SerializeField] private int startingAreaIndex = 1;
+    // [SerializeField] private int startingAreaIndex = 1;
 
     [SerializeField] private Area[] areas;
 
