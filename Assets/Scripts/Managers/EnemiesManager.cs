@@ -39,6 +39,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     {
         MyEvents.AreaSwitch += AreaChanged;
         MyEvents.EnemyDied += EnemyDied;
+        MyEvents.PlayerDeath += ResetSpawnAmounts;
         if (Camera.main?.GetComponent<CinemachineBrain>() != null)
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
         // _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
@@ -48,6 +49,23 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
     {
         MyEvents.AreaSwitch -= AreaChanged;
         MyEvents.EnemyDied -= EnemyDied;
+        MyEvents.PlayerDeath -= ResetSpawnAmounts;
+    }
+
+    private void Start()
+    {
+        SetOriginalSpawnAmounts();
+    }
+
+    private void SetOriginalSpawnAmounts()
+    {
+        foreach (var area in areas)
+        {
+            foreach (var enemyType in area.enemyTypes)
+            {
+                enemyType.originalSpawnAmount = enemyType.spawnAmount;
+            }
+        }
     }
 
     private void EnemyDied(EnemyTypeEnum obj, Vector3 position)
@@ -130,5 +148,16 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
             }
         }
         return null;
+    }
+    
+    private void ResetSpawnAmounts()
+    {
+        foreach (var area in areas)
+        {
+            foreach (var enemyType in area.enemyTypes)
+            {
+                enemyType.spawnAmount = enemyType.originalSpawnAmount;
+            }
+        }
     }
 }

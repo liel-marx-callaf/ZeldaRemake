@@ -13,6 +13,7 @@ public class MyEvents : MonoBehaviour
     public static Action<int> PlayerHit;
     public static Action<int> PlayerHeal;
     public static Action TogglePlayerFreeze;
+    public static Action PlayerDeath;
     
     // Item events
     public static Action<int> PlayerGainRupees;
@@ -40,6 +41,7 @@ public class MyEvents : MonoBehaviour
     public static Action<SceneIndexEnum, SceneIndexEnum> LoadScene;
 
 
-    public static Action StartText;
+    // public static Action StartText;
+
     
 }

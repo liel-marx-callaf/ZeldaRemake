@@ -992,6 +992,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LinkDead
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 53
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d28ed881c9842a4c8d349eb6ed157dd
+      internalID: -1334599071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1006,6 +1028,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      LinkDead: -1334599071
       LinkEnterRoom0: 1383658178
       LinkEnterRoom1: 1344932541
       LinkEnterRoom10: 1717589536

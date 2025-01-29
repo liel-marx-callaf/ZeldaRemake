@@ -19,11 +19,19 @@ namespace Player
             CacheAnimatorParameters();
             SetAnimatorSpeed(0);
             MyEvents.TogglePlayerFreeze += OnPlayerFreeze;
+            MyEvents.PlayerDeath += OnPlayerDeath;
         }
         
         private void OnDisable()
         {
             MyEvents.TogglePlayerFreeze -= OnPlayerFreeze;
+            MyEvents.PlayerDeath -= OnPlayerDeath;
+        }
+
+        private void OnPlayerDeath()
+        {
+            _animator.SetTrigger(_animatorParameters["Death"]);
+            _animator.speed = 1;
         }
 
         private void OnPlayerFreeze()
@@ -79,6 +87,11 @@ namespace Player
         public void SetRenderPriority(int priority)
         {
             _spriteRenderer.sortingOrder = priority;
+        }
+        
+        public void OnDeathAnimationEnd()
+        {
+            MyEvents.GameOver?.Invoke();
         }
         
     }

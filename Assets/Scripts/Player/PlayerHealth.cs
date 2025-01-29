@@ -99,6 +99,7 @@ namespace Player
         private void Die()
         {
             AudioManager.Instance.PlaySound(transform.position, deathSoundName, deathSoundVolume);
+            MyEvents.PlayerDeath?.Invoke();
         }
     }
 }

@@ -23,6 +23,7 @@ public class EnemyType
     public EnemyTypeEnum enemyType;
     // private string Name => enemyType.ToString();
     public int spawnAmount;
+    public int originalSpawnAmount;
     
     public EnemyType()
     {

@@ -141,7 +141,7 @@ namespace Managers
                 journalCanvas.SetActive(false);
                 if (scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom)
                 {
-                    MyEvents.StartText?.Invoke();
+                    // MyEvents.StartText?.Invoke();
                     _currentPlayer.transform.position = startingPositionSideRoom;
                 }
                 if(scene.buildIndex == (int)SceneIndexEnum.MainGame && _lastScene == SceneIndexEnum.StartingSideRoom)

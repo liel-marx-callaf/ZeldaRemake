@@ -44,6 +44,7 @@ public class PlayerMovementController : MonoBehaviour
         MyEvents.PlayerHit += OnPlayerHit;
         MyEvents.AreaSwitch += OnAreaSwitch;
         MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
+        MyEvents.PlayerDeath += OnTogglePlayerFreeze;
     }
 
 
@@ -55,6 +56,7 @@ public class PlayerMovementController : MonoBehaviour
         MyEvents.PlayerHit -= OnPlayerHit;
         MyEvents.AreaSwitch -= OnAreaSwitch;
         MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
+        MyEvents.PlayerDeath -= OnTogglePlayerFreeze;
     }
 
     private void OnTogglePlayerFreeze()
