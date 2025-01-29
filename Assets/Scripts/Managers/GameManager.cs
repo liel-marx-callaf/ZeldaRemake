@@ -217,7 +217,7 @@ namespace Managers
                 // player.transform.position = exitPositionSideRoom;
             }
 
-            if (enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.GameOver)
+            if (enterSceneIndex == SceneIndexEnum.MainGame && exitSceneIndex == SceneIndexEnum.GameOver || exitSceneIndex == SceneIndexEnum.Win)
             {
                 StartCoroutine(LoadScene(SceneIndexEnum.MainGame ,true));
             }

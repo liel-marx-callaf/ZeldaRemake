@@ -40,6 +40,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         MyEvents.AreaSwitch += AreaChanged;
         MyEvents.EnemyDied += EnemyDied;
         MyEvents.PlayerDeath += ResetSpawnAmounts;
+        MyEvents.GameWon += ResetSpawnAmounts;
         if (Camera.main?.GetComponent<CinemachineBrain>() != null)
             _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
         // _cinemachineBrain = Camera.main.GetComponent<CinemachineBrain>();
@@ -50,6 +51,7 @@ public class EnemiesManager : MonoSingleton<EnemiesManager>
         MyEvents.AreaSwitch -= AreaChanged;
         MyEvents.EnemyDied -= EnemyDied;
         MyEvents.PlayerDeath -= ResetSpawnAmounts;
+        MyEvents.GameWon -= ResetSpawnAmounts;
     }
 
     private void Start()

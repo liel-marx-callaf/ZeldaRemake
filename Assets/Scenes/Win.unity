@@ -220,11 +220,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PRESS START TO TRY AGAIN
+  m_text: 'PRESS START TO START MENU
 
 
+    PRESS SELECT TO QUICK RESETART
 
-    PRESS ESC TO EXIT'
+
+    PRESS
+    ESC TO EXIT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49bcb94e1ebb2f846ab0446eb0b8d3a5, type: 2}
   m_sharedMaterial: {fileID: 322456440399549023, guid: 49bcb94e1ebb2f846ab0446eb0b8d3a5, type: 2}
@@ -403,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneBackgroundMusicData: {fileID: 11400000, guid: ecbc9271dc18b1d43b85fccb2722e29c, type: 2}
   backgroundVolume: 0.5
-  startingSceneIndex: 3
+  startingSceneIndex: 4
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
   startingAreaIndex: 0
@@ -650,7 +653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3.2300034}
+  m_AnchoredPosition: {x: 0, y: -3.230011}
   m_SizeDelta: {x: 0, y: 50.09}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1055296202

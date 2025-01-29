@@ -775,11 +775,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PRESS START TO TRY AGAIN
+  m_text: 'PRESS START TO START MENU
 
 
+    PRESS SELECT TO QUICK RESETART
 
-    PRESS ESC TO EXIT'
+
+    PRESS
+    ESC TO EXIT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 49bcb94e1ebb2f846ab0446eb0b8d3a5, type: 2}
   m_sharedMaterial: {fileID: 322456440399549023, guid: 49bcb94e1ebb2f846ab0446eb0b8d3a5, type: 2}
@@ -814,7 +817,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
