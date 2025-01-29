@@ -1158,7 +1158,7 @@ MonoBehaviour:
   startingSceneIndex: 0
   areaTypeData: {fileID: 11400000, guid: b5a3ce6e8a74ebb42adb1c384fcbda89, type: 2}
   areaTypeAudioData: {fileID: 11400000, guid: 318e06beaa677aa47ba7ef07b39f9842, type: 2}
-  startingAreaIndex: 0
+  startingAreaIndex: 1
   startingAreaType: 1
   areaSwitchSoundName: LOZ_Stairs
   areaSwitchSoundVolume: 1
@@ -1175,6 +1175,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c08d814baa3b94d4380682fa434d6619, type: 3}
   - {fileID: 8300000, guid: 1149ff1d636f9184997b2acb2996992b, type: 3}
   - {fileID: 8300000, guid: 2f2f81d5bba62e74291182c55336a350, type: 3}
+  - {fileID: 8300000, guid: bf71021a1a7da0e40b3208f1dd6f6bcf, type: 3}
   audioSourcePool: {fileID: 4297142210507475136, guid: 21d14b460ef407c4cb15f87d2a68f151, type: 3}
 --- !u!4 &1991949605
 Transform:

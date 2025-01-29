@@ -44,11 +44,21 @@ namespace Audio
         private bool _isMuted = false;
         private bool _journalOpen = false;
         private CinemachineBrain _cinemachineBrain;
+        private static AudioManager _instance;
 
 
         private void Awake()
         {
             InitializeAudioClipDictionary();
+            if(_instance == null)
+            {
+                _instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
         private void OnEnable()
@@ -119,6 +129,9 @@ namespace Audio
 
         private void AreaChanged(int enteringAreaIndex, int exitingAreaIndex)
         {
+            Debug.Log("Area changed started in AudioManager");
+            Debug.Log("Current scene index: " + _currentSceneIndex);
+            Debug.Log("Main game index " + (int)SceneIndexEnum.MainGame);
             if (_currentSceneIndex != SceneIndexEnum.MainGame) return;
             if(areaTypeData.TryGetAreaType(_currentAreaIndex, out var exitingAreaType))
             {
@@ -135,26 +148,30 @@ namespace Audio
                     PlaySound(Vector3.zero, areaTypeAudio.audioClip.name, areaTypeAudio.volume, 1, true);
                 }
             }
-            if(enteringAreaIndex == exitingAreaIndex) return;
+            // if(enteringAreaIndex == exitingAreaIndex) return;
+            Debug.Log("Area changed finished in AudioManager");
             StartCoroutine(PlayAreaSwitchSound());
         }
 
         private IEnumerator PlayAreaSwitchSound()
         {
+            Debug.Log("started playing area switch sound");
             PlaySound(Vector3.zero, areaSwitchSoundName, areaSwitchSoundVolume, 1, true);
-            yield return new WaitForSeconds(_cinemachineBrain.DefaultBlend.Time);
+            yield return new WaitForSeconds(2f);
             StopSound(areaSwitchSoundName);
+            Debug.Log("finished playing area switch sound");
         }
 
 
         private void OnLoadScene(SceneIndexEnum enterScene, SceneIndexEnum exitScene)
         {
+            _currentSceneIndex = enterScene;
             if (sceneBackgroundMusicData == null) return;
             if (sceneBackgroundMusicData.TryGetBackgroundMusic(enterScene, out var backgroundMusic))
             {
                 if (_backgroundMusicSource != null)
                 {
-                    PlayBackgroundMusic(backgroundMusic);
+                    if(_backgroundMusicSource.clip != backgroundMusic) PlayBackgroundMusic(backgroundMusic);
                 }
                 else
                 {
@@ -222,20 +239,7 @@ namespace Audio
         {
             MyEvents.StopSound?.Invoke(soundName);
         }
-
-        // private AudioClip GetAudioClip(string soundName)
-        // {
-        //     foreach (var audioClip in audioClips)
-        //     {
-        //         if (audioClip.name == soundName)
-        //         {
-        //             return audioClip;
-        //         }
-        //     }
-        //
-        //     Debug.LogError("Sound not found");
-        //     return null;
-        // }
+        
         
         private AudioClip GetAudioClip(string soundName)
         {

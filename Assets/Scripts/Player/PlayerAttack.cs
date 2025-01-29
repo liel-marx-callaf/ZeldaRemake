@@ -53,6 +53,7 @@ namespace Player
         private bool _playerHit = false;
         private bool _playerDead = false;
         private float _stunDuration = 0.5f;
+        private bool _inJournal = false;
 
         private void Awake()
         {
@@ -76,6 +77,7 @@ namespace Player
             MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
             MyEvents.PlayerHit += OnPlayerHit;
             MyEvents.PlayerDeath += OnPlayerDeath;
+            MyEvents.ToggleJournal += OnToggleJournal;
         }
 
         private void OnDisable()
@@ -87,6 +89,12 @@ namespace Player
             MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
             MyEvents.PlayerHit -= OnPlayerHit;
             MyEvents.PlayerDeath -= OnPlayerDeath;
+            MyEvents.ToggleJournal -= OnToggleJournal;
+        }
+
+        private void OnToggleJournal()
+        {
+            _inJournal = !_inJournal;
         }
 
         private void OnPlayerDeath()
@@ -110,6 +118,7 @@ namespace Player
 
         private void OnActionA(InputAction.CallbackContext context)
         {
+            if(_inJournal) return;
             if(_playerDead) return;
             if(_playerFreeze) return;
             if(_playerHit) return;
@@ -120,6 +129,7 @@ namespace Player
 
         private void OnActionB(InputAction.CallbackContext context)
         {
+            if(_inJournal) return;
             if(_playerDead) return;
             if(_playerFreeze) return;
             if(_playerHit) return;
