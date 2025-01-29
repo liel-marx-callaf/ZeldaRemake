@@ -7,9 +7,10 @@ using UnityEngine.InputSystem;
 public class PlayerMovementController : MonoBehaviour
 {
     [SerializeField] private float speed = 4f;
-    [SerializeField] private float stunDuration = 0.2f;
+    [SerializeField] private float stunDuration = 0.5f;
 
     private bool _playerHit;
+    private bool _playerDead;
     private Rigidbody2D _rb;
     private InputPlayerActions _inputPlayerActions;
     private InputAction _moveAction;
@@ -44,7 +45,7 @@ public class PlayerMovementController : MonoBehaviour
         MyEvents.PlayerHit += OnPlayerHit;
         MyEvents.AreaSwitch += OnAreaSwitch;
         MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
-        MyEvents.PlayerDeath += OnTogglePlayerFreeze;
+        MyEvents.PlayerDeath += OnPlayerDeath;
     }
 
 
@@ -56,7 +57,15 @@ public class PlayerMovementController : MonoBehaviour
         MyEvents.PlayerHit -= OnPlayerHit;
         MyEvents.AreaSwitch -= OnAreaSwitch;
         MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
-        MyEvents.PlayerDeath -= OnTogglePlayerFreeze;
+        MyEvents.PlayerDeath -= OnPlayerDeath;
+    }
+
+    private void OnPlayerDeath()
+    {
+        _rb.linearVelocity = Vector2.zero;
+        _moveDirection = Vector2.zero;
+        _playerDead = true;
+        _playerAnimationControl.SetAnimatorSpeed(1);
     }
 
     private void OnTogglePlayerFreeze()
@@ -73,6 +82,9 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnPlayerHit(int obj)
     {
+        if(_playerDead) return;
+        if(_playerHit) return;
+        _moveDirection = Vector2.zero;
         StartCoroutine(PlayerHitCoroutine());
     }
 
@@ -80,11 +92,13 @@ public class PlayerMovementController : MonoBehaviour
     {
         _playerHit = true;
         yield return new WaitForSeconds(stunDuration);
+        _rb.linearVelocity = Vector2.zero;
         _playerHit = false;
     }
 
     private void FixedUpdate()
     {
+        if(_playerDead) return;
         if(_playerFreeze) return;
         if (_playerHit) return;
         if (!IsAttacking)
@@ -100,7 +114,9 @@ public class PlayerMovementController : MonoBehaviour
 
     private void PlayerMovement(Vector2? moveInput)
     {
+        if(_playerDead) return;
         if(_playerFreeze) return;
+        if(_playerHit) return;
         if (moveInput == null) return;
         if (moveInput != Vector2.zero)
         {
@@ -120,8 +136,9 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
+        if(_playerDead) return;
         if(_playerFreeze) return;
-        // if(_playerHit) return;
+        if(_playerHit) return;
         // if(IsAttacking) return;
         Vector2 moveInput = context.ReadValue<Vector2>();
         // Debug.Log("Move input: " + moveInput);
@@ -192,8 +209,9 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnMoveCanceled(InputAction.CallbackContext context)
     {
+        if(_playerDead) return;
         if(_playerFreeze) return;
-        // if(_playerHit) return;
+        if(_playerHit) return;
         if (!IsAttacking)
         {
             // Vector2 moveInput = context.ReadValue<Vector2>();

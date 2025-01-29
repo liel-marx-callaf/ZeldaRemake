@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Audio;
 using Managers;
@@ -49,6 +50,9 @@ namespace Player
         private Vector2 _downRayOrigin;
         
         private bool _playerFreeze = false;
+        private bool _playerHit = false;
+        private bool _playerDead = false;
+        private float _stunDuration = 0.5f;
 
         private void Awake()
         {
@@ -70,6 +74,8 @@ namespace Player
             _inputPlayerActions.Player.ActionB.performed += OnActionB;
             _inputPlayerActions.Player.ActionB.Enable();
             MyEvents.TogglePlayerFreeze += OnTogglePlayerFreeze;
+            MyEvents.PlayerHit += OnPlayerHit;
+            MyEvents.PlayerDeath += OnPlayerDeath;
         }
 
         private void OnDisable()
@@ -79,11 +85,34 @@ namespace Player
             _inputPlayerActions.Player.ActionB.performed -= OnActionB;
             _inputPlayerActions.Player.ActionB.Disable();
             MyEvents.TogglePlayerFreeze -= OnTogglePlayerFreeze;
+            MyEvents.PlayerHit -= OnPlayerHit;
+            MyEvents.PlayerDeath -= OnPlayerDeath;
+        }
+
+        private void OnPlayerDeath()
+        {
+            _playerDead = true;
+            
+        }
+
+        private void OnPlayerHit(int obj)
+        {
+            if(_playerDead) return;
+            StartCoroutine(PlayerHitCoroutine());
+        }
+
+        private IEnumerator PlayerHitCoroutine()
+        {
+            _playerHit = true;
+            yield return new WaitForSeconds(_stunDuration);
+            _playerHit = false;
         }
 
         private void OnActionA(InputAction.CallbackContext context)
         {
+            if(_playerDead) return;
             if(_playerFreeze) return;
+            if(_playerHit) return;
             _playerAnimationControl.SetSwordAttack();
             _playerMovementController.Attacking();
             SwordAttack();
@@ -91,7 +120,9 @@ namespace Player
 
         private void OnActionB(InputAction.CallbackContext context)
         {
+            if(_playerDead) return;
             if(_playerFreeze) return;
+            if(_playerHit) return;
             if (_playerInventory.GetBombCount() <= 0) return;
             var bomb = BombPool.Instance.Get();
             var lastDir = _playerMovementController.LastFacingDirection;

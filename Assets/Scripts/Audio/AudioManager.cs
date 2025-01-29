@@ -285,5 +285,10 @@ namespace Audio
                 }
             }
         }
+        public void StopBackgroundMusicPlaying()
+        {
+            _backgroundMusicSource.Stop();
+            _isBackgroundMusicPlaying = false;
+        }
     }
 }

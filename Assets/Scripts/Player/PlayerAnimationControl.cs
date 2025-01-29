@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ namespace Player
         private Dictionary<string, int> _animatorParameters;
         private Vector2 _direction = Vector2.down;
         private SpriteRenderer _spriteRenderer;
+        private float _stunDuration = 0.5f;
+        private bool _isDead;
 
         private void OnEnable()
         {
@@ -17,19 +20,38 @@ namespace Player
             _playerMovementController = GetComponent<PlayerMovementController>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
             CacheAnimatorParameters();
-            SetAnimatorSpeed(0);
+            if(!_isDead)SetAnimatorSpeed(0);
             MyEvents.TogglePlayerFreeze += OnPlayerFreeze;
             MyEvents.PlayerDeath += OnPlayerDeath;
+            MyEvents.PlayerHit += OnPlayerHit;
         }
         
         private void OnDisable()
         {
             MyEvents.TogglePlayerFreeze -= OnPlayerFreeze;
             MyEvents.PlayerDeath -= OnPlayerDeath;
+            MyEvents.PlayerHit -= OnPlayerHit;
+        }
+
+        private void OnPlayerHit(int obj)
+        {
+            if(_isDead) return;
+            StartCoroutine(PlayerHitCoroutine());
+        }
+
+        private IEnumerator PlayerHitCoroutine()
+        {
+            SetAnimatorSpeed(1);
+            _animator.SetBool(_animatorParameters["IsHit"], true);
+            yield return new WaitForSeconds(_stunDuration);
+            _animator.SetBool(_animatorParameters["IsHit"], false);
+            SetAnimatorSpeed(0);
         }
 
         private void OnPlayerDeath()
         {
+            _isDead = true;
+            StopCoroutine(PlayerHitCoroutine());
             _animator.SetTrigger(_animatorParameters["Death"]);
             _animator.speed = 1;
         }

@@ -98,6 +98,8 @@ namespace Player
         }
         private void Die()
         {
+            AudioManager.Instance.StopSound(lowHealthSoundName);
+            AudioManager.Instance.StopBackgroundMusicPlaying();
             AudioManager.Instance.PlaySound(transform.position, deathSoundName, deathSoundVolume);
             MyEvents.PlayerDeath?.Invoke();
         }
