@@ -130,14 +130,6 @@ namespace Managers
                 MyEvents.LoadScene?.Invoke(SceneIndexEnum.StartMenu, SceneIndexEnum.Win);
             }
         }
-        // private void LoadNextScene(SceneIndexEnum currentSceneIndexEnum, SceneIndexEnum nextSceneIndexEnum)
-        // {
-        //     if (currentSceneIndexEnum == SceneIndexEnum.StartMenu)
-        //     {
-        //         StartCoroutine(LoadScene(nextSceneIndexEnum, false));
-        //     }
-        //     
-        // }
         
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {

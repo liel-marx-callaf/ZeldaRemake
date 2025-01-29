@@ -68,7 +68,6 @@ namespace Audio
             MyEvents.LoadScene += OnLoadScene;
             MyEvents.AreaSwitch += AreaChanged;
             MyEvents.ToggleJournal += ToggleJournal;
-            // MyEvents.StopSound += StopSound;
             _backgroundMusicSource = gameObject.AddComponent<AudioSource>();
             _backgroundVolume = backgroundVolume;
             _currentAreaIndex = startingAreaIndex;

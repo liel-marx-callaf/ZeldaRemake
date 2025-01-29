@@ -13,16 +13,13 @@ public class EnemyCollisionAttack : MonoBehaviour
         if(!_spawned) return;
         if (other.CompareTag("Player"))
         {
-            // MyEvents.PlayerHit?.Invoke(damage);
             // Apply pushback force to the player's Rigidbody2D
             Rigidbody2D playerRb = other.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
-                // Debug.Log("found player rb");
                 Vector2 direction = (other.transform.position - transform.position).normalized;
                 MyEvents.PlayerHit?.Invoke(damage);
                 Vector2 pushDirection = GetCardinalDirection(direction);
-                // MyEvents.PlayerPushback?.Invoke(pushbackForce);
                 playerRb.AddForce(pushDirection * pushbackForce, ForceMode2D.Impulse);
             }
         }

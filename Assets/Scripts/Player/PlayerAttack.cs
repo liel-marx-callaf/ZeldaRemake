@@ -12,13 +12,10 @@ namespace Player
     {
         private InputPlayerActions _inputPlayerActions;
 
-        // private Animator _animator;
-
         private PlayerAnimationControl _playerAnimationControl;
         private PlayerMovementController _playerMovementController;
         private PlayerInventory _playerInventory;
 
-        // private RaycastHit2D[] hits;
         [Header("Player Attack Settings")]
         [SerializeField] private LayerMask hittableLayer;
         [Header("Sword Attack Settings")] 
@@ -49,11 +46,11 @@ namespace Player
         private Vector2 _upRayOrigin;
         private Vector2 _downRayOrigin;
         
-        private bool _playerFreeze = false;
-        private bool _playerHit = false;
-        private bool _playerDead = false;
-        private float _stunDuration = 0.5f;
-        private bool _inJournal = false;
+        private bool _playerFreeze;
+        private bool _playerHit;
+        private bool _playerDead;
+        private const float StunDuration = 0.5f;
+        private bool _inJournal;
 
         private void Awake()
         {
@@ -112,7 +109,7 @@ namespace Player
         private IEnumerator PlayerHitCoroutine()
         {
             _playerHit = true;
-            yield return new WaitForSeconds(_stunDuration);
+            yield return new WaitForSeconds(StunDuration);
             _playerHit = false;
         }
 
@@ -158,9 +155,9 @@ namespace Player
             _leftRayOrigin = Vector2.left * 0.5f + Vector2.up * leftRayHeightOffset;
             _upRayOrigin = Vector2.up + Vector2.right * upRayHorizontalOffset;
             _downRayOrigin = Vector2.zero + Vector2.right * downRayHorizontalOffset;
-            Vector2 lastDir = _playerMovementController.LastFacingDirection;
+            var lastDir = _playerMovementController.LastFacingDirection;
             Vector2 playerPos = transform.position;
-            Vector2 boxSize = Vector2.one * 0.3f;
+            var boxSize = Vector2.one * 0.3f;
             RaycastHit2D[] hits = null;
 
             if (lastDir == Vector2.down)
@@ -169,9 +166,8 @@ namespace Player
                     hittableLayer);
 
                 // used for debugging
-                Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _downRayOrigin + playerPos, boxSize,
-                    0f, Vector2.down, swordAttackRange);
-                // Debug.Log("Down");
+                // Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _downRayOrigin + playerPos, boxSize,
+                //     0f, Vector2.down, swordAttackRange);
             }
             else if (lastDir == Vector2.up)
             {
@@ -179,9 +175,9 @@ namespace Player
                     hittableLayer);
 
                 // used for debugging
-                Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _upRayOrigin + playerPos, boxSize, 0f,
-                    Vector2.up, swordAttackRange);
-                // Debug.Log("Up");
+                // Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _upRayOrigin + playerPos, boxSize, 0f,
+                //     Vector2.up, swordAttackRange);
+                
             }
             else if (lastDir == Vector2.left)
             {
@@ -189,9 +185,9 @@ namespace Player
                     hittableLayer);
 
                 // used for debugging
-                Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _leftRayOrigin + playerPos, boxSize,
-                    0f, Vector2.left, swordAttackRange);
-                // Debug.Log("Left");
+                // Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _leftRayOrigin + playerPos, boxSize,
+                //     0f, Vector2.left, swordAttackRange);
+                
             }
             else if (lastDir == Vector2.right)
             {
@@ -199,12 +195,9 @@ namespace Player
                     hittableLayer);
 
                 // used for debugging
-                Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _rightRayOrigin + playerPos, boxSize,
-                    0f, Vector2.right, swordAttackRange);
-                // Debug.Log("Right");
+                // Helper.BoxCastDrawer.Draw(hits.Length > 0 ? hits[0] : default, _rightRayOrigin + playerPos, boxSize,
+                //     0f, Vector2.right, swordAttackRange);
             }
-
-            Debug.Log($"Number of hits: {hits?.Length ?? 0}");
 
             ApplyHit(hits);
         }
@@ -220,10 +213,8 @@ namespace Player
                 if (hit.collider.isTrigger && hit.collider.CompareTag("Enemy"))
                 {
                     var enemy = hit.collider.gameObject;
-                    if (!hitEnemies.Contains(enemy))
+                    if (hitEnemies.Add(enemy))
                     {
-                        Debug.Log("Hit: " + hit.collider.name);
-                        hitEnemies.Add(enemy);
                         enemy.GetComponent<EnemyHealth>()?.TakeDamage(swordAttackDamage);
                     }
                 }
@@ -233,15 +224,13 @@ namespace Player
                 var heart = hit.collider.TryGetComponent(typeof(HeartPickup), out var heartPickup);
                 if (rupee)
                 {
-                    Debug.Log("Rupee Picked Up");
+                    // Debug.Log("Rupee Picked Up");
                     ((RupeePickup)rupeePickup).Pickup();
                 }
 
-                if (heart)
-                {
-                    Debug.Log("Heart Picked Up");
-                    ((HeartPickup)heartPickup).Pickup();
-                }
+                if (!heart) continue;
+                // Debug.Log("Heart Picked Up");
+                ((HeartPickup)heartPickup).Pickup();
             }
             // in case I add more items
         }

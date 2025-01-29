@@ -6,19 +6,12 @@ using Pool;
 public class Bomb : MonoBehaviour, IPoolable
 {
     [Header("Bomb Settings")]
-    // [SerializeField] private float throwDistance = 2f;  // Distance from player
     [SerializeField] private float explosionDelay = 1.5f;
     [SerializeField, Range(1, 10)] private int explosionDamage = 1;
 
     [Header("Audio")]
-    // [SerializeField] private string bombThrowSound = "LOZ_Bomb_Throw";
-    // [SerializeField] private float bombThrowVolume = 0.7f;
     [SerializeField] private string bombExplosionSound = "LOZ_Bomb_Explosion";
     [SerializeField] private float bombExplosionVolume = 0.8f;
-
-    [Header("Explosion Prefabs")]
-    [Tooltip("Drag a prefab or references to smoke/explosion objects if each smoke is a separate entity. Alternatively, you can do an animated sprite here.")]
-    // [SerializeField] private GameObject smokePrefab; // If each smoke is an individual object
     
     // Predefined offsets for the hex-like shape around the bomb
     private static readonly Vector2[] ExplosionOffsets = new Vector2[]
@@ -41,11 +34,7 @@ public class Bomb : MonoBehaviour, IPoolable
         _hasExploded = false;
         // reset bomb sprite or any other states
     }
-
-    private void OnEnable()
-    {
-        // Optionally, start the explosion countdown here if you want
-    }
+    
 
     /// <summary>
     /// Called by the Player when ActionB is triggered, to place or "throw" the bomb.
@@ -58,9 +47,6 @@ public class Bomb : MonoBehaviour, IPoolable
         Vector3 offset = new Vector3(playerFacing.x, playerFacing.y, 0f) * throwDistance;
         transform.position = playerPosition + offset;
         _startPosition = transform.position;
-
-        // Play throw sound
-        // AudioManager.Instance.PlaySound(transform.position, bombThrowSound, bombThrowVolume);
 
         // Start the fuse countdown
         StartCoroutine(ExplosionCountdown());

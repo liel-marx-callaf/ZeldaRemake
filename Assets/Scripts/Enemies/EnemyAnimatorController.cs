@@ -14,7 +14,6 @@ public class EnemyAnimatorController : MonoBehaviour
     {
         if(_boxCollider2D == null) return;
         _boxCollider2D.size = new Vector2(_boxCollider2D.size.x, newHeight);
-        // _boxCollider2D.offset = new Vector2(_boxCollider2D.offset.x, yOffset);
     }
     
     public void ChangeBoxColliderYOffset(float yOffset)
