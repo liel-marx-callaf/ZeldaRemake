@@ -18,7 +18,18 @@ public class HeartPickup : MonoBehaviour, IPickupable
     private void OnEnable()
     {
         _poolableHeart = GetComponent<PoolableHeart>();
+        MyEvents.AreaSwitch += OnAreaSwitch;
         StartCoroutine(DespawnTimer());
+    }
+    
+    private void OnDisable()
+    {
+        MyEvents.AreaSwitch -= OnAreaSwitch;
+    }
+
+    private void OnAreaSwitch(int arg1, int arg2)
+    {
+        Despawn();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

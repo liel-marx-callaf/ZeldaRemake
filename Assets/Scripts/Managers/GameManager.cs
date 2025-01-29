@@ -77,6 +77,7 @@ namespace Managers
         private void OnGameWon()
         {
             NPCDialogue.ResetHasEntered();
+            MyEvents.ResetGame?.Invoke();
             // MyEvents.LoadScene?.Invoke(SceneIndexEnum.Win, SceneIndexEnum.MainGame);
         }
 
@@ -168,6 +169,15 @@ namespace Managers
                     journalController = tempJournalController.GetComponent<JournalController>();
                 }
                 journalCanvas.SetActive(false);
+                if(scene.buildIndex == (int)SceneIndexEnum.MainGame)
+                {
+                    // MyEvents.StartText?.Invoke();
+                    if (FindObjectsByType<PlayerMovementController>(FindObjectsSortMode.None) == null)
+                    {
+                        _currentPlayer = Instantiate(player);
+                        _currentPlayer.transform.position = startingPosition;
+                    }
+                }
                 if (scene.buildIndex == (int)SceneIndexEnum.StartingSideRoom)
                 {
                     // MyEvents.StartText?.Invoke();
