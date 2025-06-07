@@ -1,4 +1,4 @@
-""# 🗡️ Legend of Zelda (NES) Remake – Unity 6 Game Project  
+# 🗡️ Legend of Zelda (NES) Remake – Unity 6 Game Project  
 
 A faithful 2D remake of the original *The Legend of Zelda* (1986 NES), developed using **Unity 6** and **C#** with the **New Input System**.  
 All gameplay, controls, and systems were built from scratch as part of a personal learning project.  
